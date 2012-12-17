@@ -1,0 +1,19 @@
+112 MENU
+{
+ POPUP "Chat "
+ {
+  MENUITEM "Vyhodit", 10216
+  MENUITEM "Pøesunout do zakázaných", 10263
+  MENUITEM "Zakázat chat", 10507
+  MENUITEM "Zrušit zákaz chatu", 10508
+  MENUITEM "Chat ban registration list", 10506
+  MENUITEM "Správa zakázaných...", 10409
+  MENUITEM SEPARATOR
+  MENUITEM "Appointment of administrator", 10254
+  MENUITEM "Dismissal of the administrator", 10255
+  MENUITEM SEPARATOR
+  MENUITEM "Odeslat soukromou zprávu", 10217
+  MENUITEM "Zakázat chat", 10333
+  MENUITEM "Nahlásit", 10408
+ }
+}

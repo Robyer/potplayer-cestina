@@ -1,0 +1,32 @@
+309 DIALOGEX 0, 0, 220, 280, 0
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Rychlé zachytávání", 3285, 12, 22, 196, 51
+ LTEXT "Rychlé zachytávání je rychlejší než bìžné zachytávání, ale mohou nastat problémy s kompatibilitou. Pøed použitím jej doporuèujeme plnì otestovat.", 3286, 19, 33, 183, 24
+ AUTOCHECKBOX "Povolit rychlé zachytávání", 3040, 20, 59, 165, 10
+ GROUPBOX "Vyhlazovací filtr", 3287, 12, 77, 196, 50
+ LTEXT "Zvolte požadovaný filtr obrazu. Vzhledem k vysoké záteži CPU jej používejte jen pokud je to skuteènì potøeba.", 3288, 19, 88, 183, 19
+ COMBOBOX 3006, 19, 109, 184, 68, CBS_DROPDOWNLIST | WS_VSCROLL
+ GROUPBOX "PIP (Obraz v Obrazu)", 3289, 12, 130, 196, 117
+ LTEXT "S funkcí PIP je možné na obrazovce sledovat dva kanály souèasnì.", 3290, 26, 141, 163, 19
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 14, 160, 192, 1
+ AUTOCHECKBOX "Povolit PIP", 3034, 19, 164, 165, 10
+ RTEXT "Hlavní obraz:", 3291, 23, 179, 55, 8
+ COMBOBOX 3005, 83, 177, 116, 64, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Velikost druhého obrazu:", 3292, 14, 197, 64, 8
+ CONTROL "", 3043, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 80, 195, 68, 11
+ EDITTEXT 3267, 150, 195, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3255, "msctls_updown32", 0x000000B6, 181, 195, 11, 12
+ LTEXT "%", 3295, 190, 197, 14, 8
+ RTEXT "Horizontální pozice:", 3293, 14, 215, 64, 8
+ CONTROL "", 3045, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 80, 213, 68, 11
+ EDITTEXT 3271, 150, 212, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3256, "msctls_updown32", 0x000000B6, 181, 212, 11, 12
+ LTEXT "%", 3296, 190, 214, 14, 8
+ RTEXT "Vertikální pozice:", 3294, 23, 231, 55, 8
+ CONTROL "", 3050, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 80, 229, 68, 11
+ EDITTEXT 3272, 150, 229, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3257, "msctls_updown32", 0x000000B6, 181, 229, 11, 12
+ LTEXT "%", 3297, 190, 230, 14, 8
+}

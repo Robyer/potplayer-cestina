@@ -1,0 +1,70 @@
+111 MENU
+{
+ POPUP "PL"
+ {
+  MENUITEM "Play \tP", 10199
+  MENUITEM SEPARATOR
+  POPUP "Manage Album"
+  {
+   MENUITEM "New... \tCtrl+N", 10002
+   MENUITEM "Rename... \tCtrl+R", 10003
+   MENUITEM "Delete \tCtrl+D", 10004
+   MENUITEM SEPARATOR
+   MENUITEM "Open playlist folder...", 10410
+  }
+  POPUP "Add && Edit"
+  {
+   MENUITEM "Add file(s)... \tCtrl+I", 10196
+   MENUITEM "Add Directory... \tCtrl+O", 10197
+   MENUITEM "Add URL... \tCtrl+U", 10198
+   MENUITEM SEPARATOR
+   MENUITEM "Edit... \tCtrl+E", 10211
+   MENUITEM "Open item folder... \tCtrl+F", 10207
+   MENUITEM "File Search…\tCtrl+S", 10490
+   MENUITEM "Rename...\tCtrl+M", 10583
+   MENUITEM SEPARATOR
+   MENUITEM "Copy \tCtrl+C", 10007
+   MENUITEM "Paste \tCtrl+V", 10008
+  }
+  POPUP "Remove"
+  {
+   MENUITEM "Remove selected item(s)\tDel", 10200
+   MENUITEM "Remove unselected item(s)\tCtrl+Del", 10212
+   MENUITEM "Remove all items \tAlt+Del", 10201
+   MENUITEM "Remove invalid items\tCtrl+T", 10210
+   MENUITEM SEPARATOR
+   MENUITEM "Sent to Recycle Bin \tShift+Del", 10213
+   MENUITEM "Sent to Recycle Bin (with subtitles) \tShift+Ctrl+Del", 10209
+  }
+  POPUP "Sort"
+  {
+   MENUITEM "by filename - ascending\tCtrl+1", 10202
+   MENUITEM "by filename - descending\tCtrl+2", 10203
+   MENUITEM "Randomly \tCtrl+3", 10208
+   MENUITEM "by extension\tCtrl+4", 10586
+   MENUITEM SEPARATOR
+   MENUITEM "by folder\tCtrl+0", 10001
+  }
+  POPUP "Select"
+  {
+   MENUITEM "Select all \tCtrl+A", 10204
+   MENUITEM "Select none\tCtrl+I", 10205
+  }
+  POPUP "Playlist"
+  {
+   MENUITEM "Open... \tF3", 10000
+   MENUITEM "Save as... \tF2", 10206
+   MENUITEM "Save Playlist Automatically", 10411
+  }
+  POPUP "Playback queue"
+  {
+   MENUITEM "Add to Playback queue \tQ", 10005
+   MENUITEM "Clear Playback queue \tCtrl+Q", 10006
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Get play time\tF4", 10640
+  MENUITEM "File information...\tCtrl+F1", 10505
+  MENUITEM "Playlist settings... \tF5", 10315
+  MENUITEM "Close Playlist \tF6", 10446
+ }
+}

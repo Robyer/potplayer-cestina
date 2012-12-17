@@ -1,0 +1,8 @@
+399 DIALOGEX 0, 0, 254, 143, 0
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "Arial", 0, FALSE
+{
+ PUSHBUTTON "Stáhnout Windows Media Player", 3021, 18, 101, 121, 12
+ PUSHBUTTON "Bezpeèností aktualizace DRM", 3038, 143, 101, 92, 12
+ CTEXT "", 3381, 38, 34, 203, 56
+}

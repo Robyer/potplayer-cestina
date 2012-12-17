@@ -1,0 +1,11 @@
+407 DIALOGEX 0, 0, 181, 114, 0
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "Arial", 0, FALSE
+{
+ EDITTEXT 3069, 19, 35, 108, 12, ES_AUTOHSCROLL
+ LTEXT "Skoèit na konkrétní èas (hh:mm:ss.ms nebo ms):", 3381, 19, 24, 155, 8
+ EDITTEXT 3077, 19, 69, 108, 12, ES_AUTOHSCROLL
+ LTEXT "Skoèit na konkrkétní snímek (èíslo snímku, fps):", 3382, 19, 58, 155, 8
+ PUSHBUTTON "Skoèit", 3021, 131, 35, 34, 11
+ PUSHBUTTON "Skoèit", 3024, 131, 69, 34, 11
+}

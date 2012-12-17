@@ -1,0 +1,10 @@
+110 MENU
+{
+ POPUP "Menu"
+ {
+  MENUITEM "Whispers", 10217
+  MENUITEM "Navštívit stránku vysílání", 10214
+  MENUITEM "Záložka", 10215
+  MENUITEM "Administrace chatu...", 10409
+ }
+}

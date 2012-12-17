@@ -1,0 +1,20 @@
+379 DIALOGEX 0, 0, 284, 140, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Seamless Playback", 3292, 5, 3, 273, 66
+ LTEXT "This feature is use of built-in separator multiple files simultaneously read-ahead during playback in order to avoid the existence of the interval.", 3312, 12, 15, 261, 18
+ RTEXT "Method:", 3310, 9, 36, 59, 8
+ COMBOBOX 3012, 71, 34, 203, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Unit:", 3308, 9, 53, 59, 8
+ EDITTEXT 3105, 71, 51, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3263, "msctls_updown32", 0x000000B6, 106, 55, 10, 14
+ AUTOCHECKBOX "Firstly read all files", 3041, 127, 52, 143, 10
+ GROUPBOX "Streaming media (mms, http) Play", 3293, 5, 73, 273, 43
+ AUTOCHECKBOX "Active TimeShift", 3040, 12, 84, 261, 10
+ CONTROL "", 3084, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 51, 98, 164, 11
+ EDITTEXT 3267, 216, 96, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3255, "msctls_updown32", 0x000000B6, 241, 102, 11, 12
+ LTEXT "Min.", 3289, 254, 98, 20, 10
+ RTEXT "Time:", 3290, 11, 98, 39, 8
+}

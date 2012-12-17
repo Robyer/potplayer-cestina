@@ -1,0 +1,11 @@
+325 DIALOGEX 0, 0, 314, 287, 0
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "Arial", 0, FALSE
+{
+ CONTROL "", 3380, "SysTabControl32", 0, 11, 33, 289, 229
+ PUSHBUTTON "Filtr", 3038, 11, 14, 48, 14
+ PUSHBUTTON "Zdroj / Splitter", 3024, 61, 14, 62, 14
+ PUSHBUTTON "Video dekodér", 3027, 126, 14, 52, 14
+ PUSHBUTTON "Audio dekodér", 3029, 181, 14, 52, 14
+ PUSHBUTTON "Priorita filtru", 3345, 236, 14, 59, 14
+}

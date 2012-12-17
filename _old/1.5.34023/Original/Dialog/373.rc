@@ -1,0 +1,27 @@
+373 DIALOGEX 0, 0, 283, 242, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Play list editor", 3294, 5, 3, 273, 42
+ PUSHBUTTON "Font", 3021, 10, 14, 170, 13
+ RTEXT "Font Size:", 3287, 188, 16, 49, 8
+ EDITTEXT 3088, 240, 14, 32, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3262, "msctls_updown32", 0x000000B6, 265, 22, 10, 14
+ AUTOCHECKBOX "Show time", 3110, 11, 31, 60, 10
+ AUTOCHECKBOX "Show number", 3104, 76, 31, 60, 10
+ AUTOCHECKBOX "Show file icon", 3120, 143, 31, 60, 10
+ AUTOCHECKBOX "Show extension", 3121, 209, 31, 66, 10
+ GROUPBOX "Play list settings", 3295, 5, 49, 273, 48
+ AUTOCHECKBOX "Save playlist automatically", 3097, 11, 60, 119, 10
+ AUTOCHECKBOX "Do not add duplicate files", 3124, 135, 60, 137, 10
+ AUTOCHECKBOX "Watch playing folder", 3115, 11, 72, 119, 10
+ AUTOCHECKBOX "Sort by folder", 3129, 135, 72, 137, 10
+ AUTOCHECKBOX "Remember played position", 3116, 11, 83, 119, 10
+ AUTOCHECKBOX "Get play time", 3117, 135, 83, 137, 10
+ GROUPBOX "Shortcuts", 3381, 5, 101, 273, 131
+ LTEXT "Users can add their own keyboard shortcuts. Here shortcut to set the priority to default shortcuts.", 3383, 10, 112, 262, 19
+ CONTROL "", 3242, "SysListView32", WS_BORDER | WS_TABSTOP | 0x0000880D, 9, 135, 264, 75
+ PUSHBUTTON "Add...", 3330, 164, 214, 35, 12
+ PUSHBUTTON "Delete", 3024, 201, 214, 35, 12
+ PUSHBUTTON "Modify", 3027, 239, 214, 35, 12
+}

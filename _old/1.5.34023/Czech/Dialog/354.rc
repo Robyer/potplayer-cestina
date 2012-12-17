@@ -1,0 +1,41 @@
+354 DIALOGEX 0, 0, 283, 248, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Obecné nastavení", 3285, 5, 3, 273, 173
+ RTEXT "Navrchu:", 3286, 11, 15, 72, 8
+ COMBOBOX 3003, 85, 13, 187, 88, CBS_DROPDOWNLIST | WS_VSCROLL
+ AUTOCHECKBOX "Navrchu pøi zobrazení na celé obrazovce", 3125, 85, 28, 185, 10
+ RTEXT "Otevírání souborù:", 3288, 11, 43, 72, 8
+ COMBOBOX 3005, 85, 41, 187, 88, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Ikona v lištì:", 3290, 11, 59, 72, 8
+ COMBOBOX 3008, 85, 57, 186, 88, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Kontrola aktualizací:", 3291, 11, 75, 72, 8
+ COMBOBOX 3010, 85, 73, 186, 88, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Vícenásobné spuštìní:", 3293, 11, 91, 72, 8
+ COMBOBOX 3011, 85, 89, 186, 88, CBS_DROPDOWNLIST | WS_VSCROLL
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 105, 269, 3
+ AUTOCHECKBOX "Pevná pozice okna pøi minimalizaci", 3129, 11, 108, 137, 10
+ AUTOCHECKBOX "Zobrazovat popisky", 3072, 154, 108, 119, 10
+ AUTOCHECKBOX "Souèasnì minimalizovat všechna okna", 3094, 11, 119, 137, 10
+ AUTOCHECKBOX "Pøichytávat k okrajùm/oknu", 3073, 154, 119, 119, 10
+ AUTOCHECKBOX "Zastavit pøehrávání pøi minimalizaci", 3110, 11, 130, 137, 10
+ AUTOCHECKBOX "Zavøít soubory pøi zastavení", 3124, 154, 130, 119, 10
+ AUTOCHECKBOX "Výchozí velikost pøi zavøení souboru", 3123, 11, 140, 137, 10
+ AUTOCHECKBOX "Ukládat nastavení do .ini souboru", 3083, 154, 140, 119, 10
+ AUTOCHECKBOX "Nastavit velikost okna od støedu", 3126, 11, 151, 141, 10
+ AUTOCHECKBOX "Použít funkce hl. panelu Windows 7", 3336, 154, 151, 119, 10
+ AUTOCHECKBOX "Zobrazit poslední soubory v oblíbených", 3127, 11, 162, 139, 10
+ GROUPBOX "Pøi spuštìní", 3287, 5, 178, 273, 55
+ RTEXT "Velikost okna:", 3289, 11, 189, 72, 8
+ COMBOBOX 3006, 85, 187, 99, 88, CBS_DROPDOWNLIST | WS_VSCROLL
+ EDITTEXT 3273, 188, 188, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3259, "msctls_updown32", 0x000000B6, 220, 194, 10, 12
+ LTEXT "x", 3292, 229, 189, 8, 8
+ EDITTEXT 3275, 238, 188, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3261, "msctls_updown32", 0x000000B6, 266, 196, 10, 12
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 204, 269, 3
+ AUTOCHECKBOX "Obnovit okno do poslední pozice", 3131, 10, 208, 132, 10
+ AUTOCHECKBOX "Umístit okno na støed obrazovky", 3130, 155, 208, 115, 10
+ AUTOCHECKBOX "Spustit pøehrávání", 3132, 10, 219, 140, 10
+}

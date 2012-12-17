@@ -1,0 +1,11 @@
+434 DIALOGEX 0, 0, 283, 114, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Image overlay on screen", 3383, 5, 3, 273, 89
+ RTEXT "Method:", 3292, 11, 17, 65, 8
+ COMBOBOX 3005, 81, 16, 189, 77, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Transparency (%d%%):", 3285, 11, 34, 65, 8
+ CONTROL "", 3043, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 79, 34, 189, 11
+ LTEXT "", 3291, 10, 54, 261, 33
+}

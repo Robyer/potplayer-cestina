@@ -1,0 +1,19 @@
+428 DIALOGEX 0, 0, 284, 151, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Nastavení zachytávání obrazu", 3285, 5, 3, 273, 73
+ AUTOCHECKBOX "Zachytávat kurzor myši.", 3078, 13, 13, 154, 10
+ AUTOCHECKBOX "Pøeskoèit náhled obsahu vysílání.", 3040, 13, 24, 154, 10
+ AUTOCHECKBOX "Vždy zachytávat obsah okna.", 3083, 13, 35, 154, 10
+ AUTOCHECKBOX "Zachytávat prùhledné okna.", 3084, 13, 46, 154, 10
+ PUSHBUTTON "Nastavení...", 3042, 9, 58, 53, 13
+ PUSHBUTTON "Zobrazit kameru 1", 3063, 68, 58, 57, 13, WS_DISABLED
+ PUSHBUTTON "Zobrazit kameru 2", 3068, 127, 58, 57, 13, WS_DISABLED
+ GROUPBOX "Zaøízení pro zachytávání audia", 3287, 5, 80, 273, 54, 0, WS_EX_TRANSPARENT
+ RTEXT "Zaøízení:", 3288, 10, 91, 24, 8
+ COMBOBOX 3046, 37, 90, 234, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Typ:", 3289, 10, 107, 24, 8
+ COMBOBOX 3051, 37, 105, 234, 146, CBS_DROPDOWNLIST | WS_VSCROLL
+ AUTOCHECKBOX "Pøeji si slyšet spojení", 3034, 37, 120, 235, 10
+}

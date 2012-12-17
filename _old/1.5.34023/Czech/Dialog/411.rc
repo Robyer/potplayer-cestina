@@ -1,0 +1,30 @@
+411 DIALOGEX 0, 0, 292, 207, 0
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Umístìní pro uložení", 3196, 16, 25, 261, 41
+ RTEXT "Název souboru:", 3385, 20, 38, 39, 10
+ EDITTEXT 3069, 63, 37, 192, 12, ES_AUTOHSCROLL
+ PUSHBUTTON "...", 3021, 258, 38, 15, 11
+ AUTOCHECKBOX "Save a folder where recorded movies", 3044, 63, 52, 191, 10
+ GROUPBOX "Podrobnosti", 3199, 16, 70, 261, 90
+ RTEXT "Horizontální množství:", 3381, 27, 83, 65, 10
+ EDITTEXT 3088, 96, 81, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3262, "msctls_updown32", 0x000000B6, 132, 83, 10, 14
+ RTEXT "Horizontální velikost:", 3383, 145, 83, 63, 10
+ EDITTEXT 3099, 212, 81, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3264, "msctls_updown32", 0x000000B6, 251, 86, 10, 14
+ RTEXT "Vertikální množství:", 3382, 27, 100, 65, 10
+ EDITTEXT 3095, 96, 98, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3263, "msctls_updown32", 0x000000B6, 132, 98, 10, 14
+ RTEXT "Okraje:", 3384, 145, 100, 63, 10
+ EDITTEXT 3105, 212, 98, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3266, "msctls_updown32", 0x000000B6, 251, 100, 10, 14
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 20, 115, 254, 3
+ RTEXT "Písmo informací o souboru:", 3386, 22, 125, 61, 10
+ PUSHBUTTON "Písmo", 3024, 87, 123, 105, 13
+ AUTOCHECKBOX "Zobrazit informace o souboru", 3034, 196, 124, 74, 10
+ AUTOCHECKBOX "Zobrazit èas", 3040, 196, 142, 74, 10
+ RTEXT "Písmo èasu:", 3402, 22, 142, 61, 10
+ PUSHBUTTON "Písmo", 3027, 87, 140, 105, 13
+}

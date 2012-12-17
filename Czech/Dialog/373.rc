@@ -1,0 +1,27 @@
+373 DIALOGEX 0, 0, 283, 242, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Editor playlistu", 3294, 5, 3, 273, 42
+ PUSHBUTTON "Písmo", 3021, 10, 14, 170, 13
+ RTEXT "Velikost písma:", 3287, 188, 16, 49, 8
+ EDITTEXT 3088, 240, 14, 32, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3262, "msctls_updown32", 0x000000B6, 265, 22, 10, 14
+ AUTOCHECKBOX "Zobrazit èas", 3110, 11, 31, 60, 10
+ AUTOCHECKBOX "Zobrazit èíslo", 3104, 76, 31, 60, 10
+ AUTOCHECKBOX "Zobrazit ikonu souboru", 3120, 143, 31, 60, 10
+ AUTOCHECKBOX "Zobrazit pøíponu", 3121, 209, 31, 66, 10
+ GROUPBOX "Nastavení playlistu", 3295, 5, 49, 273, 48
+ AUTOCHECKBOX "Uložit playlist automaticky", 3097, 11, 60, 119, 10
+ AUTOCHECKBOX "Nepøidávat duplicitní soubory", 3124, 135, 60, 137, 10
+ AUTOCHECKBOX "Sledovat pøehrávanou složku", 3115, 11, 72, 119, 10
+ AUTOCHECKBOX "Øadit dle složky", 3129, 135, 72, 137, 10
+ AUTOCHECKBOX "Zapamatovat pozici pøehrávání", 3116, 11, 83, 119, 10
+ AUTOCHECKBOX "Získat èas pøehrávání", 3117, 135, 83, 137, 10
+ GROUPBOX "Klávesové zkratky", 3381, 5, 101, 273, 131
+ LTEXT "Mùžete pøidat vlastní klávesové zkratky. Vámi definované klávesové zkratky budou upøednostnìny pøed výchozími.", 3383, 10, 112, 262, 19
+ CONTROL "", 3242, "SysListView32", WS_BORDER | WS_TABSTOP | 0x0000880D, 9, 135, 264, 75
+ PUSHBUTTON "Pøidat...", 3330, 164, 214, 35, 12
+ PUSHBUTTON "Smazat", 3024, 201, 214, 35, 12
+ PUSHBUTTON "Upravit", 3027, 239, 214, 35, 12
+}

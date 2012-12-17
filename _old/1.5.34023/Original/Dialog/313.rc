@@ -1,0 +1,11 @@
+313 DIALOGEX 0, 0, 194, 103, 0
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "Arial", 0, FALSE
+{
+ RTEXT "Server Address:", 3285, 7, 30, 54, 8
+ EDITTEXT 3069, 64, 28, 118, 12, ES_AUTOHSCROLL
+ AUTOCHECKBOX "Always prompt", 3284, 64, 41, 117, 10
+ AUTOCHECKBOX "Restricted view address", 3326, 64, 50, 117, 10
+ AUTOCHECKBOX "Mobile relay", 3329, 64, 68, 117, 10
+ AUTOCHECKBOX "Hide original broadcast", 3286, 64, 59, 117, 10
+}

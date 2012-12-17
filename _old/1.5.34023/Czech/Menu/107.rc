@@ -1,0 +1,19 @@
+107 MENU
+{
+ POPUP "Menu"
+ {
+  MENUITEM "Zobrazit 1. kameru", 10441, INACTIVE
+  MENUITEM "Otevøít", 10188
+  MENUITEM "Skrýt", 10190
+  MENUITEM "Aktuální kamera", 10189
+  MENUITEM SEPARATOR
+  MENUITEM "Zobrazit 2. kameru", 10441, INACTIVE
+  MENUITEM "Otevøít", 10191
+  MENUITEM "Skrýt", 10193
+  MENUITEM "Aktuální kamera", 10192
+  MENUITEM SEPARATOR
+  MENUITEM "Nastavení PIP...", 10194
+  MENUITEM SEPARATOR
+  MENUITEM "Vypnout nahrávání", 10167
+ }
+}

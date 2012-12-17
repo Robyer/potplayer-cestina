@@ -1,0 +1,48 @@
+353 DIALOGEX 0, 0, 284, 213, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Subtitle settings", 3285, 5, 3, 273, 123
+ RTEXT "Subtitles Output:", 3314, 11, 15, 74, 8
+ COMBOBOX 3003, 88, 13, 185, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Font rendering:", 3316, 11, 30, 74, 8
+ COMBOBOX 3005, 88, 28, 185, 74, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "ASS/SSA subtitle style:", 3318, 11, 44, 74, 8
+ COMBOBOX 3008, 88, 43, 185, 74, CBS_DROPDOWNLIST | WS_VSCROLL
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 59, 268, 1
+ AUTOCHECKBOX "Show subtitles", 3040, 13, 62, 127, 10
+ AUTOCHECKBOX "ASS/SSA subtitles animations", 3053, 145, 62, 109, 10
+ AUTOCHECKBOX "Auto add <BR> tag to SMI subtitles", 3047, 13, 72, 127, 10
+ AUTOCHECKBOX "Display subtitles over video image", 3057, 145, 72, 126, 10
+ AUTOCHECKBOX "VMR/EVR subtitle smoother", 3119, 13, 82, 127, 10
+ AUTOCHECKBOX "Display subtitles under video image", 3113, 145, 82, 130, 10
+ AUTOCHECKBOX "Correct ratio of image subtitle", 3066, 13, 92, 127, 10
+ AUTOCHECKBOX "Apply IDX/SUB custom position", 3123, 145, 92, 126, 10
+ AUTOCHECKBOX "Load subs in folder if no matching one", 3067, 13, 102, 132, 10
+ AUTOCHECKBOX "Ignore <BR> tag in SMI subtitles", 3048, 145, 102, 125, 10
+ AUTOCHECKBOX "Force left-aligned", 3124, 13, 112, 126, 10
+ AUTOCHECKBOX "Ignore subtitle effect tags", 3125, 145, 112, 126, 10
+ GROUPBOX "Subtitles Fade effect", 3383, 5, 129, 273, 29
+ AUTOCHECKBOX "Enable", 3339, 13, 140, 34, 10
+ RTEXT "Appear:", 3311, 53, 141, 51, 8
+ EDITTEXT 3112, 107, 140, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3251, "msctls_updown32", 0x000000B6, 128, 147, 10, 12
+ LTEXT "%", 3315, 145, 142, 16, 8
+ RTEXT "Disappear:", 3313, 166, 141, 51, 8
+ EDITTEXT 3114, 220, 140, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3252, "msctls_updown32", 0x000000B6, 246, 145, 10, 12
+ LTEXT "%", 3317, 258, 142, 16, 8
+ GROUPBOX "3D Subtitle (stereoscopic)", 3384, 5, 160, 273, 42
+ RTEXT "3D Mode:", 3322, 10, 171, 42, 8
+ COMBOBOX 3007, 57, 169, 111, 74, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Size Method:", 3321, 10, 187, 42, 8
+ COMBOBOX 3006, 57, 185, 111, 74, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Width Depth:", 3324, 172, 171, 49, 8
+ EDITTEXT 3116, 224, 169, 31, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3254, "msctls_updown32", 0x000000B6, 243, 178, 10, 12
+ LTEXT "Pixel", 3323, 258, 171, 16, 8
+ RTEXT "Height Depth:", 3326, 172, 187, 49, 8
+ EDITTEXT 3117, 224, 185, 31, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3255, "msctls_updown32", 0x000000B6, 246, 195, 10, 12
+ LTEXT "Pixel", 3325, 258, 187, 16, 8
+}

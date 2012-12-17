@@ -1,0 +1,19 @@
+432 DIALOGEX 0, 0, 284, 146, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Aspect Ratio", 3292, 5, 3, 273, 82
+ RTEXT "Control:", 3310, 9, 16, 59, 8
+ COMBOBOX 3012, 71, 14, 203, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Aspect Ratio:", 3311, 9, 33, 59, 8
+ COMBOBOX 3013, 71, 31, 130, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ PUSHBUTTON "Custom aspect ratio", 3021, 205, 31, 69, 13
+ RTEXT "Output:", 3312, 9, 50, 59, 8
+ COMBOBOX 3014, 71, 48, 203, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 64, 268, 3
+ AUTOCHECKBOX "Adjust aspect ratio to window size", 3040, 18, 70, 197, 10
+ GROUPBOX "Margin settings", 3293, 5, 89, 273, 42
+ AUTOCHECKBOX "Enable selected preset to force subtitle output in the margin at the bottom", 3041, 15, 99, 257, 10
+ RTEXT "Presets:", 3313, 9, 115, 59, 8
+ COMBOBOX 3015, 71, 113, 202, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+}

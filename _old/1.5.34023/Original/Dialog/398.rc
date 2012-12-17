@@ -1,0 +1,8 @@
+398 DIALOGEX 0, 0, 207, 81, 0
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "Arial", 0, FALSE
+{
+ CONTROL "", 3037, "msctls_progress32", WS_BORDER, 13, 41, 180, 10
+ LTEXT "Click the Update button to upgrade.", 3381, 15, 27, 179, 11
+ PUSHBUTTON "Update", 3021, 62, 59, 68, 14
+}

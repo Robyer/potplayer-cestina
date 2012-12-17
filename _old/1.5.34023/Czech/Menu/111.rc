@@ -1,0 +1,70 @@
+111 MENU
+{
+ POPUP "PL"
+ {
+  MENUITEM "Pøehrát \tP", 10199
+  MENUITEM SEPARATOR
+  POPUP "Správa alba"
+  {
+   MENUITEM "Nové... \tCtrl+N", 10002
+   MENUITEM "Pøejmenovat... \tCtrl+R", 10003
+   MENUITEM "Smazat \tCtrl+D", 10004
+   MENUITEM SEPARATOR
+   MENUITEM "Otevøít složku s playlistem...", 10410
+  }
+  POPUP "Pøidat && upravit"
+  {
+   MENUITEM "Pøidat soubor(y)... \tCtrl+I", 10196
+   MENUITEM "Pøidat složku... \tCtrl+O", 10197
+   MENUITEM "Pøidat URL... \tCtrl+U", 10198
+   MENUITEM SEPARATOR
+   MENUITEM "Upravit... \tCtrl+E", 10211
+   MENUITEM "Otevøít složku... \tCtrl+F", 10207
+   MENUITEM "Hledat soubor...\tCtrl+S", 10490
+   MENUITEM "Pøejmenovat...\tCtrl+M", 10583
+   MENUITEM SEPARATOR
+   MENUITEM "Kopírovat \tCtrl+C", 10007
+   MENUITEM "Vložit \tCtrl+V", 10008
+  }
+  POPUP "Odebrat"
+  {
+   MENUITEM "Odebrat vybrané položky\tDel", 10200
+   MENUITEM "Odebrat nevybrané položky\tCtrl+Del", 10212
+   MENUITEM "Odebrat všechny položky \tAlt+Del", 10201
+   MENUITEM "Odebrat neplatné položky\tCtrl+T", 10210
+   MENUITEM SEPARATOR
+   MENUITEM "Pøesunout do koše \tShift+Del", 10213
+   MENUITEM "Pøesunout do koše (s titulky) \tShift+Ctrl+Del", 10209
+  }
+  POPUP "Øazení"
+  {
+   MENUITEM "Dle názvu souboru - vzestupnì\tCtrl+1", 10202
+   MENUITEM "Dle názvu souboru - sestupnì\tCtrl+2", 10203
+   MENUITEM "Náhodnì \tCtrl+3", 10208
+   MENUITEM "Dle pøípony\tCtrl+4", 10586
+   MENUITEM SEPARATOR
+   MENUITEM "Dle složky\tCtrl+0", 10001
+  }
+  POPUP "Vybrat"
+  {
+   MENUITEM "Vybrat vše\tCtrl+A", 10204
+   MENUITEM "Zrušit výbìr\tCtrl+I", 10205
+  }
+  POPUP "Playlist"
+  {
+   MENUITEM "Otevøít... \tF3", 10000
+   MENUITEM "Uložit jako... \tF2", 10206
+   MENUITEM "Ukládat playlist automaticky", 10411
+  }
+  POPUP "Fronta pøehrávání"
+  {
+   MENUITEM "Pøidat do fronty pøehrávání \tQ", 10005
+   MENUITEM "Vyèistit frontu pøehrávání \tCtrl+Q", 10006
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Naèíst délku pøehrávání\tF4", 10640
+  MENUITEM "Informace o souboru...\tCtrl+F1", 10505
+  MENUITEM "Nastavení playlistu... \tF5", 10315
+  MENUITEM "Zavøít playlist \tF6", 10446
+ }
+}

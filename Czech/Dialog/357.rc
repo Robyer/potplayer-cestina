@@ -1,0 +1,29 @@
+357 DIALOGEX 0, 0, 282, 209, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Doèasnì uložit pozici", 3285, 5, 2, 273, 54
+ LTEXT "Doèasnì uložit zvolenou pozici pro pozdìjší sledování od zvoleného místa v èase.", 3286, 11, 14, 260, 17
+ CONTROL "", 3219, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 11, 37, 200, 11
+ EDITTEXT 3267, 215, 35, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3255, "msctls_updown32", 0x000000B6, 249, 35, 11, 12
+ LTEXT "Min.", 3287, 253, 37, 20, 10
+ GROUPBOX "Nastavení proxy", 3288, 5, 59, 273, 90
+ LTEXT "Pokud se pøipojujete k síti skrz proxy server, zadejte správné údaje.", 3289, 11, 71, 260, 19
+ RTEXT "Typ:", 3290, 26, 96, 35, 8
+ COMBOBOX 3003, 64, 94, 206, 61, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Server:", 3291, 11, 114, 50, 8
+ EDITTEXT 3069, 64, 112, 77, 12, ES_AUTOHSCROLL
+ RTEXT "Port:", 3293, 147, 114, 39, 8
+ EDITTEXT 3271, 188, 112, 81, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3256, "msctls_updown32", 0x000000B6, 226, 118, 11, 12
+ RTEXT "Uživatelské ID:", 3292, 11, 131, 50, 8
+ EDITTEXT 3077, 64, 130, 77, 12, ES_AUTOHSCROLL
+ RTEXT "Heslo:", 3294, 147, 131, 39, 8
+ EDITTEXT 3085, 188, 130, 81, 12, ES_PASSWORD | ES_AUTOHSCROLL
+ GROUPBOX "Složka pro doèasné úložištì", 3295, 5, 152, 273, 46
+ LTEXT "PotPlayer pøi sledování TV doèasnì uloží obraz do této složky", 3296, 11, 164, 260, 10
+ RTEXT "Složka:", 3297, 8, 181, 58, 8
+ EDITTEXT 3070, 69, 179, 186, 12, ES_AUTOHSCROLL
+ PUSHBUTTON "...", 3021, 258, 179, 15, 11
+}

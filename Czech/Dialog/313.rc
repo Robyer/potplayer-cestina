@@ -1,0 +1,16 @@
+313 DIALOGEX 0, 0, 194, 122, 0
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "Arial", 0, FALSE
+{
+ RTEXT "Adresa serveru:", 3285, 0, 24, 49, 8
+ EDITTEXT 3069, 50, 22, 127, 12, ES_AUTOHSCROLL
+ GROUPBOX "Nastavení kanálù", -1, 12, 38, 80, 54
+ AUTOCHECKBOX "PotPlayer", 3332, 24, 49, 51, 10
+ AUTOCHECKBOX "Mobilní", 3329, 24, 69, 51, 10
+ AUTOCHECKBOX "Další TV", 3331, 24, 59, 51, 10
+ AUTOCHECKBOX "Autom. pøenos ", 3284, 105, 49, 64, 10
+ AUTOCHECKBOX "Zobrazit region", 3326, 105, 59, 63, 10
+ AUTOCHECKBOX "Skrýt orig. vysílání", 3286, 105, 69, 77, 10
+ AUTOCHECKBOX "Multi bitrate ", 3330, 105, 79, 62, 10
+ GROUPBOX "Pokroèilé nastavení", -1, 99, 38, 80, 54
+}

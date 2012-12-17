@@ -1,0 +1,8 @@
+410 DIALOGEX 0, 0, 357, 188, 0
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "Arial", 0, FALSE
+{
+ PUSHBUTTON "Stav sítì", 3038, 6, 8, 56, 11
+ PUSHBUTTON "Stav P2P pøipojení", 3024, 68, 8, 74, 11
+ CONTROL "", 3380, "SysTabControl32", 0, 18, 37, 208, 118
+}

@@ -1,0 +1,38 @@
+113 MENU
+{
+ POPUP "Popup Menu"
+ {
+  MENUITEM "Pøehrát/Pozastavit\tSpace", 10014
+  MENUITEM "Zavøít soubor\tF4", 10167
+  MENUITEM SEPARATOR
+  MENUITEM "%s Pøedchozí\tLeft", 10059
+  MENUITEM "%s Další\tRight", 10060
+  MENUITEM "Startovní pozice \tBackSpace", 10243
+  MENUITEM SEPARATOR
+  MENUITEM "Zvýšit hlasitost +\tUp", 10035
+  MENUITEM "Snížit hlasitost -\tDown", 10036
+  MENUITEM "Ztlumit\tM", 10037
+  MENUITEM SEPARATOR
+  POPUP "Pomìr stran"
+  {
+   MENUITEM "Pøizpùsobit videu\tCtrl+F5", 10040
+   MENUITEM "Pøizpùsobit oknu\tCtrl+F5", 10041
+   MENUITEM "Volný\tCtrl+F5", 10042
+   MENUITEM SEPARATOR
+   MENUITEM "Pøepnout pomìr stran\tCtrl+F6", 10261
+   MENUITEM "Nedìlat nic", 10015
+   MENUITEM "Výchozí pomìr stran", 10016
+   MENUITEM "4:3", 10017
+   MENUITEM "16:9", 10018
+   MENUITEM "16:10", 10019
+   MENUITEM "1.85:1", 10020
+   MENUITEM "2.35:1", 10021
+   MENUITEM "Vlastní (%s)", 10022
+   MENUITEM "Nastavit vlastní...", 10364
+  }
+  MENUITEM "Celá obrazovka\tEnter", 10013
+  MENUITEM SEPARATOR
+  MENUITEM "Informace o souboru... \tCtrl+F1", 10195
+  MENUITEM "O programu... \tF1", -7872
+ }
+}

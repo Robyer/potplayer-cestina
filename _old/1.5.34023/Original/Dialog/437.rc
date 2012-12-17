@@ -1,0 +1,8 @@
+437 DIALOGEX 0, 0, 232, 125, 0
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "Arial", 0, FALSE
+{
+ LTEXT "Currently playing content is copyright-protected, you need to install a certificate program.So download and install it.", 3382, 53, 26, 154, 30
+ PUSHBUTTON "Download", 3021, 65, 62, 121, 13
+ CTEXT "Restart PotPlayer after the installation.", 3383, 43, 85, 157, 17
+}

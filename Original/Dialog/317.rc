@@ -1,0 +1,20 @@
+317 DIALOGEX 0, 0, 182, 138, 0
+STYLE DS_SETFONT | DS_CONTROL | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Screen Capture Settings", 3285, 4, 0, 170, 71
+ AUTOCHECKBOX "Capture mouse cursor.", 3078, 12, 10, 154, 10
+ AUTOCHECKBOX "Skip preview broadcast content.", 3040, 12, 21, 154, 10
+ AUTOCHECKBOX "Always capture window contents.", 3083, 12, 32, 154, 10
+ AUTOCHECKBOX "Capture translucent windows.", 3084, 12, 42, 154, 10
+ PUSHBUTTON "Settings...", 3042, 8, 54, 45, 11
+ PUSHBUTTON "Show Camera 1", 3063, 55, 54, 57, 11, WS_DISABLED
+ PUSHBUTTON "Show Camera 2", 3068, 114, 54, 57, 11, WS_DISABLED
+ GROUPBOX "Audio capture device", 3287, 4, 73, 170, 54, 0, WS_EX_TRANSPARENT
+ RTEXT "Device:", 3288, 9, 84, 24, 8
+ COMBOBOX 3046, 36, 83, 133, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Type:", 3289, 9, 100, 24, 8
+ COMBOBOX 3051, 36, 98, 92, 146, CBS_DROPDOWNLIST | WS_VSCROLL
+ PUSHBUTTON "Volume", 3056, 132, 98, 36, 11
+ AUTOCHECKBOX "Monitor connected to my computer.", 3034, 14, 113, 154, 10
+}

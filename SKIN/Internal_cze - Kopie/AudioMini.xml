@@ -1,0 +1,49 @@
+﻿<?XML version='1.0' ?>
+
+<Skin Version='1.0' MinorVersion='1000'>
+
+	<ExcludeColorThemeArea Name='Main.png' Left='0' Top='58' Width='400' Height='16' />
+	<ExcludeColorThemeArea Name='Window.png' Left='50' Top='670' Width='66' Height='31' />
+	<ExcludeColorThemeArea Name='Window.png' Left='0' Top='910' Width='297' Height='34' />
+
+	<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='220' HeightLimit='0' ForceMinWidth='1' ForceMinHeight='1' UseWindowFrame='0' >
+		<Logo IdleFileName="Logo.swf" LoadingFileName="Loading.swf" FlashBackColor='0x6C80E6' />
+		<Control>
+
+			<Static Align='Top' State='' LeftMargin='181' RightMargin='7' ImageLeft='0' ImageTop='915' ImageWidth='233' ImageHeight='31' Height='31' UsingRgn='1' >
+
+				<Label CmdID='CMD_TITLE_WITH_MESSAGE' ColorX='694' ColorY='1035' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' Left='8' Top='9' Width='170' Height='12' FontName='Arial' FontSize='11' />
+
+				<Visual VisMinWidth='20' Left='181' Top='10' Width='-7' Height='11' BarWidth='4' BarDistance='1' LineDistance='1' LineHeight='1' 
+					BarStartColorX='864' BarStartColorY='543' BarEndColorX='864' BarEndColorY='543' OscColorX='864' OscColorY='543' RefreshTime='25' PeakHeight='1' PeakColorX='864' PeakColorY='543' />
+			</Static>
+
+			<Static Align='Bottom' State='' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='946' ImageWidth='233' ImageHeight='24' Height='24' UsingRgn='1' >
+
+				<Button Tooltip='Přehrát' CmdID='CMD_MEDIA_PLAY' Left='6' Top='4' Width='13' Height='14' ImageLeft='0' ImageTop='1091' />
+				<Button Tooltip='Pozastavit' CmdID='CMD_MEDIA_PAUSE' Left='6' Top='4' Width='14' Height='14' ImageLeft='264' ImageTop='1091' />
+				<Button Tooltip='Zastavit' CmdID='CMD_MEDIA_CLOSE' Left='24' Top='4' Width='12' Height='14' ImageLeft='56' ImageTop='1091' />
+				<Button Tooltip='L:zpět P:předchozí soubor' CmdID='ID_PLAYBACK_5SEC_BACK' AltCmdID='ID_PROCESS_PREV' Left='41' Top='4' Width='12' Height='14' ImageLeft='108' ImageTop='1091' />
+				<Button Tooltip='L:vpřed P:další soubor' CmdID='ID_PLAYBACK_5SEC_FORW' AltCmdID='ID_PROCESS_NEXT' Left='58' Top='4' Width='12' Height='14' ImageLeft='160' ImageTop='1091' />
+				<Button Tooltip='Otevřít soubor' CmdID='ID_OPEN_FILE' Left='75' Top='4' Width='12' Height='14' ImageLeft='212' ImageTop='1091' />
+
+				<Slider VisParentMinWidth='270' CmdID='CMD_TIMEBAR_CTRL' Left='95' Top='3' Width='-135' Height='15' ImageWidth='102' ImageHeight='15' ThumbWidth='16' ThumbHeight='15' 
+					ImageLeft='0' ImageTop='279' BackImageLeft='0' BackImageTop='267' AltImageLeft='0' AltImageTop='290' ThumbImageLeft='0' ThumbImageTop='319' 
+					LeftMargin='10' RightMargin='10' RepeatAImageLeft='148' RepeatAImageTop='321' RepeatBImageLeft='155' RepeatBImageTop='321' RepeatImageWidth='7' RepeatImageHeight='11'
+					BookmarkImageLeft='171' BookmarkImageTop='321' SeamlessImageLeft='188' SeamlessImageTop='321'/>
+
+				<Button Tooltip='Ztlumit zap./vyp.' CmdID='ID_AUDIO_MUTE' Left='-128' Top='4' Width='15' Height='13' ImageLeft='0' ImageTop='243' />
+				<Slider CmdID='CMD_VOLUME_CTRL' Left='-110' Top='2' Width='71' Height='15' ImageWidth='82' ImageHeight='15' ThumbWidth='14' ThumbHeight='13' ImageLeft='528' ImageTop='1131' BackImageLeft='528' BackImageTop='1119' ThumbImageLeft='72' ThumbImageTop='318' LeftMargin='5' RightMargin='5' />
+
+				<Button Tooltip='Základní mód' CmdID='CMD_LOAD_SKIN_XML' String='AudioSkin.xml' Left='-37' Top='4' Width='17' Height='16' ImageLeft='384' ImageTop='1124' />	
+				<Button Tooltip='Ukončit' CmdID='ID_APP_EXIT' Left='-20' Top='4' Width='17' Height='16' ImageLeft='456' ImageTop='1124' />
+
+			</Static>
+			<Static Align='Client' State='' Contain='CMD_VIDEO_WINDOW' />
+
+		</Control>
+	</MainSkinArea>
+
+	#include<SubCommonAudio.txt>
+
+</Skin>

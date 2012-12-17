@@ -1,0 +1,14 @@
+102 MENU
+{
+ POPUP "Popup Menu"
+ {
+  MENUITEM "Zrušit (&U)", 10097
+  MENUITEM SEPARATOR
+  MENUITEM "Vyjmout (&T)", 10099
+  MENUITEM "Kopírovat (&C)", 10098
+  MENUITEM "Vložit (&P)", 10100
+  MENUITEM "Smazat (&D)", 10101
+  MENUITEM SEPARATOR
+  MENUITEM "Použít (&A)", 10102
+ }
+}

@@ -1,0 +1,25 @@
+348 DIALOGEX 0, 0, 296, 134, 0
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Hlasitost pøehrávání", 3303, 13, 22, 196, 79
+ CTEXT "Static", 3381, 18, 32, 39, 8
+ CONTROL "", 3219, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 31, 41, 15, 42
+ AUTOCHECKBOX "Ztlumit", 3047, 19, 86, 37, 10
+ CTEXT "Static", 3382, 65, 32, 39, 8
+ CONTROL "", 3223, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 80, 41, 15, 42
+ AUTOCHECKBOX "Ztlumit", 3040, 68, 86, 37, 10
+ CTEXT "Static", 3383, 115, 32, 39, 8
+ CONTROL "", 3227, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 128, 41, 15, 42
+ AUTOCHECKBOX "Ztlumit", 3044, 116, 86, 37, 10
+ CTEXT "Static", 3384, 165, 32, 39, 8
+ CONTROL "", 3234, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 178, 41, 15, 42
+ AUTOCHECKBOX "Ztlumit", 3052, 166, 86, 37, 10
+ CTEXT "Static", 3196, 223, 32, 53, 8
+ CONTROL "", 3231, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 242, 41, 15, 55
+ PUSHBUTTON "Ovládání hlasitosti systému", 3021, 170, 111, 110, 13
+ GROUPBOX "Hlasitost nahrávání", 3305, 217, 22, 64, 79
+ CONTROL "", -1, "STATIC", SS_ETCHEDVERT, 109, 30, 1, 69
+ CONTROL "", -1, "STATIC", SS_ETCHEDVERT, 60, 30, 1, 69
+ CONTROL "", -1, "STATIC", SS_ETCHEDVERT, 159, 30, 1, 69
+}

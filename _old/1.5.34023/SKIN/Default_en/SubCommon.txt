@@ -1,0 +1,176 @@
+﻿	<ControlBoxSkinArea Image='Control.png' AlphaMode='1' Width='307' Height='201' UseWindowFrame='0' >
+		<Control>
+			<Static Align='Top' State=''  LeftMargin='10' RightMargin='10' ImageTop='565' ImageWidth='307' ImageHeight='201' Height='201' AltImageLeft='951' AltImageTop='143' UsingRgn='1' >
+				<Button Tooltip='Close' CmdID='ID_CONTROL_BOX_WINDOW' Left='-21' Top='3' Width='17' Height='16' ImageLeft='102' ImageTop='20' />
+				<Slider CmdID='CMD_TRANS_CB' Left='-58' Top='8' Width='34' Height='7' ImageWidth='35' ImageHeight='7' ThumbWidth='12' ThumbHeight='7' ImageLeft='0' ImageTop='25' BackImageLeft='0' BackImageTop='25' ThumbImageLeft='44' ThumbImageTop='25' LeftMargin='6' RightMargin='6' />
+
+				<Button CmdID='CMD_SELECT_PAGE' PageIndex='0' Left='4' Top='20' Width='76' Height='31' ImageLeft='0' ImageTop='56' />
+				<Button CmdID='CMD_SELECT_PAGE' PageIndex='1' Left='79' Top='20' Width='75' Height='31' ImageLeft='313' ImageTop='56' />
+				<Button CmdID='CMD_SELECT_PAGE' PageIndex='2' Left='153' Top='20' Width='75' Height='31' ImageLeft='622' ImageTop='56' />
+				<Button CmdID='CMD_SELECT_PAGE' PageIndex='3' Left='227' Top='20' Width='77' Height='31' ImageLeft='931' ImageTop='56' />
+
+				<Static State='CMD_PAGE_CONTROL' PageIndex='0' Left='10' Top='60' ImageLeft='326' ImageTop='624' ImageWidth='287' ImageHeight='133' Width='287' Height='133' >
+
+					<Button CmdID='ID_AUDIO_EQULIZER' DownFlag='1' Left='13' Top='14' Width='82' Height='14' ImageLeft='326' ImageTop='565' />
+
+					<Button CmdID='CMD_POPUPMENU_AUDIO_EQULIZER' Left='90' Top='9' Width='97' Height='22' ImageLeft='0' ImageTop='230' />
+					<Label CmdID='CMD_EQ_PRESET_MESSAGE' ColorX='482' ColorY='147' Left='96' Top='11' Width='68' Height='20' FontName='Arial' FontSize='11' VertAlignment='1' />
+					<Button CmdID='CMD_POPUPMENU_EQULIZER_PRESET' Left='189' Top='9' Width='44' Height='22' ImageLeft='407' ImageTop='230' />
+
+					<Slider CmdID='CMD_EQULIZER_0' Vert='1' Left='11' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_EQULIZER_1' Vert='1' Left='34' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_EQULIZER_2' Vert='1' Left='56' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_EQULIZER_3' Vert='1' Left='81' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_EQULIZER_4' Vert='1' Left='103' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_EQULIZER_5' Vert='1' Left='126' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_EQULIZER_6' Vert='1' Left='148' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_EQULIZER_7' Vert='1' Left='172' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_EQULIZER_8' Vert='1' Left='194' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_EQULIZER_9' Vert='1' Left='217' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+					<Slider CmdID='CMD_MASTER_VOLUME' Vert='1' Left='261' Top='56' Width='14' Height='69' ImageWidth='14' ImageHeight='69' ThumbWidth='14' ThumbHeight='12' ImageLeft='82' ImageTop='141' BackImageLeft='71' BackImageTop='141' ThumbImageLeft='0' ThumbImageTop='141' TopMargin='5' BottomMargin='5' />
+
+				</Static>
+				<Static State='CMD_PAGE_CONTROL' PageIndex='1' Left='10' Top='60' ImageLeft='643' ImageTop='624' ImageWidth='287' ImageHeight='133' Width='287' Height='133' >
+					<Slider CmdID='CMD_COLOR_OFFSET' Left='48' Top='8' Width='176' Height='12' ImageWidth='151' ImageHeight='12' ThumbWidth='14' ThumbHeight='12' ImageLeft='111' ImageTop='149' BackImageLeft='111' BackImageTop='138' ThumbImageLeft='0' ThumbImageTop='141' LeftMargin='5' RightMargin='5' />
+					<Button CmdID='CMD_COLOR_OFFSET_DEFAULT' Left='235' Top='5' Width='45' Height='18' ImageLeft='0' ImageTop='297' />
+
+					<Slider CmdID='CMD_COLOR_GAIN' Left='48' Top='32' Width='176' Height='12' ImageWidth='151' ImageHeight='12' ThumbWidth='14' ThumbHeight='12' ImageLeft='111' ImageTop='149' BackImageLeft='111' BackImageTop='138' ThumbImageLeft='0' ThumbImageTop='141' LeftMargin='5' RightMargin='5' />
+					<Button CmdID='CMD_COLOR_GAIN_DEFAULT' Left='235' Top='29' Width='45' Height='18' ImageLeft='0' ImageTop='297' />
+
+					<Slider CmdID='CMD_COLOR_SAT' Left='48' Top='56' Width='176' Height='12' ImageWidth='151' ImageHeight='12' ThumbWidth='14' ThumbHeight='12' ImageLeft='111' ImageTop='149' BackImageLeft='111' BackImageTop='138' ThumbImageLeft='0' ThumbImageTop='141' LeftMargin='5' RightMargin='5' />
+					<Button CmdID='CMD_COLOR_SAT_DEFAULT' Left='235' Top='53' Width='45' Height='18' ImageLeft='0' ImageTop='297' />
+
+					<Slider CmdID='CMD_COLOR_HUE' Left='48' Top='80' Width='176' Height='12' ImageWidth='151' ImageHeight='12' ThumbWidth='14' ThumbHeight='12' ImageLeft='111' ImageTop='149' BackImageLeft='111' BackImageTop='138' ThumbImageLeft='0' ThumbImageTop='141' LeftMargin='5' RightMargin='5' />
+					<Button CmdID='CMD_COLOR_HUE_DEFAULT' Left='235' Top='77' Width='45' Height='18' ImageLeft='0' ImageTop='297' />
+
+					<Button CmdID='ID_VIDEO_BLUR' DownFlag='1' Left='13' Top='113' Width='51' Height='13' ImageLeft='282' ImageTop='140' />
+					<Button CmdID='ID_VIDEO_SHARPEN' DownFlag='1' Left='80' Top='113' Width='52' Height='13' ImageLeft='282' ImageTop='160' />
+					<Button CmdID='ID_VIDEO_POSTPROC' DownFlag='1' Left='147' Top='113' Width='51' Height='13' ImageLeft='282' ImageTop='180' />
+
+					<Button CmdID='ID_VIDEO_IMAGE_CAPTURE_PROMPT' Left='213' Top='106' Width='68' Height='24' ImageLeft='189' ImageTop='297' />
+
+				</Static>
+				<Static State='CMD_PAGE_CONTROL' PageIndex='2' Left='10' Top='60' ImageLeft='960' ImageTop='624' ImageWidth='287' ImageHeight='133' Width='287' Height='133' >
+
+					<Button CmdID='ID_CAPTION_FONT_SELECT' Left='68' Top='10' Width='160' Height='24' ImageLeft='0' ImageTop='341' />
+					<Label CmdID='CMD_CAPTION_FONT_MESSAGE' ColorX='482' ColorY='164' Left='72' Top='12' Width='150' Height='22' FontName='돋움' FontSize='11' VertAlignment='1' />
+
+					<Label CmdID='CMD_CAPTION_SIZE_MESSAGE' ColorX='482' ColorY='164' Left='232' Top='12' Width='29' Height='21' FontName='돋움' FontSize='11' VertAlignment='1' />
+					<Button CmdID='ID_CAPTION_INC_SIZE' Left='266' Top='11' Width='16' Height='11' ImageLeft='659' ImageTop='341' />
+					<Button CmdID='ID_CAPTION_DEC_SIZE' Left='266' Top='22' Width='16' Height='12' ImageLeft='659' ImageTop='357' />
+
+					<Button CmdID='ID_CAPTION_MOVE_UP' Left='68' Top='54' Width='52' Height='24' ImageLeft='0' ImageTop='389' />
+					<Button CmdID='ID_CAPTION_MOVE_DOWN' Left='122' Top='54' Width='52' Height='24' ImageLeft='217' ImageTop='389' />
+					<Button CmdID='ID_CAPTION_MOVE_LEFT' Left='176' Top='54' Width='52' Height='24' ImageLeft='434' ImageTop='389' />
+					<Button CmdID='ID_CAPTION_MOVE_RIGHT' Left='230' Top='54' Width='52' Height='24' ImageLeft='651' ImageTop='389' />
+
+					<Button CmdID='ID_CAPTION_SLOW_SYNC' Left='68' Top='98' Width='70' Height='24' ImageLeft='0' ImageTop='433' />
+					<Button CmdID='ID_CAPTION_FAST_SYNC' Left='140' Top='98' Width='70' Height='24' ImageLeft='289' ImageTop='433' />
+					<Button CmdID='ID_CAPTION_RESET_SYNC' Left='212' Top='98' Width='70' Height='24' ImageLeft='578' ImageTop='433' />
+
+
+				</Static>
+				<Static State='CMD_PAGE_CONTROL' PageIndex='3' Left='10' Top='60' ImageLeft='960' ImageTop='413' ImageWidth='287' ImageHeight='133' Width='287' Height='133' >
+					<Button CmdID='ID_PLAYBACK_1MIN_BACK' AltCmdID='ID_PLAYBACK_5MIN_BACK' Left='68' Top='9' Width='52' Height='24' ImageLeft='0' ImageTop='477' />
+					<Button CmdID='ID_PLAYBACK_5SEC_BACK' AltCmdID='ID_PLAYBACK_30SEC_BACK' Left='122' Top='9' Width='52' Height='24' ImageLeft='217' ImageTop='477' />
+					<Button CmdID='ID_PLAYBACK_5SEC_FORW' AltCmdID='ID_PLAYBACK_30SEC_FORW' Left='176' Top='9' Width='52' Height='24' ImageLeft='434' ImageTop='477' />
+					<Button CmdID='ID_PLAYBACK_1MIN_FORW' AltCmdID='ID_PLAYBACK_5MIN_FORW' Left='230' Top='9' Width='52' Height='24' ImageLeft='651' ImageTop='477' />
+
+					<Button CmdID='ID_PLAY_SPEED_SLOWER' Left='68' Top='54' Width='70' Height='24' ImageLeft='0' ImageTop='433' />
+					<Button CmdID='ID_PLAY_SPEED_FASTER' Left='140' Top='54' Width='70' Height='24' ImageLeft='289' ImageTop='433' />
+					<Button CmdID='ID_PLAY_SPEED_NORMAL' Left='212' Top='54' Width='70' Height='24' ImageLeft='578' ImageTop='433' />
+
+					<Label CmdID='CMD_REPEAT_START_MESSAGE' ColorX='482' ColorY='181' Left='70' Top='100' Width='45' Height='20' FontName='Arial' FontSize='11' VertAlignment='1' HoriAlignment='1' />
+					<Button CmdID='ID_PLAY_REPEAT_START_SET' Left=120' Top='98' Width='32' Height='24' ImageLeft='0' ImageTop='521' />
+					
+					<Label CmdID='CMD_REPEAT_END_MESSAGE' ColorX='482' ColorY='181' Left='161' Top='100' Width='45' Height='20' FontName='Arial' FontSize='11' VertAlignment='1' HoriAlignment='1' />
+					<Button CmdID='ID_PLAY_REPEAT_STOP_SET' Left=211' Top='98' Width='32' Height='24' ImageLeft='137' ImageTop='521' />
+					<Button CmdID='ID_PLAY_REPEAT_RESET' Left=245' Top='98' Width='36' Height='24' ImageLeft='274' ImageTop='521' />
+
+				</Static>
+
+			</Static>
+		</Control>
+	</ControlBoxSkinArea>
+
+	<PlaylistSkinArea Image='PlayList.png' AlphaMode='1' WidthLimit='220' HeightLimit='150' SelBkgndColorX='483' SelBkgndColorY='54' 
+	  FrameColorX='483' FrameColorY='71' BkgndColor1X='483' BkgndColor1Y='88' BkgndColor2X='483' BkgndColor2Y='88' 	  
+	  CurTextColorX='483' CurTextColorY='121' SelTextColorX='483' SelTextColorY='104' TextColorX='483' TextColorY='138' PlayedTextColorX='483' PlayedTextColorY='154' 
+	  AlbumTabX='5' AlbumTabY='243' AlbumTabW='314' AlbumTabH='26' AlbumTabBtnX='0' AlbumTabBtnY='133' AlbumTabBtnW='70' AlbumTabBtnH='26' AlbumTabBtnMargin='-1'
+	  AlbumTabTextX='483' AlbumTabTextY='186' AlbumTabSelTextX='483' AlbumTabSelTextY='170' 
+	  AlbumTabDelX='289' AlbumTabDelY='143' AlbumTabDelW='7' AlbumTabDelH='6'
+	  AlbumTabLeftX='342' AlbumTabLeftY='48' AlbumTabLeftW='14' AlbumTabLeftH='15'
+	  AlbumTabRightX='398' AlbumTabRightY='48' AlbumTabRightW='15' AlbumTabRightH='15' UseWindowFrame='0' >
+		<Control>
+
+			<Static Align='Top' State='' LeftMargin='100' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageWidth='324' ImageTop='219' ImageHeight='24' Height='24' AltImageLeft='344' AltImageTop='219' UsingRgn='1' >	
+				<Button Tooltip='Close Playlist' CmdID='ID_PLAYLIST_WINDOW' Left='-21' Top='4' Width='17' Height='16' ImageLeft='341' ImageTop='16' />
+				<Button Tooltip='Attach Playlist' CmdID='CMD_ATTACH_PLAYLIST' Left='-37' Top='4' Width='17' Height='16' ImageLeft='415' ImageTop='16' />
+			</Static>
+
+			<Static Align='Bottom' State='' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageWidth='324' ImageTop='469' ImageHeight='5' Height='5' AltImageLeft='344' AltImageTop='469' UsingRgn='1' />
+
+			<Static Align='Left' State='' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='0' ImageWidth='5' ImageTop='243' ImageHeight='226' Width='5' AltImageLeft='344' AltImageTop='242' />
+			<Static Align='Right' State='' LeftMargin='0' RightMargin='0' TopMargin='150' BottomMargin='20' ImageLeft='319' ImageWidth='5' ImageTop='243' ImageHeight='226' Width='5' AltImageLeft='663' AltImageTop='242' />
+
+			<Static Align='Client' Contain='CMD_PLAYLIST_HOLDER' UsingRgn='0'>
+				<Static Align='Bottom' State='' LeftMargin='250' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='5' ImageWidth='314' ImageTop='443' ImageHeight='26' Height='26'>
+					<Button Tooltip='Move Top' CmdID='CMD_PLAYLIST_TOP' Left='5' Top='6' Width='15' Height='15' ImageLeft='266' ImageTop='53' />
+					<Button Tooltip='Move Up' CmdID='CMD_PLAYLIST_UP' Left='23' Top='6' Width='15' Height='15' ImageLeft='266' ImageTop='68' />
+					<Button Tooltip='Move Down' CmdID='CMD_PLAYLIST_DOWN' Left='41' Top='6' Width='15' Height='15' ImageLeft='266' ImageTop='83' />
+					<Button Tooltip='Move End' CmdID='CMD_PLAYLIST_BOTTOM' Left='59' Top='6' Width='15' Height='15' ImageLeft='266' ImageTop='98' />
+
+					<Button CmdID='CMD_PLAYLIST_ADD' Left='-68' Top='4' Width='31' Height='18' ImageLeft='0' ImageTop='53' />
+					<Button CmdID='CMD_PLAYLIST_DEL' Left='-34' Top='4' Width='31' Height='18' ImageLeft='133' ImageTop='53' />
+				</Static>
+				<Static Align='Client' Contain='CMD_PLAY_LIST_ALBUM_TAB' />
+			</Static>
+
+		</Control>
+	</PlaylistSkinArea>	
+
+	<WindowSkinArea Image='Window.png' UseWindowFrame='0'>
+		<Common>
+			<BtnPosition Left='0' Top='52' Width='39' Height='21' />
+			<AltBtnPosition Left='0' Top='52' Width='39' Height='21' />
+			<TabPosition Left='0' Top='93' Width='70' Height='26' Margin=-1 />
+			<AltTabPosition Left='277' Top='672' Width='65' Height='22' />
+			<BtnTextColor Left='180' Top='57' />
+			<TabTextColor Left='301' Top='98' />
+			<WindowType0 Left='0' Top='139' Width='307' Height='147' LeftDrawMargin='12' TopDrawMargin='24' RightDrawMargin='12' BottomDrawMargin='37' AltLeft='317' AltTop='139'
+				BottomMargin='32'
+				LeftSkinMargin='5' TopSkinMargin='24' RightSkinMargin='5' BottomSkinMargin='5' 
+				FontName='Arial' FontSize='9' FontPosLeft='10' FontPosTop='6' FontColorLeft='322' FontColorTop='966' FontColorAltLeft='322' FontColorAltTop='983' />
+			<WindowType1 Left='0' Top='306' Width='307' Height='147' LeftDrawMargin='12' TopDrawMargin='50' RightDrawMargin='12' BottomDrawMargin='37' AltLeft='317' AltTop='306'
+				TopMargin='26' BottomMargin='32'
+				LeftSkinMargin='5' TopSkinMargin='24' RightSkinMargin='5' BottomSkinMargin='5' 
+				FontName='Arial' FontSize='9' FontPosLeft='10' FontPosTop='6' FontColorLeft='322' FontColorTop='966' FontColorAltLeft='322' FontColorAltTop='983' />
+			<WindowType2 Left='0' Top='473' Width='307' Height='147' LeftDrawMargin='12' TopDrawMargin='24' RightDrawMargin='12' BottomDrawMargin='5' 
+				LeftSkinMargin='5' TopSkinMargin='24' RightSkinMargin='5' BottomSkinMargin='5' 
+				FontName='Arial' FontSize='9' FontPosLeft='10' FontPosTop='6' FontColorLeft='322' FontColorTop='966' FontColorAltLeft='322' FontColorAltTop='983' />
+			<CloseBtn Left='219' Top='16' Width='17' Height='16' PosX='-20' PosY='4' />
+			<AboutIcon Left='151' Top='828' Width='73' Height='62' PosX='33' PosY='65' />
+			<AboutQuery Left='244' Top='827' Width='52' Height='14' />
+			<LoginTitle Left='0' Top='639' Width='28' Height='13' />
+			<LoginFindBtn Left='217' Top='790' Width='111' Height='18' />
+			<LoginFindMark Left='0' Top='0' Width='0' Height='0' />
+			<LoginLogo Left='40' Top='670' Width='220' Height='31' />
+			<LoginInfo Left='0' Top='0' Width='0' Height='0' />
+			<LoginError Left='44' Top='757' Width='203' Height='14' />
+			<LoginIp Left='0' Top='713' Width='53' Height='16' />
+			<LoginBtn Left='170' Top='718' Width='56' Height='20' />
+			<LoginNewBtn Left='0' Top='790' Width='52' Height='18' />
+			<LoginNewMark Left='0' Top='0' Width='0' Height='0' />
+			<MessageColorPos Left='180' Top='57' />
+			<MessageHotColorPos Left='305' Top='98' />
+			<MessageIconType0 Left='0' Top='828' Width='33' Height='32' />
+			<MessageIconType1 Left='33' Top='828' Width='33' Height='32' />
+			<MessageIconType2 Left='66' Top='828' Width='33' Height='32' />
+			<MessageIconType3 Left='99' Top='828' Width='33' Height='32' />
+			<MessageGrade15 Left='0' Top='974' Width='65' Height='77' />
+			<MessageGrade18 Left='74' Top='974' Width='65' Height='77' />
+			<MessageGrade19 Left='148' Top='974' Width='65' Height='77' />
+			<MessageGradeNone Left='222' Top='974' Width='65' Height='77' />
+			<AutoUpdateLogo Left='0' Top='910' Width='297' Height='34' PosX='5' PosY='24' />
+		</Common>
+	</WindowSkinArea>

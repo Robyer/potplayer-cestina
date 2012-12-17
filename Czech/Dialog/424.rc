@@ -1,0 +1,10 @@
+424 DIALOGEX 0, 0, 239, 304, 0
+STYLE DS_SETFONT | WS_POPUP
+EXSTYLE = WS_EX_CONTROLPARENT
+FONT 9, "Arial", 0, FALSE
+{
+ PUSHBUTTON "Zkopírovat do schránky (&C)", 3035, 55, 254, 86, 14
+ CONTROL "", 3380, "SysTabControl32", 0, 7, 37, 208, 171
+ PUSHBUTTON "O pøehrávání", 3038, 8, 14, 60, 14
+ PUSHBUTTON "O souboru", 3024, 70, 14, 56, 14
+}
