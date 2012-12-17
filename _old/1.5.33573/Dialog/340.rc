@@ -1,7 +1,0 @@
-340 DIALOGEX 0, 0, 244, 158, 0
-STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
-FONT 9, "Arial", 0, FALSE
-{
- LTEXT "", 3283, 21, 51, 204, 56
- AUTOCHECKBOX "Nezobrazovat tento dialog následující týden", 3280, 19, 115, 147, 10
-}

@@ -1,8 +1,0 @@
-437 DIALOGEX 0, 0, 232, 125, 0
-STYLE DS_SETFONT | WS_POPUP
-FONT 9, "Arial", 0, FALSE
-{
- LTEXT "Aktuálnì pøehrávaný obsah je chránìn copyrightem, je potøeba nainstalovat certifikaèní program. Stáhnìte a nainstalujte jej.", 3382, 53, 26, 154, 30
- PUSHBUTTON "Stáhnout", 3021, 65, 62, 121, 13
- CTEXT "Restartovat PotPlayer po instalaci.", 3383, 43, 85, 157, 17
-}
