@@ -359,14 +359,26 @@
    }
    POPUP "Pixel Shader\tS"
    {
-    MENUITEM "Upravit...", 10287
-    MENUITEM "Otevøít složku", 10288
-    MENUITEM "Obnovit", 10289
-    MENUITEM "Pøepnout-Pixel Shader", 10290
-    MENUITEM "Zpracovat shader po zmìnì velikosti", 10444
+    MENUITEM "Použít Pre-Resize Pixel Shaders\tShift+P", 10290
+    POPUP "Pre-Resize Pixel Shaders"
+    {
+     MENUITEM "Nepoužívat", 7500
+     MENUITEM "Kombinace", 7501
+     MENUITEM SEPARATOR
+     MENUITEM "Úprava kombinace...", 10287
+    }
     MENUITEM SEPARATOR
-    MENUITEM "Nepoužívat", 7500
-    MENUITEM "Zásobník", 7501
+    MENUITEM "Použít Post-Resize Pixel Shaders\tCtrl+Alt+P", 10654
+    POPUP "Post-Resize Pixel Shaders"
+    {
+     MENUITEM "Nepoužívat", 9800
+     MENUITEM "Kombinace", 9801
+     MENUITEM SEPARATOR
+     MENUITEM "Úprava kombinace...", 10655
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "Obnovit seznam", 10289
+    MENUITEM "Otevøít složku", 10288
    }
    POPUP "Filtry zpracování videa"
    {
@@ -572,6 +584,7 @@
     MENUITEM "Ozvìna \tShift+R", 10096
     MENUITEM "Filtr hlasu \tShift+V", 10438
     MENUITEM "Audio filtry \tShift+A", 10439
+	MENUITEM "Prohodit stereo kanály\tShift+T", 10660
    }
    POPUP "Zachytávání audia"
    {
@@ -589,10 +602,15 @@
   POPUP "Vzhled"
   {
    MENUITEM SEPARATOR
-   POPUP "Logo"
+   POPUP "Logo (pøi zastaveném pøehrávání)"
    {
     MENUITEM SEPARATOR
-    MENUITEM "Správa loga...", 10440
+	MENUITEM "Nastavení loga...", 10440
+   }
+   POPUP "Logo (pøi spuštìném pøehrávání)"
+   {
+    MENUITEM SEPARATOR
+    MENUITEM "Nastavení loga...", 10440
    }
    POPUP "Barevné témata"
    {
@@ -745,7 +763,8 @@
    MENUITEM "1.5x\t3", 10234
    MENUITEM "2.0x\t4", 10235
    MENUITEM "Maximalizovat\t5", 10236
-   MENUITEM "Vlastní...\t0", 10404
+   MENUITEM "Vlastní\t9", 10664
+   MENUITEM "Nastavit vlastní...\t0", 10404
    MENUITEM SEPARATOR
    MENUITEM "Maximalizovat/Obnovit\t6", 10237
    MENUITEM "Maximalizovat +/Obnovit\t7", 10238

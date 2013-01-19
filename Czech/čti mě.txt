@@ -1,6 +1,6 @@
-PotPlayer CZ v1.1
+PotPlayer CZ v1.2
 -----------------
-Tato èeština je urèená pro verzi PotPlayer 1.5.34665. Mùže ale NEMUSÍ však fungovat i pro lehce odlišné verze programu!
+Tato èeština je urèená pro verzi PotPlayer 1.5.35238. Mùže ale NEMUSÍ však fungovat i pro lehce odlišné verze programu!
 
 Pøeložené je témìø vše:
  - Vestavìný vzhled pøehrávaèe
@@ -9,13 +9,13 @@ Pøeložené je témìø vše:
  - Zprávy (OSD) pøi pøehrávání
  - Další dialogová okna
 
-Autor pøekladu se zøíká veškeré odpovìdnosti za tento (neoficiální) pøeklad. Èeštinu používáte na vlastní riziko.
+Autor pøekladu se zøíká veškeré odpovìdnosti za použití tohoto (neoficiálního) pøekladu. Èeštinu používáte na vlastní riziko.
 
 Instalace
 ---------
 Soubor PotPlayer.dll (resp. PotPlayer64.dll pro 64 bit verzi) zkopírujete do složky, kde máte nainstalovaný PotPlayer (ve výchozím stavu C:\Program Files\Daum\PotPlayer) a pøepište starší soubor. Doporuèuji udìlat si ještì pøedtím zálohu. Po spuštìní programu již bude plnì èesky.
 
-Pro zmìnu vzhledu na poèeštìný vestavìný kliknìte pravým tlaèítkem do okna PotPlayeru, zvolte Vzhled / [Vestavìný vzhled].
+Pro zmìnu vzhledu na poèeštìný vestavìný kliknìte pravým tlaèítkem do okna PotPlayeru, zvolte Vzhled / [Vestavìný vzhled] a ve stejné nabídce zvolte Vzhled / Logo / [Výchozí logo vzhledu]
 
 Kontakt
 -------
@@ -26,6 +26,10 @@ Více informací a možností kontaktování (skrz Jabber/ICQ/...) naleznete na webu.
 
 Historie verzí
 --------------
+v1.2 - 18.1.2012
+- aktualizace na verzi 1.5.35238
+- drobné zmìny
+
 v1.1 - 16.12.2012
 - aktualizace na verzi 1.5.34665
 - opravy nìkolika pøeklepù a nevhodných øetìzcù

@@ -23,8 +23,8 @@
    MENUITEM "16:10", 10019
    MENUITEM "1.85:1", 10020
    MENUITEM "2.35:1", 10021
-   MENUITEM "User defined (%s)", 10022
-   MENUITEM "Manage User Defined...", 10364
+   MENUITEM "Custom (%s)", 10022
+   MENUITEM "Custom Aspect Ratio setting...", 10364
   }
   MENUITEM "Full screen\tEnter ", 10013
   MENUITEM SEPARATOR

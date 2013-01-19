@@ -1,4 +1,4 @@
-441 DIALOGEX 0, 0, 282, 98, 0
+441 DIALOGEX 0, 0, 282, 105, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
@@ -9,7 +9,8 @@ FONT 9, "Arial", 0, FALSE
  EDITTEXT 3111, 81, 29, 37, 12, ES_RIGHT | ES_AUTOHSCROLL
  CONTROL "", 3250, "msctls_updown32", 0x000000B6, 105, 32, 10, 12
  AUTOCHECKBOX "Zachovat synch. pøi pøehrávání dalšího souboru", 3380, 122, 31, 151, 10
- GROUPBOX "Ostatní", 3402, 5, 51, 273, 36
- AUTOCHECKBOX "Odstranit hlasy", 3378, 15, 62, 68, 10
- AUTOCHECKBOX "Zvýraznit hlasy", 3379, 15, 73, 68, 10
+ GROUPBOX "Ostatní", 3402, 5, 51, 273, 47
+ AUTOCHECKBOX "Odstranit hlasy", 3378, 15, 62, 115, 10
+ AUTOCHECKBOX "Zvýraznit hlasy", 3379, 15, 73, 115, 10
+ AUTOCHECKBOX "Prohodit stereo kanály", 3381, 15, 83, 115, 10
 }

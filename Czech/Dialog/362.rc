@@ -6,7 +6,7 @@ FONT 9, "Arial", 0, FALSE
  LTEXT "Žádné zpracování videa nebude fungovat bez vestavìného filtru PotPlayeru. Vypnìte jej pro vysoké rozlišení.", 3194, 12, 15, 251, 22
  RTEXT "Podmínka:", 3208, 17, 42, 44, 8
  COMBOBOX 3005, 65, 40, 207, 30, CBS_DROPDOWNLIST | WS_VSCROLL
- AUTOCHECKBOX "Fourcc", 3041, 12, 59, 95, 10, BS_TOP | BS_MULTILINE
+ AUTOCHECKBOX "FourCC", 3041, 12, 59, 95, 10, BS_TOP | BS_MULTILINE
  EDITTEXT 3069, 118, 58, 153, 12, ES_AUTOHSCROLL
  AUTOCHECKBOX "Pøípona", 3042, 12, 75, 95, 10, BS_TOP | BS_MULTILINE
  EDITTEXT 3070, 118, 74, 153, 12, ES_AUTOHSCROLL

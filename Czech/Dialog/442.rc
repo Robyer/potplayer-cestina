@@ -1,4 +1,4 @@
-442 DIALOGEX 0, 0, 284, 115, 0
+442 DIALOGEX 0, 0, 284, 109, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
@@ -13,8 +13,10 @@ FONT 9, "Arial", 0, FALSE
  CONTROL "", 3250, "msctls_updown32", 0x000000B6, 97, 69, 10, 12
  LTEXT "sek.", 3312, 115, 66, 16, 8
  AUTOCHECKBOX "Zachovat synch. pøi pøehrávání dalšího souboru", 3380, 134, 65, 136, 10
- RTEXT "Interval zobrazení:", 3319, 9, 83, 66, 8
- EDITTEXT 3115, 77, 81, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3253, "msctls_updown32", 0x000000B6, 100, 86, 10, 12
- LTEXT "sek.", 3320, 115, 83, 16, 8
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 79, 265, 1
+ RTEXT "Doba zobrazení:", 3319, 9, 85, 66, 8
+ EDITTEXT 3115, 77, 83, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3253, "msctls_updown32", 0x000000B6, 100, 88, 10, 12
+ LTEXT "sek.", 3320, 115, 85, 16, 8
+ AUTOCHECKBOX "Použít pouze pokud je další titulek prázdný", 3381, 134, 83, 144, 10
 }

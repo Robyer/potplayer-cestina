@@ -359,14 +359,26 @@
    }
    POPUP "Pixel Shader\tS"
    {
-    MENUITEM "Edit...", 10287
-    MENUITEM "Open Folder", 10288
-    MENUITEM "Refresh", 10289
-    MENUITEM "Toggle shader", 10290
-    MENUITEM "Process shader after resizing", 10444
+    MENUITEM "Use Pre-Resize Pixel Shaders\tShift+P", 10290
+    POPUP "Pre-Resize Pixel Shaders"
+    {
+     MENUITEM "Do not use", 7500
+     MENUITEM "Stack", 7501
+     MENUITEM SEPARATOR
+     MENUITEM "Shader Stacker...", 10287
+    }
     MENUITEM SEPARATOR
-    MENUITEM "Do not use", 7500
-    MENUITEM "Stack", 7501
+    MENUITEM "Use Post-Resize Pixel Shaders\tCtrl+Alt+P", 10654
+    POPUP "Post-Resize Pixel Shaders"
+    {
+     MENUITEM "Do not use", 9800
+     MENUITEM "Stack", 9801
+     MENUITEM SEPARATOR
+     MENUITEM "Shader Stacker...", 10655
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "Reload Pixel Shader list", 10289
+    MENUITEM "Open Pixel Shader folder", 10288
    }
    POPUP "Video Processing Filters"
    {
@@ -572,6 +584,7 @@
     MENUITEM "Reverb\tShift+R", 10096
     MENUITEM "Voice Filter \tShift+V", 10438
     MENUITEM "Audio Filters \tShift+A", 10439
+    MENUITEM "Swap Stereo Channels\tShift+T", 10660
    }
    POPUP "Audio Capture"
    {
@@ -589,10 +602,15 @@
   POPUP "Skins"
   {
    MENUITEM SEPARATOR
-   POPUP "Logo"
+   POPUP "Logo (while playback is off)"
    {
     MENUITEM SEPARATOR
-    MENUITEM "Manage Logo...", 10440
+    MENUITEM "Logo settings...", 10440
+   }
+   POPUP "Logo (while starting playback)"
+   {
+    MENUITEM SEPARATOR
+    MENUITEM "Logo settings...", 10440
    }
    POPUP "Color Themes"
    {
@@ -683,8 +701,8 @@
    MENUITEM "16:10", 10019
    MENUITEM "1.85:1", 10020
    MENUITEM "2.35:1", 10021
-   MENUITEM "User Defined (%s)", 10022
-   MENUITEM "Manage User Defined...", 10364
+   MENUITEM "Custom (%s)", 10022
+   MENUITEM "Custom Aspect Ratio setting...", 10364
    MENUITEM SEPARATOR
    POPUP "Output"
    {
@@ -745,7 +763,8 @@
    MENUITEM "1.5 X\t3", 10234
    MENUITEM "2.0 X\t4", 10235
    MENUITEM "Maximize\t5", 10236
-   MENUITEM "Custom...\t0", 10404
+   MENUITEM "Custom\t9", 10664
+   MENUITEM "Custom Window Size setting.....\t0", 10404
    MENUITEM SEPARATOR
    MENUITEM "Maximize/Restore\t6", 10237
    MENUITEM "Maximize +/Restore\t7", 10238
