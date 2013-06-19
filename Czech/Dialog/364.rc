@@ -25,6 +25,6 @@ FONT 9, "Arial", 0, FALSE
  PUSHBUTTON "Výchozí", 3027, 229, 62, 43, 12
  PUSHBUTTON "Výchozí", 3029, 229, 78, 43, 12
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 95, 268, 2
- AUTOCHECKBOX "Pøesun dle klíèových snímkù", 3034, 19, 102, 256, 10
- LTEXT "Pøesný èasový posun mùže zabránit rychlému hledání.", 3204, 30, 114, 242, 9
+ AUTOCHECKBOX "Pøesouvat na klíèové snímky", 3034, 19, 102, 256, 10
+ LTEXT "Pøesun na pøesný èas mùže být pomalý.", 3204, 30, 114, 242, 9
 }

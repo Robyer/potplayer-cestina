@@ -1,8 +1,8 @@
-358 DIALOGEX 0, 0, 284, 221, 0
+358 DIALOGEX 0, 0, 284, 225, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Playback Settings", 3285, 5, 3, 273, 144
+ GROUPBOX "Playback Settings", 3285, 5, 3, 273, 157
  RTEXT "Screen size:", 3286, 11, 15, 59, 8
  COMBOBOX 3005, 72, 13, 110, 77, CBS_DROPDOWNLIST | WS_VSCROLL
  EDITTEXT 3273, 186, 13, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
@@ -21,16 +21,18 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Prevent Screen Saver", 3083, 11, 94, 129, 10
  AUTOCHECKBOX "Hide mouse cursor during playback", 3089, 145, 94, 127, 10
  AUTOCHECKBOX "Open a file using thread to fix freeze", 3094, 11, 104, 129, 10
- AUTOCHECKBOX "Auto call an external audio", 3110, 145, 104, 127, 10
+ AUTOCHECKBOX "Auto load external audio files", 3110, 145, 104, 127, 10
  AUTOCHECKBOX "Play from the latest point", 3061, 11, 114, 129, 10
  AUTOCHECKBOX "Shuffle Play", 3113, 145, 115, 127, 10
  AUTOCHECKBOX "Display timeinfo on tooltip", 3062, 11, 125, 129, 10
- AUTOCHECKBOX "Show bookmarks on navigation bar", 3063, 145, 125, 127, 10
- AUTOCHECKBOX "Play the next item when failed to play", 3064, 11, 135, 133, 10
- GROUPBOX "Full screen settings", 3288, 5, 151, 272, 54
- RTEXT "Display:", 3289, 8, 162, 62, 8
- COMBOBOX 3008, 72, 160, 201, 205, CBS_DROPDOWNLIST | WS_VSCROLL
- AUTOCHECKBOX "View full screen in a separate window", 3101, 72, 175, 201, 10
- COMBOBOX 3010, 72, 188, 201, 206, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Resolution.:", 3290, 11, 190, 59, 8
+ AUTOCHECKBOX "Display bookmarks/chapter on nav.bar", 3063, 145, 125, 132, 10
+ AUTOCHECKBOX "Display thumbnail previews on nav.bar", 3066, 11, 135, 134, 10
+ AUTOCHECKBOX "Play the next item when failed to play", 3064, 11, 145, 133, 10
+ AUTOCHECKBOX "Auto toggle play/pause", 3065, 145, 135, 132, 10
+ GROUPBOX "When on fullscreen mode", 3288, 5, 161, 272, 54
+ RTEXT "Monitor:", 3289, 8, 172, 62, 8
+ COMBOBOX 3008, 72, 170, 201, 205, CBS_DROPDOWNLIST | WS_VSCROLL
+ AUTOCHECKBOX "Split video image", 3101, 72, 185, 201, 10
+ COMBOBOX 3010, 72, 198, 201, 206, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Resolution:", 3290, 11, 200, 59, 8
 }

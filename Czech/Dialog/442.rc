@@ -18,5 +18,5 @@ FONT 9, "Arial", 0, FALSE
  EDITTEXT 3115, 77, 83, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
  CONTROL "", 3253, "msctls_updown32", 0x000000B6, 100, 88, 10, 12
  LTEXT "sek.", 3320, 115, 85, 16, 8
- AUTOCHECKBOX "Použít pouze pokud je další titulek prázdný", 3381, 134, 83, 144, 10
+ AUTOCHECKBOX "Použít pouze pokud je následující titulek prázdný", 3381, 134, 83, 144, 10
 }

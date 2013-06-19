@@ -1,4 +1,4 @@
-422 DIALOGEX 0, 0, 239, 148, 0
+422 DIALOGEX 0, 0, 239, 174, 0
 STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
 FONT 9, "Arial", 0, FALSE
 {
@@ -10,6 +10,9 @@ FONT 9, "Arial", 0, FALSE
  PUSHBUTTON "Default", 3021, 175, 35, 44, 14
  CONTROL "", 3199, "STATIC", SS_ETCHEDHORZ, 18, 53, 205, 1
  AUTOCHECKBOX "Multiple audio output", 3035, 22, 57, 197, 10, BS_MULTILINE
- GROUPBOX "MPEG 1/PS/TS", 3287, 14, 79, 211, 38
+ GROUPBOX "MPEG 1/PS/TS", 3287, 14, 79, 211, 69
  AUTOCHECKBOX "H264 to AVC1 (You may use DXVA with VMR9 Renderless mode when using Cyberlink AVC Decoder)", 3034, 22, 90, 193, 22, BS_MULTILINE
+ AUTOCHECKBOX "Process all PTS media stream time", 3036, 22, 110, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Process TrueHD + AC3 stream as TrueHD", 3037, 22, 121, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Use fast seek (on VBR (variable bit-rate) encoded files)", 3038, 22, 132, 193, 9, BS_MULTILINE
 }

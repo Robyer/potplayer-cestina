@@ -1,8 +1,10 @@
-430 DIALOGEX 0, 0, 205, 84, 0
+430 DIALOGEX 0, 0, 205, 113, 0
 STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
 FONT 9, "Arial", 0, FALSE
 {
- RTEXT "Time:", 3285, 14, 31, 46, 8
- CONTROL "", 3407, "SysDateTimePick32", WS_TABSTOP | 0x00000029, 66, 30, 100, 11
- AUTOCHECKBOX "If the system shutdown time", 3034, 67, 46, 119, 10
+ RTEXT "Time:", 3285, 21, 40, 39, 8
+ CONTROL "", 3407, "SysDateTimePick32", WS_TABSTOP | 0x00000029, 66, 39, 100, 11
+ AUTOCHECKBOX "Enable task", 3034, 66, 57, 112, 10
+ GROUPBOX "Task Settings", 3381, 18, 26, 170, 58, 0, WS_EX_TRANSPARENT
+ AUTOCHECKBOX "Sleep mode (instead of shutdown)", 3035, 66, 68, 120, 10
 }

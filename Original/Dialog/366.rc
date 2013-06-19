@@ -3,7 +3,7 @@ STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Mouse Settings", 3381, 5, 3, 273, 162
- AUTOCHECKBOX "Only active in the video area.", 3034, 14, 15, 256, 10
+ AUTOCHECKBOX "Operate in the video area only", 3034, 14, 15, 256, 10
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 7, 29, 269, 1
  RTEXT "Left button - single click:", 3382, 14, 36, 119, 8
  COMBOBOX 3003, 137, 34, 135, 83, CBS_DROPDOWNLIST | WS_VSCROLL

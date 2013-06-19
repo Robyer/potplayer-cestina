@@ -2,10 +2,11 @@
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Pøekrytí obrazu", 3383, 5, 3, 273, 89
+ GROUPBOX "Ovládání na obrazovce", 3383, 5, 3, 273, 103
  RTEXT "Metoda:", 3292, 11, 17, 65, 8
  COMBOBOX 3005, 81, 16, 189, 77, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Prùhlednost (%d%%):", 3285, 11, 34, 65, 8
- CONTROL "", 3043, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 79, 34, 189, 11
- LTEXT "", 3291, 10, 54, 261, 33
+ AUTOCHECKBOX "Vypnout automatické skrývání ovládání pøi najetí myší", 3034, 83, 33, 185, 10
+ RTEXT "Prùhlednost (%d%%):", 3285, 7, 45, 75, 8
+ CONTROL "", 3043, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 79, 45, 189, 11
+ LTEXT "", 3291, 7, 60, 265, 33
 }

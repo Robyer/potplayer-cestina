@@ -3,17 +3,17 @@ STYLE DS_SETFONT | WS_POPUP
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Settings", 3383, 14, 22, 258, 30
- RTEXT "Use device:", 3210, 22, 35, 51, 8
+ RTEXT "Device:", 3210, 22, 35, 51, 8
  COMBOBOX 3008, 77, 33, 190, 30, CBS_DROPDOWNLIST | WS_VSCROLL
  GROUPBOX "DirectSound Settings", 3384, 14, 55, 258, 73
  RTEXT "Device:", 3209, 18, 69, 42, 8
  COMBOBOX 3007, 62, 67, 205, 30, CBS_DROPDOWNLIST | WS_VSCROLL
  AUTOCHECKBOX "Enable Cross fade", 3034, 22, 84, 202, 10
- RTEXT "Play stop / search fade time:", 3212, 21, 98, 109, 8
+ RTEXT "Play/stop/navigation fading time:", 3212, 21, 98, 109, 8
  EDITTEXT 3082, 135, 96, 44, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3249, "msctls_updown32", 0x000000B6, 169, 104, 10, 12
  LTEXT "ms", 3213, 182, 98, 27, 8
- RTEXT "Play start / end fade time:", 3214, 21, 112, 109, 8
+ RTEXT "Playback start/end fading time:", 3214, 21, 112, 109, 8
  EDITTEXT 3083, 135, 111, 44, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3250, "msctls_updown32", 0x000000B6, 169, 119, 10, 12
  LTEXT "ms", 3215, 182, 112, 27, 8

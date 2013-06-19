@@ -19,7 +19,7 @@ FONT 9, "Arial", 0, FALSE
  LTEXT "", 3383, 53, 70, 51, 8
  RTEXT "Aktuální FPS:", 3292, 104, 70, 42, 8
  LTEXT "", 3201, 147, 70, 69, 8
- RTEXT "Bitový tok:", 3301, 14, 82, 38, 8
+ RTEXT "Datový tok:", 3301, 14, 82, 38, 8
  LTEXT "", 3386, 53, 82, 163, 8
  GROUPBOX "Informace o audiu", 3293, 7, 99, 210, 64
  RTEXT "Dekodér:", 3294, 15, 110, 37, 8
@@ -34,6 +34,6 @@ FONT 9, "Arial", 0, FALSE
  LTEXT "", 3185, 155, 135, 60, 8
  GROUPBOX "Detaily", 3298, 7, 166, 210, 77
  EDITTEXT 3069, 12, 176, 199, 62, ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
- RTEXT "Bitový tok:", 3302, 119, 148, 35, 8
+ RTEXT "Datový tok:", 3302, 119, 148, 35, 8
  LTEXT "", 3388, 155, 148, 60, 8
 }

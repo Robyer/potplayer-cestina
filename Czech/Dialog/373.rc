@@ -14,12 +14,12 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Nastavení playlistu", 3295, 5, 49, 273, 48
  AUTOCHECKBOX "Uloit playlist automaticky", 3097, 11, 60, 119, 10
  AUTOCHECKBOX "Nepøidávat duplicitní soubory", 3124, 135, 60, 137, 10
- AUTOCHECKBOX "Sledovat pøehrávanou sloku", 3115, 11, 72, 119, 10
- AUTOCHECKBOX "Øadit dle sloky", 3129, 135, 72, 137, 10
+ AUTOCHECKBOX "Automaticky pøidat podobné soubory z pøehrávané sloky", 3115, 11, 72, 120, 10
+ AUTOCHECKBOX "Øadit poloky v playlistu dle sloky", 3129, 135, 72, 137, 10
  AUTOCHECKBOX "Zapamatovat pozici pøehrávání", 3116, 11, 83, 119, 10
- AUTOCHECKBOX "Získat èas pøehrávání", 3117, 135, 83, 137, 10
+ AUTOCHECKBOX "Automaticky zjišovat délku pøehrávání", 3117, 135, 83, 137, 10
  GROUPBOX "Klávesové zkratky", 3381, 5, 101, 273, 131
- LTEXT "Mùete pøidat vlastní klávesové zkratky. Vámi definované klávesové zkratky budou upøednostnìny pøed vıchozími.", 3383, 10, 112, 262, 19
+ LTEXT "Mùete nastavit vlastní klávesové zkratky pro vyvolání jakékoliv funkce programu. Vámi definované klávesové zkratky budou upøednostnìny pøed vıchozími.", 3383, 10, 112, 262, 19
  CONTROL "", 3242, "SysListView32", WS_BORDER | WS_TABSTOP | 0x0000880D, 9, 135, 264, 75
  PUSHBUTTON "Pøidat...", 3330, 164, 214, 35, 12
  PUSHBUTTON "Smazat", 3024, 201, 214, 35, 12

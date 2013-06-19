@@ -2,17 +2,17 @@
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Zprávy pøehrávání", 3191, 5, 3, 273, 91, 0, WS_EX_TRANSPARENT
- AUTOCHECKBOX "Zobrazovat zprávy", 3057, 11, 13, 123, 10
+ GROUPBOX "Obecné nastavení informací", 3191, 5, 3, 273, 91, 0, WS_EX_TRANSPARENT
+ AUTOCHECKBOX "Zobrazovat obecné informaèní zprávy", 3057, 11, 13, 123, 10
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 7, 26, 269, 1
  PUSHBUTTON "Písmo", 3021, 11, 32, 119, 13
- RTEXT "Velikost písma:", 3287, 133, 34, 49, 8
- EDITTEXT 3088, 185, 31, 38, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3262, "msctls_updown32", 0x000000B6, 218, 34, 10, 14
- RTEXT "Barva:", 3291, 228, 33, 31, 8
+ RTEXT "Velikost písma:", 3287, 131, 34, 40, 8
+ EDITTEXT 3088, 175, 31, 38, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3262, "msctls_updown32", 0x000000B6, 208, 34, 10, 14
+ RTEXT "Barva písma:", 3291, 216, 33, 39, 8
  CONTROL "", 3213, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 261, 31, 12, 12, WS_EX_DLGMODALFRAME
- AUTOCHECKBOX "Automatická velikost", 3040, 142, 45, 80, 10
- RTEXT "Obrys:", 3295, 228, 49, 31, 8
+ AUTOCHECKBOX "Automatická velikost písma", 3040, 142, 45, 56, 10
+ RTEXT "Barva obrysu:", 3295, 212, 46, 43, 8
  CONTROL "", 3214, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 261, 46, 12, 12, WS_EX_DLGMODALFRAME
  RTEXT "Horizontální:", 3292, 9, 49, 43, 8
  COMBOBOX 3013, 55, 48, 75, 30, CBS_DROPDOWNLIST | WS_VSCROLL
@@ -25,13 +25,22 @@ FONT 9, "Arial", 0, FALSE
  RTEXT "Horní okraj:", 3289, 133, 77, 49, 8
  EDITTEXT 3099, 185, 75, 38, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3264, "msctls_updown32", 0x000000B6, 222, 79, 10, 14
- GROUPBOX "Nastavení vlastní zprávy", 3194, 5, 97, 273, 62, 0, WS_EX_TRANSPARENT
- AUTOCHECKBOX "Zobrazovat zprávy v pøekryvné ploše/VMR povrchu", 3061, 11, 106, 155, 10
- CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 7, 120, 269, 1
- RTEXT "Metoda:", 3293, 9, 127, 43, 8
- COMBOBOX 3016, 55, 125, 119, 30, CBS_DROPDOWNLIST | WS_VSCROLL
- AUTOCHECKBOX "Zobrazit %", 3052, 178, 126, 60, 10
- RTEXT "Formát èasu:", 3294, 9, 142, 43, 8
- COMBOBOX 3003, 55, 140, 119, 30, CBS_DROPDOWN | WS_VSCROLL
- AUTOCHECKBOX "Zobrazit název", 3044, 178, 141, 96, 10
+ GROUPBOX "Nastavení informací o èase (Scroll Lock)", 3194, 5, 97, 273, 87, 0, WS_EX_TRANSPARENT
+ AUTOCHECKBOX "Zobrazovat informace o èase", 3061, 12, 107, 162, 10
+ AUTOCHECKBOX "Zobrazit pouze v režimu na celé obrazovce", 3047, 21, 118, 121, 10
+ COMBOBOX 3016, 64, 136, 120, 30, CBS_DROPDOWNLIST | WS_VSCROLL
+ AUTOCHECKBOX "Zobrazit znaèku \"%\"", 3052, 189, 137, 84, 10
+ AUTOCHECKBOX "Zobrazit název souboru", 3044, 65, 169, 83, 10
+ COMBOBOX 3003, 64, 153, 120, 30, CBS_DROPDOWN | WS_VSCROLL
+ AUTOCHECKBOX "Zobrazit pouze v režimu na celé obrazovce", 3045, 189, 154, 89, 10
+ RTEXT "Trvání:", 3293, 11, 138, 50, 8
+ RTEXT "Èas:", 3294, 11, 155, 50, 8
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 7, 131, 269, 1
+ AUTOCHECKBOX "Zobrazit stav napájení", 3046, 152, 169, 83, 10
+ GROUPBOX "Krátké informaèní zprávy (Shift+Tab)", 3195, 5, 187, 273, 37, 0, WS_EX_TRANSPARENT
+ AUTOCHECKBOX "Zobrazit název souboru", 3048, 12, 198, 83, 10
+ AUTOCHECKBOX "Zobrazit název titulkù", 3049, 101, 198, 85, 10
+ AUTOCHECKBOX "Zobrazit èas pøehrávání", 3050, 188, 198, 83, 10
+ AUTOCHECKBOX "Zobrazit znaèku kapitoly", 3051, 12, 209, 83, 10
+ AUTOCHECKBOX "Zobrazit informace o kodeku", 3053, 101, 209, 83, 10
 }

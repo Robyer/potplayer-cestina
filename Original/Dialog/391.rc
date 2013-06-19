@@ -1,11 +1,12 @@
-391 DIALOGEX 0, 0, 242, 224, 0
+391 DIALOGEX 0, 0, 242, 251, 0
 STYLE DS_SETFONT | WS_POPUP
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Shortcuts", 3381, 12, 21, 217, 171
- AUTOCHECKBOX "Focus of any window (global) may control", 3034, 17, 31, 208, 10
- RTEXT "Shortcuts:", 3382, 17, 45, 38, 8
+ GROUPBOX "Hotkey", 3381, 12, 20, 217, 221
+ AUTOCHECKBOX "Global hotkey (The key can be used from any environment)", 3034, 17, 31, 208, 10
+ RTEXT "Hotkey:", 3382, 17, 45, 38, 8
  CONTROL "", 3317, "msctls_hotkey32", WS_BORDER | WS_TABSTOP, 57, 43, 89, 13
  COMBOBOX 3003, 149, 43, 75, 71, CBS_DROPDOWNLIST | WS_VSCROLL
- CONTROL "", 3315, "SysTreeView32", WS_BORDER | WS_HSCROLL | WS_TABSTOP | 0x00000027, 17, 60, 206, 127
+ LTEXT "", 3383, 17, 59, 205, 16
+ CONTROL "", 3315, "SysTreeView32", WS_BORDER | WS_HSCROLL | WS_TABSTOP | 0x00000227, 17, 77, 206, 139
 }

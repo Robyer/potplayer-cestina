@@ -1,19 +1,22 @@
-428 DIALOGEX 0, 0, 284, 151, 0
+428 DIALOGEX 0, 0, 284, 179, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Screen Capture Settings", 3285, 5, 3, 273, 73
+ GROUPBOX "Screen Capture Settings", 3285, 5, 3, 273, 90
  AUTOCHECKBOX "Capture mouse cursor", 3078, 13, 13, 154, 10
  AUTOCHECKBOX "Skip preview broadcast content", 3040, 13, 24, 154, 10
  AUTOCHECKBOX "Always capture window contents", 3083, 13, 35, 154, 10
  AUTOCHECKBOX "Capture translucent windows.", 3084, 13, 46, 154, 10
- PUSHBUTTON "Settings...", 3042, 9, 58, 53, 13
- PUSHBUTTON "Show Camera 1", 3063, 68, 58, 57, 13, WS_DISABLED
- PUSHBUTTON "Show Camera 2", 3068, 127, 58, 57, 13, WS_DISABLED
- GROUPBOX "Audio capture device", 3287, 5, 80, 273, 54, 0, WS_EX_TRANSPARENT
- RTEXT "Device:", 3288, 10, 91, 24, 8
- COMBOBOX 3046, 37, 90, 234, 137, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Input:", 3289, 10, 107, 24, 8
- COMBOBOX 3051, 37, 105, 234, 146, CBS_DROPDOWNLIST | WS_VSCROLL
- AUTOCHECKBOX "I want to hear the connection", 3034, 37, 120, 235, 10
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 58, 269, 1
+ PUSHBUTTON "Show Camera 1", 3063, 12, 62, 71, 13
+ PUSHBUTTON "Show Camera 2", 3068, 87, 62, 71, 13
+ PUSHBUTTON "Set Size of Camera 1", 3064, 12, 76, 71, 13
+ PUSHBUTTON "Set Size of Camera 2", 3069, 87, 76, 71, 13
+ PUSHBUTTON "Settings...", 3042, 214, 76, 58, 13
+ GROUPBOX "Audio capture device", 3287, 5, 95, 273, 54, 0, WS_EX_TRANSPARENT
+ RTEXT "Device:", 3288, 10, 106, 24, 8
+ COMBOBOX 3046, 37, 105, 234, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Input:", 3289, 10, 122, 24, 8
+ COMBOBOX 3051, 37, 120, 234, 146, CBS_DROPDOWNLIST | WS_VSCROLL
+ AUTOCHECKBOX "I want to hear the connection", 3034, 37, 135, 235, 10
 }

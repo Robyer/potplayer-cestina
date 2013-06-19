@@ -1,4 +1,4 @@
-357 DIALOGEX 0, 0, 282, 209, 0
+357 DIALOGEX 0, 0, 282, 171, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
@@ -21,9 +21,4 @@ FONT 9, "Arial", 0, FALSE
  EDITTEXT 3077, 64, 130, 77, 12, ES_AUTOHSCROLL
  RTEXT "Password:", 3294, 147, 131, 39, 8
  EDITTEXT 3085, 188, 130, 81, 12, ES_PASSWORD | ES_AUTOHSCROLL
- GROUPBOX "Temporary storage folder", 3295, 5, 152, 273, 46
- LTEXT "PotPlayer will be stored the image into this folder temporary while watching TV", 3296, 11, 164, 260, 10
- RTEXT "Directory:", 3297, 8, 181, 58, 8
- EDITTEXT 3070, 69, 179, 186, 12, ES_AUTOHSCROLL
- PUSHBUTTON "...", 3021, 258, 179, 15, 11
 }

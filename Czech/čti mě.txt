@@ -1,8 +1,8 @@
-PotPlayer CZ v1.3
+PotPlayer CZ v1.4
 -----------------
-Tato èeština je urèená pro verzi PotPlayer 1.5.35491. Mùže ale NEMUSÍ však fungovat i pro lehce odlišné verze programu!
+Tato èeština je urèená pro verzi PotPlayer 1.5.35776. Mùže ale NEMUSÍ však fungovat i pro lehce odlišné verze programu!
 
-Pøeložené je témìø vše:
+Pøeložené je prakticky vše:
  - Vestavìný vzhled pøehrávaèe
  - Nabídky menu
  - Nastavení programu
@@ -22,14 +22,18 @@ Kontakt
 Web: http://www.robyer.cz
 E-mail: robyer@seznam.cz
 
-Více informací a možností kontaktování (skrz Jabber/ICQ/...) naleznete na webu.
+Více informací a možností mého kontaktování (Jabber/ICQ/...) naleznete na webu.
 
 Historie verzí
 --------------
-v1.3 - 18.2.2012
+v1.4 - 19.6.2013
+- aktualizace na verzi 1.5.35776
+- drobné zmìny a opravy
+
+v1.3 - 18.2.2013
 - aktualizace na verzi 1.5.35491
 
-v1.2 - 18.1.2012
+v1.2 - 18.1.2013
 - aktualizace na verzi 1.5.35238
 - drobné zmìny
 

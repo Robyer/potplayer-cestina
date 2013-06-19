@@ -1,8 +1,8 @@
-353 DIALOGEX 0, 0, 284, 213, 0
+353 DIALOGEX 0, 0, 284, 223, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Nastavení titulkù", 3285, 5, 3, 273, 123
+ GROUPBOX "Nastavení titulkù", 3285, 5, 3, 273, 133
  RTEXT "Výstup titulkù:", 3314, 11, 15, 74, 8
  COMBOBOX 3003, 88, 13, 185, 91, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "Renderování fontu:", 3316, 11, 30, 74, 8
@@ -21,28 +21,30 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Naèíst jakékoli když se jiné neshodují", 3067, 13, 102, 132, 10
  AUTOCHECKBOX "Ignorovat <BR> tag v SMI titulcích", 3048, 145, 102, 125, 10
  AUTOCHECKBOX "Vynutit zarovnání vlevo", 3124, 13, 112, 126, 10
- AUTOCHECKBOX "Ignorovat tagy efektù v titulcích", 3125, 145, 112, 126, 10
- GROUPBOX "Efekt prolínání titulkù", 3383, 5, 129, 273, 29
- AUTOCHECKBOX "Povolit", 3339, 13, 140, 34, 10
- RTEXT "Objevení:", 3311, 53, 141, 51, 8
- EDITTEXT 3112, 107, 140, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3251, "msctls_updown32", 0x000000B6, 128, 147, 10, 12
- LTEXT "%", 3315, 145, 142, 16, 8
- RTEXT "Skrytí:", 3313, 166, 141, 51, 8
- EDITTEXT 3114, 220, 140, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3252, "msctls_updown32", 0x000000B6, 246, 145, 10, 12
- LTEXT "%", 3317, 258, 142, 16, 8
- GROUPBOX "3D titulky (stereoskopické)", 3384, 5, 160, 273, 42
- RTEXT "3D mód:", 3322, 10, 171, 42, 8
- COMBOBOX 3007, 57, 169, 111, 74, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Velikost:", 3321, 10, 187, 42, 8
- COMBOBOX 3006, 57, 185, 111, 74, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Hloubka šíøky:", 3324, 172, 171, 49, 8
- EDITTEXT 3116, 224, 169, 31, 12, ES_RIGHT | ES_AUTOHSCROLL
+ AUTOCHECKBOX "Ignorovat <font> tag", 3127, 145, 112, 126, 10
+ AUTOCHECKBOX "Pøidat nový øádek pokud má tit. jen 1", 3126, 13, 122, 130, 10
+ AUTOCHECKBOX "Ignorovat všechny tagy", 3125, 145, 122, 126, 10
+ GROUPBOX "Efekt prolínání titulkù", 3383, 5, 140, 273, 29
+ AUTOCHECKBOX "Povolit", 3339, 13, 151, 34, 10
+ RTEXT "Objevení:", 3311, 53, 152, 51, 8
+ EDITTEXT 3112, 107, 151, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3251, "msctls_updown32", 0x000000B6, 128, 158, 10, 12
+ LTEXT "%", 3315, 145, 153, 16, 8
+ RTEXT "Skrytí:", 3313, 166, 152, 51, 8
+ EDITTEXT 3114, 220, 151, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3252, "msctls_updown32", 0x000000B6, 246, 156, 10, 12
+ LTEXT "%", 3317, 258, 153, 16, 8
+ GROUPBOX "3D titulky (stereoskopické)", 3384, 5, 171, 273, 42
+ RTEXT "3D mód:", 3322, 10, 182, 42, 8
+ COMBOBOX 3007, 57, 180, 111, 74, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Velikost:", 3321, 10, 198, 42, 8
+ COMBOBOX 3006, 57, 196, 111, 74, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Hloubka šíøky:", 3324, 172, 182, 49, 8
+ EDITTEXT 3116, 224, 180, 31, 12, ES_RIGHT | ES_AUTOHSCROLL
  CONTROL "", 3254, "msctls_updown32", 0x000000B6, 243, 178, 10, 12
- LTEXT "Pixelù", 3323, 258, 171, 16, 8
- RTEXT "Hloubka výšky:", 3326, 172, 187, 49, 8
- EDITTEXT 3117, 224, 185, 31, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3255, "msctls_updown32", 0x000000B6, 246, 195, 10, 12
- LTEXT "Pixelù", 3325, 258, 187, 16, 8
+ LTEXT "Pixelù", 3323, 258, 182, 16, 8
+ RTEXT "Hloubka výšky:", 3326, 172, 198, 49, 8
+ EDITTEXT 3117, 224, 196, 31, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3255, "msctls_updown32", 0x000000B6, 246, 206, 10, 12
+ LTEXT "Pixelù", 3325, 258, 198, 16, 8
 }

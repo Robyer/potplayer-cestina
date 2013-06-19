@@ -10,6 +10,7 @@
    MENUITEM "Open Directory...\tF2", 10160
    MENUITEM "Open File Navigator...\tF12", 10331
    MENUITEM "Open Menu Navigator... \tCtrl+F12", 10447
+   MENUITEM "Open FTP...\tAlt+F12", 10668
    POPUP "Default"
    {
     MENUITEM "Open File(s)", 10358
@@ -25,7 +26,7 @@
    MENUITEM "Device Settings... \tAlt+D", 10338
    MENUITEM SEPARATOR
    MENUITEM "Open DVD \tCtrl+D", 10165
-   MENUITEM "Open DVD files (*.IFO)", 10412
+   MENUITEM "Open DVD files(*.IFO)...", 10412
    MENUITEM SEPARATOR
    MENUITEM "Open Subtitles... \tAlt+O", 10146
    MENUITEM "Subtitle Navigator...", 10332
@@ -48,6 +49,8 @@
    MENUITEM "Screen Capture II \tCtrl+Alt+F2", 10282
    MENUITEM "Screen Capture I Start \tCtrl+Alt+F3", 10283
    MENUITEM "Screen Capture II Start \tCtrl+Alt+F4", 10284
+   MENUITEM "Screen Capture1 Size Settings...", 10666
+   MENUITEM "Screen Capture2 Size Settings...", 10667
    MENUITEM "Screen Capture Settings... \tCtrl+Alt+F5", 10285
    MENUITEM SEPARATOR
    MENUITEM "Save Broadcasting\tCtrl+Alt+F6", 10286
@@ -63,7 +66,7 @@
   MENUITEM SEPARATOR
   POPUP "Visualization"
   {
-   MENUITEM "Visualization on/off", 10413
+   MENUITEM "Enable visualization for audio tracks", 10413
    MENUITEM SEPARATOR
    MENUITEM "WMP visualization", 10317
    MENUITEM "Floating ball", 10318
@@ -135,7 +138,7 @@
    MENUITEM SEPARATOR
    MENUITEM "Return to Previous Menu", 10109
    MENUITEM "Root Menu", 10110
-   MENUITEM "Title Menu\tCtrl+BackSpace", 10111
+   MENUITEM "Title Menu\tAlt+BackSpace", 10111
    MENUITEM "Chapter Menu", 10112
    MENUITEM "Audio Menu", 10113
    MENUITEM "Subtitle Menu", 10114
@@ -169,12 +172,13 @@
     MENUITEM SEPARATOR
     MENUITEM "Previous Subtitle \tHome", 10244
     MENUITEM "Next Subtitle \tEnd", 10245
-    MENUITEM "Current subtitle position\tCtrl+Home", 10581
+    MENUITEM "Current subtitle position\tCtrl+Home", 10582
     MENUITEM SEPARATOR
+    MENUITEM "Move by Keyframe", 10265
     MENUITEM "Time/Frame... \tG", 10325
     MENUITEM "Preview Scenes... \tShift+S", 10416
     MENUITEM SEPARATOR
-    MENUITEM "Move by Keyframe", 10265
+    MENUITEM "Time Jump Settings...", 10758
    }
    POPUP "Speed"
    {
@@ -191,6 +195,7 @@
     MENUITEM "Enable skip feature\tShift+ '", 10239
     MENUITEM "Skip Intro %s", 10579
     MENUITEM "Skip Ending %s", 10580
+    MENUITEM "Skip chapter(s)", 10581
     MENUITEM SEPARATOR
     MENUITEM "Skip Setup... \t'", 10240
    }
@@ -208,14 +213,15 @@
     MENUITEM SEPARATOR
     MENUITEM "Backward 0.1 Sec. AB Repeat\tCtrl+Alt+[", 10541
     MENUITEM "Forward 0.1 Sec. AB Repeat\tCtrl+Alt+]", 10543
-    MENUITEM "Auto repeat current subtitle section\tCtrl+\\", 10592
+    MENUITEM "Auto repeat current subtitle section\tCtrl+\\ or Insert", 10592
+    MENUITEM "Chapter/Marker/Bookmark\tAlt+\\", 10742
     MENUITEM "Undo AB Repeat\t\\", 10253
    }
    POPUP "Playlist"
    {
-    MENUITEM "Open a Playlist...", 10000
-    MENUITEM "Save Playlist...", 10206
-    MENUITEM "Save Playlist Automatically", 10411
+    MENUITEM "Open a playlist...", 10000
+    MENUITEM "Save playlist as...", 10206
+    MENUITEM "Auto save playlist", 10411
     MENUITEM "Open playlist folder...", 10410
     MENUITEM SEPARATOR
     MENUITEM "Add File(s)...", 10196
@@ -223,16 +229,16 @@
     MENUITEM "Add URL...", 10198
     MENUITEM SEPARATOR
     MENUITEM "Open item folder...", 10207
-    MENUITEM "Edit title...", 10211
+    MENUITEM "Edit item title...", 10211
     MENUITEM "Copy", 10007
     MENUITEM "Paste", 10008
     MENUITEM SEPARATOR
     MENUITEM "Remove selected item(s)", 10200
     MENUITEM "Remove unselected item(s)", 10212
     MENUITEM "Remove all items", 10201
-    MENUITEM "Remove invalid items", 10210
-    MENUITEM "Sent to Recycle Bin \tShift+Del", 10417
-    MENUITEM "Sent to Recycle Bin (with subtitles) \tShift+Ctrl+Del", 10418
+    MENUITEM "Remove nonexistent items", 10210
+    MENUITEM "Sent to recycle bin \tShift+Del", 10417
+    MENUITEM "Sent to recycle bin (with subtitles) \tShift+Ctrl+Del", 10418
     MENUITEM SEPARATOR
     MENUITEM "Sort by filename - ascending", 10202
     MENUITEM "Sort by filename - descending", 10203
@@ -243,8 +249,10 @@
     MENUITEM "Select all", 10204
     MENUITEM "Select none", 10205
     MENUITEM SEPARATOR
-    MENUITEM "Add to Playback queue", 10005
-    MENUITEM "Clear Playback queue", 10006
+    MENUITEM "Add to playback queue", 10005
+    MENUITEM "Clear playback queue", 10006
+    MENUITEM SEPARATOR
+    MENUITEM "Playlist Settings...", 10759
    }
    POPUP "Repeat"
    {
@@ -264,6 +272,8 @@
    MENUITEM SEPARATOR
    MENUITEM "Shuffle Play", 10069
    MENUITEM "Play from the latest point", 10419
+   MENUITEM SEPARATOR
+   MENUITEM "Playback Settings...", 10757
   }
   POPUP "Subtitles"
   {
@@ -274,6 +284,7 @@
    MENUITEM "Show Subtitles \tAlt+H", 10126
    MENUITEM "Subtitle Explorer... \tAlt+E", 10228
    MENUITEM "Manual Subtitle Input... \tAlt+P", 10266
+   MENUITEM "Copy current subtitle to clipboard", 10624
    MENUITEM SEPARATOR
    MENUITEM "Display on Video (TV-OUT)\tAlt+I", 10220
    MENUITEM "Display on Overlay/VMR Surface \tAlt+V", 10221
@@ -305,6 +316,8 @@
     MENUITEM "Font Size + \tAlt+PGUP", 10137
     MENUITEM "Font Size  - \tAlt+PGDN", 10138
     MENUITEM "Font Settings... \tAlt+F", 10139
+    MENUITEM SEPARATOR
+    MENUITEM "Subtitle Font Style Settings...", 10761
    }
    POPUP "Sync"
    {
@@ -312,12 +325,14 @@
     MENUITEM "%s slower \t< or ,", 10141
     MENUITEM "Default \t/", 10142
     MENUITEM "Keep subtitle sync when playing the next file", 10629
+    MENUITEM SEPARATOR
+    MENUITEM "Subtitle Language/Sync/Other Settings...", 10764
    }
    POPUP "Save"
    {
     MENUITEM "Reflect SMI subtitle sync\tAlt+S", 10401
-    MENUITEM "Save subtitle as... \tCtrl+Alt+S", 10362
     MENUITEM "Save subtitle as video file name\tCtrl+Shift+S", 10485
+    MENUITEM "Save subtitle as... \tCtrl+Alt+S", 10362
    }
    POPUP "3D Subtitle (Stereoscopic)"
    {
@@ -325,8 +340,8 @@
     MENUITEM "Side By Side", 10634
     MENUITEM "Top && Bottom", 10635
     MENUITEM SEPARATOR
-    MENUITEM "Subtitle output after scaling", 10570
-    MENUITEM "Subtitle output before scaling", 10571
+    MENUITEM "Subtitle output after resizing", 10570
+    MENUITEM "Subtitle output before resizing", 10571
     MENUITEM SEPARATOR
     MENUITEM "Move Top", 10572
     MENUITEM "Move Bottom", 10573
@@ -335,27 +350,25 @@
     MENUITEM "Default Position", 10576
    }
    MENUITEM SEPARATOR
-   MENUITEM "Copy current subtitle to clipboard", 10624
+   MENUITEM "Subtitle Settings...", 10760
   }
   POPUP "Video"
   {
-   POPUP "Video Renderer\tV"
+   POPUP "Video Renderer"
    {
     MENUITEM "Select Automatically (Recommended)", 10294
     MENUITEM "Video Renderer", 10295
     MENUITEM "Overlay Mixer", 10296
-    MENUITEM "VMR7 Windowed", 10297
-    MENUITEM "VMR7 Renderless", 10298
-    MENUITEM "VMR9 Windowed", 10299
-    MENUITEM "VMR9 Renderless", 10300
+    MENUITEM "VMR 7 Windowed", 10297
+    MENUITEM "VMR 7 Renderless", 10298
+    MENUITEM "VMR 9 Windowed", 10299
+    MENUITEM "VMR 9 Renderless", 10300
     MENUITEM "EVR(Vista / .Net3)", 10301
     MENUITEM "EVR Custom Present", 10302
     MENUITEM "Haali Video Renderer", 10303
     MENUITEM "Madshi Video Renderer", 10304
     MENUITEM "Direct3D9 Video Renderer", 10560
     MENUITEM "OpenGL Video Renderer", 10561
-    MENUITEM SEPARATOR
-    MENUITEM "Video Renderer", 10363
    }
    POPUP "Pixel Shader\tS"
    {
@@ -379,6 +392,58 @@
     MENUITEM SEPARATOR
     MENUITEM "Reload Pixel Shader list", 10289
     MENUITEM "Open Pixel Shader folder", 10288
+   }
+   POPUP "3D Video Mode\tV"
+   {
+    MENUITEM "Enable 3D Video Mode", 10683
+    MENUITEM SEPARATOR
+    MENUITEM "Side By Side", 10714
+    MENUITEM "Top && Bottom", 10715
+    MENUITEM "Original Image", 10716
+    MENUITEM SEPARATOR
+    MENUITEM "Half resolution", 10717
+    MENUITEM "Swap left/right images", 10718
+    MENUITEM SEPARATOR
+    POPUP "3D Video Output (Screen)"
+    {
+     MENUITEM "Side By Side", 10719
+     MENUITEM "Top && Bottom", 10720
+     MENUITEM "3D to 2D (Left or Top Image)", 10721
+     MENUITEM "3D to 2D (Right or Bottom Image)", 10722
+     MENUITEM "Raw Interleave", 10723
+     MENUITEM "Column Interleave", 10724
+     MENUITEM "Anaglyph Red/Cyan Gray", 10725
+     MENUITEM "Anaglyph Red/Cyan Half Colored", 10726
+     MENUITEM "Anaglyph Red/Cyan Colored", 10727
+     MENUITEM "Anaglyph Red/Cyan Dubois", 10728
+     MENUITEM "Anaglyph Green/Magenta Gray", 10729
+     MENUITEM "Anaglyph Green/Magenta Half colored", 10730
+     MENUITEM "Anaglyph Green/Magenta Colored", 10731
+     MENUITEM "Anaglyph Green/Magenta Dubois", 10732
+     MENUITEM "Anaglyph Yellow/Blue Gray", 10733
+     MENUITEM "Anaglyph Yellow/Blue Half Colored", 10734
+     MENUITEM "Anaglyph Yellow/Blue Colored", 10735
+     MENUITEM "Anaglyph Yellow/Blue Dubois", 10736
+     MENUITEM "Anaglyph Red/Blue Gray", 10737
+     MENUITEM "Anaglyph Red/Green Gray", 10738
+    }
+    POPUP "3D Subtitle (stereoscopic)"
+    {
+     MENUITEM "Do not use", 10633
+     MENUITEM "Side By Side", 10634
+     MENUITEM "Top && Bottom", 10635
+     MENUITEM SEPARATOR
+     MENUITEM "Subtitle output after resizing", 10570
+     MENUITEM "Subtitle output before resizing", 10571
+     MENUITEM SEPARATOR
+     MENUITEM "Move Top", 10572
+     MENUITEM "Move Bottom", 10573
+     MENUITEM "Move Left", 10574
+     MENUITEM "Move Right", 10575
+     MENUITEM "Default Position", 10576
+    }
+    MENUITEM SEPARATOR
+    MENUITEM "3D Video Mode Settings...", 10739
    }
    POPUP "Video Processing Filters"
    {
@@ -512,6 +577,8 @@
    MENUITEM "Increase saturation +1% \tU", 10091
    MENUITEM "Decrease color -1% \tI", 10092
    MENUITEM "Increase color +1% \tO", 10093
+   MENUITEM SEPARATOR
+   MENUITEM "Video Processing Settings...", 10363
   }
   POPUP "Audio"
   {
@@ -526,8 +593,6 @@
    POPUP "Audio Renderer"
    {
     MENUITEM "Select Automatically (Recommended)", 7600
-    MENUITEM SEPARATOR
-    MENUITEM "Audio Renderer", 10391
    }
    POPUP "S/PDIF Audio Renderer"
    {
@@ -562,11 +627,11 @@
     MENUITEM "Wave Volume -\tCtrl+Alt+Down", 10271
     MENUITEM "Mute (Wave) \tCtrl+Alt+M", 10272
    }
-   MENUITEM "Volume Up +\tUp", 10035
-   MENUITEM "Volume down\tDown", 10036
+   MENUITEM "Volume Up \tUp", 10035
+   MENUITEM "Volume Down\tDown", 10036
    MENUITEM "Mute\tM", 10037
    MENUITEM SEPARATOR
-   MENUITEM "Equalizer \tShift+E", 10095
+   MENUITEM "Equalizer\tShift+E", 10095
    MENUITEM "Preset", 10441
    MENUITEM SEPARATOR
    POPUP "Audio Sync"
@@ -585,6 +650,8 @@
     MENUITEM "Voice Filter \tShift+V", 10438
     MENUITEM "Audio Filters \tShift+A", 10439
     MENUITEM "Swap Stereo Channels\tShift+T", 10660
+    MENUITEM SEPARATOR
+    MENUITEM "Audio Language/Sync/Other Settings...", 10756
    }
    POPUP "Audio Capture"
    {
@@ -594,6 +661,7 @@
    }
    MENUITEM SEPARATOR
    MENUITEM "Use Audio Processing Filter\tShift+X", 10454
+   MENUITEM "Audio Processing Settings...", 10391
   }
   POPUP "Filters"
   {
@@ -624,7 +692,7 @@
    {
     MENUITEM "Main", 10441
    }
-   POPUP "Image overlay on screen"
+   POPUP "On Screen Control"
    {
     MENUITEM "Disable", 10514
     MENUITEM "Direct3D 9", 10515
@@ -633,10 +701,10 @@
     MENUITEM "Settings...", 10519
    }
    MENUITEM SEPARATOR
-   MENUITEM "Hide skin when playing ", 10369
-   MENUITEM "Move image on full screen", 10340
-   MENUITEM "Start with video skin", 10402
-   MENUITEM "Use with video skin", 10578
+   MENUITEM "Auto hide skin during playback", 10369
+   MENUITEM "Auto resize image in fullscreen", 10340
+   MENUITEM "Start with video skin mode", 10402
+   MENUITEM "Disable switching between skin modes", 10578
    MENUITEM SEPARATOR
    MENUITEM "Skin Settings...", 10384
   }
@@ -655,10 +723,11 @@
     MENUITEM "Switch-Finished Action\tCtrl+Alt+A", 10336
     MENUITEM "Exit PotPlayer once finished playing the current file", 10116
     MENUITEM "Exit PotPlayer once finished playing files in playlist", 10117
-    MENUITEM "Shutdown once finished playing the current file", 10118
-    MENUITEM "Shutdown once finished playing files in playlist", 10119
+    MENUITEM "Shutdown/Sleep once finished playing the current file", 10118
+    MENUITEM "Shutdown/Sleep once finished playing files in playlist", 10119
     MENUITEM SEPARATOR
     MENUITEM "Remember finished action", 10553
+    MENUITEM "Use sleep mode (instead of shutdown mode)", 10766
    }
    POPUP "How to Open File(s)"
    {
@@ -667,53 +736,22 @@
     MENUITEM "Open all files in folder", 10279
    }
    MENUITEM SEPARATOR
-   MENUITEM "Shutdown at %s", 10479
-   MENUITEM "Shutdown at the specified time...", 10480
+   MENUITEM "Shutdown/Sleep at %s", 10479
+   MENUITEM "Add a task to shutdown or sleep the PC...", 10480
    MENUITEM SEPARATOR
    MENUITEM "Hide mouse cursor during playback", 10121
    MENUITEM "Prevent Screen Saver", 10122
-   MENUITEM "Ignore default shortcut keys", 10339
-   MENUITEM "Close media files when stopped", 10445
+   MENUITEM "Disable default hotkeys", 10339
+   MENUITEM "Auto close the last file on complete", 10445
    MENUITEM SEPARATOR
    MENUITEM "OSD : Show Info \tTab", 10351
    MENUITEM "OSD : Show Time\tScroll Lock ", 10442
    MENUITEM "OSD : Show Short Info \tShift+Tab", 10449
    MENUITEM SEPARATOR
    MENUITEM "Go to HomePage...", 10386
-   MENUITEM "Check Updates", 10392
+   MENUITEM "Check for updates", 10392
   }
   MENUITEM SEPARATOR
-  POPUP "Aspect Ratio"
-  {
-   MENUITEM "Fit to Video (Recommended) \tCtrl+F5", 10040
-   MENUITEM "Fit to Window \tCtrl+F5", 10041
-   MENUITEM "Free\tCtrl+F5", 10042
-   MENUITEM "Keep Video Frame To : 0.5", 10043
-   MENUITEM "Keep Video Frame To : 1.0", 10044
-   MENUITEM "Keep Video Frame To : 1.5", 10045
-   MENUITEM "Keep Video Frame To : 2.0", 10046
-   MENUITEM SEPARATOR
-   MENUITEM "Switch-Aspect Ratio\tCtrl+F6", 10261
-   MENUITEM "Default (Display) (Recommended)", 10015
-   MENUITEM "Default (Source)", 10016
-   MENUITEM "4:3", 10017
-   MENUITEM "16:9", 10018
-   MENUITEM "16:10", 10019
-   MENUITEM "1.85:1", 10020
-   MENUITEM "2.35:1", 10021
-   MENUITEM "Custom (%s)", 10022
-   MENUITEM "Custom Aspect Ratio setting...", 10364
-   MENUITEM SEPARATOR
-   POPUP "Output"
-   {
-    MENUITEM "Monitor", 10273
-    MENUITEM "TV-OUT : 4:3", 10274
-    MENUITEM "TV-OUT : 16:9", 10275
-    MENUITEM "Auto detection", 10276
-   }
-   MENUITEM "Keep Aspect Ratio", 10341
-   MENUITEM "Force to provide subtitles margins", 10500
-  }
   POPUP "Pan && Scan"
   {
    POPUP "Preset"
@@ -751,8 +789,49 @@
     MENUITEM "Bottom Left \tCtrl+Alt+Num 1", 10380
     MENUITEM "Bottom Right \tCtrl+Alt+Num 3", 10381
    }
+  }
+  POPUP "Aspect Ratio"
+  {
+   MENUITEM "Switch-Aspect Ratio\tCtrl+F6", 10261
+   MENUITEM "Default (Display) (Recommended)", 10015
+   MENUITEM "Default (Source)", 10016
+   MENUITEM "4:3", 10017
+   MENUITEM "16:9", 10018
+   MENUITEM "16:10", 10019
+   MENUITEM "1.85:1", 10020
+   MENUITEM "2.35:1", 10021
+   MENUITEM "Custom (%s)", 10022
+   MENUITEM "Custom Aspect Ratio setting...", 10364
    MENUITEM SEPARATOR
-   MENUITEM "Window Margin...", 10406
+   POPUP "Control "
+   {
+    MENUITEM "Fit to Video (Recommended) \tCtrl+F5", 10040
+    MENUITEM "Fit to Window \tCtrl+F5", 10041
+    MENUITEM "Free\tCtrl+F5", 10042
+    MENUITEM "Keep Video Frame To : 0.5", 10043
+    MENUITEM "Keep Video Frame To : 1.0", 10044
+    MENUITEM "Keep Video Frame To : 1.5", 10045
+    MENUITEM "Keep Video Frame To : 2.0", 10046
+   }
+   POPUP "Output"
+   {
+    MENUITEM "Monitor", 10273
+    MENUITEM "TV-OUT : 4:3", 10274
+    MENUITEM "TV-OUT : 16:9", 10275
+    MENUITEM "Auto detection", 10276
+   }
+   MENUITEM "Keep Aspect Ratio", 10341
+   MENUITEM SEPARATOR
+   MENUITEM "Force to provide subtitles margins", 10500
+   POPUP "Subtitle Margin"
+   {
+    MENUITEM "Reserve 1 line", 10677
+    MENUITEM "Reserve 2 lines", 10678
+    MENUITEM "Reserve 3 lines", 10679
+    MENUITEM "Reserve available space", 10680
+   }
+   MENUITEM SEPARATOR
+   MENUITEM "Aspect Ratio Setting...", 10671
   }
   POPUP "Window Size "
   {
@@ -774,6 +853,8 @@
    MENUITEM "Full Size\tCtrl+Alt+Enter", 10309
    MENUITEM SEPARATOR
    MENUITEM "Desktop Display\tShift+Enter", 10033
+   MENUITEM SEPARATOR
+   MENUITEM "Window Margin Settings...", 10406
   }
   MENUITEM "Full Screen\tEnter", 10013
   MENUITEM "Full Screen Stretched\tCtrl+Enter", 10308

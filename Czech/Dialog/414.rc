@@ -2,7 +2,7 @@
 STYLE DS_SETFONT | WS_POPUP
 FONT 9, "Arial", 0, FALSE
 {
- CTEXT "Byla nylezena novìjší verze PotPlayeru.\n Pøejete si aktualizovat?", 3381, 16, 26, 230, 17
+ CTEXT "Nová verze PotPlayeru je dostupná.\nPøejete si nyní aktualizovat?", 3381, 16, 26, 230, 17
  EDITTEXT 3069, 15, 56, 234, 90, ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
  EDITTEXT 3070, 15, 153, 234, 68, ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
  RTEXT "Kontrola aktualizací:", 3291, 11, 228, 69, 10
