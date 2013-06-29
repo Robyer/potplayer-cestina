@@ -3,7 +3,7 @@ STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Výchozí dialogové okno", 3191, 5, 3, 273, 79, 0, WS_EX_TRANSPARENT
- LTEXT "Mùžete zde zmìnit písmo výchozích dialogových oken, pokud okna vypadají zvláštnì nebo si pøejete zobrazit jiný font.", 3297, 13, 14, 259, 24
+ LTEXT "Mùžete zde zmìnit písmo výchozích dialogových oken, pokud vypadají zvláštnì nebo si pøejete použít jiné písmo.", 3297, 13, 14, 259, 24
  AUTOCHECKBOX "Písmo:", 3058, 10, 44, 34, 10
  PUSHBUTTON "Písmo", 3021, 49, 44, 107, 13
  AUTOCHECKBOX "Velikost písma:", 3057, 164, 45, 60, 10

@@ -20,7 +20,7 @@ FONT 9, "Arial", 0, FALSE
  COMBOBOX 3011, 89, 96, 126, 146, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "Snímkù za sekundu (FPS):", 3288, 18, 114, 68, 9
  COMBOBOX 3013, 89, 112, 126, 146, CBS_DROPDOWNLIST | WS_VSCROLL
- AUTOCHECKBOX "Použít originální FPS pokud možno", 3047, 89, 129, 126, 10
+ AUTOCHECKBOX "Použít pùvodní FPS pokud možno", 3047, 89, 129, 126, 10
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 17, 143, 200, 1
  AUTOCHECKBOX "Zpoždìní sítì a snížení kvality.", 3040, 23, 148, 193, 10
  AUTOCHECKBOX "Použít více-vláknovou kompresi", 3052, 23, 159, 193, 10

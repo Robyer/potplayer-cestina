@@ -4,8 +4,9 @@ FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Video Renderer", 3383, 5, 3, 273, 29
  RTEXT "Video Renderer:", 3294, 11, 15, 84, 8
- COMBOBOX 3036, 98, 14, 175, 137, CBS_DROPDOWNLIST | WS_VSCROLL
- GROUPBOX "VMR9 Renderless/EVR Custom Present Settings", 3381, 5, 35, 273, 131
+ COMBOBOX 3036, 98, 14, 155, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ PUSHBUTTON "...", 3359, 257, 14, 17, 11
+ GROUPBOX "VMR9 Renderless/EVR Custom Present Settings", 3381, 5, 35, 273, 140
  RTEXT "VMR Renderless Setup:", 3292, 11, 47, 84, 8
  COMBOBOX 3081, 98, 46, 175, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "VMR9/EVR scaler:", 3291, 11, 64, 84, 8
@@ -22,11 +23,12 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "VMR9 mixing mode", 3040, 12, 139, 128, 10
  AUTOCHECKBOX "YUV mixing mode", 3044, 22, 150, 116, 10
  AUTOCHECKBOX "Fix broken VSync (Tearing) in VMR9", 3047, 145, 128, 127, 10
- AUTOCHECKBOX "EVR 16 ~ 235 level output", 3052, 145, 139, 128, 10
- AUTOCHECKBOX "Don't init. the display config. changes", 3342, 145, 150, 131, 10
- GROUPBOX "OverlayMixer Settings", 3382, 5, 170, 273, 50
- RTEXT "Color:", 3295, 11, 183, 50, 9
- COMBOBOX 3343, 65, 181, 193, 137, CBS_DROPDOWNLIST | WS_VSCROLL
- CONTROL "", 3213, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 262, 181, 12, 12, WS_EX_DLGMODALFRAME
- AUTOCHECKBOX "Exclusive screen mode (To resolve some display problem with DXVA)", 3066, 12, 197, 261, 18, BS_MULTILINE
+ AUTOCHECKBOX "Use alternative Vsync in WMR9", 3048, 145, 138, 131, 10
+ AUTOCHECKBOX "EVR 16 ~ 235 level output", 3052, 145, 148, 128, 10
+ AUTOCHECKBOX "Don't init. the display config. changes", 3342, 145, 159, 131, 10
+ GROUPBOX "OverlayMixer Settings", 3382, 5, 180, 273, 42
+ RTEXT "Color:", 3295, 11, 193, 50, 9
+ COMBOBOX 3343, 65, 191, 193, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ CONTROL "", 3213, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 262, 191, 12, 12, WS_EX_DLGMODALFRAME
+ AUTOCHECKBOX "Exclusive screen mode (To resolve some display problem with DXVA)", 3066, 12, 207, 261, 10, BS_MULTILINE
 }

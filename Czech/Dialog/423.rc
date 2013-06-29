@@ -70,5 +70,5 @@ FONT 9, "Arial", 0, FALSE
  COMBOBOX 3012, 263, 217, 115, 30, CBS_DROPDOWNLIST | WS_VSCROLL
  CONTROL "", 3285, "STATIC", SS_ETCHEDHORZ, 198, 233, 181, 1
  AUTOCHECKBOX "Použít vlastní DXVA", 3035, 201, 239, 175, 9
- LTEXT "Alias DXVA mód bez renderování. Vyžaduje minimálnì Windows Vista a je trochu pomalejší než nativní DXVA, ale je možné použít veškeré zpracování videa.", 3195, 210, 250, 166, 34
+ LTEXT "Alias DXVA mód bez vykreslování. Vyžaduje minimálnì Windows Vista a je trochu pomalejší než nativní DXVA, ale je možné použít veškeré zpracování videa.", 3195, 210, 250, 166, 34
 }

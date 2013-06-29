@@ -8,8 +8,8 @@
    MENUITEM "Otevøít soubor(y)...\tCtrl+O", 10158
    MENUITEM "Otevøít URL...\tCtrl+U", 10159
    MENUITEM "Otevøít složku...\tF2", 10160
-   MENUITEM "Otevøít prohlížeè souborù...\tF12", 10331
-   MENUITEM "Otevøít prohlížeè nabídek... \tCtrl+F12", 10447
+   MENUITEM "Otevøít navigátor souborù...\tF12", 10331
+   MENUITEM "Otevøít navigátor nabídek... \tCtrl+F12", 10447
    MENUITEM "Otevøít FTP...\tAlt+F12", 10668
    POPUP "Výchozí"
    {
@@ -29,7 +29,7 @@
    MENUITEM "Otevøít DVD soubory (*.IFO)...", 10412
    MENUITEM SEPARATOR
    MENUITEM "Otevøít titulky... \tAlt+O", 10146
-   MENUITEM "Prohlížeè titulkù...", 10332
+   MENUITEM "Otevøít navigátor titulkù...", 10332
    MENUITEM "Pøidat další titulky...", 10147
    MENUITEM "Znovu naèíst titulky \tCtrl+Alt+Y", 10488
    MENUITEM SEPARATOR
@@ -136,7 +136,7 @@
     MENUITEM "8x vpøed", 10476
    }
    MENUITEM SEPARATOR
-   MENUITEM "Vrátit se na pøedchozí nabídku", 10109
+   MENUITEM "Pøedchozí nabídka", 10109
    MENUITEM "Koøenová nabídka", 10110
    MENUITEM "Nabídka titulù\tAlt+BackSpace", 10111
    MENUITEM "Nabídka kapitol", 10112
@@ -297,7 +297,7 @@
     MENUITEM "Vlevo\tAlt+Vlevo", 10130
     MENUITEM "Vpravo\tAlt+Vpravo", 10131
    }
-   POPUP "Dolní odsazení"
+   POPUP "Spodní odsazení"
    {
     MENUITEM "Zvýšit horizontální mezery + \tAlt+Num 6", 10132
     MENUITEM "Snížit horizontální mezery - \tAlt+Num 4", 10133
@@ -326,7 +326,7 @@
     MENUITEM "Výchozí \t/", 10142
     MENUITEM "Zachovat synchronizaci titulkù pøi pøehrávání dalšího souboru", 10629
 	MENUITEM SEPARATOR
-    MENUITEM "Nastavení jazyka/synchronizace/ostatních...", 10764
+    MENUITEM "Nastavení jazyka/synchronizace/ostatních...", 10762
    }
    POPUP "Uložit"
    {
@@ -409,7 +409,7 @@
      MENUITEM "Vedle sebe", 10719
      MENUITEM "Nahoøe a dole", 10720
      MENUITEM "3D na 2D (levý nebo horní obraz)", 10721
-     MENUITEM "3D na 2D (pravý nebo dolní obraz)", 10722
+     MENUITEM "3D na 2D (pravý nebo spodní obraz)", 10722
      MENUITEM "Surové prokládání", 10723
      MENUITEM "Sloupcové prokládání", 10724
      MENUITEM "Anaglyph Red/Cyan Gray", 10725
@@ -527,6 +527,12 @@
     MENUITEM SEPARATOR
     MENUITEM "Nastavení zpracování videa...", 10529
    }
+   POPUP "AviSynth"
+   {
+    MENUITEM "Použít AviSynth", 10770
+    MENUITEM "Otevøít složku s pøedvolbami AviSynth", 10775
+    MENUITEM "Nastavení AviSynth...", 10773
+   }
    POPUP "Otoèení obrazovky"
    {
     MENUITEM "Pøepnout-Otoèení obrazovky\tAlt+K", 10612
@@ -561,7 +567,7 @@
     MENUITEM "Název souboru jako èas systému", 10556
     MENUITEM "Název souboru jako èas pøehrávání", 10557
     MENUITEM SEPARATOR
-    MENUITEM "Zachytit také titulky (pokud možno)", 10305
+    MENUITEM "Zachytávat zprávy, titulky", 10305
     MENUITEM "Zachovat pomìr stran", 10587
     MENUITEM SEPARATOR
     MENUITEM "Zvolit složku pro zachytávání...", 10334

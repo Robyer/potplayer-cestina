@@ -136,7 +136,7 @@
     MENUITEM "8X Forward", 10476
    }
    MENUITEM SEPARATOR
-   MENUITEM "Return to Previous Menu", 10109
+   MENUITEM "Previous Menu", 10109
    MENUITEM "Root Menu", 10110
    MENUITEM "Title Menu\tAlt+BackSpace", 10111
    MENUITEM "Chapter Menu", 10112
@@ -326,7 +326,7 @@
     MENUITEM "Default \t/", 10142
     MENUITEM "Keep subtitle sync when playing the next file", 10629
     MENUITEM SEPARATOR
-    MENUITEM "Subtitle Language/Sync/Other Settings...", 10764
+    MENUITEM "Subtitle Language/Sync/Other Settings...", 10762
    }
    POPUP "Save"
    {
@@ -527,6 +527,12 @@
     MENUITEM SEPARATOR
     MENUITEM "Video Processing Settings...", 10529
    }
+   POPUP "AviSynth"
+   {
+    MENUITEM "Use AviSynth", 10770
+    MENUITEM "Open AviSynth preset folder", 10775
+    MENUITEM "AviSynth Settings...", 10773
+   }
    POPUP "Screen Rotation"
    {
     MENUITEM "Switch-Screen Rotation\tAlt+K", 10612
@@ -561,7 +567,7 @@
     MENUITEM "Save file name as current time", 10556
     MENUITEM "Save file name as playing time", 10557
     MENUITEM SEPARATOR
-    MENUITEM "Capture subtitle with (if can)", 10305
+    MENUITEM "Include messages, subtitles", 10305
     MENUITEM "Keep Aspect Ratio", 10587
     MENUITEM SEPARATOR
     MENUITEM "Select Capture Folder...", 10334
@@ -604,8 +610,8 @@
    POPUP "Volume Control"
    {
     MENUITEM "Default volume control (Recommended)", 10393
-    MENUITEM "System wave volume control", 10394
-    MENUITEM "Master volume control systems", 10395
+    MENUITEM "System Wave volume control", 10394
+    MENUITEM "System Master volume control", 10395
     MENUITEM SEPARATOR
     MENUITEM "Multi-channel volume control", 10435
     MENUITEM "Increase master volume\tShift+Up", 10520

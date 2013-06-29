@@ -11,7 +11,7 @@ FONT 9, "Arial", 0, FALSE
  CONTROL "", 3262, "msctls_updown32", 0x000000B6, 205, 60, 10, 14
  LTEXT "sek.", 3289, 218, 68, 25, 8
  AUTOCHECKBOX "Ending (at the end)", 3044, 31, 83, 103, 10
- RTEXT "Pøeksoèit", 3288, 145, 86, 18, 8
+ RTEXT "Pøeskoèit", 3288, 145, 86, 18, 8
  EDITTEXT 3095, 179, 83, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3263, "msctls_updown32", 0x000000B6, 205, 89, 10, 14
  LTEXT "sek.", 3290, 218, 85, 25, 8

@@ -4,7 +4,7 @@ FONT 9, "Arial", 0, FALSE
 {
  CTEXT "Aktuální vysílání je \"pøehráváno.\" Prosím zvolte jednu z následujících možností.", 3381, 11, 29, 197, 17
  PUSHBUTTON "Zastavit aktuální vysílání, zvolit jiné vysílání", 3021, 11, 48, 196, 12
- AUTOCHECKBOX "Pøeskoèit originální vysílání", 3155, 70, 63, 132, 9
+ AUTOCHECKBOX "Pøeskoèit pùvodní vysílání", 3155, 70, 63, 132, 9
  PUSHBUTTON "Odložit aktuální vysílání pro pozdìjší shlédnutí", 3038, 11, 75, 196, 12
  PUSHBUTTON "Nastavit a použít nový program.", 3024, 11, 91, 196, 12
  PUSHBUTTON "Zastavit aktuální vysílání", 3027, 11, 107, 196, 12

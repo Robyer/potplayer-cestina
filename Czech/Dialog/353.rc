@@ -5,25 +5,25 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Nastavení titulkù", 3285, 5, 3, 273, 133
  RTEXT "Výstup titulkù:", 3314, 11, 15, 74, 8
  COMBOBOX 3003, 88, 13, 185, 91, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Renderování fontu:", 3316, 11, 30, 74, 8
+ RTEXT "Vykreslování písma:", 3316, 11, 30, 74, 8
  COMBOBOX 3005, 88, 28, 185, 74, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "ASS/SSA styl titulkù:", 3318, 11, 44, 74, 8
  COMBOBOX 3008, 88, 43, 185, 74, CBS_DROPDOWNLIST | WS_VSCROLL
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 59, 268, 1
  AUTOCHECKBOX "Zobrazit titulky", 3040, 13, 62, 127, 10
- AUTOCHECKBOX "ASS/SSA animace titulkù", 3053, 145, 62, 109, 10
- AUTOCHECKBOX "Auto. pøidat <BR> tag do SMI titulkù", 3047, 13, 72, 127, 10
- AUTOCHECKBOX "Zobrazit titulky nad obrazem videa", 3057, 145, 72, 126, 10
- AUTOCHECKBOX "Vyhladit titulky v VMR/EVR", 3119, 13, 82, 127, 10
- AUTOCHECKBOX "Zobrazit titulky pod obrazem videa", 3113, 145, 82, 130, 10
- AUTOCHECKBOX "Opravit pomìr obrázkových titulkù", 3066, 13, 92, 127, 10
- AUTOCHECKBOX "Použít vlastní pozici IDX/SUB", 3123, 145, 92, 126, 10
- AUTOCHECKBOX "Naèíst jakékoli když se jiné neshodují", 3067, 13, 102, 132, 10
- AUTOCHECKBOX "Ignorovat <BR> tag v SMI titulcích", 3048, 145, 102, 125, 10
- AUTOCHECKBOX "Vynutit zarovnání vlevo", 3124, 13, 112, 126, 10
- AUTOCHECKBOX "Ignorovat <font> tag", 3127, 145, 112, 126, 10
- AUTOCHECKBOX "Pøidat nový øádek pokud má tit. jen 1", 3126, 13, 122, 130, 10
- AUTOCHECKBOX "Ignorovat všechny tagy", 3125, 145, 122, 126, 10
+ AUTOCHECKBOX "Vyhladit titulky ve VMR/EVR", 3119, 13, 72, 127, 10
+ AUTOCHECKBOX "Správný pomìr stran obrázkových titulkù", 3066, 13, 82, 127, 10
+ AUTOCHECKBOX "Naèíst jakékoli když se jiné neshodují", 3067, 13, 92, 132, 10
+ AUTOCHECKBOX "Vynutit zarovnání vlevo", 3124, 13, 102, 127, 10
+ AUTOCHECKBOX "Ignorovat tag <font>", 3127, 13, 112, 127, 10
+ AUTOCHECKBOX "Ignorovat všechny tagy", 3125, 13, 122, 127, 10
+ AUTOCHECKBOX "Zobrazit titulky nad obrazem videa", 3057, 145, 62, 126, 10
+ AUTOCHECKBOX "Zobrazit titulky pod obrazem videa", 3113, 145, 72, 130, 10
+ AUTOCHECKBOX "Použít vlastní pozici IDX/SUB", 3123, 145, 82, 126, 10
+ AUTOCHECKBOX "Animace titulkù ASS/SSA", 3053, 145, 92, 126, 10
+ AUTOCHECKBOX "Auto. pøidat <BR> tag do SMI titulkù", 3047, 145, 102, 126, 10
+ AUTOCHECKBOX "Ignorovat tag <BR> v SMI titulcích", 3048, 145, 112, 126, 10
+ AUTOCHECKBOX "Pøidat nový øádek pokud má tit. jen 1", 3126, 145, 122, 130, 10
  GROUPBOX "Efekt prolínání titulkù", 3383, 5, 140, 273, 29
  AUTOCHECKBOX "Povolit", 3339, 13, 151, 34, 10
  RTEXT "Objevení:", 3311, 53, 152, 51, 8

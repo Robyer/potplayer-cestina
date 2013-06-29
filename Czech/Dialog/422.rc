@@ -1,8 +1,8 @@
-422 DIALOGEX 0, 0, 239, 174, 0
+422 DIALOGEX 0, 0, 239, 188, 0
 STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Obecné nastavení", 3286, 14, 24, 211, 48
+ GROUPBOX "Obecné nastavení", 3286, 14, 24, 211, 58
  RTEXT "Velikost cache:", 3285, 27, 38, 63, 8
  EDITTEXT 3111, 93, 36, 55, 12, ES_RIGHT | ES_AUTOHSCROLL
  CONTROL "", 3250, "msctls_updown32", 0x000000B6, 143, 46, 10, 12
@@ -10,9 +10,10 @@ FONT 9, "Arial", 0, FALSE
  PUSHBUTTON "Výchozí", 3021, 175, 35, 44, 14
  CONTROL "", 3199, "STATIC", SS_ETCHEDHORZ, 18, 53, 205, 1
  AUTOCHECKBOX "Vícenásobný audio výstup", 3035, 22, 57, 197, 10, BS_MULTILINE
- GROUPBOX "MPEG 1/PS/TS", 3287, 14, 79, 211, 69
- AUTOCHECKBOX "H264 na AVC1 (Mùžete použít DXVA s VMR9 Renderless módem pokud používáte Cyberlink AVC Decoder)", 3034, 22, 90, 193, 22, BS_MULTILINE
- AUTOCHECKBOX "Zpracovat všechny èasové znaèky PTS", 3036, 22, 110, 193, 9, BS_MULTILINE
- AUTOCHECKBOX "Zpracovat TrueHD + AC3 jako TrueHD", 3037, 22, 121, 193, 9, BS_MULTILINE
- AUTOCHECKBOX "Použít rychlý pøesun (pro soubory enkódované s VBR (promìnný datový tok))", 3038, 22, 132, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Naèíst vestavìné písma", 3039, 22, 68, 197, 10, BS_MULTILINE
+ GROUPBOX "MPEG 1/PS/TS", 3287, 14, 88, 211, 69
+ AUTOCHECKBOX "H264 na AVC1 (Mùžete použít DXVA s VMR9 Renderless módem pokud používáte Cyberlink AVC Decoder)", 3034, 22, 99, 193, 22, BS_MULTILINE
+ AUTOCHECKBOX "Zpracovat všechny èasové znaèky PTS", 3036, 22, 119, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Zpracovat TrueHD + AC3 jako TrueHD", 3037, 22, 130, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Použít rychlý pøesun (pro soubory enkódované s VBR (promìnný datový tok))", 3038, 22, 141, 193, 9, BS_MULTILINE
 }

@@ -11,7 +11,7 @@ FONT 9, "Arial", 0, FALSE
  RTEXT "Pravý okraj:", 3289, 121, 53, 53, 8
  EDITTEXT 3099, 177, 51, 38, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3264, "msctls_updown32", 0x000000B6, 206, 55, 10, 14
- RTEXT "Dolní okraj:", 3290, 56, 72, 53, 8
+ RTEXT "Spodní okraj:", 3290, 56, 72, 53, 8
  EDITTEXT 3105, 113, 70, 38, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3265, "msctls_updown32", 0x000000B6, 148, 70, 10, 14
  AUTOCHECKBOX "Pouze na celé obrazovce", 3040, 71, 88, 146, 10
