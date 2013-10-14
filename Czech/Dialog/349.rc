@@ -13,5 +13,5 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Uložit ID / Heslo", 3047, 101, 129, 114, 8
  AUTOCHECKBOX "Pøihlásit automaticky po spuštìní", 3048, 101, 142, 114, 8
  PUSHBUTTON "Pøihlášení uživatele", 3038, 54, 170, 64, 12
- PUSHBUTTON "Najít ID uživatele / Heslo", 3042, 121, 170, 85, 12
+ PUSHBUTTON "Najít ID uživatele/heslo", 3042, 121, 170, 85, 12
 }

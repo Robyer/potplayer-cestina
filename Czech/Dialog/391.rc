@@ -2,7 +2,7 @@
 STYLE DS_SETFONT | WS_POPUP
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Klávesová zkratka", 3381, 12, 21, 217, 171
+ GROUPBOX "Klávesová zkratka", 3381, 12, 20, 217, 221
  AUTOCHECKBOX "Globální klávesová zkratka (mùže být použita z jakéhokoliv prostøedí)", 3034, 17, 31, 208, 10
  RTEXT "Klávesová zkratka:", 3382, 17, 45, 38, 8
  CONTROL "", 3317, "msctls_hotkey32", WS_BORDER | WS_TABSTOP, 57, 43, 89, 13
