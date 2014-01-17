@@ -366,7 +366,7 @@
    MENUITEM "Zkopírovat aktuální titulek do schránky", 10624
    MENUITEM "Zobrazit bitmapové titulky mimo obraz videa", 10823
    MENUITEM "Zobrazit textové titulky uvnitø obrazu videa", 10822
-   MENUITEM "Zobrazit titulky pod obrazem videa (pokud možno)", 10824
+   MENUITEM "Zobrazit titulky pod videem (pokud lze)", 10824
    MENUITEM "Povolit animace titulkù ASS/SSA", 10825
    MENUITEM "Zobrazit krycí rámeèek", 10826
    MENUITEM "Použít efekt prolnutí", 10827
@@ -422,7 +422,7 @@
    }
    POPUP "Režim 3D videa\tJ"
    {
-    MENUITEM "Aktivovat režim 3D videa", 10683
+    MENUITEM "Povolit režim 3D videa", 10683
     MENUITEM SEPARATOR
     MENUITEM "Vstupní 3D video (zdroj): Vedle sebe", 10714
     MENUITEM "Vstupní 3D video (zdroj): Nahoøe a dole", 10715
@@ -748,7 +748,7 @@
    }
    MENUITEM SEPARATOR
    MENUITEM "Automaticky skrýt vzhled bìhem pøehrávání", 10369
-   MENUITEM "Automaticky zmìnit velikost obrazu na celé obrazovce", 10340
+   MENUITEM "Automaticky zmìnit velikost obrazu v režimu na celou obrazovku", 10340
    MENUITEM "Spustit v režimu videa", 10402
    MENUITEM "Vypnout pøepínání režimù vzhledu", 10578
    MENUITEM SEPARATOR
