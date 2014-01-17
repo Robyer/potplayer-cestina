@@ -28,7 +28,7 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Nastavení Blu-ray", 3294, 5, 182, 273, 43, 0, WS_EX_TRANSPARENT
  RTEXT "Metoda pøehrávání:", 3296, 13, 194, 69, 8
  COMBOBOX 3004, 85, 192, 187, 148, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Zpracovat min.kapitolu:", 3295, 7, 210, 69, 8
+ RTEXT "Zpracovat min.kapitolu:", 3295, 6, 210, 78, 8
  EDITTEXT 3267, 85, 208, 45, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3255, "msctls_updown32", 0x000000B6, 168, 216, 11, 12
  LTEXT "sek.", 3293, 133, 210, 20, 10

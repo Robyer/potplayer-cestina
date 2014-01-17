@@ -1,32 +1,35 @@
-309 DIALOGEX 0, 0, 220, 280, 0
+309 DIALOGEX 0, 0, 220, 296, 0
 STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Quick Capture", 3285, 12, 22, 196, 51
- LTEXT "Quick capture faster than the default capture speed but its possible some compatible problem.So we suggested that you test it fully before use it.", 3286, 19, 33, 183, 24
- AUTOCHECKBOX "Enable quick capture", 3040, 20, 59, 165, 10
- GROUPBOX "Smooth Filter", 3287, 12, 77, 196, 50
- LTEXT "Select used image size filter. Since using this will cause high CPU load, so please don't use it unless necessary.", 3288, 19, 88, 183, 19
- COMBOBOX 3006, 19, 109, 184, 68, CBS_DROPDOWNLIST | WS_VSCROLL
- GROUPBOX "PIP (Picture In Picture)", 3289, 12, 130, 196, 117
- LTEXT "With PIP function two channels can be watched on a screen at the same time. ", 3290, 26, 141, 163, 19
- CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 14, 160, 192, 1
- AUTOCHECKBOX "Enable PIP", 3034, 19, 164, 165, 10
- RTEXT "Main screen:", 3291, 23, 179, 55, 8
- COMBOBOX 3005, 83, 177, 116, 64, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Second screen size:", 3292, 14, 197, 64, 8
- CONTROL "", 3043, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 80, 195, 68, 11
- EDITTEXT 3267, 150, 195, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3255, "msctls_updown32", 0x000000B6, 181, 195, 11, 12
- LTEXT "%", 3295, 190, 197, 14, 8
- RTEXT "Horizontal Position:", 3293, 14, 215, 64, 8
- CONTROL "", 3045, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 80, 213, 68, 11
- EDITTEXT 3271, 150, 212, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3256, "msctls_updown32", 0x000000B6, 181, 212, 11, 12
- LTEXT "%", 3296, 190, 214, 14, 8
- RTEXT "Vertical Position:", 3294, 23, 231, 55, 8
- CONTROL "", 3050, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 80, 229, 68, 11
- EDITTEXT 3272, 150, 229, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3257, "msctls_updown32", 0x000000B6, 181, 229, 11, 12
- LTEXT "%", 3297, 190, 230, 14, 8
+ GROUPBOX "Capture Settings", 3416, 12, 22, 196, 68
+ AUTOCHECKBOX "Include mouse cursor", 3078, 20, 32, 165, 10
+ AUTOCHECKBOX "Skip broadcasting previews", 3041, 20, 43, 165, 10
+ AUTOCHECKBOX "Keep the capture window on top", 3083, 20, 54, 165, 10
+ AUTOCHECKBOX "Include translucent windows", 3084, 20, 64, 165, 10
+ GROUPBOX "Smooth Filter", 3287, 12, 94, 196, 51
+ LTEXT "The filter that specified here will affect the recording size. Using smooth filter feature may increase CPU usage.", 3288, 19, 103, 183, 24
+ COMBOBOX 3006, 19, 129, 184, 68, CBS_DROPDOWNLIST | WS_VSCROLL
+ GROUPBOX "PIP Settings", 3289, 12, 147, 196, 117
+ LTEXT "The PIP function allows you to capture two capture areas on the display at the same time.", 3290, 26, 158, 163, 19
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 14, 177, 192, 1
+ AUTOCHECKBOX "Use PIP (Picture In Picture)", 3034, 19, 181, 165, 10
+ RTEXT "Primary Screen:", 3291, 23, 196, 55, 8
+ COMBOBOX 3005, 83, 194, 116, 64, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "PIP Window Size:", 3292, 14, 214, 64, 8
+ CONTROL "", 3043, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 80, 212, 68, 10
+ EDITTEXT 3267, 150, 212, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3255, "msctls_updown32", 0x000000B6, 181, 212, 11, 12
+ LTEXT "%", 3295, 190, 214, 14, 8
+ RTEXT "PIP Horizontal Pos.:", 3293, 14, 232, 64, 8
+ CONTROL "", 3045, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 80, 230, 68, 10
+ EDITTEXT 3271, 150, 229, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3256, "msctls_updown32", 0x000000B6, 181, 229, 11, 12
+ LTEXT "%", 3296, 190, 231, 14, 8
+ RTEXT "PIP Vertical Pos.:", 3294, 23, 248, 55, 8
+ CONTROL "", 3050, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 80, 246, 68, 10
+ EDITTEXT 3272, 150, 246, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3257, "msctls_updown32", 0x000000B6, 181, 246, 11, 12
+ LTEXT "%", 3297, 190, 247, 14, 8
+ AUTOCHECKBOX "Use fast capture", 3040, 20, 75, 165, 10
 }

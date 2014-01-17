@@ -1,42 +1,45 @@
-386 DIALOGEX 0, 0, 286, 238, 0
+386 DIALOGEX 0, 0, 286, 241, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Zpracování videa", 3293, 5, 3, 273, 227
- AUTOCHECKBOX "Rozmazání - Radius: %d  Luma: %d                Chroma: %d", 3110, 13, 14, 213, 10
- CONTROL "", 3359, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 10, 25, 71, 11
- CONTROL "", 3360, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 84, 25, 71, 11
- CONTROL "", 3361, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 158, 25, 71, 11
- PUSHBUTTON "Výchozí", 3166, 234, 22, 38, 12
- AUTOCHECKBOX "Zaostøení - Luma: %d                                  Chroma: %d", 3115, 13, 38, 213, 10
- CONTROL "", 3084, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 10, 51, 107, 11
- CONTROL "", 3353, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 122, 51, 107, 11
- PUSHBUTTON "Výchozí", 3171, 234, 49, 38, 12
- AUTOCHECKBOX "Elimination color block: %d", 3124, 13, 64, 213, 10
- CONTROL "", 3231, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 10, 77, 218, 11
- PUSHBUTTON "Výchozí", 3320, 234, 75, 38, 12
- AUTOCHECKBOX "Gradual Denoise: %d", 3138, 13, 90, 213, 10
- CONTROL "", 3223, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 10, 103, 218, 11
- PUSHBUTTON "Výchozí", 3121, 235, 101, 38, 12
- AUTOCHECKBOX "Denoise 3D  - Luma: %d   Chroma: %d              Time: %d", 3133, 13, 117, 204, 10
- AUTOCHECKBOX "Vysoká kvalita", 3332, 221, 117, 53, 10
- CONTROL "", 3098, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 10, 131, 71, 11
- CONTROL "", 3103, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 84, 131, 71, 11
- CONTROL "", 3362, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 158, 131, 71, 11
- PUSHBUTTON "Výchozí", 3371, 235, 128, 38, 12
- AUTOCHECKBOX "Temporal noise reducer: %d       %d                           %d", 3363, 13, 145, 213, 10
- CONTROL "", 3364, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 10, 158, 71, 11
- CONTROL "", 3227, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 84, 158, 71, 11
- CONTROL "", 3365, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 158, 158, 71, 11
- PUSHBUTTON "Výchozí", 3184, 235, 155, 38, 12
- AUTOCHECKBOX "Warpsharp - Depth: %d                               Threshold: %d", 3366, 13, 172, 213, 10
- CONTROL "", 3367, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 10, 186, 107, 11
- CONTROL "", 3368, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 122, 186, 107, 11
- PUSHBUTTON "Výchozí", 3369, 234, 185, 38, 12
- CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 201, 269, 1
- AUTOCHECKBOX "Pøevr. vstupní obr.", 3061, 13, 205, 65, 10
- AUTOCHECKBOX "270 stupòù", 3372, 86, 205, 65, 10
- AUTOCHECKBOX "Více-jádrové zpracování videa", 3374, 165, 204, 109, 10
- AUTOCHECKBOX "Zrcadlit obraz", 3149, 13, 216, 65, 10
- AUTOCHECKBOX "Rozmazání pohybem", 3373, 86, 216, 153, 10
+ AUTOCHECKBOX "Blur - Radius : %d       Luma : %d                Chroma : %d", 3110, 7, 4, 213, 10
+ CONTROL "", 3359, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 15, 15, 72, 10
+ CONTROL "", 3360, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 91, 15, 72, 10
+ CONTROL "", 3361, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 164, 15, 72, 10
+ PUSHBUTTON "Výchozí", 3166, 242, 12, 38, 12
+ AUTOCHECKBOX "Sharpen - Luma : %d                                   Chroma : %d", 3115, 7, 27, 213, 10
+ CONTROL "", 3084, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 15, 40, 108, 10
+ CONTROL "", 3353, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 128, 40, 108, 10
+ PUSHBUTTON "Výchozí", 3171, 242, 38, 38, 12
+ AUTOCHECKBOX "Elimination color block : %d", 3124, 7, 52, 213, 10
+ CONTROL "", 3231, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 15, 65, 220, 10
+ PUSHBUTTON "Výchozí", 3320, 242, 63, 38, 12
+ AUTOCHECKBOX "Gradual Denoise : %d", 3138, 7, 77, 213, 10
+ CONTROL "", 3223, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 15, 90, 210, 10
+ PUSHBUTTON "Výchozí", 3121, 243, 88, 38, 12
+ AUTOCHECKBOX "Denoise 3D  - Luma : %d   Chroma : %d            Time : %d", 3133, 7, 103, 204, 10
+ AUTOCHECKBOX "Vysoká kvalita", 3332, 221, 103, 53, 10
+ CONTROL "", 3098, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 15, 117, 72, 10
+ CONTROL "", 3103, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 91, 117, 72, 10
+ CONTROL "", 3362, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 164, 117, 72, 10
+ PUSHBUTTON "Výchozí", 3371, 243, 114, 38, 12
+ AUTOCHECKBOX "Temporal noise reducer : %d      %d                           %d", 3363, 7, 130, 213, 10
+ CONTROL "", 3364, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 15, 143, 72, 10
+ CONTROL "", 3227, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 91, 143, 72, 10
+ CONTROL "", 3365, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 164, 143, 72, 10
+ PUSHBUTTON "Výchozí", 3184, 243, 140, 38, 12
+ AUTOCHECKBOX "Warpsharp - Depth : %d                              Threshold : %d", 3366, 7, 153, 213, 10
+ CONTROL "", 3367, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 15, 167, 108, 10
+ CONTROL "", 3368, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 128, 167, 108, 10
+ PUSHBUTTON "Výchozí", 3369, 242, 166, 38, 12
+ AUTOCHECKBOX "Deband - Threshold : %g                             Radius : %d", 3370, 7, 179, 213, 10
+ CONTROL "", 3375, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 15, 191, 108, 10
+ CONTROL "", 3376, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 128, 191, 108, 10
+ PUSHBUTTON "Výchozí", 3377, 242, 190, 38, 12
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 3, 205, 282, 1
+ AUTOCHECKBOX "Pøevr. vstupní obr.", 3061, 7, 210, 65, 10
+ AUTOCHECKBOX "270 stupòù", 3372, 86, 210, 65, 10
+ AUTOCHECKBOX "Více-jádrové zpracování videa", 3374, 165, 209, 109, 10
+ AUTOCHECKBOX "Zrcadlit obraz", 3149, 7, 221, 65, 10
+ AUTOCHECKBOX "Rozmazání pohybem", 3373, 86, 221, 153, 10
 }

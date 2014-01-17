@@ -1,10 +1,17 @@
-430 DIALOGEX 0, 0, 205, 113, 0
+430 DIALOGEX 0, 0, 205, 156, 0
 STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
 FONT 9, "Arial", 0, FALSE
 {
- RTEXT "Time:", 3285, 21, 40, 39, 8
- CONTROL "", 3407, "SysDateTimePick32", WS_TABSTOP | 0x00000029, 66, 39, 100, 11
- AUTOCHECKBOX "Povolit úlohu", 3034, 66, 57, 112, 10
- GROUPBOX "Nastavení úlohy", 3381, 18, 26, 170, 58, 0, WS_EX_TRANSPARENT
- AUTOCHECKBOX "Uspat poèítaè (místo jeho vypnutí)", 3035, 66, 68, 120, 10
+ GROUPBOX "Nastavení úlohy", 3381, 18, 21, 170, 101, 0, WS_EX_TRANSPARENT
+ AUTOCHECKBOX "Vypnout/Uspat poèítaè", 3034, 26, 34, 156, 10
+ RTEXT "v:", 3285, 23, 49, 42, 8
+ CONTROL "", 3407, "SysDateTimePick32", WS_TABSTOP | 0x00000029, 68, 48, 100, 11
+ CONTROL "", 3385, "STATIC", SS_ETCHEDHORZ, 23, 63, 158, 1
+ AUTOCHECKBOX "Vypnout/Uspat poèítaè (pokud není zvolen pøesný èas)", 3036, 26, 68, 160, 10
+ RTEXT "za:", 3286, 23, 84, 42, 8
+ EDITTEXT 3088, 68, 82, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3262, "msctls_updown32", 0x000000B6, 94, 76, 10, 14
+ LTEXT "minut", 3289, 107, 84, 61, 8
+ CONTROL "", 3386, "STATIC", SS_ETCHEDHORZ, 23, 98, 158, 1
+ AUTOCHECKBOX "Uspat poèítaè (místo jeho vypnutí)", 3035, 26, 104, 156, 10
 }

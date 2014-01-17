@@ -3,12 +3,14 @@ STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Hotkeys", 3381, 5, 3, 273, 171
- LTEXT "You can define your own keyboard shortcut to execute any functions of the program.User-defined shortcut keys will have priority over default hotkeys.", 3383, 10, 14, 262, 18
+ LTEXT "You can define your own keyboard shortcuts to execute any functions of the program.User-defined shortcut keys will have priority over default hotkeys.", 3383, 10, 14, 262, 18
  CONTROL "", 3242, "SysListView32", WS_BORDER | WS_TABSTOP | 0x0000880D, 9, 36, 264, 118
- AUTOCHECKBOX "Disable default hotkeys", 3119, 11, 159, 144, 10
- PUSHBUTTON "Add...", 3021, 164, 158, 35, 12
- PUSHBUTTON "Delete", 3024, 201, 158, 35, 12
- PUSHBUTTON "Edit", 3027, 239, 158, 35, 12
+ AUTOCHECKBOX "Disable default hotkeys", 3119, 11, 159, 87, 10
+ PUSHBUTTON "Add...", 3021, 101, 158, 35, 12
+ PUSHBUTTON "Delete", 3024, 138, 158, 31, 12
+ PUSHBUTTON "Edit", 3027, 171, 158, 31, 12
+ PUSHBUTTON "Move Up", 3028, 204, 158, 31, 12
+ PUSHBUTTON "Move Down", 3022, 237, 158, 39, 12
  GROUPBOX "Multimedia Keyboard", 3382, 5, 177, 273, 47
  AUTOCHECKBOX "Support multimedia keyboard", 3044, 14, 188, 259, 10
  AUTOCHECKBOX "Turn on global media control keys", 3034, 25, 199, 249, 10

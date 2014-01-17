@@ -1,19 +1,27 @@
-432 DIALOGEX 0, 0, 284, 146, 0
+432 DIALOGEX 0, 0, 284, 224, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Pomìr stran", 3292, 5, 3, 273, 82
- RTEXT "Ovládání:", 3310, 9, 16, 59, 8
+ RTEXT "Režim:", 3310, 9, 16, 59, 8
  COMBOBOX 3012, 71, 14, 203, 91, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Pomìr stran:", 3311, 9, 32, 59, 8
+ RTEXT "Úprava pomìru stran:", 3311, 9, 32, 59, 8
  COMBOBOX 3013, 71, 31, 130, 91, CBS_DROPDOWNLIST | WS_VSCROLL
- PUSHBUTTON "Vlastní pomìr stran", 3021, 205, 31, 69, 13
- RTEXT "Výstup:", 3312, 9, 50, 59, 8
+ PUSHBUTTON "Nastavit vlastní", 3021, 205, 31, 69, 13
+ RTEXT "Výstupní zaøízení:", 3312, 9, 50, 59, 8
  COMBOBOX 3014, 71, 48, 203, 91, CBS_DROPDOWNLIST | WS_VSCROLL
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 64, 268, 3
- AUTOCHECKBOX "Pøizpùsobit pomìr stran velikosti okna", 3040, 18, 70, 197, 10
- GROUPBOX "Okraj titulkù", 3293, 5, 89, 273, 42
- AUTOCHECKBOX "Povolte volbu pro vynucení zobrazení titulkù do spodního okraje", 3041, 15, 99, 257, 10
- RTEXT "Okraj titulkù:", 3313, 9, 115, 59, 8
- COMBOBOX 3015, 71, 113, 202, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ AUTOCHECKBOX "Pøizpùsobit okno velikosti obrazu", 3040, 12, 70, 194, 10
+ GROUPBOX "Režim pomìru stran v režimu na celou obrazovku", 3294, 5, 88, 273, 42
+ AUTOCHECKBOX "Povolit zvolený režim pomìru stran pokud je okraj kolem videa", 3043, 11, 99, 253, 10
+ RTEXT "- je menší než", 3314, 8, 113, 60, 8
+ EDITTEXT 3273, 71, 112, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3259, "msctls_updown32", 0x000000B6, 97, 121, 10, 12
+ LTEXT "%", 3315, 110, 114, 19, 8
+ COMBOBOX 3016, 133, 112, 141, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ GROUPBOX "Okraj titulkù", 3293, 5, 133, 273, 53
+ AUTOCHECKBOX "Povolte tuto volbu pro vynucení zobrazení titulkù do spodního okraje", 3041, 11, 143, 262, 10
+ AUTOCHECKBOX "Aktivovat pouze v režimu na celou obrazovku", 3042, 22, 155, 238, 10
+ RTEXT "Okraj titulkù:", 3313, 9, 170, 59, 8
+ COMBOBOX 3015, 71, 168, 202, 91, CBS_DROPDOWNLIST | WS_VSCROLL
 }

@@ -1,16 +1,23 @@
-441 DIALOGEX 0, 0, 282, 105, 0
+441 DIALOGEX 0, 0, 282, 183, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Jazyk / Synchronizace", 3401, 5, 3, 273, 45
- RTEXT "Preferovaný jazyk:", 3318, 11, 15, 67, 8
- EDITTEXT 3069, 81, 13, 192, 12, ES_AUTOHSCROLL
- RTEXT "Jednotka zmìny (ms):", 3310, 8, 31, 70, 8
- EDITTEXT 3111, 81, 29, 37, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3250, "msctls_updown32", 0x000000B6, 105, 32, 10, 12
- AUTOCHECKBOX "Zachovat synch. pøi pøehrávání dalšího souboru", 3380, 122, 31, 151, 10
- GROUPBOX "Ostatní", 3402, 5, 51, 273, 47
- AUTOCHECKBOX "Odstranit hlasy", 3378, 15, 62, 115, 10
- AUTOCHECKBOX "Zvýraznit hlasy", 3379, 15, 73, 115, 10
- AUTOCHECKBOX "Prohodit stereo kanály", 3381, 15, 83, 115, 10
+ GROUPBOX "Jazyk/Volba streamu", 3401, 5, 3, 273, 59
+ RTEXT "Metoda výbìru:", 3319, 9, 14, 69, 8
+ COMBOBOX 3004, 81, 12, 192, 215, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Preferovaný jazyk:", 3318, 9, 31, 69, 8
+ EDITTEXT 3069, 81, 29, 192, 12, ES_AUTOHSCROLL
+ RTEXT "Preferovaný stream:", 3320, 9, 46, 69, 8
+ EDITTEXT 3112, 81, 45, 37, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3251, "msctls_updown32", 0x000000B6, 118, 47, 10, 12
+ GROUPBOX "Synchronizace", 3403, 5, 66, 273, 44
+ RTEXT "Jednotka zmìny (ms):", 3310, 9, 77, 69, 8
+ EDITTEXT 3111, 81, 75, 37, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3250, "msctls_updown32", 0x000000B6, 118, 78, 10, 12
+ RTEXT "Ovládání synch.:", 3286, 9, 93, 69, 8
+ COMBOBOX 3003, 81, 91, 192, 215, CBS_DROPDOWNLIST | WS_VSCROLL
+ GROUPBOX "Další nastavení", 3402, 5, 114, 273, 47
+ AUTOCHECKBOX "Odstranit hlasy", 3378, 15, 126, 115, 10
+ AUTOCHECKBOX "Zvýraznit hlasy", 3379, 15, 137, 115, 10
+ AUTOCHECKBOX "Prohodit stereo kanály", 3381, 15, 147, 115, 10
 }

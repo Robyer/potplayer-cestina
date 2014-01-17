@@ -22,9 +22,9 @@ FONT 9, "Arial", 0, FALSE
  COMBOBOX 3013, 89, 112, 126, 146, CBS_DROPDOWNLIST | WS_VSCROLL
  AUTOCHECKBOX "Use original FPS if possible", 3047, 89, 129, 126, 10
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 17, 143, 200, 1
- AUTOCHECKBOX "Network delay and lower quality.", 3040, 23, 148, 193, 10
- AUTOCHECKBOX "Use multi-threaded compression", 3052, 23, 159, 193, 10
- AUTOCHECKBOX "Use high-quality compression(need test)", 3057, 23, 170, 193, 10
+ AUTOCHECKBOX "Use low quality of network delay time", 3040, 23, 148, 193, 10
+ AUTOCHECKBOX "Use buffering", 3052, 23, 159, 193, 10
+ AUTOCHECKBOX "Use high quality compression (need test)", 3057, 23, 170, 193, 10
  GROUPBOX "Audio compression", 3289, 14, 188, 207, 65
  RTEXT "Channel:", 3290, 18, 201, 68, 9
  COMBOBOX 3022, 89, 199, 126, 137, CBS_DROPDOWNLIST | WS_VSCROLL

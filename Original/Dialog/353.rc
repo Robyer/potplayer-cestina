@@ -1,50 +1,41 @@
-353 DIALOGEX 0, 0, 284, 223, 0
+353 DIALOGEX 0, 0, 284, 221, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Subtitle settings", 3285, 5, 3, 273, 133
- RTEXT "Subtitles Output:", 3314, 11, 15, 74, 8
- COMBOBOX 3003, 88, 13, 185, 91, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Font rendering:", 3316, 11, 30, 74, 8
- COMBOBOX 3005, 88, 28, 185, 74, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "ASS/SSA subtitle style:", 3318, 11, 44, 74, 8
- COMBOBOX 3008, 88, 43, 185, 74, CBS_DROPDOWNLIST | WS_VSCROLL
- CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 59, 268, 1
- AUTOCHECKBOX "Show subtitles", 3040, 13, 62, 127, 10
- AUTOCHECKBOX "VMR/EVR subtitle smoother", 3119, 13, 72, 127, 10
- AUTOCHECKBOX "Correct ratio of image subtitle", 3066, 13, 82, 127, 10
- AUTOCHECKBOX "Load subs in folder if no matching one", 3067, 13, 92, 132, 10
- AUTOCHECKBOX "Force left-aligned", 3124, 13, 102, 127, 10
- AUTOCHECKBOX "Ignore <font> tag", 3127, 13, 112, 127, 10
- AUTOCHECKBOX "Ignore all tags ", 3125, 13, 122, 127, 10
- AUTOCHECKBOX "Display subtitles over video image", 3057, 145, 62, 126, 10
- AUTOCHECKBOX "Display subtitles under video image", 3113, 145, 72, 130, 10
- AUTOCHECKBOX "Apply IDX/SUB custom position", 3123, 145, 82, 126, 10
- AUTOCHECKBOX "ASS/SSA subtitles animations", 3053, 145, 92, 126, 10
- AUTOCHECKBOX "Auto add <BR> tag to SMI subtitles", 3047, 145, 102, 126, 10
- AUTOCHECKBOX "Ignore <BR> tag in SMI subtitles", 3048, 145, 112, 126, 10
- AUTOCHECKBOX "Add a line break when sub.only 1 line", 3126, 145, 122, 130, 10
- GROUPBOX "Subtitles Fade effect", 3383, 5, 140, 273, 29
- AUTOCHECKBOX "Enable", 3339, 13, 151, 34, 10
- RTEXT "Appear:", 3311, 53, 152, 51, 8
- EDITTEXT 3112, 107, 151, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3251, "msctls_updown32", 0x000000B6, 128, 158, 10, 12
- LTEXT "%", 3315, 145, 153, 16, 8
- RTEXT "Disappear:", 3313, 166, 152, 51, 8
- EDITTEXT 3114, 220, 151, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3252, "msctls_updown32", 0x000000B6, 246, 156, 10, 12
- LTEXT "%", 3317, 258, 153, 16, 8
- GROUPBOX "3D Subtitle (stereoscopic)", 3384, 5, 171, 273, 42
- RTEXT "3D Mode:", 3322, 10, 182, 42, 8
- COMBOBOX 3007, 57, 180, 111, 74, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Size Method:", 3321, 10, 198, 42, 8
- COMBOBOX 3006, 57, 196, 111, 74, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Width Depth:", 3324, 172, 182, 49, 8
- EDITTEXT 3116, 224, 180, 31, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3254, "msctls_updown32", 0x000000B6, 243, 189, 10, 12
- LTEXT "Pixel", 3323, 258, 182, 16, 8
- RTEXT "Height Depth:", 3326, 172, 198, 49, 8
- EDITTEXT 3117, 224, 196, 31, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3255, "msctls_updown32", 0x000000B6, 246, 206, 10, 12
- LTEXT "Pixel", 3325, 258, 198, 16, 8
+ GROUPBOX "Subtitle settings", 3285, 5, 3, 273, 146
+ RTEXT "Subtitle output:", 3314, 8, 14, 77, 8
+ COMBOBOX 3003, 88, 12, 185, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Font rendering method:", 3316, 8, 29, 77, 8
+ COMBOBOX 3005, 88, 27, 185, 74, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "ASS/SSA subtitle style:", 3318, 8, 44, 77, 8
+ COMBOBOX 3008, 88, 42, 185, 74, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Ignore HTML tags:", 3319, 8, 58, 77, 8
+ AUTOCHECKBOX "Absolute size", 3041, 89, 57, 62, 10
+ AUTOCHECKBOX "Relative size", 3042, 154, 57, 62, 10
+ AUTOCHECKBOX "Font face", 3043, 219, 57, 55, 10
+ AUTOCHECKBOX "Font color", 3044, 89, 69, 62, 10
+ AUTOCHECKBOX "All fonts", 3045, 154, 69, 62, 10
+ AUTOCHECKBOX "All styles", 3046, 219, 69, 55, 10
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 82, 268, 1
+ AUTOCHECKBOX "Show subtitles", 3040, 9, 86, 131, 10
+ AUTOCHECKBOX "VMR/EVR subtitle smoother", 3119, 9, 96, 131, 10
+ AUTOCHECKBOX "Correct ratio of image subtitle", 3066, 9, 106, 131, 10
+ AUTOCHECKBOX "Load subs in folder if no matching one", 3067, 9, 116, 131, 10
+ AUTOCHECKBOX "Force left-aligned", 3124, 9, 126, 131, 10
+ AUTOCHECKBOX "Add a line break when sub.only 1 line", 3126, 9, 136, 131, 10
+ AUTOCHECKBOX "Display bitmap subs outside vid.image", 3059, 142, 86, 134, 10
+ AUTOCHECKBOX "Display text subs inside video image", 3057, 142, 96, 134, 10
+ AUTOCHECKBOX "Display subs under video (if possible)", 3113, 142, 106, 135, 10
+ AUTOCHECKBOX "Apply IDX/SUB custom position", 3123, 142, 116, 129, 10
+ AUTOCHECKBOX "Auto add <BR> tag to SMI subtitles", 3047, 142, 126, 129, 10
+ AUTOCHECKBOX "Ignore <BR> tag in SMI subtitles", 3048, 142, 136, 129, 10
+ GROUPBOX "Texture Settings", 3286, 5, 154, 273, 57
+ RTEXT "Max resolution:", 3315, 8, 167, 54, 8
+ COMBOBOX 3004, 65, 165, 87, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Sub pictures to buffer:", 3287, 154, 167, 74, 8
+ EDITTEXT 3088, 230, 165, 39, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3262, "msctls_updown32", 0x000000B6, 265, 166, 10, 14
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 182, 268, 1
+ AUTOCHECKBOX "Enable ASS/SSA subtitle animations", 3053, 9, 186, 251, 10
+ AUTOCHECKBOX "Round up to power of two", 3058, 9, 196, 128, 10
 }

@@ -2,19 +2,19 @@
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Souvislé pøehrávání", 3292, 5, 3, 273, 66
- LTEXT "Tato funkce používá vestavìný oddìlovaè pro více souborù, naètených pøedem bìhem pøehrávání, pro zabránìní pauzy pøi naèítání.", 3312, 12, 15, 261, 18
- RTEXT "Metoda:", 3310, 9, 36, 59, 8
- COMBOBOX 3012, 71, 34, 203, 91, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Jednotka:", 3308, 9, 53, 59, 8
- EDITTEXT 3105, 71, 51, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3263, "msctls_updown32", 0x000000B6, 106, 55, 10, 14
- AUTOCHECKBOX "Nejdøíve naèíst všechny soubory", 3041, 127, 52, 143, 10
- GROUPBOX "Pøehrávání streamovaných médií (mms, http)", 3293, 5, 73, 273, 43
- AUTOCHECKBOX "Povolit èasový posun", 3040, 12, 84, 261, 10
- CONTROL "", 3084, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 51, 98, 164, 11
- EDITTEXT 3267, 216, 96, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3255, "msctls_updown32", 0x000000B6, 241, 102, 11, 12
- LTEXT "min.", 3289, 254, 98, 20, 10
- RTEXT "Èas:", 3290, 11, 98, 39, 8
+ GROUPBOX "Souvislé pøehrávání", 3292, 5, 3, 273, 89
+ LTEXT "Souvislé pøehrávání (\"seamless\" èi \"gapless playback\") je nepøerušované pøehrávání navazujících audio stop a/nebo krátkých video klipù bez pauzy mezi nimi. Pøi povolení této funkce program pøedem naète následující položky v playlistu (až do zvoleného poètu) pro souvislé pøechody. Také mùžete pøehrávat více souborù jako jediný použitím volby pøedem naèíst a spojit. Pro správné fungování tìchto funkcí je potøeba je potøeba použití vestavìných filtrù.", 3312, 12, 12, 261, 49
+ RTEXT "Metoda:", 3310, 15, 64, 59, 8
+ COMBOBOX 3012, 76, 62, 200, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Max. souborù ke zpracování:", 3308, 7, 78, 67, 8
+ EDITTEXT 3105, 76, 76, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3263, "msctls_updown32", 0x000000B6, 108, 74, 10, 14
+ AUTOCHECKBOX "Pøed-naèíst soubory pøed zaèátkem pøehrávání", 3041, 114, 77, 162, 10
+ GROUPBOX "Pøehrávání streamovaných médií (mms, http)", 3293, 5, 94, 273, 42
+ AUTOCHECKBOX "Povolit èasový posun", 3040, 12, 104, 261, 10
+ CONTROL "", 3084, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 51, 117, 164, 10
+ EDITTEXT 3267, 216, 115, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3255, "msctls_updown32", 0x000000B6, 241, 121, 11, 12
+ LTEXT "min.", 3289, 254, 117, 20, 10
+ RTEXT "Èas:", 3290, 11, 117, 39, 8
 }

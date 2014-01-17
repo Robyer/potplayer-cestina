@@ -4,31 +4,31 @@ FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Normalizer", 3385, 5, 3, 273, 82
  AUTOCHECKBOX "Enable", 3034, 11, 14, 244, 10
- RTEXT "Method:", 3216, 10, 28, 70, 8
+ RTEXT "Type:", 3216, 10, 28, 70, 8
  COMBOBOX 3006, 84, 26, 188, 116, CBS_DROPDOWNLIST | WS_VSCROLL
  AUTOCHECKBOX "Boost Audio", 3047, 85, 41, 148, 10
  RTEXT "Gain (%d):", 3204, 10, 54, 70, 8
- CONTROL "", 3353, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 53, 150, 11
+ CONTROL "", 3353, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 54, 150, 10
  PUSHBUTTON "Default", 3029, 235, 51, 38, 12
  RTEXT "Release Time (%d):", 3220, 10, 70, 70, 8
- CONTROL "", 3377, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 69, 150, 11
+ CONTROL "", 3377, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 70, 150, 10
  PUSHBUTTON "Default", 3031, 235, 67, 38, 12
  GROUPBOX "Freeverb", 3392, 5, 88, 273, 105
  AUTOCHECKBOX "Enable", 3072, 11, 99, 65, 10
  RTEXT "Room size (%g):", 3207, 10, 114, 70, 8
- CONTROL "", 3079, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 113, 150, 11
+ CONTROL "", 3079, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 114, 150, 10
  PUSHBUTTON "Default", 3027, 235, 112, 38, 12
  RTEXT "Damping (%g):", 3224, 10, 130, 70, 8
- CONTROL "", 3098, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 129, 150, 11
+ CONTROL "", 3098, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 130, 150, 10
  PUSHBUTTON "Default", 3033, 235, 127, 38, 12
  RTEXT "Wet level (%g):", 3228, 10, 146, 70, 8
- CONTROL "", 3103, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 145, 150, 11
+ CONTROL "", 3103, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 146, 150, 10
  PUSHBUTTON "Default", 3042, 235, 143, 38, 12
  RTEXT "Dry level(%g):", 3232, 10, 162, 70, 8
- CONTROL "", 3108, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 161, 150, 11
+ CONTROL "", 3108, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 162, 150, 10
  PUSHBUTTON "Default", 3092, 235, 159, 38, 12
  RTEXT "Width (%g):", 3390, 10, 178, 70, 8
- CONTROL "", 3112, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 177, 150, 11
+ CONTROL "", 3112, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 178, 150, 10
  PUSHBUTTON "Default", 3056, 235, 175, 38, 12
- LTEXT "* Only works in dual channel", 3396, 88, 100, 184, 8
+ LTEXT "*It works in 2 channels only.", 3396, 88, 100, 184, 8
 }

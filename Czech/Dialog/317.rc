@@ -2,19 +2,19 @@
 STYLE DS_SETFONT | DS_CONTROL | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Nastavení zachytávání obrazu", 3285, 4, 0, 170, 71
- AUTOCHECKBOX "Zachytávat kurzor myši.", 3078, 12, 10, 154, 10
- AUTOCHECKBOX "Pøeskoèit náhled obsahu vysílání.", 3040, 12, 21, 154, 10
- AUTOCHECKBOX "Vždy zachytávat obsah okna.", 3083, 12, 32, 154, 10
- AUTOCHECKBOX "Zachytávat prùhledné okna.", 3084, 12, 42, 154, 10
- PUSHBUTTON "Nastavení...", 3042, 8, 54, 45, 11
- PUSHBUTTON "Zobrazit kameru 1", 3063, 55, 54, 57, 11, WS_DISABLED
- PUSHBUTTON "Zobrazit kameru 2", 3068, 114, 54, 57, 11, WS_DISABLED
+ GROUPBOX "Zaøízení pro zachytávání videa", 3285, 4, 0, 170, 71
+ PUSHBUTTON "Nastavení zachytávání...", 3042, 8, 54, 70, 12
+ PUSHBUTTON "Zachytávaná oblast 1", 3063, 81, 54, 43, 12, WS_DISABLED
+ PUSHBUTTON "Zachytávaná oblast 2", 3068, 126, 54, 43, 12, WS_DISABLED
  GROUPBOX "Zaøízení pro zachytávání audia", 3287, 4, 73, 170, 54, 0, WS_EX_TRANSPARENT
  RTEXT "Zaøízení:", 3288, 9, 84, 24, 8
  COMBOBOX 3046, 36, 83, 133, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "Typ:", 3289, 9, 100, 24, 8
  COMBOBOX 3051, 36, 98, 92, 146, CBS_DROPDOWNLIST | WS_VSCROLL
  PUSHBUTTON "Hlasitost", 3056, 132, 98, 36, 11
- AUTOCHECKBOX "Monitor pøipojený k mému poèítaèi.", 3034, 14, 113, 154, 10
+ AUTOCHECKBOX "Náhled audia", 3034, 14, 113, 154, 10
+ RTEXT "Zaøízení:", 3290, 9, 11, 24, 8
+ COMBOBOX 3047, 36, 10, 133, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Info:", 3291, 9, 26, 24, 8
+ LTEXT "", 3292, 36, 25, 130, 26
 }

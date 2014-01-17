@@ -3,17 +3,17 @@ STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Nastavení odstranìní prokládání", 3304, 5, 3, 273, 60
- RTEXT "Methoda:", 3306, 12, 15, 125, 10
- COMBOBOX 3349, 140, 13, 133, 137, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Priorita pole (pøi chybìjícím pøíznaku prokládání):", 3308, 9, 30, 127, 10
- COMBOBOX 3176, 140, 29, 133, 137, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Pøehodit pole (Horní <-> Spodní pole):", 3309, 12, 46, 125, 10
- COMBOBOX 3177, 140, 44, 133, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Metoda:", 3306, 9, 15, 141, 10
+ COMBOBOX 3349, 153, 13, 120, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Priorita pole (pøi chybìjícím pøíznaku prokládání):", 3308, 9, 30, 141, 10
+ COMBOBOX 3176, 153, 29, 120, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Pøehodit pole (horní <-> spodní pole):", 3309, 9, 46, 141, 10
+ COMBOBOX 3177, 153, 44, 120, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  GROUPBOX "Metoda odstranìní prokládání", 3310, 5, 66, 273, 44
- RTEXT "Pokud je zde pøíznak prokládání:", 3312, 12, 77, 125, 10
- COMBOBOX 3350, 140, 75, 133, 137, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Pokud zde není pøíznak prokládání:", 3314, 12, 93, 125, 10
- COMBOBOX 3180, 140, 91, 133, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Pokud je zde pøíznak prokládání:", 3312, 9, 77, 141, 10
+ COMBOBOX 3350, 153, 75, 120, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Pokud zde není pøíznak prokládání:", 3314, 9, 93, 141, 10
+ COMBOBOX 3180, 153, 91, 120, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  GROUPBOX "Nastavení S/W odstranìní prokládání", 3301, 5, 113, 273, 29
  RTEXT "Metoda:", 3302, 11, 126, 28, 10
  COMBOBOX 3351, 43, 124, 117, 137, CBS_DROPDOWNLIST | WS_VSCROLL

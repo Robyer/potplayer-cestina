@@ -1,12 +1,12 @@
-355 DIALOGEX 0, 0, 286, 236, 0
+355 DIALOGEX 0, 0, 286, 223, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Video Renderer", 3383, 5, 3, 273, 29
- RTEXT "Video Renderer:", 3294, 11, 15, 84, 8
+ RTEXT "Video Renderer:", 3294, 11, 16, 84, 8
  COMBOBOX 3036, 98, 14, 155, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  PUSHBUTTON "...", 3359, 257, 14, 17, 11
- GROUPBOX "Nastavení VMR9 Renderless/EVR Custom Present", 3381, 5, 35, 273, 140
+ GROUPBOX "Nastavení VMR9 Renderless/EVR Custom Present", 3381, 5, 35, 273, 130
  RTEXT "Nastavení VMR Renderless:", 3292, 11, 47, 84, 8
  COMBOBOX 3081, 98, 46, 175, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "VMR9/EVR scaler:", 3291, 11, 64, 84, 8
@@ -19,16 +19,15 @@ FONT 9, "Arial", 0, FALSE
  COMBOBOX 3341, 98, 95, 175, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  AUTOCHECKBOX "Skrýt kurzor myši", 3061, 99, 110, 173, 10
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 123, 269, 1
- AUTOCHECKBOX "Generate texture applied to two-ch.", 3057, 12, 128, 130, 10
- AUTOCHECKBOX "VMR9 mixing mode", 3040, 12, 139, 128, 10
+ AUTOCHECKBOX "EVR 16~235 level output", 3052, 12, 128, 128, 10
+ AUTOCHECKBOX "VMR mixer mode", 3040, 12, 139, 128, 10
  AUTOCHECKBOX "YUV mixing mode", 3044, 22, 150, 116, 10
  AUTOCHECKBOX "Opravit VSync (Tearing) ve VMR9", 3047, 145, 128, 127, 10
  AUTOCHECKBOX "Použít alternativní VSync ve VMR9", 3048, 145, 138, 131, 10
- AUTOCHECKBOX "EVR 16 ~ 235 level output", 3052, 145, 148, 128, 10
- AUTOCHECKBOX "Neinicializovat zmìny nastavení displeje", 3342, 145, 159, 131, 10
- GROUPBOX "Nastavení OverlayMixer", 3382, 5, 180, 273, 42
- RTEXT "Barva:", 3295, 11, 193, 50, 9
- COMBOBOX 3343, 65, 191, 193, 137, CBS_DROPDOWNLIST | WS_VSCROLL
- CONTROL "", 3213, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 262, 191, 12, 12, WS_EX_DLGMODALFRAME
- AUTOCHECKBOX "Exkluzivní obrazový mód (Pro vyøešení nìkterých problémù DXVA)", 3066, 12, 207, 261, 10, BS_MULTILINE
+ AUTOCHECKBOX "Neinic. zaøízení pøi zmìnì obrazovky", 3342, 145, 148, 131, 10
+ GROUPBOX "Nastavení OverlayMixer", 3382, 5, 169, 273, 45
+ RTEXT "Barva:", 3295, 11, 182, 50, 9
+ COMBOBOX 3343, 65, 180, 193, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ CONTROL "", 3213, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 262, 180, 12, 12, WS_EX_DLGMODALFRAME
+ AUTOCHECKBOX "Exkluzivní obrazový mód (Pro vyøešení nìkterých problémù s DXVA)", 3066, 12, 196, 261, 16, BS_MULTILINE
 }

@@ -1,19 +1,21 @@
-359 DIALOGEX 0, 0, 283, 214, 0
+359 DIALOGEX 0, 0, 283, 242, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Custom Filter Manager", 3311, 5, 2, 273, 182
- CONTROL "", 3242, "SysListView32", WS_BORDER | WS_TABSTOP | 0x00004809, 12, 29, 181, 147
- PUSHBUTTON "Add registered filter", 3021, 198, 29, 75, 13
- PUSHBUTTON "Add external filter...", 3031, 198, 45, 75, 13
- PUSHBUTTON "Delete", 3033, 198, 61, 75, 13
- PUSHBUTTON "Filter Information", 3109, 198, 77, 75, 13
- PUSHBUTTON "Up", 3035, 198, 93, 37, 13
- PUSHBUTTON "Down", 3114, 237, 93, 36, 13
- GROUPBOX "Priority", 3381, 198, 112, 73, 64
- AUTORADIOBUTTON "Block", 3209, 204, 122, 64, 10, WS_DISABLED | NOT WS_TABSTOP
- AUTORADIOBUTTON "Prefer", 3211, 204, 134, 64, 10, WS_DISABLED | NOT WS_TABSTOP
- AUTORADIOBUTTON "Set merit:", 3214, 204, 146, 64, 10, WS_DISABLED | NOT WS_TABSTOP
- EDITTEXT 3069, 211, 158, 55, 12, ES_AUTOHSCROLL | WS_DISABLED
- LTEXT "The filters that are specified here are considered on all presets.", 3383, 11, 14, 261, 10
+ GROUPBOX "Information", 3315, 5, 3, 273, 48
+ LTEXT "PotPlayer Built-in Codecs are just fine to play anything you need in the best way possible.So we do not recommend that you use external codecs unless absolutely necessary.In addition, external codecs can lead to various problems such as instability,quality loss etc.", 3384, 9, 14, 264, 34
+ GROUPBOX "Custom Filter Manager", 3311, 5, 52, 273, 175
+ LTEXT "The filters that are specified here are considered on all presets.", 3383, 11, 62, 261, 9
+ CONTROL "", 3242, "SysListView32", WS_BORDER | WS_TABSTOP | 0x00004809, 12, 74, 181, 147
+ PUSHBUTTON "Add registered filter", 3021, 198, 74, 75, 13
+ PUSHBUTTON "Add external filter...", 3031, 198, 90, 75, 13
+ PUSHBUTTON "Delete", 3033, 198, 106, 75, 13
+ PUSHBUTTON "Filter Information", 3109, 198, 122, 75, 13
+ PUSHBUTTON "Up", 3035, 198, 138, 37, 13
+ PUSHBUTTON "Down", 3114, 237, 138, 36, 13
+ GROUPBOX "Priority", 3381, 198, 157, 73, 64
+ AUTORADIOBUTTON "Block", 3209, 204, 167, 64, 10, WS_DISABLED | NOT WS_TABSTOP
+ AUTORADIOBUTTON "Prefer", 3211, 204, 179, 64, 10, WS_DISABLED | NOT WS_TABSTOP
+ AUTORADIOBUTTON "Set merit:", 3214, 204, 191, 64, 10, WS_DISABLED | NOT WS_TABSTOP
+ EDITTEXT 3069, 211, 203, 55, 12, ES_AUTOHSCROLL | WS_DISABLED
 }

@@ -1,22 +1,24 @@
-442 DIALOGEX 0, 0, 284, 109, 0
+442 DIALOGEX 0, 0, 284, 132, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Jazyk", 3382, 5, 3, 273, 50
- RTEXT "Preferovaný jazyk:", 3318, 12, 15, 55, 8
- EDITTEXT 3069, 69, 13, 204, 12, ES_AUTOHSCROLL
- AUTOCHECKBOX "Povolit pokud je poprvé zobrazený ve více jazycích", 3044, 69, 28, 202, 10
- AUTOCHECKBOX "Zakázat pokud neexistují takové titulky", 3061, 69, 39, 202, 10
- GROUPBOX "Synchronizace / Ostatní", 3383, 4, 56, 273, 45
- RTEXT "Jednotka zmìny:", 3310, 9, 66, 66, 8
- EDITTEXT 3111, 77, 64, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3250, "msctls_updown32", 0x000000B6, 97, 69, 10, 12
- LTEXT "sek.", 3312, 115, 66, 16, 8
- AUTOCHECKBOX "Zachovat synch. pøi pøehrávání dalšího souboru", 3380, 134, 65, 136, 10
- CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 79, 265, 1
- RTEXT "Doba zobrazení:", 3319, 9, 85, 66, 8
- EDITTEXT 3115, 77, 83, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
- CONTROL "", 3253, "msctls_updown32", 0x000000B6, 100, 88, 10, 12
- LTEXT "sek.", 3320, 115, 85, 16, 8
- AUTOCHECKBOX "Použít pouze pokud je následující titulek prázdný", 3381, 134, 83, 144, 10
+ GROUPBOX "Jazyk", 3382, 5, 3, 273, 67
+ RTEXT "Priorita titulkù:", 3314, 9, 15, 57, 8
+ COMBOBOX 3003, 69, 13, 204, 91, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "Preferovaný jazyk:", 3318, 9, 31, 57, 8
+ EDITTEXT 3069, 69, 29, 204, 12, ES_AUTOHSCROLL
+ AUTOCHECKBOX "Preferovat více titulkù", 3044, 69, 44, 202, 10
+ AUTOCHECKBOX "Zakázat pokud neexistují takové titulky", 3061, 69, 55, 202, 10
+ GROUPBOX "Synchronizace / Ostatní", 3383, 4, 73, 273, 45
+ RTEXT "Jednotka zmìny:", 3310, 7, 83, 68, 8
+ EDITTEXT 3111, 77, 81, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3250, "msctls_updown32", 0x000000B6, 97, 86, 10, 12
+ LTEXT "sek.", 3312, 115, 83, 16, 8
+ AUTOCHECKBOX "Zachovat synchronizaci titulkù", 3380, 134, 82, 136, 10
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 7, 96, 268, 1
+ RTEXT "Doba zobrazení:", 3319, 9, 102, 66, 8
+ EDITTEXT 3115, 77, 100, 35, 12, ES_RIGHT | ES_AUTOHSCROLL
+ CONTROL "", 3253, "msctls_updown32", 0x000000B6, 100, 105, 10, 12
+ LTEXT "sek.", 3320, 115, 103, 16, 8
+ AUTOCHECKBOX "Použít pouze pokud je následující titulek prázdný", 3381, 134, 100, 144, 10
 }

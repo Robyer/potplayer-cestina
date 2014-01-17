@@ -20,10 +20,10 @@ FONT 9, "Arial", 0, FALSE
  COMBOBOX 3011, 89, 96, 126, 146, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "Snímkù za sekundu (FPS):", 3288, 18, 114, 68, 9
  COMBOBOX 3013, 89, 112, 126, 146, CBS_DROPDOWNLIST | WS_VSCROLL
- AUTOCHECKBOX "Pouít pùvodní FPS pokud mono", 3047, 89, 129, 126, 10
+ AUTOCHECKBOX "Pouít pùvodní FPS (pokud mono)", 3047, 89, 129, 126, 10
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 17, 143, 200, 1
- AUTOCHECKBOX "Zpodìní sítì a sníení kvality.", 3040, 23, 148, 193, 10
- AUTOCHECKBOX "Pouít více-vláknovou kompresi", 3052, 23, 159, 193, 10
+ AUTOCHECKBOX "Pouít nízkou kvalitu v závislosti na zpodìní sítì", 3040, 23, 148, 193, 10
+ AUTOCHECKBOX "Pouít vyrovnávací pamì", 3052, 23, 159, 193, 10
  AUTOCHECKBOX "Pouít vysokou kvalitu komprese (nutnı test)", 3057, 23, 170, 193, 10
  GROUPBOX "Komprese audia", 3289, 14, 188, 207, 65
  RTEXT "Kanál:", 3290, 18, 201, 68, 9

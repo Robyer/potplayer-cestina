@@ -1,19 +1,21 @@
-359 DIALOGEX 0, 0, 283, 214, 0
+359 DIALOGEX 0, 0, 283, 242, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Správa vlastních filtrù", 3311, 5, 2, 273, 182
- CONTROL "", 3242, "SysListView32", WS_BORDER | WS_TABSTOP | 0x00004809, 12, 29, 181, 147
- PUSHBUTTON "Pøidat registrovaný filtr", 3021, 198, 29, 75, 13
- PUSHBUTTON "Pøidat externí filtr...", 3031, 198, 45, 75, 13
- PUSHBUTTON "Smazat", 3033, 198, 61, 75, 13
- PUSHBUTTON "Informace o filtru", 3109, 198, 77, 75, 13
- PUSHBUTTON "Nahoru", 3035, 198, 93, 37, 13
- PUSHBUTTON "Dolù", 3114, 237, 93, 36, 13
- GROUPBOX "Priorita", 3381, 198, 112, 73, 64
- AUTORADIOBUTTON "Blokovat", 3209, 204, 122, 64, 10, WS_DISABLED | NOT WS_TABSTOP
- AUTORADIOBUTTON "Preferovat", 3211, 204, 134, 64, 10, WS_DISABLED | NOT WS_TABSTOP
- AUTORADIOBUTTON "Zvolit hodnotu:", 3214, 204, 146, 64, 10, WS_DISABLED | NOT WS_TABSTOP
- EDITTEXT 3069, 211, 158, 55, 12, ES_AUTOHSCROLL | WS_DISABLED
- LTEXT "Filtry definované zde jsou použity pro všechny pøedvolby.", 3383, 11, 14, 261, 10
+ GROUPBOX "Informace", 3315, 5, 3, 273, 48
+ LTEXT "Vestavìné kodeky PotPlayeru umožòují pøehrát vše co potøebujete tím nejlepším zpùsobem. Nedoporuèujeme použití externích kodekù, pokud to není absolutnì nutné. Externí kodeky navíc mohou vést k rùzným problémùm jako je nestabilita, zhoršen kvality, atd.", 3384, 9, 14, 264, 34
+ GROUPBOX "Správa vlastních filtrù", 3311, 5, 52, 273, 175
+ LTEXT "Filtry definované zde jsou použity pro všechny pøedvolby.", 3383, 11, 62, 261, 9
+ CONTROL "", 3242, "SysListView32", WS_BORDER | WS_TABSTOP | 0x00004809, 12, 74, 181, 147
+ PUSHBUTTON "Pøidat registrovaný filtr", 3021, 198, 74, 75, 13
+ PUSHBUTTON "Pøidat externí filtr...", 3031, 198, 90, 75, 13
+ PUSHBUTTON "Smazat", 3033, 198, 106, 75, 13
+ PUSHBUTTON "Informace o filtru", 3109, 198, 122, 75, 13
+ PUSHBUTTON "Nahoru", 3035, 198, 138, 37, 13
+ PUSHBUTTON "Dolù", 3114, 237, 138, 36, 13
+ GROUPBOX "Priorita", 3381, 198, 157, 73, 64
+ AUTORADIOBUTTON "Blokovat", 3209, 204, 167, 64, 10, WS_DISABLED | NOT WS_TABSTOP
+ AUTORADIOBUTTON "Preferovat", 3211, 204, 179, 64, 10, WS_DISABLED | NOT WS_TABSTOP
+ AUTORADIOBUTTON "Zvolit hodnotu:", 3214, 204, 191, 64, 10, WS_DISABLED | NOT WS_TABSTOP
+ EDITTEXT 3069, 211, 203, 55, 12, ES_AUTOHSCROLL | WS_DISABLED
 }

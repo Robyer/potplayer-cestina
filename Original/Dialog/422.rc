@@ -1,19 +1,28 @@
-422 DIALOGEX 0, 0, 239, 188, 0
+422 DIALOGEX 0, 0, 239, 269, 0
 STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "General settings", 3286, 14, 24, 211, 58
+ GROUPBOX "General settings", 3286, 14, 24, 211, 69
  RTEXT "Cache Size:", 3285, 27, 38, 63, 8
  EDITTEXT 3111, 93, 36, 55, 12, ES_RIGHT | ES_AUTOHSCROLL
  CONTROL "", 3250, "msctls_updown32", 0x000000B6, 143, 46, 10, 12
  LTEXT "KB", 3312, 151, 38, 22, 8
  PUSHBUTTON "Default", 3021, 175, 35, 44, 14
- CONTROL "", 3199, "STATIC", SS_ETCHEDHORZ, 18, 53, 205, 1
- AUTOCHECKBOX "Multiple audio output", 3035, 22, 57, 197, 10, BS_MULTILINE
- AUTOCHECKBOX "Load embedded fonts", 3039, 22, 68, 197, 10, BS_MULTILINE
- GROUPBOX "MPEG 1/PS/TS", 3287, 14, 88, 211, 69
- AUTOCHECKBOX "H264 to AVC1 (You may use DXVA with VMR9 Renderless mode when using Cyberlink AVC Decoder)", 3034, 22, 99, 193, 22, BS_MULTILINE
- AUTOCHECKBOX "Process all PTS media stream time", 3036, 22, 119, 193, 9, BS_MULTILINE
- AUTOCHECKBOX "Process TrueHD + AC3 stream as TrueHD", 3037, 22, 130, 193, 9, BS_MULTILINE
- AUTOCHECKBOX "Use fast seek (on VBR (variable bit-rate) encoded files)", 3038, 22, 141, 193, 9, BS_MULTILINE
+ CONTROL "", 3199, "STATIC", SS_ETCHEDHORZ, 17, 53, 206, 1
+ AUTOCHECKBOX "Use single video output pin (Recommended)", 3048, 22, 57, 197, 10, BS_MULTILINE
+ AUTOCHECKBOX "Use single audio output pin (Recommended)", 3035, 22, 68, 197, 10, BS_MULTILINE
+ AUTOCHECKBOX "Load embedded fonts", 3039, 22, 79, 197, 10, BS_MULTILINE
+ GROUPBOX "MPEG 1/PS/TS", 3287, 14, 98, 211, 138
+ AUTOCHECKBOX "Don't process AVC1 as H264", 3047, 22, 108, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Add an empty subtitle stream", 3045, 22, 118, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Process all PTS media stream time", 3036, 22, 128, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Use fast seek (on VBR (variable bit-rate) encoded files)", 3038, 22, 138, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Use seek on all streams", 3046, 22, 148, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Process TrueHD + AC3 stream as TrueHD", 3037, 22, 158, 193, 9, BS_MULTILINE
+ CONTROL "", 3200, "STATIC", SS_ETCHEDHORZ, 17, 172, 206, 1
+ AUTOCHECKBOX "Use HDMV LPCM packet processing", 3044, 22, 177, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Use AC3 packet processing", 3040, 22, 188, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Use TrueHD packet processing", 3041, 22, 199, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Use DIRAC packet processing", 3042, 22, 210, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Use DVD Subpicture packet processing", 3043, 22, 221, 193, 9, BS_MULTILINE
 }

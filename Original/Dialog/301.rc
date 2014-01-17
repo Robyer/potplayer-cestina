@@ -3,7 +3,7 @@ STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  LTEXT "PotPlayer", 3382, 89, 8, 157, 9, SS_NOPREFIX
- LTEXT "Copyright (C) 2006-2013 Daum Communications Corp.", 3196, 29, 58, 192, 8
+ LTEXT "Copyright (C) 2006-2014 Daum Communications Corp.", 3196, 29, 58, 192, 8
  LTEXT "Version : ", 3383, 89, 26, 157, 8, SS_NOPREFIX
  LTEXT "Date : ", 3384, 89, 37, 157, 8, SS_NOPREFIX
  LTEXT "All rights reserved.", 3187, 29, 68, 225, 8

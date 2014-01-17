@@ -2,7 +2,7 @@
 STYLE DS_SETFONT | WS_POPUP
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Název souboru pro uložení", 3285, 11, 20, 229, 60
+ GROUPBOX "Složka pro zachytávání", 3285, 11, 20, 229, 60
  EDITTEXT 3069, 16, 31, 199, 12, ES_AUTOHSCROLL | ES_READONLY
  PUSHBUTTON "...", 3021, 218, 31, 17, 12
  RTEXT "Prefix názvu souboru:", 3297, 17, 49, 68, 8
@@ -44,7 +44,7 @@ FONT 9, "Arial", 0, FALSE
  RTEXT "Postup:", 3298, 18, 222, 32, 8
  LTEXT "", 3381, 54, 222, 179, 8
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 14, 234, 224, 1
- PUSHBUTTON "Otevøít složku", 3024, 16, 238, 64, 14
- PUSHBUTTON "Zachytit nyní", 3027, 84, 238, 65, 14
+ PUSHBUTTON "Otevøít složku pro zachytávání", 3024, 14, 238, 75, 14
+ PUSHBUTTON "Zachytit nyní", 3027, 91, 238, 60, 14
  PUSHBUTTON "Spustit", 3038, 154, 238, 81, 14
 }

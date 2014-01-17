@@ -1,0 +1,9 @@
+454 DIALOGEX 0, 0, 264, 263, 0
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "Dostupné aplikace pro zachytávání", 3381, 15, 23, 232, 204
+ LTEXT "Funkce zachytávání her funguje pouze s aplikacemi založenými na Direct3D 9, 10, 11 a OpenGL.", 3383, 22, 34, 216, 18
+ CONTROL "", 3315, "SysTreeView32", WS_BORDER | WS_HSCROLL | WS_TABSTOP | 0x000010A0, 21, 55, 220, 152
+ PUSHBUTTON "Obnovit", 3021, 195, 210, 46, 12
+}

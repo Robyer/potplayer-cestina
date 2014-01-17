@@ -2,7 +2,7 @@
 STYLE DS_SETFONT | WS_POPUP
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Filename to Save", 3285, 11, 20, 229, 60
+ GROUPBOX "Capture Directory", 3285, 11, 20, 229, 60
  EDITTEXT 3069, 16, 31, 199, 12, ES_AUTOHSCROLL | ES_READONLY
  PUSHBUTTON "...", 3021, 218, 31, 17, 12
  RTEXT "Filename prefix:", 3297, 17, 49, 68, 8
@@ -44,7 +44,7 @@ FONT 9, "Arial", 0, FALSE
  RTEXT "Progress:", 3298, 18, 222, 32, 8
  LTEXT "", 3381, 54, 222, 179, 8
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 14, 234, 224, 1
- PUSHBUTTON "Open folder", 3024, 16, 238, 64, 14
- PUSHBUTTON "Capture now", 3027, 84, 238, 65, 14
+ PUSHBUTTON "Open Capture Folder", 3024, 14, 238, 75, 14
+ PUSHBUTTON "Capture now", 3027, 91, 238, 60, 14
  PUSHBUTTON "Start", 3038, 154, 238, 81, 14
 }

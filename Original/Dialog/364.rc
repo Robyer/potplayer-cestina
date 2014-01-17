@@ -1,8 +1,8 @@
-364 DIALOGEX 0, 0, 284, 136, 0
+364 DIALOGEX 0, 0, 286, 142, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Time jump settings", 3311, 5, 3, 273, 125
+ GROUPBOX "Time jump settings", 3311, 5, 3, 273, 131
  LTEXT "Time jump tab allows you to set time jump intervals and frame step.", 3191, 13, 14, 262, 11
  RTEXT "Left/Right Arrow Keys:", 3381, 9, 32, 157, 8
  EDITTEXT 3267, 170, 30, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
@@ -25,6 +25,6 @@ FONT 9, "Arial", 0, FALSE
  PUSHBUTTON "Default", 3027, 229, 62, 43, 12
  PUSHBUTTON "Default", 3029, 229, 78, 43, 12
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 95, 268, 2
- AUTOCHECKBOX "Move by KeyFrame", 3034, 19, 102, 256, 10
- LTEXT "The exact time shift may be impossible to do a quick search.", 3204, 30, 114, 242, 9
+ AUTOCHECKBOX "Jump to keyframe", 3034, 19, 102, 256, 10
+ LTEXT "With using keyframe search, time jumping can be done very fast but it is not possible to jump to the exact time interval.", 3204, 30, 114, 242, 17
 }

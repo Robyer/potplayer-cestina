@@ -18,16 +18,16 @@ FONT 9, "Arial", 0, FALSE
  LTEXT "12K", 3185, 200, 41, 14, 8
  LTEXT "14K", 3201, 226, 41, 14, 8
  LTEXT "16K", 3191, 254, 41, 14, 8
- CONTROL "", 3043, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 15, 52, 11, 81
- CONTROL "", 3045, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 42, 52, 11, 81
- CONTROL "", 3053, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 69, 52, 11, 81
- CONTROL "", 3058, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 96, 52, 11, 81
- CONTROL "", 3062, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 122, 52, 11, 81
- CONTROL "", 3093, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 149, 52, 11, 81
- CONTROL "", 3098, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 176, 52, 11, 81
- CONTROL "", 3103, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 203, 52, 11, 81
- CONTROL "", 3108, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 229, 52, 11, 81
- CONTROL "", 3112, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 256, 52, 11, 81
+ CONTROL "", 3043, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 15, 52, 10, 81
+ CONTROL "", 3045, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 42, 52, 10, 81
+ CONTROL "", 3053, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 69, 52, 10, 81
+ CONTROL "", 3058, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 96, 52, 10, 81
+ CONTROL "", 3062, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 122, 52, 10, 81
+ CONTROL "", 3093, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 149, 52, 10, 81
+ CONTROL "", 3098, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 176, 52, 10, 81
+ CONTROL "", 3103, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 203, 52, 10, 81
+ CONTROL "", 3108, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 229, 52, 10, 81
+ CONTROL "", 3112, "msctls_trackbar32", WS_TABSTOP | 0x0000001A, 256, 52, 10, 81
  CTEXT "0", 3387, 10, 132, 17, 8
  CTEXT "0", 3388, 38, 132, 15, 8
  CTEXT "0", 3389, 66, 132, 13, 8

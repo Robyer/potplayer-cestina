@@ -12,8 +12,8 @@ FONT 9, "Arial", 0, FALSE
  PUSHBUTTON "Rename", 3027, 189, 89, 83, 12
  PUSHBUTTON "Delete", 3031, 189, 104, 83, 12
  PUSHBUTTON "Auto Select Conditions...", 3032, 189, 119, 83, 12
- AUTOCHECKBOX "Reopen current file when a preset is manually switched", 3034, 15, 141, 251, 10
- AUTOCHECKBOX "When switching a preset, copy it to the default configuration preset", 3040, 15, 153, 251, 11
- AUTOCHECKBOX "Switch back to the previous preset when closing file", 3083, 15, 165, 251, 10
- AUTOCHECKBOX "Start The PotPlayer with Default Preset", 3104, 15, 177, 251, 10
+ AUTOCHECKBOX "Reopen current file when a preset is manually switched", 3034, 15, 141, 254, 10
+ AUTOCHECKBOX "When switching a preset, copy it to the default configuration preset", 3040, 15, 153, 254, 11
+ AUTOCHECKBOX "Switch back to the previous preset when closing file", 3083, 15, 165, 254, 10
+ AUTOCHECKBOX "Start The PotPlayer with Default Preset", 3104, 15, 177, 254, 10
 }

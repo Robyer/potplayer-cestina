@@ -2,5 +2,5 @@
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- LTEXT "Hardware set up.\nSelect a sub-item.", 3382, 6, 5, 270, 27
+ LTEXT "Device set up.\nSelect a sub-item.", 3382, 6, 5, 270, 27
 }

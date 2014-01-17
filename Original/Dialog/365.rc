@@ -3,7 +3,7 @@ STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Winamp DSP audio plug-ins (16-bit output processing)", 3381, 5, 3, 273, 174
- AUTOCHECKBOX "Use only in dual-channel", 3034, 14, 15, 254, 10
+ AUTOCHECKBOX "Use in 2 channels only", 3034, 14, 15, 254, 10
  EDITTEXT 3069, 52, 27, 200, 12, ES_AUTOHSCROLL | ES_READONLY
  PUSHBUTTON "...", 3021, 255, 26, 18, 12
  COMBOBOX 3003, 10, 159, 219, 121, CBS_DROPDOWNLIST | WS_VSCROLL

@@ -7,10 +7,10 @@ FONT 9, "Arial", 0, FALSE
  RTEXT "Velikost písma:", 3287, 188, 16, 49, 8
  EDITTEXT 3088, 240, 14, 32, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3262, "msctls_updown32", 0x000000B6, 265, 22, 10, 14
- AUTOCHECKBOX "Zobrazit èas", 3110, 11, 31, 60, 10
- AUTOCHECKBOX "Zobrazit èíslo", 3104, 76, 31, 60, 10
- AUTOCHECKBOX "Zobrazit ikonu souboru", 3120, 143, 31, 60, 10
- AUTOCHECKBOX "Zobrazit pøíponu", 3121, 209, 31, 66, 10
+ AUTOCHECKBOX "Zobrazit ikonu souboru", 3120, 12, 31, 60, 10
+ AUTOCHECKBOX "Zobrazit èíslo", 3104, 77, 31, 60, 10
+ AUTOCHECKBOX "Zobrazit pøíponu", 3121, 144, 31, 63, 10
+ AUTOCHECKBOX "Zobrazit èas", 3110, 209, 31, 53, 10
  GROUPBOX "Nastavení playlistu", 3295, 5, 49, 273, 48
  AUTOCHECKBOX "Uloit playlist automaticky", 3097, 11, 60, 119, 10
  AUTOCHECKBOX "Nepøidávat duplicitní soubory", 3124, 135, 60, 137, 10
@@ -19,9 +19,11 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Zapamatovat pozici pøehrávání", 3116, 11, 83, 119, 10
  AUTOCHECKBOX "Automaticky zjišovat délku pøehrávání", 3117, 135, 83, 137, 10
  GROUPBOX "Klávesové zkratky", 3381, 5, 101, 273, 131
- LTEXT "Mùete nastavit vlastní klávesové zkratky pro vyvolání jakékoliv funkce programu. Vámi definované klávesové zkratky budou upøednostnìny pøed vıchozími.", 3383, 10, 112, 262, 19
+ LTEXT "Mùete nastavit vlastní klávesovou zkratku pro vyvolání jakékoliv funkce programu. Vámi definované klávesové zkratky budou upøednostnìny pøed vıchozími.", 3383, 10, 112, 262, 19
  CONTROL "", 3242, "SysListView32", WS_BORDER | WS_TABSTOP | 0x0000880D, 9, 135, 264, 75
- PUSHBUTTON "Pøidat...", 3330, 164, 214, 35, 12
- PUSHBUTTON "Smazat", 3024, 201, 214, 35, 12
- PUSHBUTTON "Upravit", 3027, 239, 214, 35, 12
+ PUSHBUTTON "Pøidat...", 3330, 92, 214, 35, 12
+ PUSHBUTTON "Smazat", 3024, 129, 214, 35, 12
+ PUSHBUTTON "Upravit", 3027, 167, 214, 35, 12
+ PUSHBUTTON "Posunout nahoru", 3028, 204, 214, 31, 12
+ PUSHBUTTON "Posunout dolù", 3022, 236, 214, 40, 12
 }

@@ -1,4 +1,4 @@
-354 DIALOGEX 0, 0, 283, 241, 0
+354 DIALOGEX 0, 0, 283, 203, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
@@ -12,36 +12,18 @@ FONT 9, "Arial", 0, FALSE
  COMBOBOX 3008, 85, 55, 186, 88, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "Check for updates:", 3291, 11, 72, 72, 8
  COMBOBOX 3010, 85, 70, 186, 88, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Multiple launching:", 3293, 11, 87, 72, 8
+ RTEXT "Multiple instances:", 3293, 11, 87, 72, 8
  COMBOBOX 3011, 85, 85, 186, 88, CBS_DROPDOWNLIST | WS_VSCROLL
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 101, 269, 3
- AUTOCHECKBOX "Disable restore down mode", 3129, 11, 105, 139, 10
- AUTOCHECKBOX "Show tooltips", 3072, 154, 105, 119, 10
- AUTOCHECKBOX "Hide all windows when minimized", 3094, 11, 116, 137, 10
- AUTOCHECKBOX "Snap to edge/window", 3073, 154, 116, 119, 10
- AUTOCHECKBOX "Pause playback when minimized", 3110, 11, 127, 137, 10
- AUTOCHECKBOX "Auto close the last file on complete", 3124, 154, 127, 121, 10
- AUTOCHECKBOX "Reset win size to default on closing file", 3123, 11, 137, 139, 10
- AUTOCHECKBOX "Store settings to .ini file", 3083, 154, 137, 119, 10
- AUTOCHECKBOX "Resize window based on the center", 3126, 11, 148, 139, 10
- AUTOCHECKBOX "Enable taskbar controls (in Win7/8)", 3336, 154, 148, 122, 10
- AUTOCHECKBOX "Show history of recent files in fav menu", 3127, 11, 159, 139, 10
- GROUPBOX "When Starting", 3287, 5, 177, 273, 56
- RTEXT "Window Size:", 3289, 11, 188, 72, 8
- COMBOBOX 3006, 85, 186, 99, 88, CBS_DROPDOWNLIST | WS_VSCROLL
- EDITTEXT 3273, 188, 187, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3259, "msctls_updown32", 0x000000B6, 217, 183, 10, 12
- LTEXT "x", 3292, 229, 188, 8, 8
- EDITTEXT 3275, 238, 187, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3261, "msctls_updown32", 0x000000B6, 266, 182, 10, 12
- RTEXT "Window Position:", 3294, 11, 203, 72, 8
- COMBOBOX 3007, 85, 201, 99, 88, CBS_DROPDOWNLIST | WS_VSCROLL
- EDITTEXT 3274, 188, 201, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3260, "msctls_updown32", 0x000000B6, 220, 204, 10, 12
- LTEXT "x", 3295, 229, 202, 8, 8
- EDITTEXT 3276, 238, 201, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
- CONTROL "", 3262, "msctls_updown32", 0x000000B6, 269, 200, 10, 12
- CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 216, 269, 3
- AUTOCHECKBOX "Restore window to its last position", 3131, 10, 219, 132, 10
- AUTOCHECKBOX "Play the last played file", 3132, 181, 219, 89, 10
+ AUTOCHECKBOX "Fixed window position when minimized", 3129, 11, 105, 138, 10
+ AUTOCHECKBOX "Show tooltips", 3072, 151, 105, 123, 10
+ AUTOCHECKBOX "Hide all windows when minimized", 3094, 11, 116, 138, 10
+ AUTOCHECKBOX "Snap to edge/window", 3073, 151, 116, 123, 10
+ AUTOCHECKBOX "Pause playback when minimized", 3110, 11, 127, 138, 10
+ AUTOCHECKBOX "Store settings to .ini file", 3083, 151, 127, 123, 10
+ AUTOCHECKBOX "Resize window based on the center", 3126, 11, 137, 138, 10
+ AUTOCHECKBOX "Enable taskbar controls (in Win7/8)", 3336, 151, 138, 123, 10
+ AUTOCHECKBOX "Show history of recent files in fav menu", 3127, 11, 148, 138, 10
+ AUTOCHECKBOX "Default window size on closing file", 3123, 151, 149, 123, 10
+ AUTOCHECKBOX "Use scrollbar in popup menu", 3337, 11, 159, 138, 10
 }

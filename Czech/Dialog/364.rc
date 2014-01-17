@@ -1,8 +1,8 @@
-364 DIALOGEX 0, 0, 284, 136, 0
+364 DIALOGEX 0, 0, 286, 142, 0
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Nastavení èasových skokù", 3311, 5, 3, 273, 125
+ GROUPBOX "Nastavení èasových skokù", 3311, 5, 3, 273, 131
  LTEXT "Zde mùžete nastavit intervaly èasových skokù a krok snímkù.", 3191, 13, 14, 262, 11
  RTEXT "Klávesa Vlevo/Vpravo:", 3381, 9, 32, 157, 8
  EDITTEXT 3267, 170, 30, 36, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
@@ -26,5 +26,5 @@ FONT 9, "Arial", 0, FALSE
  PUSHBUTTON "Výchozí", 3029, 229, 78, 43, 12
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 95, 268, 2
  AUTOCHECKBOX "Pøesouvat na klíèové snímky", 3034, 19, 102, 256, 10
- LTEXT "Pøesun na pøesný èas mùže být pomalý.", 3204, 30, 114, 242, 9
+ LTEXT "Pøi použití klíèových snímkù je èasový pøesun velmi rychlý, ale není možné skoèit na pøesný èasový interval.", 3204, 30, 114, 242, 17
 }
