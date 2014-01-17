@@ -10,7 +10,7 @@
    MENUITEM "Open Directory...\tF2", 10160
    MENUITEM "Open File Navigator...\tF12", 10331
    MENUITEM "Open Menu Navigator... \tCtrl+F12", 10447
-   MENUITEM "Open FTP...\tAlt+F12", 10668
+   MENUITEM "Open FTP/WebDAV/HTTP...\tAlt+F12", 10668
    POPUP "Default"
    {
     MENUITEM "Open File(s)", 10358
@@ -19,19 +19,20 @@
     MENUITEM "Navigation", 10361
    }
    MENUITEM SEPARATOR
-   MENUITEM "Capture \tCtrl+S", 10161
+   MENUITEM "Screen Capture \tCtrl+S", 10161
    MENUITEM "Webcam/Other Devices \tCtrl+J", 10162
    MENUITEM "Analog TV \tCtrl+W", 10163
    MENUITEM "Digital TV (BDA Device) \tCtrl+K", 10164
-   MENUITEM "Device Settings... \tAlt+D", 10338
+   MENUITEM "Device Settings...\tAlt+D", 10338
    MENUITEM SEPARATOR
    MENUITEM "Open DVD \tCtrl+D", 10165
    MENUITEM "Open DVD files(*.IFO)...", 10412
+   MENUITEM "Open Blu-ray\tCtrl+Alt+D", 10795
    MENUITEM SEPARATOR
    MENUITEM "Open Subtitles... \tAlt+O", 10146
    MENUITEM "Subtitle Navigator...", 10332
    MENUITEM "Add Multiple Subtitles...", 10147
-   MENUITEM "Re-Open Subtitles \tCtrl+Alt+Y", 10488
+   MENUITEM "Re-Read Subtitles\tCtrl+Alt+Y", 10488
    MENUITEM SEPARATOR
    MENUITEM "Re-Open Current File...\tCtrl+Y", 10385
    MENUITEM "Open Audio...", 10400
@@ -67,6 +68,7 @@
   POPUP "Visualization"
   {
    MENUITEM "Enable visualization for audio tracks", 10413
+   MENUITEM "Display album art/cover pictures", 10840
    MENUITEM SEPARATOR
    MENUITEM "WMP visualization", 10317
    MENUITEM "Floating ball", 10318
@@ -151,11 +153,13 @@
    MENUITEM "Previous File\tPgUp", 10067
    MENUITEM "Next File\tPgDn", 10068
    MENUITEM SEPARATOR
-   MENUITEM "Bookmark \tH", 10324
+   MENUITEM "Chapter/Bookmark\tH", 10324
    POPUP "Jump (to)"
    {
     MENUITEM "Previous frame\tD", 10242
     MENUITEM "Next frame\tF", 10241
+    MENUITEM "Previous keyframe\tCtrl+Shift+Left", 10786
+    MENUITEM "Next keyframe\tCtrl+Shift+Right", 10787
     MENUITEM SEPARATOR
     MENUITEM "%s Backward\tLeft", 10059
     MENUITEM "%s Forward\tRight", 10060
@@ -174,9 +178,10 @@
     MENUITEM "Next Subtitle \tEnd", 10245
     MENUITEM "Current subtitle position\tCtrl+Home", 10582
     MENUITEM SEPARATOR
-    MENUITEM "Move by Keyframe", 10265
+    MENUITEM "Jump to keyframe", 10265
     MENUITEM "Time/Frame... \tG", 10325
-    MENUITEM "Preview Scenes... \tShift+S", 10416
+    MENUITEM "Scene Explorer...\tShift+Z", 10416
+    MENUITEM "Chapter/Bookmark Explorer...\tAlt+Z", 10802
     MENUITEM SEPARATOR
     MENUITEM "Time Jump Settings...", 10758
    }
@@ -199,7 +204,7 @@
     MENUITEM SEPARATOR
     MENUITEM "Skip Setup... \t'", 10240
    }
-   POPUP "A-B Repeat"
+   POPUP "A-B Repeat\tB"
    {
     MENUITEM "Start AB Repeat\t[", 10249
     MENUITEM "Undo Start AB Repeat\tShift+[", 10251
@@ -214,8 +219,10 @@
     MENUITEM "Backward 0.1 Sec. AB Repeat\tCtrl+Alt+[", 10541
     MENUITEM "Forward 0.1 Sec. AB Repeat\tCtrl+Alt+]", 10543
     MENUITEM "Auto repeat current subtitle section\tCtrl+\\ or Insert", 10592
-    MENUITEM "Chapter/Marker/Bookmark\tAlt+\\", 10742
+    MENUITEM "Chapter/Marker/Bookmark\tAlt+\\", 10746
     MENUITEM "Undo AB Repeat\t\\", 10253
+    MENUITEM "Store AB Repeat list to a .PBF file", 10777
+    MENUITEM "AB Repeat Setup...\tShift+\\", 10778
    }
    POPUP "Playlist"
    {
@@ -230,6 +237,8 @@
     MENUITEM SEPARATOR
     MENUITEM "Open item folder...", 10207
     MENUITEM "Edit item title...", 10211
+    MENUITEM "File search…", 10490
+    MENUITEM "Rename file...", 10583
     MENUITEM "Copy", 10007
     MENUITEM "Paste", 10008
     MENUITEM SEPARATOR
@@ -256,22 +265,28 @@
    }
    POPUP "Repeat"
    {
-    MENUITEM "Switch-Repeat", 10034
+    MENUITEM "Cycle Repeat", 10034
     MENUITEM "Disable", 10495
     MENUITEM "Repeat all", 10496
     MENUITEM "Repeat One", 10497
    }
    POPUP "Seamless Playback"
    {
-    MENUITEM "Disable (Default)", 10602
-    MENUITEM "Enable (Read files up to the specified Unit)", 10603
-    MENUITEM "Enable if number of items in playlist is below Unit", 10604
+    MENUITEM "Disable (Recommended)", 10602
+    MENUITEM "Enable: Preload Multiple Files", 10603
+    MENUITEM "Enable: Preload && Combine Multiple Files", 10604
     MENUITEM SEPARATOR
     MENUITEM "Seamless Playback Settings...", 10605
    }
    MENUITEM SEPARATOR
    MENUITEM "Shuffle Play", 10069
-   MENUITEM "Play from the latest point", 10419
+   MENUITEM "Remember playback position", 10419
+   MENUITEM "Hide mouse cursor during playback", 10121
+   MENUITEM "Prevent Screen Saver", 10122
+   MENUITEM "Auto close the last file on complete", 10445
+   MENUITEM "Show timeinfo on tooltip when seeking", 10812
+   MENUITEM "Show thumbnail previews on navigation bar", 10813
+   MENUITEM "Show bookmark/chapter marks on navigation bar", 10814
    MENUITEM SEPARATOR
    MENUITEM "Playback Settings...", 10757
   }
@@ -284,38 +299,36 @@
    MENUITEM "Show Subtitles \tAlt+H", 10126
    MENUITEM "Subtitle Explorer... \tAlt+E", 10228
    MENUITEM "Manual Subtitle Input... \tAlt+P", 10266
-   MENUITEM "Copy current subtitle to clipboard", 10624
    MENUITEM SEPARATOR
-   MENUITEM "Display on Video (TV-OUT)\tAlt+I", 10220
-   MENUITEM "Display on Overlay/VMR Surface \tAlt+V", 10221
-   MENUITEM SEPARATOR
-   POPUP "Position"
+   POPUP "Output/Rendering"
    {
-    MENUITEM "Default \tAlt+Home", 10127
+    MENUITEM "Display on Video (TV-OUT)\tAlt+I", 10220
+    MENUITEM "Display on Overlay/VMR Surface\tAlt+I", 10221
+    MENUITEM SEPARATOR
+    MENUITEM "Vector text rendering", 10820
+    MENUITEM "Bitmap text rendering", 10821
+   }
+   POPUP "Styles"
+   {
+    MENUITEM "Use Bold Font\tAlt+B", 10136
+    MENUITEM "Increase Font Size\tAlt+PGUP", 10137
+    MENUITEM "Decrease Font Size\tAlt+PGDN", 10138
+    MENUITEM "Font Settings...\tAlt+F", 10139
+    MENUITEM SEPARATOR
+    MENUITEM "Align Left", 10143
+    MENUITEM "Align Center", 10144
+    MENUITEM "Align Right", 10145
+    MENUITEM SEPARATOR
+    MENUITEM "Default Position\tAlt+Home", 10127
     MENUITEM "Up \tAlt+Up", 10128
     MENUITEM "Down\tAlt+Down", 10129
     MENUITEM "Left\tAlt+Left", 10130
     MENUITEM "Right\tAlt+Right", 10131
-   }
-   POPUP "Bottom Margin"
-   {
-    MENUITEM "Increase Horizontal Spacing + \tAlt+Num 6", 10132
-    MENUITEM "Decrease Horizontal Spacing - \tAlt+Num 4", 10133
-    MENUITEM "Increase Vertical Spacing + \tAlt+Num 8", 10134
-    MENUITEM "Decrease Vertical Spacing - \tAlt+Num 2", 10135
-   }
-   POPUP "Paragraph"
-   {
-    MENUITEM "Left", 10143
-    MENUITEM "Center", 10144
-    MENUITEM "Right", 10145
-   }
-   POPUP "Font and Size"
-   {
-    MENUITEM "Bold \tAlt+B", 10136
-    MENUITEM "Font Size + \tAlt+PGUP", 10137
-    MENUITEM "Font Size  - \tAlt+PGDN", 10138
-    MENUITEM "Font Settings... \tAlt+F", 10139
+    MENUITEM SEPARATOR
+    MENUITEM "Increase Horizontal Spacing\tAlt+Num 6", 10132
+    MENUITEM "Decrease Horizontal Spacing\tAlt+Num 4", 10133
+    MENUITEM "Increase Vertical Spacing\tAlt+Num 8", 10134
+    MENUITEM "Decrease Vertical Spacing\tAlt+Num 2", 10135
     MENUITEM SEPARATOR
     MENUITEM "Subtitle Font Style Settings...", 10761
    }
@@ -324,7 +337,7 @@
     MENUITEM "%s faster \t> or .", 10140
     MENUITEM "%s slower \t< or ,", 10141
     MENUITEM "Default \t/", 10142
-    MENUITEM "Keep subtitle sync when playing the next file", 10629
+    MENUITEM "Keep subtitle sync", 10629
     MENUITEM SEPARATOR
     MENUITEM "Subtitle Language/Sync/Other Settings...", 10762
    }
@@ -350,10 +363,22 @@
     MENUITEM "Default Position", 10576
    }
    MENUITEM SEPARATOR
+   MENUITEM "Copy current subtitle to clipboard", 10624
+   MENUITEM "Display bitmap subtitles outside video image", 10823
+   MENUITEM "Display text subtitles inside video image", 10822
+   MENUITEM "Display subtitles under video image (if possible)", 10824
+   MENUITEM "Enable ASS/SSA subtitle animations", 10825
+   MENUITEM "Use opaque box border style", 10826
+   MENUITEM "Use fade effect", 10827
+   MENUITEM SEPARATOR
    MENUITEM "Subtitle Settings...", 10760
   }
   POPUP "Video"
   {
+   POPUP "Select Video Stream\tV"
+   {
+    MENUITEM "Cycle Video Stream\tAlt+V", -20837
+   }
    POPUP "Video Renderer"
    {
     MENUITEM "Select Automatically (Recommended)", 10294
@@ -369,6 +394,8 @@
     MENUITEM "Madshi Video Renderer", 10304
     MENUITEM "Direct3D9 Video Renderer", 10560
     MENUITEM "OpenGL Video Renderer", 10561
+    MENUITEM "Null Video Renderer (Compressed Input)", 10562
+    MENUITEM "Null Video Renderer (Uncompressed Input)", 10563
    }
    POPUP "Pixel Shader\tS"
    {
@@ -393,16 +420,18 @@
     MENUITEM "Reload Pixel Shader list", 10289
     MENUITEM "Open Pixel Shader folder", 10288
    }
-   POPUP "3D Video Mode\tV"
+   POPUP "3D Video Mode\tJ"
    {
     MENUITEM "Enable 3D Video Mode", 10683
     MENUITEM SEPARATOR
-    MENUITEM "Side By Side", 10714
-    MENUITEM "Top && Bottom", 10715
-    MENUITEM "Original Image", 10716
+    MENUITEM "3D Video Input (Source) : Side By Side", 10714
+    MENUITEM "3D Video Input (Source) : Top && Bottom", 10715
+    MENUITEM "3D Video Input (Source) : Original Image", 10716
     MENUITEM SEPARATOR
-    MENUITEM "Half resolution", 10717
+    MENUITEM "Use half-resolution 3D mode", 10717
     MENUITEM "Swap left/right images", 10718
+    MENUITEM "Auto detect 3D input format", 10741
+    MENUITEM "Auto switch between video modes (2D<>3D)", 10742
     MENUITEM SEPARATOR
     POPUP "3D Video Output (Screen)"
     {
@@ -426,6 +455,7 @@
      MENUITEM "Anaglyph Yellow/Blue Dubois", 10736
      MENUITEM "Anaglyph Red/Blue Gray", 10737
      MENUITEM "Anaglyph Red/Green Gray", 10738
+     MENUITEM "Shutter Glasses (Page Flipping)", 10739
     }
     POPUP "3D Subtitle (stereoscopic)"
     {
@@ -443,11 +473,11 @@
      MENUITEM "Default Position", 10576
     }
     MENUITEM SEPARATOR
-    MENUITEM "3D Video Mode Settings...", 10739
+    MENUITEM "3D Video Mode Settings...", 10740
    }
    POPUP "Video Processing Filters"
    {
-    MENUITEM "Switch-Video Processing \tCtrl+X", 10306
+    MENUITEM "Cycle Video Processing \tCtrl+X", 10306
     MENUITEM "Always Use (Recommended)", 10450
     MENUITEM "Disable with FourCC Condition", 10451
     MENUITEM "Do not use", 10452
@@ -462,7 +492,16 @@
     MENUITEM SEPARATOR
     MENUITEM "Resolution Settings...", 10321
    }
-   POPUP "Pan && Scan\tJ"
+   POPUP "Deinterlacing"
+   {
+    MENUITEM "Cycle interlacing mode \tCtrl+I", 10420
+    MENUITEM "Auto selection", 10421
+    MENUITEM "Always Use", 10422
+    MENUITEM "Do not use", 10423
+    MENUITEM SEPARATOR
+    MENUITEM "De-interlacing settings...", 10424
+   }
+   POPUP "Screen Offset"
    {
     MENUITEM "Do Nothing", 10073
     MENUITEM "4:3 Extending", 10074
@@ -485,18 +524,9 @@
     MENUITEM SEPARATOR
     MENUITEM "Screen Offset... \tCtrl+Q", 10323
    }
-   POPUP "Deinterlacing"
-   {
-    MENUITEM "Switch-interlacing mode \tCtrl+I", 10420
-    MENUITEM "Auto selection", 10421
-    MENUITEM "Always Use", 10422
-    MENUITEM "Do not use", 10423
-    MENUITEM SEPARATOR
-    MENUITEM "De-interlacing settings...", 10424
-   }
    POPUP "Bottom Margin"
    {
-    MENUITEM "Switch-Margins \tCtrl+Alt+B", 10342
+    MENUITEM "Cycle Margins \tCtrl+Alt+B", 10342
     MENUITEM "Borderless", 10343
     MENUITEM "5%", 10344
     MENUITEM "10%", 10345
@@ -523,6 +553,7 @@
     MENUITEM "Temporary Denoise \tCtrl+M", 10427
     MENUITEM "Offset", 10428
     MENUITEM "WarpSharp", 10429
+    MENUITEM "Deband", 10837
     MENUITEM "Motion Blur", 10531
     MENUITEM SEPARATOR
     MENUITEM "Video Processing Settings...", 10529
@@ -535,40 +566,40 @@
    }
    POPUP "Screen Rotation"
    {
-    MENUITEM "Switch-Screen Rotation\tAlt+K", 10612
+    MENUITEM "Cycle Screen Rotation\tAlt+K", 10612
     MENUITEM "Do nothing", 10613
     MENUITEM "90 degrees Rotation", 10614
     MENUITEM "180 degrees Rotation", 10615
     MENUITEM "270 degrees Rotation", 10616
    }
-   POPUP "Capture \tK"
+   POPUP "Video Capture \tK"
    {
     MENUITEM "Save HDTV stream... \tCtrl+A", 10313
-    MENUITEM "Create Snapshot...\tAlt+N", 10353
+    MENUITEM "Create Thumbnail Image...\tAlt+N", 10353
     MENUITEM SEPARATOR
-    MENUITEM "Video : Capture... \tAlt+C", 10370
-    MENUITEM "Video : Quick Capture...", 10430
+    MENUITEM "Video Recorder...\tAlt+C", 10370
+    MENUITEM "Start Video Recording", 10430
     MENUITEM SEPARATOR
-    MENUITEM "Consecutive Capture... \tCtrl+G", 10222
-    MENUITEM "Quick Consecutive Capture...", 10431
+    MENUITEM "Consecutive Image Capture...\tCtrl+G", 10222
+    MENUITEM "Start Consecutive Image Capturing", 10431
     MENUITEM SEPARATOR
-    MENUITEM "Frame : Capture Current Source... \tCtrl+C", 10223
-    MENUITEM "Frame : Capture Truncation Current Source\tCtrl+E", 10224
-    MENUITEM "Frame : Capture Current source (as)...", 10357
+    MENUITEM "Save Current Frame to Clipboard (Original Size)\tCtrl+C", 10223
+    MENUITEM "Save Current Frame (Original Size)\tCtrl+E", 10224
+    MENUITEM "Save Current Frame As...(Original Size)", 10357
     MENUITEM SEPARATOR
-    MENUITEM "Frame : Capture Real Screen \tCtrl+Alt+C", 10432
-    MENUITEM "Frame : Capture Truncation Real Screen \tCtrl+Alt+E", 10433
-    MENUITEM "Frame : Capture Real Screen (as)...", 10434
+    MENUITEM "Save Current Frame to Clipboard (Current Window Size)\tCtrl+Alt+C", 10432
+    MENUITEM "Save Current Frame (Current Window Size)\tCtrl+Alt+E", 10433
+    MENUITEM "Save Current Frame As...(Current Window Size)", 10434
     MENUITEM SEPARATOR
-    MENUITEM "Capture as BMP", 10354
-    MENUITEM "Capture as JPEG", 10355
-    MENUITEM "Capture as PNG", 10356
+    MENUITEM "Save images in BMP format", 10354
+    MENUITEM "Save images in JPEG format", 10355
+    MENUITEM "Save images in PNG format", 10356
     MENUITEM SEPARATOR
-    MENUITEM "Save file name as current time", 10556
-    MENUITEM "Save file name as playing time", 10557
+    MENUITEM "Include system date and time in filename", 10556
+    MENUITEM "Include file elapsed time in filename", 10557
     MENUITEM SEPARATOR
-    MENUITEM "Include messages, subtitles", 10305
-    MENUITEM "Keep Aspect Ratio", 10587
+    MENUITEM "Include messages, subtitles in capture", 10305
+    MENUITEM "Correct Aspect Ratio", 10587
     MENUITEM SEPARATOR
     MENUITEM "Select Capture Folder...", 10334
     MENUITEM "Open Capture Folder", 10225
@@ -588,9 +619,9 @@
   }
   POPUP "Audio"
   {
-   POPUP "Select Stream \tA"
+   POPUP "Select Audio Stream \tA"
    {
-    MENUITEM "Switch-Stream \tAlt+A", 6799
+    MENUITEM "Cycle Audio Stream \tAlt+A", 6799
     MENUITEM SEPARATOR
     MENUITEM "Both", 7690
     MENUITEM "Left", 7691
@@ -602,24 +633,29 @@
    }
    POPUP "S/PDIF Audio Renderer"
    {
-    MENUITEM "Default Audio Renderer (Recommended)", 7645
+    MENUITEM "Default Audio Renderer (Recommended)", 7625
+   }
+   POPUP "2nd Audio Renderer"
+   {
+    MENUITEM "Disable (Recommended)", 7660
    }
    MENUITEM "Output Speakers", 10441
-   MENUITEM "Sampling Rate", 10441
+   MENUITEM "Output Format/Resample", 10441
+   MENUITEM "Output Mode", 10441
    MENUITEM SEPARATOR
-   POPUP "Volume Control"
+   POPUP "Playback Volume"
    {
     MENUITEM "Default volume control (Recommended)", 10393
     MENUITEM "System Wave volume control", 10394
     MENUITEM "System Master volume control", 10395
     MENUITEM SEPARATOR
-    MENUITEM "Multi-channel volume control", 10435
+    MENUITEM "Enable individual volume control", 10435
     MENUITEM "Increase master volume\tShift+Up", 10520
     MENUITEM "Decrease master volume\tShift+Down", 10521
     MENUITEM SEPARATOR
-    MENUITEM "AC3/DTS sound amplification", 10436
-    MENUITEM "Increase amplification", 10522
-    MENUITEM "Decrease amplification", 10523
+    MENUITEM "Pre-amplify AC3/DTS Volume to proper level", 10436
+    MENUITEM "Increase PreAmp", 10522
+    MENUITEM "Decrease PreAmp", 10523
     MENUITEM SEPARATOR
     MENUITEM "Volume control settings...", 10437
    }
@@ -638,14 +674,17 @@
    MENUITEM "Mute\tM", 10037
    MENUITEM SEPARATOR
    MENUITEM "Equalizer\tShift+E", 10095
-   MENUITEM "Preset", 10441
+   MENUITEM "Presets", 10441
    MENUITEM SEPARATOR
    POPUP "Audio Sync"
    {
     MENUITEM "%s Slower\tShift+<", 10291
     MENUITEM "%s Faster\tShift+>", 10292
     MENUITEM "Default audio sync\tShift+/", 10293
-    MENUITEM "Keep audio sync when playing the next file", 10626
+    MENUITEM SEPARATOR
+    MENUITEM "Do not keep audio sync", 10625
+    MENUITEM "Restore audio sync on program exit", 10626
+    MENUITEM "Always keep audio sync", 10627
    }
    POPUP "Audio Processing"
    {
@@ -661,12 +700,13 @@
    }
    POPUP "Audio Capture"
    {
-    MENUITEM "Audio Capture... \tShift+G", 10226
+    MENUITEM "Audio Recorder...\tShift+G", 10226
+    MENUITEM "Start Audio Recording", 10798
     MENUITEM "Select Capture Folder...", 10335
     MENUITEM "Open Capture Folder", 10227
    }
-   MENUITEM SEPARATOR
    MENUITEM "Use Audio Processing Filter\tShift+X", 10454
+   MENUITEM SEPARATOR
    MENUITEM "Audio Processing Settings...", 10391
   }
   POPUP "Filters"
@@ -720,13 +760,13 @@
    MENUITEM SEPARATOR
    POPUP "On Top"
    {
-    MENUITEM "Switch-On Top\tCtrl+T ", 10337
+    MENUITEM "Cycle On Top\tCtrl+T ", 10337
     MENUITEM "Always on top", 10038
     MENUITEM "On top while playing", 10039
    }
    POPUP "When Finished"
    {
-    MENUITEM "Switch-Finished Action\tCtrl+Alt+A", 10336
+    MENUITEM "Cycle Finished Action\tCtrl+Alt+A", 10336
     MENUITEM "Exit PotPlayer once finished playing the current file", 10116
     MENUITEM "Exit PotPlayer once finished playing files in playlist", 10117
     MENUITEM "Shutdown/Sleep once finished playing the current file", 10118
@@ -742,16 +782,16 @@
     MENUITEM "Open all files in folder", 10279
    }
    MENUITEM SEPARATOR
-   MENUITEM "Shutdown/Sleep at %s", 10479
+   MENUITEM "Shutdown/Sleep the PC at %s", 10479
+   MENUITEM "Shutdown/Sleep the PC in %s (if no time is specified)", 10784
    MENUITEM "Add a task to shutdown or sleep the PC...", 10480
    MENUITEM SEPARATOR
-   MENUITEM "Hide mouse cursor during playback", 10121
-   MENUITEM "Prevent Screen Saver", 10122
    MENUITEM "Disable default hotkeys", 10339
-   MENUITEM "Auto close the last file on complete", 10445
+   MENUITEM "Show history of recent files in album/favorites menu", 10807
+   MENUITEM "Use scrollbar in popup menu", 10808
    MENUITEM SEPARATOR
    MENUITEM "OSD : Show Info \tTab", 10351
-   MENUITEM "OSD : Show Time\tScroll Lock ", 10442
+   MENUITEM "OSD : Show Playing File Information\tScroll Lock", 10442
    MENUITEM "OSD : Show Short Info \tShift+Tab", 10449
    MENUITEM SEPARATOR
    MENUITEM "Go to HomePage...", 10386
@@ -798,7 +838,15 @@
   }
   POPUP "Aspect Ratio"
   {
-   MENUITEM "Switch-Aspect Ratio\tCtrl+F6", 10261
+   MENUITEM "Fit to Video (Recommended) \tCtrl+F5", 10040
+   MENUITEM "Fit to Window\tCtrl+F5", 10041
+   MENUITEM "Free\tCtrl+F5", 10042
+   MENUITEM "Keep Video Frame To : 0.5", 10043
+   MENUITEM "Keep Video Frame To : 1.0", 10044
+   MENUITEM "Keep Video Frame To : 1.5", 10045
+   MENUITEM "Keep Video Frame To : 2.0", 10046
+   MENUITEM SEPARATOR
+   MENUITEM "Cycle Aspect Ratio\tCtrl+F6", 10261
    MENUITEM "Default (Display) (Recommended)", 10015
    MENUITEM "Default (Source)", 10016
    MENUITEM "4:3", 10017
@@ -807,28 +855,18 @@
    MENUITEM "1.85:1", 10020
    MENUITEM "2.35:1", 10021
    MENUITEM "Custom (%s)", 10022
-   MENUITEM "Custom Aspect Ratio setting...", 10364
+   MENUITEM "Set Custom AR Size...", 10364
    MENUITEM SEPARATOR
-   POPUP "Control "
-   {
-    MENUITEM "Fit to Video (Recommended) \tCtrl+F5", 10040
-    MENUITEM "Fit to Window \tCtrl+F5", 10041
-    MENUITEM "Free\tCtrl+F5", 10042
-    MENUITEM "Keep Video Frame To : 0.5", 10043
-    MENUITEM "Keep Video Frame To : 1.0", 10044
-    MENUITEM "Keep Video Frame To : 1.5", 10045
-    MENUITEM "Keep Video Frame To : 2.0", 10046
-   }
    POPUP "Output"
    {
     MENUITEM "Monitor", 10273
-    MENUITEM "TV-OUT : 4:3", 10274
-    MENUITEM "TV-OUT : 16:9", 10275
+    MENUITEM "4:3 TV", 10274
+    MENUITEM "16:9 HDTV", 10275
     MENUITEM "Auto detection", 10276
    }
-   MENUITEM "Keep Aspect Ratio", 10341
+   MENUITEM "Fit Window to Image Size", 10341
    MENUITEM SEPARATOR
-   MENUITEM "Force to provide subtitles margins", 10500
+   MENUITEM "Force to provide subtitle margin", 10500
    POPUP "Subtitle Margin"
    {
     MENUITEM "Reserve 1 line", 10677
@@ -854,16 +892,16 @@
    MENUITEM "Maximize/Restore\t6", 10237
    MENUITEM "Maximize +/Restore\t7", 10238
    MENUITEM SEPARATOR
-   MENUITEM "Full Screen \tAlt+Enter", 10013
-   MENUITEM "Full Screen Stretched\tCtrl+Enter", 10308
+   MENUITEM "Fullscreen \tAlt+Enter", 10013
+   MENUITEM "Fullscreen (Stretch)\tCtrl+Enter", 10308
    MENUITEM "Full Size\tCtrl+Alt+Enter", 10309
    MENUITEM SEPARATOR
    MENUITEM "Desktop Display\tShift+Enter", 10033
    MENUITEM SEPARATOR
    MENUITEM "Window Margin Settings...", 10406
   }
-  MENUITEM "Full Screen\tEnter", 10013
-  MENUITEM "Full Screen Stretched\tCtrl+Enter", 10308
+  MENUITEM "Fullscreen\tEnter", 10013
+  MENUITEM "Fullscreen (Stretch)\tCtrl+Enter", 10308
   MENUITEM SEPARATOR
   MENUITEM "Preferences... \tF5", 10010
   MENUITEM "Playlist \tF6", 10011

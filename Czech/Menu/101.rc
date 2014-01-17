@@ -10,7 +10,7 @@
    MENUITEM "Otevøít složku...\tF2", 10160
    MENUITEM "Otevøít navigátor souborù...\tF12", 10331
    MENUITEM "Otevøít navigátor nabídek... \tCtrl+F12", 10447
-   MENUITEM "Otevøít FTP...\tAlt+F12", 10668
+   MENUITEM "Otevøít FTP/WebDAV/HTTP...\tAlt+F12", 10668
    POPUP "Výchozí"
    {
     MENUITEM "Otevøít soubor(y)", 10358
@@ -19,7 +19,7 @@
     MENUITEM "Otevøít prohlížeè souborù", 10361
    }
    MENUITEM SEPARATOR
-   MENUITEM "Zachytávat \tCtrl+S", 10161
+   MENUITEM "Zachytávání obrazovky \tCtrl+S", 10161
    MENUITEM "Webkamera/Jiné zaøízení \tCtrl+J", 10162
    MENUITEM "Analogová TV \tCtrl+W", 10163
    MENUITEM "Digitální TV (BDA zaøízení) \tCtrl+K", 10164
@@ -27,6 +27,7 @@
    MENUITEM SEPARATOR
    MENUITEM "Otevøít DVD \tCtrl+D", 10165
    MENUITEM "Otevøít DVD soubory (*.IFO)...", 10412
+   MENUITEM "Otevøít Blu-ray\tCtrl+Alt+D", 10795
    MENUITEM SEPARATOR
    MENUITEM "Otevøít titulky... \tAlt+O", 10146
    MENUITEM "Otevøít navigátor titulkù...", 10332
@@ -67,6 +68,7 @@
   POPUP "Vizualizace"
   {
    MENUITEM "Aktivovat vizualizaci pro audio soubory", 10413
+   MENUITEM "Zobrazit obrázky alba", 10840
    MENUITEM SEPARATOR
    MENUITEM "WMP vizualizace", 10317
    MENUITEM "Pohyblivá koule", 10318
@@ -151,11 +153,13 @@
    MENUITEM "Pøedchozí soubor\tPgUp", 10067
    MENUITEM "Další soubor\tPgDn", 10068
    MENUITEM SEPARATOR
-   MENUITEM "Záložka\tH", 10324
+   MENUITEM "Kapitola/Záložka\tH", 10324
    POPUP "Skoèit (na)"
    {
     MENUITEM "Pøedchozí snímek\tD", 10242
     MENUITEM "Další snímek\tF", 10241
+    MENUITEM "Pøedchozí klíèový snímek\tCtrl+Shift+Left", 10786
+    MENUITEM "Další klíèový snímek\tCtrl+Shift+Right", 10787
     MENUITEM SEPARATOR
     MENUITEM "%s vzad\tVlevo", 10059
     MENUITEM "%s vpøed\tVpravo", 10060
@@ -174,9 +178,10 @@
     MENUITEM "Další titulek \tEnd", 10245
     MENUITEM "Pozice aktuálního titulku\tCtrl+Home", 10582
     MENUITEM SEPARATOR
-	MENUITEM "Pøesouvat na klíèové snímky", 10265
+    MENUITEM "Pøesouvat na klíèové snímky", 10265
     MENUITEM "Èas/snímek... \tG", 10325
-    MENUITEM "Náhled scén... \tShift+S", 10416
+    MENUITEM "Prohlížeè scén... \tShift+Z", 10416
+    MENUITEM "Prohlížeè kapitol/záložek... \tAlt+Z", 10802
     MENUITEM SEPARATOR
     MENUITEM "Nastavení èasových skokù", 10758
    }
@@ -195,11 +200,11 @@
     MENUITEM "Aktivovat funkci pøeskoèení\tShift+ '", 10239
     MENUITEM "Pøeskoèit úvod %s", 10579
     MENUITEM "Pøeskoèit závìr %s", 10580
-	MENUITEM "Pøeskoèit kapitoly", 10581
+    MENUITEM "Pøeskoèit kapitoly", 10581
     MENUITEM SEPARATOR
     MENUITEM "Nastavit pøeskoèení... \t'", 10240
    }
-   POPUP "Opakování A-B"
+   POPUP "Opakování A-B\tB"
    {
     MENUITEM "Nastavit zaèátek\t[", 10249
     MENUITEM "Zrušit zaèátek\tShift+[", 10251
@@ -214,8 +219,10 @@
     MENUITEM "Posunout o 0.1 sek. vzad\tCtrl+Alt+[", 10541
     MENUITEM "Posunout o 0.1 sek. vpøed\tCtrl+Alt+]", 10543
     MENUITEM "Automaticky opakovat aktuální sekci titulkù\tCtrl+\\ nebo Insert", 10592
-	MENUITEM "Kapitola/Znaèka/Záložka\tAlt+\\", 10742
+    MENUITEM "Kapitola/Znaèka/Záložka\tAlt+\\", 10746
     MENUITEM "Zrušit opakování\t\\", 10253
+    MENUITEM "Uložit seznam opakování do souboru .PBF", 10777
+    MENUITEM "Nastavení opakování...\tShift+\\", 10778
    }
    POPUP "Playlist"
    {
@@ -230,6 +237,8 @@
     MENUITEM SEPARATOR
     MENUITEM "Otevøít složku položky...", 10207
     MENUITEM "Upravit název položky...", 10211
+    MENUITEM "Hledat soubor...", 10490
+    MENUITEM "Pøejmenovat soubor...", 10583
     MENUITEM "Kopírovat", 10007
     MENUITEM "Vložit", 10008
     MENUITEM SEPARATOR
@@ -251,7 +260,7 @@
     MENUITEM SEPARATOR
     MENUITEM "Pøidat do fronty pøehrávání", 10005
     MENUITEM "Vyèistit frontu pøehrávání", 10006
-	MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
     MENUITEM "Nastavení playlistu...", 10759
    }
    POPUP "Opakování"
@@ -263,15 +272,21 @@
    }
    POPUP "Souvislé pøehrávání"
    {
-    MENUITEM "Vypnuto (výchozí)", 10602
-    MENUITEM "Zapnuto pokud je v playlistu ménì položek než je poèet jednotek", 10603
-    MENUITEM "Zapnuto (naèíst soubory až do urèitého poètu jednotek)", 10604
+    MENUITEM "Vypnuto (doporuèeno)", 10602
+    MENUITEM "Zapnuto: pøedem naèíst více souborù", 10603
+    MENUITEM "Zapnuto: pøedem naèíst a spojit více souborù", 10604
     MENUITEM SEPARATOR
     MENUITEM "Nastavení souvislého pøehrávání...", 10605
    }
    MENUITEM SEPARATOR
    MENUITEM "Náhodné pøehrávání", 10069
-   MENUITEM "Pøehrávat od poslední pozice", 10419
+   MENUITEM "Zapamatovat si pozici pøehrávání", 10419
+   MENUITEM "Skrýt kurzor myši bìhem pøehrávání", 10121
+   MENUITEM "Zabránit zobrazení spoøièe obrazovky", 10122
+   MENUITEM "Zavøít poslední soubor po dokonèení", 10445
+   MENUITEM "Zobrazit popisek s informací o èase", 10812
+   MENUITEM "Zobrazit náhledy na navigaèním øádku", 10813
+   MENUITEM "Zobrazit znaèky záložek/kapitol na navigaèním øádku", 10814
    MENUITEM SEPARATOR
    MENUITEM "Nastavení pøehrávání...", 10757
   }
@@ -284,48 +299,46 @@
    MENUITEM "Zobrazit titulky \tAlt+H", 10126
    MENUITEM "Prohlížeè titulkù... \tAlt+E", 10228
    MENUITEM "Manuální vložení titulkù... \tAlt+P", 10266
-   MENUITEM "Zkopírovat aktuální titulek do schránky", 10624
    MENUITEM SEPARATOR
-   MENUITEM "Vykreslit do obrazu (TV-OUT)\tAlt+I", 10220
-   MENUITEM "Vykreslit do pøekryvné plochy/VMR povrchu\tAlt+V", 10221
-   MENUITEM SEPARATOR
-   POPUP "Pozice"
+   POPUP "Výstup/Vykreslování"
    {
-    MENUITEM "Výchozí \tAlt+Home", 10127
-    MENUITEM "Nahoru \tAlt+Nahoru", 10128
-    MENUITEM "Dolù\tAlt+Dolù", 10129
-    MENUITEM "Vlevo\tAlt+Vlevo", 10130
-    MENUITEM "Vpravo\tAlt+Vpravo", 10131
+    MENUITEM "Zobrazit ve videu (TV-OUT)\tAlt+I", 10220
+    MENUITEM "Zobrazit v pøekryvné/VMR vrstvì\tAlt+I", 10221
+    MENUITEM SEPARATOR
+    MENUITEM "Vektorové vykreslování", 10820
+    MENUITEM "Bitmapové vykreslování", 10821
    }
-   POPUP "Spodní odsazení"
+   POPUP "Styly"
    {
-    MENUITEM "Zvýšit horizontální mezery + \tAlt+Num 6", 10132
-    MENUITEM "Snížit horizontální mezery - \tAlt+Num 4", 10133
-    MENUITEM "Zvýšit vertikální mezery + \tAlt+Num 8", 10134
-    MENUITEM "Snížit vertikální mezery - \tAlt+Num 2", 10135
-   }
-   POPUP "Zarovnání"
-   {
-    MENUITEM "Vlevo", 10143
-    MENUITEM "Na støed", 10144
-    MENUITEM "Vpravo", 10145
-   }
-   POPUP "Písmo a velikost"
-   {
-    MENUITEM "Tuèné \tAlt+B", 10136
-    MENUITEM "Vìtší písmo + \tAlt+PGUP", 10137
-    MENUITEM "Menší písmo - \tAlt+PGDN", 10138
-    MENUITEM "Nastavení písma... \tAlt+F", 10139
-	MENUITEM SEPARATOR
-    MENUITEM "Nastavení stylu titulkù...", 10761
+    MENUITEM "Použít tuèné písmo\tAlt+B", 10136
+    MENUITEM "Zvýšit velikost písma\tAlt+PGUP", 10137
+    MENUITEM "Snížit velikost písma\tAlt+PGDN", 10138
+    MENUITEM "Nastavení písma...\tAlt+F", 10139
+    MENUITEM SEPARATOR
+    MENUITEM "Zarovnat vlevo", 10143
+    MENUITEM "Zarovnat na støed", 10144
+    MENUITEM "Zarovnat vpravo", 10145
+    MENUITEM SEPARATOR
+    MENUITEM "Výchozí pozice\tAlt+Home", 10127
+    MENUITEM "Posunout nahoru\tAlt+Up", 10128
+    MENUITEM "Posunout dolù\tAlt+Down", 10129
+    MENUITEM "Posunout vpravo\tAlt+Left", 10130
+    MENUITEM "Posunout vlevo\tAlt+Right", 10131
+    MENUITEM SEPARATOR
+    MENUITEM "Zvýšit horizontální mezery\tAlt+Num 6", 10132
+    MENUITEM "Snížit horizontální mezery\tAlt+Num 4", 10133
+    MENUITEM "Zvýšit vertikální mezery\tAlt+Num 8", 10134
+    MENUITEM "Snížit vertikální mezery\tAlt+Num 2", 10135
+    MENUITEM SEPARATOR
+    MENUITEM "Nastavení stylu písma titulkù...", 10761
    }
    POPUP "Synchronizace"
    {
     MENUITEM "%s døíve \t> nebo .", 10140
     MENUITEM "%s pozdìji \t< nebo ,", 10141
     MENUITEM "Výchozí \t/", 10142
-    MENUITEM "Zachovat synchronizaci titulkù pøi pøehrávání dalšího souboru", 10629
-	MENUITEM SEPARATOR
+    MENUITEM "Zachovat synchronizaci titulkù", 10629
+    MENUITEM SEPARATOR
     MENUITEM "Nastavení jazyka/synchronizace/ostatních...", 10762
    }
    POPUP "Uložit"
@@ -350,10 +363,22 @@
     MENUITEM "Výchozí pozice", 10576
    }
    MENUITEM SEPARATOR
+   MENUITEM "Zkopírovat aktuální titulek do schránky", 10624
+   MENUITEM "Zobrazit bitmapové titulky mimo obraz videa", 10823
+   MENUITEM "Zobrazit textové titulky uvnitø obrazu videa", 10822
+   MENUITEM "Zobrazit titulky pod obrazem videa (pokud možno)", 10824
+   MENUITEM "Povolit animace titulkù ASS/SSA", 10825
+   MENUITEM "Zobrazit krycí rámeèek", 10826
+   MENUITEM "Použít efekt prolnutí", 10827
+   MENUITEM SEPARATOR   
    MENUITEM "Nastavení titulkù...", 10760
   }
   POPUP "Video"
   {
+   POPUP "Zvolit video stream\tV"
+   {
+    MENUITEM "Pøepnout-Video stream\tAlt+V", -20837
+   }
    POPUP "Video Renderer"
    {
     MENUITEM "Zvolit automaticky (doporuèeno)", 10294
@@ -369,6 +394,8 @@
     MENUITEM "Madshi Video Renderer", 10304
     MENUITEM "Direct3D9 Video Renderer", 10560
     MENUITEM "OpenGL Video Renderer", 10561
+    MENUITEM "Null Video Renderer (Komprimovaný vstup)", 10562
+    MENUITEM "Null Video Renderer (Nekomprimovaný vstup)", 10563
    }
    POPUP "Pixel Shader\tS"
    {
@@ -393,16 +420,18 @@
     MENUITEM "Obnovit seznam", 10289
     MENUITEM "Otevøít složku", 10288
    }
-   POPUP "Režim 3D videa\tV"
+   POPUP "Režim 3D videa\tJ"
    {
     MENUITEM "Aktivovat režim 3D videa", 10683
     MENUITEM SEPARATOR
-    MENUITEM "Vedle sebe", 10714
-    MENUITEM "Nahoøe a dole", 10715
-    MENUITEM "Pùvodní obraz", 10716
+    MENUITEM "Vstupní 3D video (zdroj): Vedle sebe", 10714
+    MENUITEM "Vstupní 3D video (zdroj): Nahoøe a dole", 10715
+    MENUITEM "Vstupní 3D video (zdroj): Pùvodní obraz", 10716
     MENUITEM SEPARATOR
-    MENUITEM "Polovièní rozlišení", 10717
+    MENUITEM "Použít 3D režim v polovièním rozlišení", 10717
     MENUITEM "Prohodit levý/pravý obraz", 10718
+    MENUITEM "Automaticky detekovat vstupní 3D formát", 10741
+    MENUITEM "Automaticky pøepínat mezi režimy videa (2D<>3D)", 10742
     MENUITEM SEPARATOR
     POPUP "Výstup 3D videa (obrazovka)"
     {
@@ -426,6 +455,7 @@
      MENUITEM "Anaglyph Yellow/Blue Dubois", 10736
      MENUITEM "Anaglyph Red/Blue Gray", 10737
      MENUITEM "Anaglyph Red/Green Gray", 10738
+     MENUITEM "Shutter Glasses (Page Flipping)", 10739
     }
     POPUP "Titulky 3D (stereoskopické)"
     {
@@ -443,7 +473,7 @@
      MENUITEM "Výchozí pozice", 10576
     }
     MENUITEM SEPARATOR
-    MENUITEM "Nastavení režimu 3D videa...", 10739
+    MENUITEM "Nastavení režimu 3D videa...", 10740
    }
    POPUP "Filtry zpracování videa"
    {
@@ -462,7 +492,16 @@
     MENUITEM SEPARATOR
     MENUITEM "Nastavení rozlišení...", 10321
    }
-   POPUP "Pøiblížení\tJ"
+   POPUP "Odstranìní prokládání"
+   {
+    MENUITEM "Pøepnout-Odstranìní prokládání \tCtrl+I", 10420
+    MENUITEM "Automatická volba", 10421
+    MENUITEM "Použít vždy", 10422
+    MENUITEM "Nepoužívat", 10423
+    MENUITEM SEPARATOR
+    MENUITEM "Nastavení odstranìní prokládání...", 10424
+   }
+   POPUP "Posun obrazu"
    {
     MENUITEM "Nedìlat nic", 10073
     MENUITEM "4:3 roztáhnout", 10074
@@ -484,15 +523,6 @@
     MENUITEM "Posunout dolù", 10152
     MENUITEM SEPARATOR
     MENUITEM "Ofset obrazovky... \tCtrl+Q", 10323
-   }
-   POPUP "Odstranìní prokládání"
-   {
-    MENUITEM "Pøepnout-Odstranìní prokládání \tCtrl+I", 10420
-    MENUITEM "Automatická volba", 10421
-    MENUITEM "Použít vždy", 10422
-    MENUITEM "Nepoužívat", 10423
-    MENUITEM SEPARATOR
-    MENUITEM "Nastavení odstranìní prokládání...", 10424
    }
    POPUP "Spodní okraj"
    {
@@ -523,6 +553,7 @@
     MENUITEM "Doèasné odstranìní šumu \tCtrl+M", 10427
     MENUITEM "Ofset", 10428
     MENUITEM "WarpSharp", 10429
+    MENUITEM "Deband", 10837
     MENUITEM "Rozmazání", 10531
     MENUITEM SEPARATOR
     MENUITEM "Nastavení zpracování videa...", 10529
@@ -541,31 +572,31 @@
     MENUITEM "Otoèení o 180 stupòù", 10615
     MENUITEM "Otoèení o 270 stupòù", 10616
    }
-   POPUP "Zachytávání \tK"
+   POPUP "Zachytávání videa\tK"
    {
     MENUITEM "Uložit HDTV stream... \tCtrl+A", 10313
-    MENUITEM "Vytvoøit snímek...\tAlt+N", 10353
+    MENUITEM "Vytvoøit obrázek s náhledy...\tAlt+N", 10353
     MENUITEM SEPARATOR
-    MENUITEM "Video: Zachytávání... \tAlt+C", 10370
-    MENUITEM "Video: Rychlé zachytávání...", 10430
+    MENUITEM "Nahrávání videa... \tAlt+C", 10370
+    MENUITEM "Spustit nahrávání videa", 10430
     MENUITEM SEPARATOR
-    MENUITEM "Nepøetržité zachytávání... \tCtrl+G", 10222
-    MENUITEM "Rychlé nepøetržité zachytávání...", 10431
+    MENUITEM "Nepøetržité zachytávání obrázkù... \tCtrl+G", 10222
+    MENUITEM "Spustit nepøetržité zachytávání obrázkù", 10431
     MENUITEM SEPARATOR
-    MENUITEM "Snímek: Zachytit aktuální zdroj... \tCtrl+C", 10223
-    MENUITEM "Snímek: Zachytit oøíznutý aktuální zdroj\tCtrl+E", 10224
-    MENUITEM "Snímek: Zachytit aktuální zdroj (jako)...", 10357
+    MENUITEM "Uložit aktuální snímek do schránky (pùvodní velikost)\tCtrl+C", 10223
+    MENUITEM "Uložit aktuální snímek (pùvodní velikost)\tCtrl+E", 10224
+    MENUITEM "Uložit aktuální snímek jako... (pùvodní velikost)", 10357
     MENUITEM SEPARATOR
-    MENUITEM "Snímek: Zachytit reálný obraz \tCtrl+Alt+C", 10432
-    MENUITEM "Snímek: Zachytit oøíznutý reálný obraz \tCtrl+Alt+E", 10433
-    MENUITEM "Snímek: Zachytit reálný obraz (jako)...", 10434
+    MENUITEM "Uložit aktuální snímek do schránky (aktuální velikost okna)\tCtrl+Alt+C", 10432
+    MENUITEM "Uložit aktuální snímek (aktuální velikost okna)\tCtrl+Alt+E", 10433
+    MENUITEM "Uložit aktuální snímek jako... (aktuální velikost okna)", 10434
     MENUITEM SEPARATOR
-    MENUITEM "Zachytit jako BMP", 10354
-    MENUITEM "Zachytit jako JPEG", 10355
-    MENUITEM "Zachytit jako PNG", 10356
+    MENUITEM "Ukládat obrázky ve formátu BMP", 10354
+    MENUITEM "Ukládat obrázky ve formátu JPEG", 10355
+    MENUITEM "Ukládat obrázky ve formátu PNG", 10356
     MENUITEM SEPARATOR
-    MENUITEM "Název souboru jako èas systému", 10556
-    MENUITEM "Název souboru jako èas pøehrávání", 10557
+    MENUITEM "Zahrnout aktuální datum a èas do názvu souboru", 10556
+    MENUITEM "Zahrnout èas pøehrávání do názvu souboru", 10557
     MENUITEM SEPARATOR
     MENUITEM "Zachytávat zprávy, titulky", 10305
     MENUITEM "Zachovat pomìr stran", 10587
@@ -588,9 +619,9 @@
   }
   POPUP "Audio"
   {
-   POPUP "Kanály \tA"
+   POPUP "Zvolit audio kanál \tA"
    {
-    MENUITEM "Pøepnout-Kanály \tAlt+A", 6799
+    MENUITEM "Pøepnout-Audio kanál \tAlt+A", 6799
     MENUITEM SEPARATOR
     MENUITEM "Oba", 7690
     MENUITEM "Levý", 7691
@@ -602,24 +633,29 @@
    }
    POPUP "S/PDIF Audio Renderer"
    {
-    MENUITEM "Výchozí Audio Renderer (doporuèeno)", 7645
+    MENUITEM "Výchozí Audio Renderer (doporuèeno)", 7625
+   }
+   POPUP "Druhý audio renderer"
+   {
+    MENUITEM "Vypnuto (doporuèeno)", 7660
    }
    MENUITEM "Výstupní reproduktory", 10441
-   MENUITEM "Vzorkovací frekvence", 10441
+   MENUITEM "Výstupní formát/pøevzorkování", 10441
+   MENUITEM "Výstupní režim", 10441
    MENUITEM SEPARATOR
-   POPUP "Ovládání hlasitosti"
+   POPUP "Hlasitost pøehrávání"
    {
     MENUITEM "Výchozí ovládání hlasitosti (doporuèeno)", 10393
     MENUITEM "Ovládání hlasitosti systému (wave)", 10394
     MENUITEM "Ovládání hlasitosti systému (hlavní)", 10395
     MENUITEM SEPARATOR
-    MENUITEM "Multi-kanálové ovládání hlasitosti", 10435
+    MENUITEM "Povolit individuální ovládání hlasitosti", 10435
     MENUITEM "Zvýšit hlavní hlasitost\tShift+Nahoru", 10520
     MENUITEM "Snížit hlavní hlasitost\tShift+Dolù", 10521
     MENUITEM SEPARATOR
-    MENUITEM "AC3/DTS zesílení zvuku", 10436
-    MENUITEM "Zvýšit zesílení", 10522
-    MENUITEM "Snížit zesílení", 10523
+    MENUITEM "Pøed-zesílení zvuku AC3/DTS na správnou úroveò", 10436
+    MENUITEM "Zvýšit pøed-zesílení", 10522
+    MENUITEM "Snížit pøed-zesílení", 10523
     MENUITEM SEPARATOR
     MENUITEM "Nastavení ovládání hlasitosti...", 10437
    }
@@ -638,14 +674,17 @@
    MENUITEM "Ztlumit\tM", 10037
    MENUITEM SEPARATOR
    MENUITEM "Ekvalizér\tShift+E", 10095
-   MENUITEM "Pøedvolba", 10441
+   MENUITEM "Pøedvolby", 10441
    MENUITEM SEPARATOR
    POPUP "Synchronizace audia"
    {
     MENUITEM "%s pozdìji\tShift+<", 10291
     MENUITEM "%s døíve\tShift+>", 10292
     MENUITEM "Výchozí synchronizace audia\tShift+/", 10293
-    MENUITEM "Zachovat synchronizaci audia pøi pøehrávání dalšího souboru", 10626
+    MENUITEM SEPARATOR
+    MENUITEM "Nezachovávat synchronizaci audia", 10625
+    MENUITEM "Obnovit synchronizaci audia pøi ukonèení programu", 10626
+    MENUITEM "Vždy zachovat synchronizaci audia", 10627
    }
    POPUP "Zpracování audia"
    {
@@ -655,18 +694,19 @@
     MENUITEM "Ozvìna \tShift+R", 10096
     MENUITEM "Filtr hlasu \tShift+V", 10438
     MENUITEM "Audio filtry \tShift+A", 10439
-	MENUITEM "Prohodit stereo kanály\tShift+T", 10660
-	MENUITEM SEPARATOR
+    MENUITEM "Prohodit stereo kanály\tShift+T", 10660
+    MENUITEM SEPARATOR
     MENUITEM "Nastavení jazyka/synchronizace/ostatních...", 10756
    }
    POPUP "Zachytávání audia"
    {
-    MENUITEM "Zachytávání audia... \tShift+G", 10226
+    MENUITEM "Nahrávání audia... \tShift+G", 10226
+    MENUITEM "Spustit nahrávání audia", 10798
     MENUITEM "Zvolit složku pro zachytávání...", 10335
     MENUITEM "Otevøít složku pro zachytávání", 10227
    }
-   MENUITEM SEPARATOR
    MENUITEM "Použít filtry zpracování audia\tShift+X", 10454
+   MENUITEM SEPARATOR
    MENUITEM "Nastavení zpracování audia...", 10391
   }
   POPUP "Filtry"
@@ -679,7 +719,7 @@
    POPUP "Logo (pøi zastaveném pøehrávání)"
    {
     MENUITEM SEPARATOR
-	MENUITEM "Nastavení loga...", 10440
+    MENUITEM "Nastavení loga...", 10440
    }
    POPUP "Logo (pøi spuštìném pøehrávání)"
    {
@@ -700,7 +740,7 @@
    }
    POPUP "Ovládání na obraze"
    {
-    MENUITEM "Vypnout", 10514
+    MENUITEM "Vypnuto", 10514
     MENUITEM "Direct3D 9", 10515
     MENUITEM "LayeredWindow", 10516
     MENUITEM SEPARATOR
@@ -710,7 +750,7 @@
    MENUITEM "Automaticky skrýt vzhled bìhem pøehrávání", 10369
    MENUITEM "Automaticky zmìnit velikost obrazu na celé obrazovce", 10340
    MENUITEM "Spustit v režimu videa", 10402
-   MENUITEM "Vypnout pøepínání øežimù vzhledu", 10578
+   MENUITEM "Vypnout pøepínání režimù vzhledu", 10578
    MENUITEM SEPARATOR
    MENUITEM "Nastavení vzhledu...", 10384
   }
@@ -733,7 +773,7 @@
     MENUITEM "Vypnout/uspat poèítaè po dokonèení pøehrávání souborù v playlistu", 10119
     MENUITEM SEPARATOR
     MENUITEM "Pamatovat si akci po dokonèení", 10553
-	MENUITEM "Uspat poèítaè (místo jeho vypnutí)", 10766
+    MENUITEM "Uspat poèítaè (místo jeho vypnutí)", 10766
    }
    POPUP "Otevírání souborù"
    {
@@ -742,16 +782,16 @@
     MENUITEM "Otevøít všechny soubory ve složce", 10279
    }
    MENUITEM SEPARATOR
-   MENUITEM "Vypnout/uspat v %s", 10479
+   MENUITEM "Vypnout/uspat poèítaè v %s", 10479
+   MENUITEM "Vypnout/uspat poèítaè za %s (pokud není zvolen pøesný èas)", 10784
    MENUITEM "Pøidat úlohu pro vypnutí nebo uspání poèítaèe...", 10480
    MENUITEM SEPARATOR
-   MENUITEM "Skrýt kurzor myši bìhem pøehrávání", 10121
-   MENUITEM "Zabránit zobrazení spoøièe obrazovky", 10122
-   MENUITEM "Vypnout výchozí klávesové zkratky", 10339
-   MENUITEM "Automaticky zavøít poslední soubor po dokonèení", 10445
+   MENUITEM "Zakázat výchozí klávesové zkratky", 10339
+   MENUITEM "Zobrazit historii posledních souborù v nabídce Album/Oblíbené", 10807
+   MENUITEM "Použít scrollbar v kontextové nabídce", 10808
    MENUITEM SEPARATOR
    MENUITEM "OSD: Zobrazit informace \tTab", 10351
-   MENUITEM "OSD: Zobrazit èas\tScroll Lock ", 10442
+   MENUITEM "OSD: Zobrazit informace o pøehrávání\tScroll Lock ", 10442
    MENUITEM "OSD: Zobrazit krátké informace \tShift+Tab", 10449
    MENUITEM SEPARATOR
    MENUITEM "Navštívit domovskou stránku...", 10386
@@ -795,11 +835,17 @@
     MENUITEM "Vlevo dolù \tCtrl+Alt+Num 1", 10380
     MENUITEM "Vpravo dolù \tCtrl+Alt+Num 3", 10381
    }
-   MENUITEM SEPARATOR
-   MENUITEM "Okraj okna...", 10406
   }
   POPUP "Pomìr stran"
   {
+   MENUITEM "Pøizpùsobit videu (doporuèeno) \tCtrl+F5", 10040
+   MENUITEM "Pøizpùsobit oknu\tCtrl+F5", 10041
+   MENUITEM "Volný\tCtrl+F5", 10042
+   MENUITEM "Zachovat velikost videa 0.5x", 10043
+   MENUITEM "Zachovat velikost videa 1.0x", 10044
+   MENUITEM "Zachovat velikost videa 1.5x", 10045
+   MENUITEM "Zachovat velikost videa 2.0x", 10046
+   MENUITEM SEPARATOR
    MENUITEM "Pøepnout-Pomìr stran\tCtrl+F6", 10261
    MENUITEM "Výchozí (displej) (doporuèeno)", 10015
    MENUITEM "Výchozí (zdroj)", 10016
@@ -811,26 +857,16 @@
    MENUITEM "Vlastní (%s)", 10022
    MENUITEM "Nastavit vlastní pomìr stran...", 10364
    MENUITEM SEPARATOR
-   POPUP "Ovládání"
-   {
-    MENUITEM "Pøizpùsobit videu (doporuèeno) \tCtrl+F5", 10040
-    MENUITEM "Pøizpùsobit oknu\tCtrl+F5", 10041
-    MENUITEM "Volný\tCtrl+F5", 10042
-    MENUITEM "Zachovat velikost videa 0.5x", 10043
-    MENUITEM "Zachovat velikost videa 1.0x", 10044
-    MENUITEM "Zachovat velikost videa 1.5x", 10045
-    MENUITEM "Zachovat velikost videa 2.0x", 10046
-   }
    POPUP "Výstup"
    {
     MENUITEM "Monitor", 10273
-    MENUITEM "TV-OUT: 4:3", 10274
-    MENUITEM "TV-OUT: 16:9", 10275
+    MENUITEM "4:3 TV", 10274
+    MENUITEM "16:9 HDTV", 10275
     MENUITEM "Automatická detekce", 10276
    }
-   MENUITEM "Keep Aspect Ratio", 10341
+   MENUITEM "Pøizpùsobit okno velikosti obrazu", 10341
    MENUITEM SEPARATOR
-   MENUITEM "Vynutit použití okrajù titulkù", 10500
+   MENUITEM "Vynutit použití okraje titulkù", 10500
    POPUP "Okraj titulkù"
    {
     MENUITEM "Rezervovat 1 øádek", 10677

@@ -3,6 +3,7 @@
  POPUP "PL"
  {
   MENUITEM "Play \tP", 10199
+  MENUITEM "Play within a new instance", 10792
   MENUITEM SEPARATOR
   POPUP "Album"
   {
@@ -64,6 +65,7 @@
   MENUITEM SEPARATOR
   MENUITEM "Detect file durations\tF4", 10640
   MENUITEM "File information...\tCtrl+F1", 10505
+  MENUITEM "Create Thumbnail Image(s)...", 10800
   MENUITEM "Playlist settings... \tF5", 10315
   MENUITEM "Close Playlist \tF6", 10446
  }

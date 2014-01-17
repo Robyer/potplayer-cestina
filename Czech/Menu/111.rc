@@ -3,6 +3,7 @@
  POPUP "PL"
  {
   MENUITEM "Pøehrát \tP", 10199
+  MENUITEM "Pøehrát v nové instanci", 10792
   MENUITEM SEPARATOR
   POPUP "Album"
   {
@@ -64,6 +65,7 @@
   MENUITEM SEPARATOR
   MENUITEM "Detekovat délku souborù\tF4", 10640
   MENUITEM "Informace o souboru...\tCtrl+F1", 10505
+  MENUITEM "Vytvoøit obrázek s náhledy...", 10800
   MENUITEM "Nastavení playlistu... \tF5", 10315
   MENUITEM "Zavøít playlist \tF6", 10446
  }
