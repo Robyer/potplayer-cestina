@@ -2,7 +2,7 @@
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "PÅ™i spuÅ¡tÄ›nÃ­", 3287, 5, 3, 273, 75
+ GROUPBOX "Pøi spuštìní", 3287, 5, 3, 273, 75
  RTEXT "Pozice okna:", 3294, 11, 16, 72, 8
  COMBOBOX 3007, 85, 14, 99, 88, CBS_DROPDOWNLIST | WS_VSCROLL
  EDITTEXT 3274, 188, 14, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
@@ -18,6 +18,6 @@ FONT 9, "Arial", 0, FALSE
  EDITTEXT 3275, 238, 32, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3261, "msctls_updown32", 0x000000B6, 266, 27, 10, 12
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 48, 269, 3
- AUTOCHECKBOX "Obnovit okno do poslednÃ­ho stavu (MaximalizovÃ¡no/MinimalizovÃ¡no/NormÃ¡lnÃ­)", 3131, 14, 53, 224, 10
- AUTOCHECKBOX "Spustit poslednÃ­ pÅ™ehrÃ¡vanÃ½ soubor", 3132, 14, 64, 178, 10
+ AUTOCHECKBOX "Obnovit okno do posledního stavu (Maximalizováno/Minimalizováno/Normální)", 3131, 14, 53, 224, 10
+ AUTOCHECKBOX "Spustit poslední pøehrávaný soubor", 3132, 14, 64, 178, 10
 }

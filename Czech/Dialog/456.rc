@@ -2,10 +2,10 @@
 STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "V reÅ¾imu na celou obrazovku", 3288, 5, 4, 272, 55
+ GROUPBOX "V režimu na celou obrazovku", 3288, 5, 4, 272, 55
  RTEXT "Monitor:", 3289, 11, 16, 75, 8
  COMBOBOX 3008, 89, 14, 184, 205, CBS_DROPDOWNLIST | WS_VSCROLL
- AUTOCHECKBOX "RozdÄ›lit obraz videa", 3101, 89, 29, 179, 10
+ AUTOCHECKBOX "Rozdìlit obraz videa", 3101, 89, 29, 179, 10
  COMBOBOX 3010, 89, 42, 184, 206, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "RozliÅ¡enÃ­:", 3290, 11, 44, 75, 8
+ RTEXT "Rozlišení:", 3290, 11, 44, 75, 8
 }

@@ -2,8 +2,8 @@
 STYLE DS_SETFONT | WS_POPUP
 FONT 9, "Arial", 0, FALSE
 {
- GROUPBOX "Dostupn√© aplikace pro zachyt√°v√°n√≠", 3381, 15, 23, 232, 204
- LTEXT "Funkce zachyt√°v√°n√≠ her funguje pouze s aplikacemi zalo≈æen√Ωmi na Direct3D 9, 10, 11 a OpenGL.", 3383, 22, 34, 216, 18
+ GROUPBOX "DostupnÈ aplikace pro zachyt·v·nÌ", 3381, 15, 23, 232, 204
+ LTEXT "Funkce zachyt·v·nÌ her funguje pouze s aplikacemi zaloûen˝mi na Direct3D 9, 10, 11 a OpenGL.", 3383, 22, 34, 216, 18
  CONTROL "", 3315, "SysTreeView32", WS_BORDER | WS_HSCROLL | WS_TABSTOP | 0x000010A0, 21, 55, 220, 152
  PUSHBUTTON "Obnovit", 3021, 195, 210, 46, 12
 }
