@@ -25,5 +25,5 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Použít funkce hl. panelu (ve Win7/8)", 3336, 151, 138, 123, 10
  AUTOCHECKBOX "Zobrazit poslední soubory v oblíbených", 3127, 11, 148, 138, 10
  AUTOCHECKBOX "Výchozí velikost pøi zavøení souboru", 3123, 151, 149, 123, 10
- AUTOCHECKBOX "Použít scrollbar v kontextové nabídce", 3337, 11, 159, 138, 10
+ AUTOCHECKBOX "Použít rolování v kontextové nabídce", 3337, 11, 159, 138, 10
 }

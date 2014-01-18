@@ -788,7 +788,7 @@
    MENUITEM SEPARATOR
    MENUITEM "Zakázat výchozí klávesové zkratky", 10339
    MENUITEM "Zobrazit historii posledních souborù v nabídce Album/Oblíbené", 10807
-   MENUITEM "Použít scrollbar v kontextové nabídce", 10808
+   MENUITEM "Použít rolování v kontextové nabídce", 10808
    MENUITEM SEPARATOR
    MENUITEM "OSD: Zobrazit informace \tTab", 10351
    MENUITEM "OSD: Zobrazit informace o pøehrávání\tScroll Lock ", 10442
