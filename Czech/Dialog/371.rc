@@ -4,10 +4,10 @@ FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Ovládání úrovní", 3293, 5, 3, 273, 92
  AUTOCHECKBOX "Automatické úrovnì", 3057, 13, 14, 80, 10
- AUTOCHECKBOX "Celý Y region (0 ~ 255)", 3061, 100, 14, 97, 10
+ AUTOCHECKBOX "Celý region Y (0 ~ 255)", 3061, 100, 14, 97, 10
  CONTROL "", 3237, "STATIC", SS_ETCHEDHORZ, 8, 28, 269, 2
  AUTOCHECKBOX "Ovládání úrovnì", 3066, 13, 33, 80, 10
- AUTOCHECKBOX "Celý Y region (0 ~ 255)", 3072, 100, 33, 97, 10
+ AUTOCHECKBOX "Celý region Y (0 ~ 255)", 3072, 100, 33, 97, 10
  AUTOCHECKBOX "Úprava stínování", 3083, 201, 33, 71, 10
  RTEXT "Vstup:", 3381, 9, 49, 46, 8
  EDITTEXT 3276, 57, 47, 47, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER

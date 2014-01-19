@@ -5,7 +5,7 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Nastavení odstranìní prokládání", 3304, 5, 3, 273, 60
  RTEXT "Metoda:", 3306, 9, 15, 141, 10
  COMBOBOX 3349, 153, 13, 120, 137, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Priorita pole (pøi chybìjícím pøíznaku prokládání):", 3308, 9, 30, 141, 10
+ RTEXT "Priorita pole (pøi chybìjícím pøíznaku prokl.):", 3308, 9, 30, 141, 10
  COMBOBOX 3176, 153, 29, 120, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "Pøehodit pole (horní <-> spodní pole):", 3309, 9, 46, 141, 10
  COMBOBOX 3177, 153, 44, 120, 137, CBS_DROPDOWNLIST | WS_VSCROLL

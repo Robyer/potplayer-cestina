@@ -2,7 +2,7 @@
 STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
 FONT 9, "Arial", 0, FALSE
 {
- RTEXT "Cesta ke složce:", 3285, 14, 32, 46, 8
+ RTEXT "Cesta ke složce:", 3285, 8, 32, 52, 8
  EDITTEXT 3069, 64, 30, 182, 12, ES_AUTOHSCROLL
  PUSHBUTTON "...", 3021, 250, 30, 17, 11
 }

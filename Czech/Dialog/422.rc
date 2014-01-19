@@ -16,7 +16,7 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Nezpracovávat AVC1 jako H264", 3047, 22, 108, 193, 9, BS_MULTILINE
  AUTOCHECKBOX "Pøidat prázdný stream titulkù", 3045, 22, 118, 193, 9, BS_MULTILINE
  AUTOCHECKBOX "Zpracovávat všechny èasy PTS media streamù", 3036, 22, 128, 193, 9, BS_MULTILINE
- AUTOCHECKBOX "Použít rychlý pøesun (pro soubory enkódované s VBR (promìnlivý datový tok))", 3038, 22, 138, 193, 9, BS_MULTILINE
+ AUTOCHECKBOX "Použít rychlý pøesun (pro soubory enkódované s VBR)", 3038, 22, 138, 193, 9, BS_MULTILINE
  AUTOCHECKBOX "Použít pøesun pro všechny streamy", 3046, 22, 148, 193, 9, BS_MULTILINE
  AUTOCHECKBOX "Zpracovávat TrueHD + AC3 streamy jako TrueHD", 3037, 22, 158, 193, 9, BS_MULTILINE
  CONTROL "", 3200, "STATIC", SS_ETCHEDHORZ, 17, 172, 206, 1

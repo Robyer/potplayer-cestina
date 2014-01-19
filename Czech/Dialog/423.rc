@@ -4,7 +4,7 @@ FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Obecné nastavení", 3383, 14, 22, 173, 45
  AUTOCHECKBOX "Použít výstupní frontu", 3097, 21, 31, 160, 10
- AUTOCHECKBOX "Snížit frekvenci snímkù videa pro pøizpùsobení pøijímaèi", 3098, 21, 41, 160, 10
+ AUTOCHECKBOX "Snížit frekv. snímkù videa pro pøizpùs. pøijímaèi", 3098, 21, 41, 160, 10
  AUTOCHECKBOX "Rozeznat prokládání TV a filmù", 3099, 21, 51, 160, 10
  GROUPBOX "Dekodér", 3384, 15, 70, 173, 210
  GROUPBOX "Nastavení hardwarové akcelerace (DXVA)", 3382, 194, 22, 188, 271
@@ -18,7 +18,7 @@ FONT 9, "Arial", 0, FALSE
  EDITTEXT 3095, 308, 79, 33, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3263, "msctls_updown32", 0x000000B6, 325, 85, 10, 14
  COMBOBOX 3003, 345, 79, 32, 53, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Kompatibilita H264:", 3231, 198, 96, 61, 8
+ RTEXT "Kompatib. H264:", 3231, 198, 96, 61, 8
  COMBOBOX 3019, 263, 94, 115, 30, CBS_DROPDOWNLIST | WS_VSCROLL
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 198, 110, 181, 1
  RTEXT "H264:", 3224, 198, 117, 61, 8

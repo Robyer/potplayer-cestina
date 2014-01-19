@@ -5,7 +5,7 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Pomìr stran", 3292, 5, 3, 273, 82
  RTEXT "Režim:", 3310, 9, 16, 59, 8
  COMBOBOX 3012, 71, 14, 203, 91, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Úprava pomìru stran:", 3311, 9, 32, 59, 8
+ RTEXT "Pomìr stran:", 3311, 9, 32, 59, 8
  COMBOBOX 3013, 71, 31, 130, 91, CBS_DROPDOWNLIST | WS_VSCROLL
  PUSHBUTTON "Vlastní nastavení", 3021, 205, 31, 69, 13
  RTEXT "Výstupní zaøízení:", 3312, 9, 50, 59, 8

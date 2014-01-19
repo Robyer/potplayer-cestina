@@ -19,7 +19,7 @@ FONT 9, "Arial", 0, FALSE
  RTEXT "Výstup (obrazovka):", 3307, 12, 89, 80, 10
  COMBOBOX 3351, 95, 87, 178, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 13, 104, 268, 1
- AUTOCHECKBOX "Automaticky detekovat vstupní 3D formát (založeno na sufixu názvu souboru, napø.-lr,-ab)", 3141, 14, 110, 226, 9
+ AUTOCHECKBOX "Autom. detekovat vstupní 3D formát (dle sufixu v názvu, napø. -lr, -ab)", 3141, 14, 110, 226, 9
  AUTOCHECKBOX "Automaticky pøepínat mezi režimy videa (2D<>3D)", 3142, 25, 121, 196, 9
  CONTROL "<a>info</a>", 3417, "SysLink", WS_TABSTOP, 242, 116, 36, 8
 }

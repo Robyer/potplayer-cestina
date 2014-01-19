@@ -4,12 +4,12 @@ EXSTYLE = WS_EX_ACCEPTFILES
 FONT 9, "Arial", 0, FALSE
 {
  CONTROL "", 3230, "SysListView32", WS_TABSTOP | 0x00005C09, 29, 75, 213, 96
- PUSHBUTTON "Odeslat reklamy", 3038, 22, 177, 48, 11
+ PUSHBUTTON "Odeslat reklamy", 3038, 22, 177, 57, 11
  PUSHBUTTON "Pøidat soubor", 3048, 143, 175, 48, 11
  EDITTEXT 3069, 51, 22, 152, 12, ES_AUTOHSCROLL
- AUTOCHECKBOX "Zavøít okno po dokonèení reklam.", 3034, 15, 38, 130, 10
+ AUTOCHECKBOX "Zavøít okno po dokonèení reklam", 3034, 15, 38, 130, 10
  CONTROL "", 3191, "STATIC", SS_ETCHEDHORZ, 7, 50, 284, 1
  CONTROL "", 3213, "STATIC", SS_OWNERDRAW | SS_NOTIFY | WS_BORDER, 231, 15, 36, 27
- RTEXT "URL pro kliknutí:", 3381, 7, 23, 41, 8
+ RTEXT "URL proklik:", 3381, 7, 23, 41, 8
  LTEXT "00:00/00:00", 3201, 151, 38, 41, 8
 }

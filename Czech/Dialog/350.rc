@@ -3,7 +3,7 @@ STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Source/Splitter Filter", 3311, 5, 3, 273, 224
- PUSHBUTTON "Nastavení vestavìného Splitter/Source", 3110, 73, 209, 106, 13
+ PUSHBUTTON "Nastavení vest. Splitter/Source", 3110, 73, 209, 106, 13
  PUSHBUTTON "Správa filtrù", 3109, 193, 209, 82, 13
  LTEXT "", 3381, 10, 15, 263, 187
 }

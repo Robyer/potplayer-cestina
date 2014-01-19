@@ -2,6 +2,6 @@
 STYLE DS_SETFONT | WS_POPUP
 FONT 9, "Arial", 0, FALSE
 {
- PUSHBUTTON "Bezpeènostní aktualizace DRM", 3038, 88, 127, 94, 12
+ PUSHBUTTON "Bezpeènostní aktualiz. DRM", 3038, 88, 127, 94, 12
  LTEXT "", 3381, 41, 27, 218, 94
 }

@@ -5,11 +5,11 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Nastavení vzhledu", 3381, 5, 3, 273, 140
  CONTROL "", 3315, "SysTreeView32", WS_BORDER | WS_HSCROLL | WS_TABSTOP | 0x00001020, 11, 13, 261, 82
  AUTOCHECKBOX "Automaticky skrýt vzhled bìhem pøehrávání", 3052, 11, 98, 184, 10
- AUTOCHECKBOX "Automaticky zmìnit velikost obrazu v režimu na celou obrazovku", 3057, 11, 108, 184, 10
+ AUTOCHECKBOX "Autom. zmìnit velikost obrazu v režimu na celou obrazov.", 3057, 11, 108, 184, 10
  AUTOCHECKBOX "Spustit v režimu videa", 3072, 11, 118, 184, 10
  AUTOCHECKBOX "Vypnout pøepínání režimù vzhledu", 3073, 11, 128, 184, 10
  PUSHBUTTON "Obnovit", 3027, 205, 109, 68, 13
- PUSHBUTTON "Otevøít složku se vzhledy", 3024, 205, 126, 68, 13
+ PUSHBUTTON "Otevøít složku", 3024, 205, 126, 68, 13
  GROUPBOX "Barevná témata", 3382, 5, 146, 273, 82
  CONTROL "", 3316, "SysTreeView32", WS_BORDER | WS_HSCROLL | WS_TABSTOP | 0x00001020, 11, 157, 261, 50
  AUTOCHECKBOX "YUV barevné téma", 3066, 11, 212, 75, 10

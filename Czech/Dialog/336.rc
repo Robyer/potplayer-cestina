@@ -22,14 +22,14 @@ FONT 9, "Arial", 0, FALSE
  PUSHBUTTON "Smazat", 3033, 113, 109, 32, 12
  PUSHBUTTON "Zmìnit ikonu...", 3027, 151, 109, 53, 12
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 74, 124, 130, 1
- PUSHBUTTON "Vybrat video soubory", 3035, 74, 128, 66, 12
- PUSHBUTTON "Vybrat audio soubory", 3054, 142, 128, 63, 12
+ PUSHBUTTON "Vybrat video soub.", 3035, 74, 128, 66, 12
+ PUSHBUTTON "Vybrat audio soub.", 3054, 142, 128, 63, 12
  PUSHBUTTON "Vybrat titulky", 3036, 74, 142, 66, 12
  PUSHBUTTON "Vybrat playlisty", 3055, 142, 142, 63, 12
  PUSHBUTTON "Vybrat vše", 3021, 74, 156, 65, 12
  PUSHBUTTON "Zrušit výbìr", 3024, 142, 156, 63, 12
  PUSHBUTTON "Obnovit výchozí", 3106, 74, 170, 65, 12
- PUSHBUTTON "Aplikovat do systému", 3029, 142, 170, 63, 12
+ PUSHBUTTON "Použít v systému", 3029, 142, 170, 63, 12
  PUSHBUTTON "Promazat cache s ikonami", 3117, 74, 184, 131, 12
  AUTOCHECKBOX "PotPlayer v kont. nabídce složek", 3110, 73, 198, 132, 10
  AUTOCHECKBOX "\"Pøidat do\" v kont. nabídce souborù", 3111, 73, 208, 132, 10
@@ -44,5 +44,5 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Blu-ray", 3067, 213, 144, 63, 10
  GROUPBOX "Výchozí programy", 3192, 210, 165, 71, 66
  LTEXT "Win7 vyžaduje nastavení výchozích aplikací pro asociaci pøípon souborù.", 3386, 212, 174, 68, 36
- PUSHBUTTON "Otevøít ovládací panely", 3118, 213, 212, 64, 12
+ PUSHBUTTON "Ovládací panely", 3118, 213, 212, 64, 12
 }

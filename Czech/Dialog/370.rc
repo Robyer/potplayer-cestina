@@ -18,7 +18,7 @@ FONT 9, "Arial", 0, FALSE
  PUSHBUTTON "Upravit kanál", 3039, 176, 191, 98, 13
  PUSHBUTTON "Aut. hledání...", 3021, 9, 211, 45, 13
  PUSHBUTTON "Pøidat...", 3024, 56, 211, 31, 13
- PUSHBUTTON "Pøidat aktuální kanál", 3035, 89, 211, 56, 13
+ PUSHBUTTON "Pøidat akt. kanál", 3035, 89, 211, 56, 13
  PUSHBUTTON "Smazat", 3027, 147, 211, 26, 13
  PUSHBUTTON "Smazat vše", 3029, 175, 211, 41, 13
  PUSHBUTTON "Nahoru", 3031, 218, 211, 26, 13

@@ -13,8 +13,8 @@ FONT 9, "Arial", 0, FALSE
  RTEXT "Release Time (%d):", 3220, 10, 70, 70, 8
  CONTROL "", 3377, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 70, 150, 10
  PUSHBUTTON "Výchozí", 3031, 235, 67, 38, 12
- GROUPBOX "Freeverb", 3392, 5, 88, 273, 105
- AUTOCHECKBOX "Enable", 3072, 11, 99, 65, 10
+ GROUPBOX "Ozvìna", 3392, 5, 88, 273, 105
+ AUTOCHECKBOX "Povolit", 3072, 11, 99, 65, 10
  RTEXT "Velikost pokoje (%g):", 3207, 10, 114, 70, 8
  CONTROL "", 3079, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 82, 114, 150, 10
  PUSHBUTTON "Výchozí", 3027, 235, 112, 38, 12

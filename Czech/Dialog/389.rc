@@ -3,20 +3,20 @@ STYLE DS_SETFONT | WS_CHILD
 FONT 9, "Arial", 0, FALSE
 {
  GROUPBOX "Barvy", 3381, 5, 3, 273, 42
- RTEXT "Pozadí neakt. položky:", 3286, 8, 15, 68, 8
+ RTEXT "Pozadí neakt. polož.:", 3286, 8, 15, 68, 8
  CONTROL "", 3213, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 79, 12, 12, 12, WS_EX_DLGMODALFRAME
- RTEXT "Písmo neakt. položky:", 3288, 95, 15, 64, 8
+ RTEXT "Písmo neakt. polož.:", 3288, 95, 15, 64, 8
  CONTROL "", 3217, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 161, 12, 12, 12, WS_EX_DLGMODALFRAME
  RTEXT "Spodní okraj rámeèku:", 3291, 179, 15, 78, 8
  CONTROL "", 3233, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 260, 12, 12, 12, WS_EX_DLGMODALFRAME
- RTEXT "Pozadí aktivní položky:", 3289, 8, 30, 68, 8
+ RTEXT "Pozadí aktivní polož.:", 3289, 8, 30, 68, 8
  CONTROL "", 3225, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 79, 28, 12, 12, WS_EX_DLGMODALFRAME
- RTEXT "Písmo aktivní položky:", 3290, 95, 30, 64, 8
+ RTEXT "Písmo aktiv. polož.:", 3290, 95, 30, 64, 8
  CONTROL "", 3229, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 161, 28, 12, 12, WS_EX_DLGMODALFRAME
  RTEXT "Horní okraj rámeèku:", 3292, 179, 30, 78, 8
  CONTROL "", 3235, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 260, 28, 12, 12, WS_EX_DLGMODALFRAME
  GROUPBOX "Písmo / Velikost okna / Další nastavení", 3382, 5, 48, 273, 116
- RTEXT "Startovní složka:", 3294, 8, 61, 49, 8
+ RTEXT "Startov. složka:", 3294, 8, 61, 49, 8
  EDITTEXT 3069, 62, 59, 194, 12, ES_AUTOHSCROLL
  PUSHBUTTON "...", 3022, 259, 59, 15, 11
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 9, 75, 266, 3

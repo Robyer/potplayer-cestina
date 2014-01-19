@@ -13,7 +13,7 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Umístit okno na støed obrazovky pøi spuštìní pøehrávání videa", 3084, 73, 27, 205, 10
  RTEXT "Priorita procesu:", 3287, 9, 42, 60, 8
  COMBOBOX 3006, 72, 40, 201, 91, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Režim rychlosti audia:", 3236, 7, 58, 63, 8
+ RTEXT "Režim rychlosti:", 3236, 7, 58, 63, 8
  COMBOBOX 3014, 72, 56, 201, 116, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "Opakování:", 3237, 9, 74, 60, 8
  COMBOBOX 3015, 72, 72, 201, 116, CBS_DROPDOWNLIST | WS_VSCROLL
@@ -28,10 +28,10 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Skrýt kurzor myši bìhem pøehrávání", 3089, 149, 104, 126, 10
  AUTOCHECKBOX "Pamatovat si pozici pøehrávání", 3061, 149, 114, 115, 10
  AUTOCHECKBOX "Náhodné pøehrávání", 3113, 149, 124, 115, 10
- AUTOCHECKBOX "Automaticky zavøít soubor po dokonèení", 3124, 149, 134, 126, 10
+ AUTOCHECKBOX "Autom. zavøít soubor po dokonèení", 3124, 149, 134, 126, 10
  GROUPBOX "Na navigaèním øádku (ukazatel prùbìhu)", 3288, 5, 162, 273, 43
  AUTOCHECKBOX "Zobrazit náhledy", 3066, 11, 171, 136, 10
- AUTOCHECKBOX "Zarovnat navrch záložky/kapitoly", 3069, 19, 181, 128, 10
+ AUTOCHECKBOX "Zarovnat navrch záložek/kapitol", 3069, 19, 181, 128, 10
  AUTOCHECKBOX "Zobrazit informaci o èase v náhledu", 3070, 19, 191, 128, 10
  AUTOCHECKBOX "Zobrazit znaèky záložek/kapitol", 3063, 149, 171, 126, 10
  AUTOCHECKBOX "Zobrazit popisek s informací o èase", 3062, 149, 181, 123, 10

@@ -6,7 +6,7 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Informace o vysílání", 3285, 3, 6, 172, 84, 0, WS_EX_TRANSPARENT
  COMBOBOX 3005, 7, 16, 47, 237, CBS_DROPDOWNLIST | WS_VSCROLL
  EDITTEXT 3004, 57, 16, 114, 12, ES_AUTOHSCROLL
- RTEXT "Webová stránka vysílání:", 3295, 7, 33, 47, 8
+ RTEXT "Web vysílání:", 3295, 7, 33, 47, 8
  EDITTEXT 3077, 57, 31, 114, 12, ES_AUTOHSCROLL
  RTEXT "Popis vysílání:", 3297, 7, 47, 47, 8
  EDITTEXT 3071, 57, 47, 114, 38, ES_MULTILINE | ES_AUTOVSCROLL | ES_WANTRETURN | WS_VSCROLL
@@ -17,21 +17,21 @@ FONT 9, "Arial", 0, FALSE
  LTEXT "lidí (~2000)", 3289, 117, 104, 54, 8
  AUTOCHECKBOX "Heslo:", 3086, 12, 118, 45, 8
  EDITTEXT 3049, 61, 116, 54, 12, ES_AUTOHSCROLL
- LTEXT "(Až 10 èíslic)", 3290, 118, 118, 56, 8
+ LTEXT "(až 10 èíslic)", 3290, 118, 118, 56, 8
  AUTOCHECKBOX "Mobilní Per. vysílání", 3091, 12, 130, 88, 8
  PUSHBUTTON "Mobilní vysílání?", 3415, 102, 129, 71, 11
  AUTOCHECKBOX "Vyžadovat pøihlášení pro sledování vysílání", 3090, 12, 142, 159, 8
  AUTOCHECKBOX "Povolit vysílání", 3161, 12, 152, 159, 9
  AUTOCHECKBOX "Zakázat chat", 3165, 12, 163, 159, 9
  AUTOCHECKBOX "Neuchovávat diváky sledování", 3174, 12, 174, 159, 9
- AUTOCHECKBOX "Automatické ovládání", 3182, 12, 185, 59, 9
+ AUTOCHECKBOX "Autom. ovládání", 3182, 12, 185, 59, 9
  EDITTEXT 3065, 72, 184, 24, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3323, "msctls_updown32", 0x00000036, 92, 183, 11, 14
  LTEXT "< pøi více než", 3296, 97, 186, 74, 8
  GROUPBOX "Stav vysílání", 3291, 3, 203, 172, 42, 0, WS_EX_TRANSPARENT
  RTEXT "Datový tok -", 3292, 8, 213, 41, 8
  RTEXT "Zpoždìní -", 3293, 8, 223, 41, 8
- RTEXT "Pøeneseno dat -", 3294, 8, 233, 41, 8
+ RTEXT "Pøenos dat -", 3294, 8, 233, 41, 8
  LTEXT "", 3381, 54, 213, 117, 9
  LTEXT "", 3382, 54, 223, 117, 8
  LTEXT "", 3383, 54, 233, 117, 8

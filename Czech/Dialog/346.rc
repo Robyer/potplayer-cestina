@@ -5,13 +5,13 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Pøeskakované pøehrávání", 3285, 14, 23, 238, 232
  LTEXT "Zde mùžete nastavit intervaly pro pøeskoèení pøehrávání.", 3291, 22, 36, 201, 13
  AUTOCHECKBOX "Povolit pøeskoèení", 3034, 23, 53, 118, 10
- AUTOCHECKBOX "Úvod (na zaèátku)", 3040, 31, 68, 108, 10
- RTEXT "Pøeskoèit", 3287, 147, 69, 16, 8
+ AUTOCHECKBOX "Úvod (na zaèátku)", 3040, 31, 68, 99, 10
+ RTEXT "Pøeskoèit", 3287, 130, 69, 32, 8
  EDITTEXT 3088, 179, 66, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3262, "msctls_updown32", 0x000000B6, 205, 60, 10, 14
  LTEXT "sek.", 3289, 218, 68, 25, 8
- AUTOCHECKBOX "Ending (at the end)", 3044, 31, 84, 103, 10
- RTEXT "Pøeskoèit", 3288, 145, 86, 18, 8
+ AUTOCHECKBOX "Závìr (na konci)", 3044, 31, 84, 97, 10
+ RTEXT "Pøeskoèit", 3288, 131, 86, 32, 8
  EDITTEXT 3095, 179, 83, 37, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3263, "msctls_updown32", 0x000000B6, 205, 89, 10, 14
  LTEXT "sek.", 3290, 218, 85, 25, 8

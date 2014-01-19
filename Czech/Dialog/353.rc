@@ -10,7 +10,7 @@ FONT 9, "Arial", 0, FALSE
  RTEXT "Styl titulkù ASS/SSA:", 3318, 8, 44, 77, 8
  COMBOBOX 3008, 88, 42, 185, 74, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "Ignorovat HTML tagy:", 3319, 8, 58, 77, 8
- AUTOCHECKBOX "Absolutní velikost", 3041, 89, 57, 62, 10
+ AUTOCHECKBOX "Absolut. velikost", 3041, 89, 57, 62, 10
  AUTOCHECKBOX "Relativní velikost", 3042, 154, 57, 62, 10
  AUTOCHECKBOX "Øez písma", 3043, 219, 57, 55, 10
  AUTOCHECKBOX "Barva písma", 3044, 89, 69, 62, 10

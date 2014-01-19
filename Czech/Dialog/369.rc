@@ -36,6 +36,6 @@ FONT 9, "Arial", 0, FALSE
  CONTROL "", 3261, "msctls_updown32", 0x000000B6, 167, 136, 11, 12
  PUSHBUTTON "Pøedvolba", 3024, 183, 132, 36, 12
  AUTOCHECKBOX "Automaticky vypoèítat vertikální velikost", 3097, 84, 148, 145, 10
- RTEXT "Zpracování prokládání:", 3291, 9, 163, 70, 8
+ RTEXT "Zpracov. prokládání:", 3291, 9, 163, 70, 8
  COMBOBOX 3013, 81, 161, 191, 82, CBS_DROPDOWNLIST | WS_VSCROLL
 }

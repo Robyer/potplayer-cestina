@@ -3,7 +3,7 @@ STYLE DS_SETFONT | WS_POPUP
 EXSTYLE = WS_EX_CONTROLPARENT
 FONT 9, "Arial", 0, FALSE
 {
- PUSHBUTTON "Zachytávání obrazovky", 3039, 10, 14, 54, 14
+ PUSHBUTTON "Zachytávání obr.", 3039, 10, 14, 54, 14
  PUSHBUTTON "Webkamera", 3038, 67, 14, 52, 14
  PUSHBUTTON "Analogová TV", 3024, 121, 14, 52, 14
  PUSHBUTTON "Digitální TV", 3025, 176, 14, 52, 14

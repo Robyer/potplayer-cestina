@@ -5,11 +5,11 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Obecné nastavení informací", 3191, 5, 3, 273, 92, 0, WS_EX_TRANSPARENT
  AUTOCHECKBOX "Zobrazovat obecné informaèní zprávy", 3057, 11, 13, 123, 10
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 7, 26, 269, 1
- RTEXT "Metoda zobrazení:", 3296, 8, 33, 52, 8
+ RTEXT "Zpùsob zobr.:", 3296, 8, 33, 52, 8
  COMBOBOX 3014, 62, 31, 119, 30, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Horizontální zarovnání:", 3292, 7, 49, 52, 8
+ RTEXT "Horiz. zarovnání:", 3292, 7, 49, 52, 8
  COMBOBOX 3013, 62, 47, 35, 30, CBS_DROPDOWNLIST | WS_VSCROLL
- RTEXT "Vertikální zarovnání:", 3290, 99, 49, 43, 8
+ RTEXT "Vertik. zarov.:", 3290, 99, 49, 43, 8
  COMBOBOX 3005, 143, 47, 38, 30, CBS_DROPDOWNLIST | WS_VSCROLL
  RTEXT "Horní okraj:", 3289, 16, 65, 43, 8
  EDITTEXT 3099, 62, 63, 35, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
@@ -21,7 +21,7 @@ FONT 9, "Arial", 0, FALSE
  RTEXT "Pevná velikost písma:", 3287, 187, 49, 50, 8
  EDITTEXT 3088, 240, 47, 32, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3262, "msctls_updown32", 0x000000B6, 268, 49, 10, 14
- AUTOCHECKBOX "Automatická velikost písma", 3040, 184, 63, 87, 10, 0, WS_EX_RIGHT
+ AUTOCHECKBOX "Automat. velikost písma", 3040, 184, 63, 87, 10, 0, WS_EX_RIGHT
  RTEXT "Barva písma:", 3291, 16, 81, 43, 8
  CONTROL "", 3213, "STATIC", SS_OWNERDRAW | SS_NOTIFY, 62, 79, 12, 12, WS_EX_DLGMODALFRAME
  RTEXT "Barva obrysu:", 3295, 99, 81, 43, 8
@@ -33,15 +33,15 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Zobrazit symbol \"%\"", 3052, 186, 139, 84, 10
  AUTOCHECKBOX "Zobrazit název souboru", 3044, 65, 171, 83, 10
  COMBOBOX 3003, 64, 155, 120, 30, CBS_DROPDOWN | WS_VSCROLL
- AUTOCHECKBOX "Zobrazit pouze v režimu na celou obrazovku", 3045, 186, 156, 89, 10
+ AUTOCHECKBOX "Jen v režimu na celou obr.", 3045, 186, 156, 89, 10
  RTEXT "Metoda èasu:", 3293, 11, 140, 50, 8
  RTEXT "Formát èasu:", 3294, 11, 157, 50, 8
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 7, 133, 269, 1
- AUTOCHECKBOX "Zobrazit stav energie", 3046, 152, 171, 83, 10
+ AUTOCHECKBOX "Zobrazit stav napájení", 3046, 152, 171, 83, 10
  GROUPBOX "Krátké informaèní zprávy (Shift+Tab)", 3195, 5, 189, 273, 37, 0, WS_EX_TRANSPARENT
  AUTOCHECKBOX "Zobrazit název souboru", 3048, 12, 200, 83, 10
  AUTOCHECKBOX "Zobrazit název titulkù", 3049, 101, 200, 85, 10
  AUTOCHECKBOX "Zobrazit èas pøehrávání", 3050, 188, 200, 83, 10
  AUTOCHECKBOX "Zobrazit znaèku kapitoly", 3051, 12, 211, 83, 10
- AUTOCHECKBOX "Zobrazit informace o kodeku", 3053, 101, 211, 83, 10
+ AUTOCHECKBOX "Zobrazit info o kodeku", 3053, 101, 211, 83, 10
 }

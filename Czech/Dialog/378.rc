@@ -9,7 +9,7 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Nastavení loga", 3191, 5, 183, 273, 43
  RTEXT "Zobrazení:", 3189, 13, 195, 46, 10
  COMBOBOX 3005, 63, 193, 136, 157, CBS_DROPDOWNLIST | WS_VSCROLL
- PUSHBUTTON "Otevøít složku s logy", 3021, 203, 193, 71, 12
+ PUSHBUTTON "Otevøít složku", 3021, 203, 193, 71, 12
  AUTOCHECKBOX "Zvolit náhodnì", 3061, 63, 210, 134, 10
  PUSHBUTTON "Obnovit", 3027, 203, 208, 71, 12
 }

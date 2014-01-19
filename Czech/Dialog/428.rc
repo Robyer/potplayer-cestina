@@ -14,11 +14,11 @@ FONT 9, "Arial", 0, FALSE
  PUSHBUTTON "¡", 3021, 175, 31, 16, 11
  COMBOBOX 3013, 193, 31, 79, 146, CBS_DROPDOWNLIST | WS_VSCROLL
  CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 48, 269, 1
- PUSHBUTTON "Zobrazit zachytávanou oblast 1", 3063, 12, 53, 71, 13
- PUSHBUTTON "Zobrazit zachytávanou oblast 2", 3068, 87, 53, 71, 13
- PUSHBUTTON "Nastavit zachytávanou oblast 1", 3064, 12, 68, 71, 13
- PUSHBUTTON "Nastavit zachytávanou oblast 2", 3069, 87, 68, 71, 13
- PUSHBUTTON "Nastavení zachytávání obrazovky...", 3042, 183, 68, 90, 13
+ PUSHBUTTON "Zobrazit oblast 1", 3063, 12, 53, 71, 13
+ PUSHBUTTON "Zobrazit oblast 2", 3068, 87, 53, 71, 13
+ PUSHBUTTON "Nastavit oblast 1", 3064, 12, 68, 71, 13
+ PUSHBUTTON "Nastavit oblast 2", 3069, 87, 68, 71, 13
+ PUSHBUTTON "Nastavení zachytávání...", 3042, 183, 68, 90, 13
  GROUPBOX "Nastavení audio zaøízení", 3287, 5, 90, 273, 58, 0, WS_EX_TRANSPARENT
  RTEXT "Zaøízení:", 3288, 10, 101, 24, 8
  COMBOBOX 3046, 37, 100, 234, 137, CBS_DROPDOWNLIST | WS_VSCROLL

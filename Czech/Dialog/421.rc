@@ -5,7 +5,7 @@ FONT 9, "Arial", 0, FALSE
  GROUPBOX "Nastavení vestavìných audio kodekù", 3382, 13, 20, 188, 236
  LTEXT "", 3381, 17, 32, 180, 219
  GROUPBOX "Nastavení FFmpeg", 3384, 207, 20, 132, 51
- AUTOCHECKBOX "Aplikovat DRC pro AC3, E-AC3 dekodéry", 3040, 210, 30, 127, 10
+ AUTOCHECKBOX "Aplik. DRC pro dekodéry AC3, E-AC3", 3040, 210, 30, 127, 10
  RTEXT "Úroveò (%d%%):", 3386, 211, 43, 62, 8
  CONTROL "", 3239, "msctls_trackbar32", WS_TABSTOP | 0x00000018, 275, 42, 61, 10
  AUTOCHECKBOX "Preferovat FFmpeg float dekodér", 3041, 210, 56, 122, 10

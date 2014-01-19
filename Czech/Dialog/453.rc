@@ -1,3 +1,7 @@
+// generated on 19. 1. 2014 14:56:21
+
+// --------- resources of type Dialog -----------
+
 453 DIALOGEX 0, 0, 266, 303, 0
 STYLE DS_SETFONT | WS_POPUP
 FONT 9, "Arial", 0, FALSE
@@ -27,9 +31,10 @@ FONT 9, "Arial", 0, FALSE
  EDITTEXT 3095, 107, 231, 33, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3268, "msctls_updown32", 0x000000B6, 126, 239, 10, 14
  LTEXT "", 3292, 159, 233, 84, 8
- RTEXT "Poèet opakování:", 3294, 16, 251, 45, 8
+ RTEXT "Poèet opak.:", 3294, 16, 251, 45, 8
  EDITTEXT 3092, 62, 249, 32, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3266, "msctls_updown32", 0x000000B6, 81, 255, 10, 14
  RTEXT "Poznámka:", 3295, 99, 251, 37, 8
  EDITTEXT 3094, 141, 249, 106, 12, ES_AUTOHSCROLL
 }
+
