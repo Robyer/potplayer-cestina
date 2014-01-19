@@ -311,8 +311,8 @@
    POPUP "Styl"
    {
     MENUITEM "Použít tuèné písmo\tAlt+B", 10136
-    MENUITEM "Zvýšit velikost písma\tAlt+PGUP", 10137
-    MENUITEM "Snížit velikost písma\tAlt+PGDN", 10138
+    MENUITEM "Zvìtšit velikost písma\tAlt+PGUP", 10137
+    MENUITEM "Zmenšit velikost písma\tAlt+PGDN", 10138
     MENUITEM "Nastavení písma...\tAlt+F", 10139
     MENUITEM SEPARATOR
     MENUITEM "Zarovnat vlevo", 10143
@@ -325,10 +325,10 @@
     MENUITEM "Posunout vpravo\tAlt+Left", 10130
     MENUITEM "Posunout vlevo\tAlt+Right", 10131
     MENUITEM SEPARATOR
-    MENUITEM "Zvýšit horizontální mezery\tAlt+Num 6", 10132
-    MENUITEM "Snížit horizontální mezery\tAlt+Num 4", 10133
-    MENUITEM "Zvýšit vertikální mezery\tAlt+Num 8", 10134
-    MENUITEM "Snížit vertikální mezery\tAlt+Num 2", 10135
+    MENUITEM "Zvìtšit horizontální mezery\tAlt+Num 6", 10132
+    MENUITEM "Zmenšit horizontální mezery\tAlt+Num 4", 10133
+    MENUITEM "Zvìtšit vertikální mezery\tAlt+Num 8", 10134
+    MENUITEM "Zmenšit vertikální mezery\tAlt+Num 2", 10135
     MENUITEM SEPARATOR
     MENUITEM "Nastavení stylu písma titulkù...", 10761
    }
