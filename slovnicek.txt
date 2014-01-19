@@ -1,0 +1,23 @@
+Navigation bar - navigaèní øádek
+Tooltip - popisek
+Video image - obraz videa
+Font - písmo
+Internal - vestavìnı
+Seek - pøesun
+
+
+TODO:
+=====
+Switch-Xy (Pøepnout-Xy) nahradit za Cycle Xy (Pøepnout Xy)
+Pouít malé písmeno za lomítkem?  jako   Webkamera/jiné zaøízení
+Nahradit ... za … ?
+
+NAhradit "Vypnuto" za "Vypnout" (pøi pøekladu Disable)
+Nahradit "Zapnuto" za "Zapnout" (pøi pøekladu Enable)
+-- moná ne, èasto se to hodí ve Vypnuto tvaru -- pouít "Zakázat" ?
+
+Video stream - Stopa videa / Video stopa? ... hm, lepší pøeklad
+
+Start a Stop na Spustit a Zastavit?
+
+Pøedvolb -> Nastaven   ??
