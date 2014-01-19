@@ -16,7 +16,7 @@
     MENUITEM "Otevøít soubor(y)", 10358
     MENUITEM "Otevøít URL", 10359
     MENUITEM "Otevøít složku", 10360
-    MENUITEM "Otevøít prohlížeè souborù", 10361
+    MENUITEM "Otevøít navigátor souborù", 10361
    }
    MENUITEM SEPARATOR
    MENUITEM "Zachytávání obrazovky \tCtrl+S", 10161
@@ -183,7 +183,7 @@
     MENUITEM "Prohlížeè scén... \tShift+Z", 10416
     MENUITEM "Prohlížeè kapitol/záložek... \tAlt+Z", 10802
     MENUITEM SEPARATOR
-    MENUITEM "Nastavení èasových skokù", 10758
+    MENUITEM "Nastavení èasových skokù...", 10758
    }
    POPUP "Rychlost"
    {
@@ -202,7 +202,7 @@
     MENUITEM "Pøeskoèit závìr %s", 10580
     MENUITEM "Pøeskoèit kapitoly", 10581
     MENUITEM SEPARATOR
-    MENUITEM "Nastavit pøeskoèení... \t'", 10240
+    MENUITEM "Nastavení pøeskoèení... \t'", 10240
    }
    POPUP "Opakování A-B\tB"
    {
@@ -308,7 +308,7 @@
     MENUITEM "Vektorové vykreslování", 10820
     MENUITEM "Bitmapové vykreslování", 10821
    }
-   POPUP "Styly"
+   POPUP "Styl"
    {
     MENUITEM "Použít tuèné písmo\tAlt+B", 10136
     MENUITEM "Zvýšit velikost písma\tAlt+PGUP", 10137
@@ -344,7 +344,7 @@
    POPUP "Uložit"
    {
     MENUITEM "Reflektovat SMI synchronizaci titulkù\tAlt+S", 10401
-    MENUITEM "Uložit titulky pod názvem souboru s videem\tCtrl+Shift+S", 10485
+    MENUITEM "Uložit titulky jako název souboru s videem\tCtrl+Shift+S", 10485
     MENUITEM "Uložit titulky jako... \tCtrl+Alt+S", 10362
    }
    POPUP "3D titulky (stereoskopické)"
@@ -428,7 +428,7 @@
     MENUITEM "Vstupní 3D video (zdroj): Nahoøe a dole", 10715
     MENUITEM "Vstupní 3D video (zdroj): Pùvodní obraz", 10716
     MENUITEM SEPARATOR
-    MENUITEM "Použít 3D režim v polovièním rozlišení", 10717
+    MENUITEM "Použít režim 3D v polovièním rozlišení", 10717
     MENUITEM "Prohodit levý/pravý obraz", 10718
     MENUITEM "Automaticky detekovat vstupní 3D formát", 10741
     MENUITEM "Automaticky pøepínat mezi režimy videa (2D<>3D)", 10742
@@ -540,8 +540,8 @@
    }
    POPUP "Zpracování videa"
    {
-    MENUITEM "Pøevrátit vstupní obraz\tCtrl+V", 10070
-    MENUITEM "Zrcadlit obraz\tCtrl+Z", 10071
+    MENUITEM "Pøevrácení vstupního obrazu\tCtrl+V", 10070
+    MENUITEM "Zrcadlení obrazu\tCtrl+Z", 10071
     MENUITEM "Rotace (horizontální/vertikální)", 10072
     MENUITEM "Rozmazání \tCtrl+B", 10257
     MENUITEM "Zaostøení \tCtrl+R", 10256
@@ -726,7 +726,7 @@
     MENUITEM SEPARATOR
     MENUITEM "Nastavení loga...", 10440
    }
-   POPUP "Barevné témata"
+   POPUP "Barevná témata"
    {
     MENUITEM SEPARATOR
     MENUITEM "YUV barevné téma", 10387
@@ -800,7 +800,7 @@
   MENUITEM SEPARATOR
   POPUP "Pøiblížení"
   {
-   POPUP "Preset"
+   POPUP "Pøedvolba"
    {
     MENUITEM "Nastavení...", 10229
     MENUITEM SEPARATOR
@@ -855,7 +855,7 @@
    MENUITEM "1.85:1", 10020
    MENUITEM "2.35:1", 10021
    MENUITEM "Vlastní (%s)", 10022
-   MENUITEM "Nastavit vlastní pomìr stran...", 10364
+   MENUITEM "Vlastní nastavení...", 10364
    MENUITEM SEPARATOR
    POPUP "Výstup"
    {
@@ -887,7 +887,7 @@
    MENUITEM "2.0x\t4", 10235
    MENUITEM "Maximalizovat\t5", 10236
    MENUITEM "Vlastní\t9", 10664
-   MENUITEM "Nastavit vlastní...\t0", 10404
+   MENUITEM "Vlastní nastavení...\t0", 10404
    MENUITEM SEPARATOR
    MENUITEM "Maximalizovat/Obnovit\t6", 10237
    MENUITEM "Maximalizovat +/Obnovit\t7", 10238

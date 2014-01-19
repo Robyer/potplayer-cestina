@@ -2,12 +2,12 @@
 STYLE DS_SETFONT | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN
 FONT 9, "Arial", 0, FALSE
 {
- RTEXT "Max. velikost scény:", 3287, 9, 24, 51, 8
+ RTEXT "Velikost scény:", 3287, 9, 24, 51, 8
  EDITTEXT 3088, 61, 23, 58, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
  CONTROL "", 3262, "msctls_updown32", 0x000000B6, 108, 21, 10, 14
  RTEXT "Interval:", 3286, 11, 39, 47, 8
  COMBOBOX 3003, 61, 38, 58, 137, CBS_DROPDOWNLIST | WS_VSCROLL
  AUTOCHECKBOX "Zavøít tento dialog pøi pøepnutí na scénu", 3034, 127, 22, 149, 10
- AUTOCHECKBOX "Ponechat tento dialog navrchu", 3035, 127, 32, 87, 10
- AUTOCHECKBOX "Zobrazovat scény vertikálnì", 3036, 127, 42, 151, 10
+ AUTOCHECKBOX "Zobrazit vždy navrchu", 3035, 127, 32, 87, 10
+ AUTOCHECKBOX "Vertikální zobrazení scén", 3036, 127, 42, 151, 10
 }

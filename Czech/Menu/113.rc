@@ -28,7 +28,7 @@
    MENUITEM "1.85:1", 10020
    MENUITEM "2.35:1", 10021
    MENUITEM "Vlastní (%s)", 10022
-   MENUITEM "Nastavit vlastní...", 10364
+   MENUITEM "Vlastní nastavení...", 10364
   }
   MENUITEM "Celá obrazovka\tEnter", 10013
   MENUITEM SEPARATOR

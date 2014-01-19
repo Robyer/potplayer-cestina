@@ -40,6 +40,6 @@ FONT 9, "Arial", 0, FALSE
  AUTOCHECKBOX "Pøevr. vstupní obr.", 3061, 7, 210, 65, 10
  AUTOCHECKBOX "270 stupòù", 3372, 86, 210, 65, 10
  AUTOCHECKBOX "Více-jádrové zpracování videa", 3374, 165, 209, 109, 10
- AUTOCHECKBOX "Zrcadlit obraz", 3149, 7, 221, 65, 10
+ AUTOCHECKBOX "Zrcadlení obrazu", 3149, 7, 221, 65, 10
  AUTOCHECKBOX "Rozmazání pohybem", 3373, 86, 221, 153, 10
 }
