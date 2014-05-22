@@ -1,0 +1,31 @@
+452 DIALOGEX 0, 0, 284, 245, 0
+STYLE DS_SETFONT | WS_CHILD
+FONT 9, "Arial", 0, FALSE
+{
+ GROUPBOX "AviSynth Information", 3382, 5, 3, 273, 47
+ LTEXT "You can use AviSynth filters that are installed in your system.YV12 colorspace is only supported and video resize processing cannot be used.", 3383, 10, 14, 264, 20
+ CONTROL "<a>AviSynth page</a>", 3417, "SysLink", WS_TABSTOP, 19, 38, 52, 8
+ CONTROL "<a>AviSynth forum</a>", 3418, "SysLink", WS_TABSTOP, 78, 38, 86, 8
+ CONTROL "<a>How to use AviSynth</a>", 3419, "SysLink", WS_TABSTOP, 171, 38, 78, 8
+ GROUPBOX "AviSynth Settings", 3381, 5, 54, 273, 177
+ AUTOCHECKBOX "Use AviSynth filters", 3036, 15, 64, 111, 10
+ AUTOCHECKBOX "Use only in progressive frame", 3041, 132, 64, 141, 10
+ AUTOCHECKBOX "Add \"potplayer_source()\"", 3037, 15, 75, 181, 10
+ AUTOCHECKBOX "Reset on seek", 3038, 15, 86, 83, 10
+ AUTOCHECKBOX "Delay", 3039, 102, 86, 102, 10, BS_RIGHT | BS_LEFTTEXT
+ EDITTEXT 3090, 208, 83, 42, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3264, "msctls_updown32", 0x000000B6, 235, 87, 10, 14
+ LTEXT "ms", 3384, 253, 84, 17, 9
+ AUTOCHECKBOX "Fast output", 3034, 15, 98, 66, 10
+ AUTOCHECKBOX "Buffer (back/ahead)", 3035, 85, 98, 119, 11, BS_RIGHT | BS_LEFTTEXT
+ EDITTEXT 3088, 208, 98, 29, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3262, "msctls_updown32", 0x000000B6, 231, 102, 10, 14
+ EDITTEXT 3089, 242, 98, 29, 12, ES_RIGHT | ES_AUTOHSCROLL | ES_NUMBER
+ CONTROL "", 3263, "msctls_updown32", 0x000000B6, 265, 110, 10, 14
+ CONTROL "", -1, "STATIC", SS_ETCHEDHORZ, 8, 113, 269, 1
+ RTEXT "Load script:", 3294, 8, 119, 42, 8
+ COMBOBOX 3040, 52, 117, 150, 137, CBS_DROPDOWNLIST | WS_VSCROLL
+ PUSHBUTTON "...", 3361, 205, 117, 17, 11
+ PUSHBUTTON "Save", 3360, 232, 117, 40, 13
+ EDITTEXT 3069, 11, 133, 261, 93, ES_MULTILINE | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+}

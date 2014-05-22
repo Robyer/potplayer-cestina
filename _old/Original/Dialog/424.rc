@@ -1,0 +1,13 @@
+424 DIALOGEX 0, 0, 239, 309, 0
+STYLE DS_SETFONT | WS_POPUP
+EXSTYLE = WS_EX_CONTROLPARENT
+FONT 9, "Arial", 0, FALSE
+{
+ PUSHBUTTON "Copy to the clipboard (&C)", 3035, 55, 254, 86, 14
+ PUSHBUTTON "Play info", 3038, 8, 14, 42, 14
+ PUSHBUTTON "File Resource", 3025, 54, 14, 57, 14
+ PUSHBUTTON "File Info", 3024, 117, 14, 44, 14
+ CONTROL "", 3380, "SysTabControl32", 0, 7, 37, 208, 171
+ PUSHBUTTON "Save as...(&S)", 3036, 54, 270, 84, 14
+ PUSHBUTTON "System Info", 3026, 167, 14, 47, 14
+}

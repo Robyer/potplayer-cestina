@@ -1,0 +1,72 @@
+111 MENU
+{
+ POPUP "PL"
+ {
+  MENUITEM "Play \tP", 10199
+  MENUITEM "Play within a new instance", 10792
+  MENUITEM SEPARATOR
+  POPUP "Album"
+  {
+   MENUITEM "Add a new album... \tCtrl+N", 10002
+   MENUITEM "Rename album...\tCtrl+R", 10003
+   MENUITEM "Delete album\tCtrl+D", 10004
+   MENUITEM SEPARATOR
+   MENUITEM "Open playlist folder...", 10410
+  }
+  POPUP "Playlist"
+  {
+   MENUITEM "Open a playlist...\tF3", 10000
+   MENUITEM "Save playlist as...\tF2", 10206
+   MENUITEM "Auto save playlist", 10411
+  }
+  POPUP "Playback Queue"
+  {
+   MENUITEM "Add to playback queue \tQ", 10005
+   MENUITEM "Clear playback queue\tCtrl+Q", 10006
+  }
+  POPUP "Add && Edit"
+  {
+   MENUITEM "Add file(s)... \tCtrl+I", 10196
+   MENUITEM "Add directory... \tCtrl+O", 10197
+   MENUITEM "Add URL... \tCtrl+U", 10198
+   MENUITEM SEPARATOR
+   MENUITEM "Edit item title...\tCtrl+E", 10211
+   MENUITEM "Open item folder... \tCtrl+F", 10207
+   MENUITEM "File search…\tCtrl+S", 10490
+   MENUITEM "Rename file...\tCtrl+M", 10583
+   MENUITEM SEPARATOR
+   MENUITEM "Copy \tCtrl+C", 10007
+   MENUITEM "Paste \tCtrl+V", 10008
+  }
+  POPUP "Remove"
+  {
+   MENUITEM "Remove selected item(s)\tDel", 10200
+   MENUITEM "Remove unselected item(s)\tCtrl+Del", 10212
+   MENUITEM "Remove all items \tAlt+Del", 10201
+   MENUITEM "Remove nonexistent items\tCtrl+T", 10210
+   MENUITEM SEPARATOR
+   MENUITEM "Sent to recycle bin \tShift+Del", 10213
+   MENUITEM "Sent to recycle bin (with subtitles/bookmarks) \tShift+Ctrl+Del", 10209
+  }
+  POPUP "Sort"
+  {
+   MENUITEM "Sort by filename - ascending\tCtrl+1", 10202
+   MENUITEM "Sort by filename - descending\tCtrl+2", 10203
+   MENUITEM "Randomly \tCtrl+3", 10208
+   MENUITEM "Sort by extension\tCtrl+4", 10586
+   MENUITEM SEPARATOR
+   MENUITEM "Sort by folder\tCtrl+0", 10001
+  }
+  POPUP "Select"
+  {
+   MENUITEM "Select all \tCtrl+A", 10204
+   MENUITEM "Select none\tCtrl+I", 10205
+  }
+  MENUITEM SEPARATOR
+  MENUITEM "Detect file durations\tF4", 10640
+  MENUITEM "File information...\tCtrl+F1", 10505
+  MENUITEM "Create Thumbnail Image(s)...", 10800
+  MENUITEM "Playlist settings... \tF5", 10315
+  MENUITEM "Close Playlist \tF6", 10446
+ }
+}

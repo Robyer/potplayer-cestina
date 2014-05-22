@@ -1,0 +1,38 @@
+113 MENU
+{
+ POPUP "Popup Menu"
+ {
+  MENUITEM "Play/Pause\tSpace", 10014
+  MENUITEM "Close File\tF4", 10167
+  MENUITEM SEPARATOR
+  MENUITEM "%s Previous\tLeft", 10059
+  MENUITEM "%s Next\tRight", 10060
+  MENUITEM "Starting Point \tBackSpace", 10243
+  MENUITEM SEPARATOR
+  MENUITEM "Volume Up +\tUp", 10035
+  MENUITEM "Volume -\tDown", 10036
+  MENUITEM "Mute\tM", 10037
+  MENUITEM SEPARATOR
+  POPUP "Aspect Ratio"
+  {
+   MENUITEM "Fit to Video\tCtrl+F5", 10040
+   MENUITEM "Fit to Window\tCtrl+F5", 10041
+   MENUITEM "Free\tCtrl+F5", 10042
+   MENUITEM SEPARATOR
+   MENUITEM "Cycle Aspect Ratio\tCtrl+F6", 10261
+   MENUITEM "Do Nothing", 10015
+   MENUITEM "Default Aspect Ratio", 10016
+   MENUITEM "4:3", 10017
+   MENUITEM "16:9", 10018
+   MENUITEM "16:10", 10019
+   MENUITEM "1.85:1", 10020
+   MENUITEM "2.35:1", 10021
+   MENUITEM "Custom (%s)", 10022
+   MENUITEM "Set Custom AR Size...", 10364
+  }
+  MENUITEM "Fullscreen\tEnter", 10013
+  MENUITEM SEPARATOR
+  MENUITEM "Playing File/System Info...\tCtrl+F1", 10195
+  MENUITEM "About... \tF1", -7872
+ }
+}

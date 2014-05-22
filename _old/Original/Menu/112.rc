@@ -1,0 +1,19 @@
+112 MENU
+{
+ POPUP "Chat Menu"
+ {
+  MENUITEM "Force to exit", 10216
+  MENUITEM "Add to blacklist", 10263
+  MENUITEM "Block chat", 10507
+  MENUITEM "Unblock chat", 10508
+  MENUITEM "Add to ban list", 10506
+  MENUITEM "Chat Management...", 10409
+  MENUITEM SEPARATOR
+  MENUITEM "Appoint administrator", 10254
+  MENUITEM "Dismiss administrator", 10255
+  MENUITEM SEPARATOR
+  MENUITEM "Use whisper chat ", 10217
+  MENUITEM "Use blind chat", 10333
+  MENUITEM "Report abuse", 10408
+ }
+}

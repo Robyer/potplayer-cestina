@@ -1,0 +1,10 @@
+110 MENU
+{
+ POPUP "Menu"
+ {
+  MENUITEM "Use whisper chat ", 10217
+  MENUITEM "Visit Broadcast homepage", 10214
+  MENUITEM "Bookmark", 10215
+  MENUITEM "Chat Management...", 10409
+ }
+}

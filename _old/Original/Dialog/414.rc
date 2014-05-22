@@ -1,0 +1,12 @@
+414 DIALOGEX 0, 0, 264, 291, 0
+STYLE DS_SETFONT | WS_POPUP
+FONT 9, "Arial", 0, FALSE
+{
+ CTEXT "A new version of PotPlayer is available\nDo you want to update it now?", 3381, 16, 26, 230, 17
+ RTEXT "Check for updates:", 3291, 11, 228, 69, 10
+ COMBOBOX 3010, 89, 226, 161, 88, CBS_DROPDOWNLIST | WS_VSCROLL
+ RTEXT "File link:", 3292, 16, 242, 69, 10
+ COMBOBOX 3011, 89, 241, 161, 88, CBS_DROPDOWNLIST | WS_VSCROLL
+ AUTOCHECKBOX "Set Daum WebPage as default", 3327, 90, 256, 156, 10
+ GROUPBOX "", 3384, 14, 53, 235, 168
+}
