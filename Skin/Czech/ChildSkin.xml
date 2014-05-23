@@ -1,0 +1,60 @@
+﻿<?XML version='1.0' ?>
+
+<Skin Version='1.0' MinorVersion='1000'>
+
+	#include<Common.txt>
+
+	<MainSkinArea Image='{$CP949=Main.png$}{$CP936=MainChs.png$}{$CP950=MainCht.png$}{$CP0=MainEng.png$}' AlphaMode='1' WidthLimit='260' HeightLimit='0' UseWindowFrame='0'>
+		#include<Logo.txt>
+		<Control>
+			<Static Align='Top' State='CMD_VIEWER_MODE CMD_BROADCAST_MODE' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='5' ImageTop='513' ImageWidth='400' ImageHeight='26' Left='0' Top='0' Width='0' Height='26'>
+				<Label CmdID='CMD_BROADCAST_NAME' ColorX='864' ColorY='511' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' Left='29' Top='6' Width='65' Height='12' FontName='#DEFAULT_UI_FONT' FontSize='11' />
+				<Button Tooltip='$CMD_BROADCAST_MENU' CmdID='CMD_BROADCAST_MENU' Left='5' Top='5' Width='101' Height='15' ImageLeft='345' ImageTop='459' />	 
+
+				<Static Align='Right' State='CMD_VIEWER_MODE' UsingAlpha='1' Width='93' >
+					<Button CmdID='CMD_GOOD_BROADCAST' Left='0' Top='5' Width='25' Height='14' ImageLeft='0' ImageTop='459' />
+					<Button CmdID='CMD_BAD_BROADCAST' Left='28' Top='5' Width='25' Height='14' ImageLeft='104' ImageTop='459' />
+					<Button CmdID='CMD_COPY_BROADCAST' Left='57' Top='5' Width='25' Height='14' ImageLeft='859' ImageTop='459' />
+				</Static>
+				<Static Align='Right' State='CMD_BROADCAST_MODE' UsingAlpha='1' Width='218' >
+					<Label Align='Left' VertAlignment='1' ColorX='864' ColorY='511' Width='42' FontName='#DEFAULT_UI_FONT' FontSize='11' Text='$CMD_VIEWER_NUM_MESSAGE' />
+					<Label Align='Left' VertAlignment='1' CmdID='CMD_VIEWER_NUM_MESSAGE' ColorX='677' ColorY='920' Width='25' FontName='Tahoma' FontSize='11' />
+					<Label Align='Left' VertAlignment='1' ColorX='864' ColorY='511' Width='30' FontName='#DEFAULT_UI_FONT' FontSize='11' Text='$CMD_GOOD_NUM_MESSAGE' />
+					<Label Align='Left' VertAlignment='1' CmdID='CMD_GOOD_NUM_MESSAGE' ColorX='677' ColorY='920' Width='25' FontName='Tahoma' FontSize='11' />
+					<Label Align='Left' VertAlignment='1' ColorX='864' ColorY='511' Width='30' FontName='#DEFAULT_UI_FONT' FontSize='11' Text='$CMD_BAD_NUM_MESSAGE' />
+					<Label Align='Left' VertAlignment='1' CmdID='CMD_BAD_NUM_MESSAGE' ColorX='677' ColorY='920' Width='25' FontName='Tahoma' FontSize='11' />
+					<Button CmdID='CMD_COPY_BROADCAST' Left='200' Top='5' Width='25' Height='14' ImageLeft='859' ImageTop='459' />
+				</Static>
+
+			</Static>
+
+			<Static Align='Bottom' State='' LeftMargin='336' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='5' ImageTop='842' ImageWidth='400' ImageHeight='48' Height='48' >
+				<Slider CmdID='CMD_TIMEBAR_CTRL' Left='9' Top='4' Width='-115' Height='15' ImageWidth='102' ImageHeight='15' ThumbWidth='16' ThumbHeight='15' 
+					ImageLeft='0' ImageTop='279' BackImageLeft='0' BackImageTop='267' AltImageLeft='0' AltImageTop='290' ThumbImageLeft='0' ThumbImageTop='319' 
+					LeftMargin='10' RightMargin='10' RepeatAImageLeft='148' RepeatAImageTop='321' RepeatBImageLeft='155' RepeatBImageTop='321' RepeatImageWidth='7' RepeatImageHeight='11'
+					BookmarkImageLeft='171' BookmarkImageTop='321' SeamlessImageLeft='188' SeamlessImageTop='321'/>
+				<Button Tooltip='$ID_AUDIO_MUTE' CmdID='ID_AUDIO_MUTE' Left='-106' Top='4' Width='15' Height='13' ImageLeft='0' ImageTop='243' />
+				<Slider CmdID='CMD_VOLUME_CTRL' Left='-88' Top='3' Width='81' Height='15' ImageWidth='82' ImageHeight='15' ThumbWidth='14' ThumbHeight='13' ImageLeft='132' ImageTop='278' BackImageLeft='132' BackImageTop='266' ThumbImageLeft='72' ThumbImageTop='318' LeftMargin='5' RightMargin='5' />
+
+				<Button Tooltip='$CMD_MEDIA_PLAY' CmdID='CMD_MEDIA_PLAY' Left='10' Top='26' Width='16' Height='18' ImageLeft='0' ImageTop='353' />
+				<Button Tooltip='$CMD_MEDIA_PAUSE' CmdID='CMD_MEDIA_PAUSE' Left='10' Top='26' Width='16' Height='18' ImageLeft='68' ImageTop='353' />
+				<Button Tooltip='$CMD_MEDIA_CLOSE' CmdID='CMD_MEDIA_CLOSE' Left='32' Top='28' Width='13' Height='12' ImageLeft='0' ImageTop='389' />
+				<Button Tooltip='$ID_PLAYBACK_5SEC_BACK' CmdID='ID_PLAYBACK_5SEC_BACK' Left='50' Top='28' Width='13' Height='12' ImageLeft='55' ImageTop='389' />
+				<Button Tooltip='$ID_PLAYBACK_5SEC_FORW' CmdID='ID_PLAYBACK_5SEC_FORW' Left='69' Top='28' Width='13' Height='12' ImageLeft='111' ImageTop='389' />
+
+				<Label CmdID='CMD_CURRENTTIME_MESSAGE' ColorX='864' ColorY='528' Left='112' Top='28' Width='50' Height='12' FontName='Tahoma' FontSize='11' />
+				<Label CmdID='' ColorX='875' ColorY='528' Left='158' Top='28' Width='10' Height='12' FontName='Tahoma' FontSize='11' Text='/' />
+				<Label CmdID='CMD_TOTALTIME_MESSAGE' ColorX='875' ColorY='528' Left='166' Top='28' Width='50' Height='12' FontName='Tahoma' FontSize='11' />
+
+				<Button Tooltip='$CMD_FULL_WINDOW' CmdID='CMD_KIDS_FULL_SCREEN' Left='-70' Top='24' Width='65' Height='20' ImageLeft='175' ImageTop='421' />
+
+			</Static>
+
+			<Static Align='Client' State='' Contain='CMD_VIDEO_WINDOW' />
+
+		</Control>
+	</MainSkinArea>
+
+	#include<SubCommon.txt #CONTROL=None #LEFT=-58>
+
+</Skin>

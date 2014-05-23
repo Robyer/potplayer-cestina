@@ -1,0 +1,7 @@
+		#if<CodePage==949>
+			<Logo IdleFileName="Logo.swf" LoadingFileName="Loading.swf" FlashBackColor='0x6C80E6' />
+		#elif<CodePage==936>
+			<Logo IdleFileName="LogoEng.swf" LoadingFileName="LoadingChs.swf" FlashBackColor='0x6C80E6' />
+		#else
+			<Logo IdleFileName="LogoEng.swf" LoadingFileName="LoadingEng.swf" FlashBackColor='0x6C80E6' />
+		#endif
