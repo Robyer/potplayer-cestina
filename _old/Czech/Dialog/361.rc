@@ -1,9 +1,0 @@
-361 DIALOGEX 0, 0, 283, 239, 0
-STYLE DS_SETFONT | WS_CHILD
-FONT 9, "Arial", 0, FALSE
-{
- GROUPBOX "Audio dekodér", 3311, 5, 3, 273, 225
- PUSHBUTTON "Nastavení vest. kodekù (S/PDIF, HDMI)", 3110, 73, 210, 123, 13
- PUSHBUTTON "Správa filtrù", 3109, 199, 210, 76, 13
- LTEXT "", 3381, 10, 15, 263, 187
-}

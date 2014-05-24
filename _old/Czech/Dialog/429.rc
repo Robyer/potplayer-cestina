@@ -1,6 +1,0 @@
-429 DIALOGEX 0, 0, 283, 63, 0
-STYLE DS_SETFONT | WS_CHILD
-FONT 9, "Arial", 0, FALSE
-{
- LTEXT "Nastavení zaøízení.\nVyberte jednu z dalších položek.", 3382, 6, 5, 270, 27
-}

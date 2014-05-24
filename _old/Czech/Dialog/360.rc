@@ -1,9 +1,0 @@
-360 DIALOGEX 0, 0, 283, 240, 0
-STYLE DS_SETFONT | WS_CHILD
-FONT 9, "Arial", 0, FALSE
-{
- GROUPBOX "Video dekodér", 3311, 5, 3, 273, 224
- PUSHBUTTON "Nastavení vest. kodekù/DXVA", 3110, 73, 210, 98, 13
- PUSHBUTTON "Správa filtrù", 3109, 190, 210, 84, 13
- LTEXT "", 3381, 10, 15, 263, 187
-}

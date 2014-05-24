@@ -1,5 +1,0 @@
-1) Stáhnout nový PotPlayer
-2) Vložit do Original_new
-3) Porovnat Original s Original_new a aplikovat tyto zmìny na Czech
-4) Pøípadnì dopøeložit Czech
-5) Zkompilovat, aktualizovat changelog a vydat
