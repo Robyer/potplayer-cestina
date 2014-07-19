@@ -1,6 +1,6 @@
-PotPlayer CZ v2.1
+PotPlayer CZ v2.2
 -----------------
-Tato èeština je urèená pro verzi PotPlayer 1.6.47995.
+Tato èeština je urèená pro verzi PotPlayer 1.6.48576.
 
 Èeština bude fungovat i pro lehce odlišné verze programu, ale je možné, že z dùvodu interních zmìn v nové verzi programu budou nìkteré položky (napø. v nabídkách) špatnì pojmenovány (budou oznaèovat jinou funkci).
 
@@ -28,6 +28,10 @@ Více informací: http://www.robyer.cz/cestiny/pot-player
 
 Historie verzí
 --------------
+v2.2 - 19.7.2014
+- aktualizace na verzi 1.6.48576
+- rùzné opravy a zmìny
+
 v2.1 - 12.6.2014
 - aktualizace na verzi 1.6.47995
 - rùzné opravy a zmìny
