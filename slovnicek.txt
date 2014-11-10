@@ -4,6 +4,7 @@ Video image - obraz videa
 Font - písmo
 Internal - vestavìný
 Seek - pøesun
+Prioritize - preferovat
 
 
 TODO:
