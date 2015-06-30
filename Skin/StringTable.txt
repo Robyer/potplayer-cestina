@@ -25,7 +25,99 @@
 	
 	<StringTable Name='$ID_BROADCAST_BLACK_LIST_MAG' String='{$CP949=채팅 블랙 리스트 관리$}{$CP0=Manage chat blacklist$}{$CP936=聊天黑名单管理$}{$CP950=聊天黑名單管理$}' />
 
-#if<LocaleName==HUNGARIAN>
+#if<LocaleName==CZECH>
+	<StringTable Name='$CMD_MEDIA_PLAY' String='Přehrát' />
+	<StringTable Name='$CMD_MEDIA_PAUSE' String='Pozastavit' />
+	<StringTable Name='$CMD_MEDIA_CLOSE' String='Zavřít' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_BACK_PREV' String='L:Předchozí soubor, R:Přesunout vzad' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_FORW_NEXT' String='L:Další soubor, R:Přesunout vpřed' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_BACK' String='Přesunout vzad' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_FORW' String='Přesunout vpřed' />
+	<StringTable Name='$ID_OPEN_FILE' String='Otevřít soubor(y)' />
+	<StringTable Name='$ID_AUDIO_MUTE' String='Ztlumit' />
+	<StringTable Name='$CMD_LOAD_SKIN_XML_DEF' String='Výchozí režim' />
+	<StringTable Name='$CMD_LOAD_SKIN_XML_MIN' String='Mini režim"' />
+	<StringTable Name='$ID_APP_EXIT' String='Ukončit' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_OPEN' String='Otevřít chat/seznam vysílání/playlist' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_CLOSE' String='Zavřít chat/seznam vysílání/playlist' />
+	<StringTable Name='$CMD_DETACH_CAST' String='Odpojit seznam vysílání' />
+	<StringTable Name='$CMD_DETACH_CHAT' String='Odpojit chat' />
+	<StringTable Name='$CMD_DETACH_PLAYLIST' String='Odpojit playlist' />
+	<StringTable Name='$CMD_MAIN_MENU' String='Hlavní nabídka' />
+	<StringTable Name='$CMD_POPUP_WINDOW_CAST' String='Zobrazit/skrýt ovládání vysílání' />
+	<StringTable Name='$CMD_BROADCAST_MENU' String='Nabídka vysílání' />
+	<StringTable Name='$CMD_VIEWER_NUM_MESSAGE' String='Diváci' />
+	<StringTable Name='$CMD_GOOD_NUM_MESSAGE' String='Dobré' />
+	<StringTable Name='$CMD_BAD_NUM_MESSAGE' String='Špatné' />
+	<StringTable Name='$ID_PLAYLIST_WINDOW' String='Zobrazit/skrýt playlist' />
+	<StringTable Name='$ID_CONTROL_BOX_WINDOW' String='Zobrazit/skrýt ovládací panel' />
+	<StringTable Name='$ID_PLAY_REPEAT_START_SET' String='Nastavit počáteční čas přehrávání' />
+	<StringTable Name='$ID_PLAY_REPEAT_RESET' String='Obnovit rozsah přehrávání' />
+	<StringTable Name='$ID_PLAY_REPEAT_STOP_SET' String='Nastavit koncový čas přehrávání' />
+	<StringTable Name='$ID_PLAYBACK_REPEAT' String='Opakování přehrávání' />
+	<StringTable Name='$ID_PLAYBACK_SHUFFLE' String='Náhodné přehrávání' />
+	<StringTable Name='$ID_BROADCAST_TOOL_WINDOW' String='Zobrazit/skrýt vysílání' />
+	<StringTable Name='$ID_BROADCAST_LIST_WINDOW' String='Zobrazit/skrýt seznam vysílání' />
+	<StringTable Name='$ID_CHAT_WINDOW' String='Zobrazit/skrýt chat' />
+	<StringTable Name='$CMD_MIN_WINDOW' String='Minimalizovat' />
+	<StringTable Name='$CMD_MAX_WINDOW' String='Maximalizovat' />
+	<StringTable Name='$CMD_RESTORE_WINDOW' String='Obnovit' />
+	<StringTable Name='$CMD_FULL_WINDOW' String='Celá obrazovka' />
+	<StringTable Name='$ID_WDM_CH_SEL_MENU' String='Správa kanálů' />
+	<StringTable Name='$ID_WDM_FORCE_PREV_CH' String='L:Předchozí kanál, P:Předchozí kanál (vynuceně)' />
+	<StringTable Name='$ID_WDM_FORCE_NEXT_CH' String='L:Další kanál, P:Další kanál (vynuceně)' />
+	<StringTable Name='$CMD_CLOSE_WINDOW' String='Zavřít' />
+	<StringTable Name='$CMD_ATTACH_MAIN' String='Připnout k hlavnímu oknu' />
+	<StringTable Name='$CMD_CHAT_FONT_SELECT' String='Změnit font' />
+	<StringTable Name='$CMD_CHAT_EMOTICON' String='Zvolit smajlíky' />
+	<StringTable Name='$CMD_CHAT_MANAGE_USER' String='Spravovat účastníky chatu' />
+	<StringTable Name='$CMD_CHAT_ASSIGN_NOTIFY' String='Přiřadit oznámení' />
+	<StringTable Name='$CMD_CHAT_DELETE_NOTIFY' String='Smazat oznámení' />
+	<StringTable Name='$CMD_PLAYLIST_TOP' String='Přesunout na začátek' />
+	<StringTable Name='$CMD_PLAYLIST_UP' String='Nahoru' />
+	<StringTable Name='$CMD_PLAYLIST_DOWN' String='Dolů' />
+	<StringTable Name='$CMD_PLAYLIST_BOTTOM' String='Přesunout na konec' />
+	<StringTable Name='$CMD_CAPTURE1ST_SELECT' String='Zvolit první kameru' />
+	<StringTable Name='$CMD_CAPTURE2ND_SELECT' String='Zvolit druhou kameru' />
+	<StringTable Name='$CMD_CAPTURE1ST_SHOW' String='Zobrazit první kameru' />
+	<StringTable Name='$CMD_CAPTURE2ND_SHOW' String='Zobrazit druhou kameru' />
+	<StringTable Name='$CMD_CAPTURE1ST_HIDE' String='Skrýt první kameru' />
+	<StringTable Name='$CMD_CAPTURE2ND_HIDE' String='Skrýt druhou kameru' />
+	<StringTable Name='$CMD_CAPTURE2ND_PRIMARY' String='Nastavit první kameru jako primární' />
+	<StringTable Name='$CMD_CAPTURE1ST_PRIMARY' String='Nastavit druhou kameru jako primární' />
+	<StringTable Name='$CMD_CAPTURE_PIP_SETTING' String='Nastavení PIP (obraz v obraze)' />
+	<StringTable Name='$CMD_CAPTURE_FINDWND' String='Najít okno pro zachytávání' />
+	<StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='Optimalizovat/obnovit velikost' />
+	<StringTable Name='$CMD_CAPTURE_FULLSCREEN' String='Zachytávat celou obrazovku' />
+	<StringTable Name='$CMD_CAPTURE_NORMALSCREEN' String='Zachytávat výchozí velikost' />
+	
+	<StringTable Name='$MAIN_TAB_PROGRAM' String='Program' />
+	<StringTable Name='$MAIN_TAB_CHAT' String='Chat' />
+	<StringTable Name='$MAIN_TAB_PLAYLIST' String='Playlist' />
+	<StringTable Name='$MAIN_POPUP_CAST' String='Vysílání' />
+	
+	<StringTable Name='$PLAYLIST_TITLE' String='Playlist' />
+	<StringTable Name='$PLAYLIST_DEL' String='Smazat' />
+	<StringTable Name='$PLAYLIST_ADD' String='Přidat' />
+	
+	<StringTable Name='$CHAT_INOUT_MESSAGE' String='Příchozí/odchozí zpráva' />
+	<StringTable Name='$CHAT_ALRAM' String='Povolit chat' />
+	<StringTable Name='$CHAT_WHISPER' String='Povolit šeptání' />
+	<StringTable Name='$CHAT_SAVE' String='Uložit' />
+	<StringTable Name='$CHAT_DELETE' String='Smazat' />
+	
+	<StringTable Name='$SCREEN_CAP1_TITLE' String='Kamera 1' />
+	<StringTable Name='$SCREEN_CAP2_TITLE' String='Kamera 2' /> 
+	
+	<StringTable Name='$CAST_TOOL_DEVICE' String='Zařízení' />
+	<StringTable Name='$CAST_TOOL_INFO' String='Informace' />
+	<StringTable Name='$CAST_TOOL_EFFECT' String='Efekty' />
+	<StringTable Name='$CAST_TOOL_SAVE' String='Uložit' />
+	
+	<StringTable Name='$CAST_NUM_TOTAL' String='Celkem' />
+	
+	<StringTable Name='$ID_BROADCAST_BLACK_LIST_MAG' String='Spravovat černou listinu' />
+#elif<LocaleName==HUNGARIAN>
 	<StringTable Name='$CMD_MEDIA_PLAY' String='Lejátszás' />
 	<StringTable Name='$CMD_MEDIA_PAUSE' String='Szünet' />
 	<StringTable Name='$CMD_MEDIA_CLOSE' String='Leállítás' />
