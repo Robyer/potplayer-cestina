@@ -1,0 +1,42 @@
+﻿			<Static Align='Bottom' State='' Height='48' >
+			
+				<Static Align='Right' State='CMD_INTERNAL_STATUS' InternalCmd='ID_BROADCAST_LIST_WINDOW' Width='56' >
+				
+					#if<CodePage==949>
+						<Button Tooltip='$CMD_ATTACH_WINDOW_OPEN' CmdID='CMD_ATTACH_WINDOW_OPEN' Left='0' Top='0' Width='58' Height='48' ImageLeft='804' ImageTop='424' />
+						<Button Tooltip='$CMD_ATTACH_WINDOW_CLOSE' CmdID='CMD_ATTACH_WINDOW_CLOSE' Left='0' Top='0' Width='58' Height='48' ImageLeft='804' ImageTop='424' />
+					#else
+						<Button Tooltip='$CMD_ATTACH_WINDOW_OPEN' CmdID='CMD_ATTACH_WINDOW_OPEN' Left='0' Top='0' Width='58' Height='48' ImageLeft='804' ImageTop='374' />
+						<Button Tooltip='$CMD_ATTACH_WINDOW_CLOSE' CmdID='CMD_ATTACH_WINDOW_CLOSE' Left='0' Top='0' Width='58' Height='48' ImageLeft='804' ImageTop='374' />
+					#endif
+				
+				</Static>
+			
+				<Static Align='Client' State='' LeftMargin='336' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='5' ImageTop='842' ImageWidth='400' ImageHeight='48' Height='48' >
+
+					<Label CmdID='CMD_WDM_CHANNEL_MESSAGE' ColorX='864' ColorY='528' Left='5' Top='3' Width='50' Height='12' FontName='Tahoma' FontSize='11' Text='채널: %s' />
+					<Image Tooltip='$ID_WDM_CH_SEL_MENU' CmdID='ID_WDM_CH_SEL_MENU' Enabled='1' Left='5' Top='3' Width='50' Height='12' />
+					<Slider CmdID='CMD_TIMEBAR_CTRL' Left='60' Top='4' Width='-115' Height='15' ImageWidth='102' ImageHeight='15' ThumbWidth='16' ThumbHeight='15' 
+						ImageLeft='0' ImageTop='279' BackImageLeft='0' BackImageTop='267' AltImageLeft='0' AltImageTop='290' ThumbImageLeft='0' ThumbImageTop='319' 
+						LeftMargin='10' RightMargin='10' RepeatAImageLeft='148' RepeatAImageTop='321' RepeatBImageLeft='155' RepeatBImageTop='321' RepeatImageWidth='7' RepeatImageHeight='11'
+						BookmarkImageLeft='171' BookmarkImageTop='321' SeamlessImageLeft='188' SeamlessImageTop='321'/>
+					<Button Tooltip='$ID_AUDIO_MUTE' CmdID='ID_AUDIO_MUTE' Left='-106' Top='4' Width='15' Height='13' ImageLeft='0' ImageTop='243' />
+					<Slider CmdID='CMD_VOLUME_CTRL' Left='-88' Top='3' Width='81' Height='15' ImageWidth='82' ImageHeight='15' ThumbWidth='14' ThumbHeight='13' ImageLeft='132' ImageTop='278' BackImageLeft='132' BackImageTop='266' ThumbImageLeft='72' ThumbImageTop='318' LeftMargin='5' RightMargin='5' />
+
+					<Button Tooltip='$CMD_MEDIA_PLAY' CmdID='CMD_MEDIA_PLAY' Left='10' Top='26' Width='16' Height='18' ImageLeft='0' ImageTop='353' />
+					<Button Tooltip='$CMD_MEDIA_PAUSE' CmdID='CMD_MEDIA_PAUSE' Left='10' Top='26' Width='16' Height='18' ImageLeft='68' ImageTop='353' />
+					<Button Tooltip='$CMD_MEDIA_CLOSE' CmdID='CMD_MEDIA_CLOSE' Left='32' Top='28' Width='13' Height='12' ImageLeft='0' ImageTop='389' />
+					<Button Tooltip='$ID_WDM_FORCE_PREV_CH' CmdID='ID_PROCESS_PREV' AltCmdID='ID_WDM_FORCE_PREV_CH' Left='50' Top='27' Width='18' Height='12' ImageLeft='136' ImageTop='353' />
+					<Button Tooltip='$ID_WDM_FORCE_NEXT_CH' CmdID='ID_PROCESS_NEXT' AltCmdID='ID_WDM_FORCE_NEXT_CH' Left='69' Top='27' Width='18' Height='12' ImageLeft='212' ImageTop='353' />
+					<Button Tooltip='$ID_OPEN_FILE' CmdID='ID_OPEN_FILE' Left='88' Top='28' Width='13' Height='12' ImageLeft='167' ImageTop='389' />
+
+					<Label CmdID='CMD_CURRENTTIME_MESSAGE' ColorX='864' ColorY='528' Left='112' Top='27' Width='50' Height='12' FontName='Tahoma' FontSize='11' />
+					<Label CmdID='' ColorX='875' ColorY='528' Left='158' Top='27' Width='10' Height='12' FontName='Tahoma' FontSize='11' Text='/' />
+					<Label CmdID='CMD_TOTALTIME_MESSAGE' ColorX='875' ColorY='528' Left='166' Top='27' Width='50' Height='12' FontName='Tahoma' FontSize='11' />
+					
+					<Button Tooltip='$ID_PLAYLIST_WINDOW' CmdID='ID_PLAYLIST_WINDOW' Left='-44' Top='25' Width='19' Height='18' ImageLeft='0' ImageTop='421' />
+					<Button Tooltip='$ID_CONTROL_BOX_WINDOW' CmdID='ID_CONTROL_BOX_WINDOW' Left='-23' Top='25' Width='19' Height='18' ImageLeft='80' ImageTop='421' />
+
+				</Static>
+			</Static>
+

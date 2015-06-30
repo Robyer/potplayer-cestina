@@ -1,6 +1,0 @@
-﻿	<ExcludeColorThemeArea Name='{$CP949=Main.png$}{$CP936=MainChs.png$}{$CP950=MainCht.png$}{$CP0=MainEng.png$}' Left='0' Top='58' Width='400' Height='16' />
-	<ExcludeColorThemeArea Name='{$CP949=Window.png$}{$CP0=WindowEng.png$}' Left='50' Top='670' Width='66' Height='31' />
-	<ExcludeColorThemeArea Name='{$CP949=Window.png$}{$CP0=WindowEng.png$}' Left='0' Top='910' Width='297' Height='34' />
-	<ExcludeColorThemeArea Name='{$CP949=Window.png$}{$CP0=WindowEng.png$}' Left='151' Top='828' Width='73' Height='62' />
-	
-	#include<StringTable.txt>	

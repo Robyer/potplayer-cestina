@@ -1,0 +1,6 @@
+﻿				<Layout Align='Left' Width='7' />
+				#if<CodePage==949>
+					<Button Tooltip='$CMD_MAIN_MENU' CmdID='CMD_MAIN_MENU' Align='Left' Width='99' ImageLeft='0' ImageTop='57' ImageWidth='99' ImageHeight='16' />	
+				#else
+					<Button Tooltip='$CMD_MAIN_MENU' CmdID='CMD_MAIN_MENU' Align='Left' Width='69' ImageLeft='0' ImageTop='87' ImageWidth='69' ImageHeight='16' />	
+				#endif

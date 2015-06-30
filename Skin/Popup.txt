@@ -1,0 +1,37 @@
+﻿			<Static Contain='CMD_POPUP_WINDOW' LeftMargin='0' RightMargin='0' ImageLeft='689' ImageTop='233' ImageWidth='75' ImageHeight='64' Left='-150' Top='#TOP' Width='75' Height='64' PopupTag='10000' >
+
+				<Image CmdID='CMD_BROADCAST_TOOL_WINDOW_OFF' Enabled='1' Left='8' Top='8' Width='10' Height='10' ImageLeft='799' ImageTop='245' ImageWidth='10' ImageHeight='10' />
+				<Image CmdID='CMD_BROADCAST_TOOL_WINDOW_ON' Enabled='1' Left='8' Top='8' Width='10' Height='10' ImageLeft='788' ImageTop='245' ImageWidth='10' ImageHeight='10' />			
+				<Label Tooltip='$ID_BROADCAST_TOOL_WINDOW' CmdID='ID_BROADCAST_TOOL_WINDOW' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='22' Top='6' Width='45' Height='19' Text='$MAIN_POPUP_CAST' ColorX='864' ColorY='84' OverColorX='864' OverColorY='99' PushColorX='864' PushColorY='99' />
+
+				<Image CmdID='CMD_BROADCAST_LIST_WINDOW_OFF' Enabled='1' Left='8' Top='26' Width='10' Height='10' ImageLeft='799' ImageTop='245' ImageWidth='10' ImageHeight='10' />
+				<Image CmdID='CMD_BROADCAST_LIST_WINDOW_ON' Enabled='1' Left='8' Top='26' Width='10' Height='10' ImageLeft='788' ImageTop='245' ImageWidth='10' ImageHeight='10' />
+				<Label Tooltip='$ID_BROADCAST_LIST_WINDOW' CmdID='ID_BROADCAST_LIST_WINDOW' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='22' Top='25' Width='45' Height='19' Text='$MAIN_TAB_PROGRAM' ColorX='864' ColorY='84' OverColorX='864' OverColorY='99' PushColorX='864' PushColorY='99' />
+
+				<Image CmdID='CMD_CHAT_WINDOW_OFF' Enabled='1' Left='8' Top='44' Width='10' Height='10' ImageLeft='799' ImageTop='245' ImageWidth='10' ImageHeight='10' />
+				<Image CmdID='CMD_CHAT_WINDOW_ON' Enabled='1' Left='8' Top='44' Width='10' Height='10' ImageLeft='788' ImageTop='245' ImageWidth='10' ImageHeight='10' />
+				<Label Tooltip='$ID_CHAT_WINDOW' CmdID='ID_CHAT_WINDOW' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='22' Top='43' Width='45' Height='19' Text='$MAIN_TAB_CHAT' ColorX='864' ColorY='84' OverColorX='864' OverColorY='99' PushColorX='864' PushColorY='99' />
+
+			</Static>
+
+			<Static Contain='CMD_POPUP_WINDOW' LeftMargin='0' RightMargin='0' ImageLeft='860' ImageTop='734' ImageWidth='86' ImageHeight='60' Left='60' Top='62' Width='86' Height='60' PopupTag='20000' >
+
+				<Button CmdID='ID_BROADCAST_HOME' Left='10' Top='10' Width='58' Height='15' ImageLeft='0' ImageTop='198' />	
+				<Button CmdID='ID_BOOKMARK_MAKE' Left='10' Top='33' Width='65' Height='15' ImageLeft='241' ImageTop='198' />	
+
+			</Static>
+			
+			<Static Contain='CMD_POPUP_WINDOW' LeftMargin='0' RightMargin='0' ImageLeft='860' ImageTop='804' ImageWidth='64' ImageHeight='58' Left='60' Top='62' Width='64' Height='58' PopupTag='30000' >
+
+				<Button CmdID='CMD_COPY_BROADCAST' Left='10' Top='10' Width='42' Height='14' ImageLeft='0' ImageTop='220' />	
+				<Button CmdID='CMD_BAD_BROADCAST' Left='10' Top='33' Width='42' Height='14' ImageLeft='177' ImageTop='220' />	
+
+			</Static>
+
+			<Static Contain='CMD_POPUP_WINDOW' LeftMargin='0' RightMargin='0' ImageLeft='630' ImageTop='376' ImageWidth='112' ImageHeight='35' Left='60' Top='62' Width='112' Height='35' PopupTag='40000' >
+
+				<Label Left='10' Top='10' Width='30' Height='14' Text='$CAST_NUM_TOTAL' ColorX='864' ColorY='99' FontName='#DEFAULT_UI_FONT' FontSize='11' />
+				<Label Left='40' Top='10' Width='70' Height='14' CmdID='CMD_SUM_NUM_MESSAGE' ColorX='864' ColorY='99' FontName='#DEFAULT_UI_FONT' FontSize='11' HoriAlignment='1' />
+
+			</Static>
+			

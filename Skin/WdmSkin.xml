@@ -1,0 +1,39 @@
+﻿<?XML version='1.0' ?>
+
+<Skin Version='1.0' MinorVersion='1000'>
+
+	#include<Common.txt>
+
+	<MainSkinAreaOscFrame Image='Main.png' AlphaMode='1' WidthLimit='260' HeightLimit='0' UseWindowFrame='0'>
+		#include<Logo.txt>
+		<Control>
+			<Static Align='Top' State='' LeftMargin='20' RightMargin='20' ImageLeft='0' ImageTop='489' ImageWidth='410' ImageHeight='5' Height='5' AltImageLeft='430' AltImageTop='489' UsingRgn='1' />
+			#include<BottomLeft.txt>
+			#include<Right.txt #IMAGE_HEIGHT=329>
+			<Static Align='Client' State='' Contain='CMD_VIDEO_WINDOW' />
+		</Control>
+	</MainSkinAreaOscFrame>
+	<MainSkinAreaOscInside Image='Main.png'>
+		<Control>
+			#include<TopOsc.txt>
+			#include<TopCast.txt>
+			#include<BottomWdm.txt>
+			#include<Popup.txt #TOP=18>
+		</Control>
+	</MainSkinAreaOscInside>
+	<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='260' HeightLimit='0' UseWindowFrame='0'>
+		#include<Logo.txt>
+		<Control>
+			#include<Top.txt>
+			#include<BottomLeft.txt>
+			#include<Right.txt #IMAGE_HEIGHT=377>
+			#include<TopCast.txt>
+			#include<BottomWdm.txt>
+			#include<Popup.txt #TOP=23>
+			<Static Align='Client' State='' Contain='CMD_VIDEO_WINDOW' />
+		</Control>
+	</MainSkinArea>
+
+	#include<SubCommon.txt #CONTROL=Button #LEFT=-78>
+
+</Skin>

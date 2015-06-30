@@ -1,0 +1,17 @@
+﻿			<Static Align='Bottom' State='CMD_WEB_VOD' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='5' ImageTop='513' ImageWidth='400' ImageHeight='30' Left='0' Top='0' Width='0' Height='30'>
+				<Layout Align='Left' Width='10' />
+				<Label Align='Left' CmdID='CMD_WEB_VOD_AUTHOR_MESSAGE' AutoVisible=1' AutoSize=1' Cursor='HAND' Enabled='1' ColorX='864' ColorY='511' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' Width='1' FontName='#DEFAULT_UI_FONT' FontSize='12' VertAlignment=1 />
+				<Layout Align='Left' Width='5' />
+				
+				<Layout Align='Right' Width='10' />
+				<Image Align='Right' Enabled='1' CmdID='CMD_WEB_VOD_QUALITY_MESSAGE' Cursor='HAND' AutoVisible=1' Width='15' ImageLeft='553' ImageTop='233' ImageWidth='15' ImageHeight='14' Alignment='5' />
+				<Layout Align='Right' CmdID='CMD_WEB_VOD_QUALITY_MESSAGE' AutoVisible=1' Cursor='HAND' Width='3' />
+				<Label Align='Right' Enabled='1' CmdID='CMD_WEB_VOD_QUALITY_MESSAGE' Cursor='HAND' AutoVisible=1' AutoSize=1' ColorX='864' ColorY='511' Width='80' FontName='#DEFAULT_UI_FONT' FontSize='12' VertAlignment=1 />
+				<Layout Align='Right' CmdID='CMD_VOD_FACEBOOK_URL' AutoVisible=1' Width='5' />
+				<Label Align='Right' CmdID='CMD_VOD_FACEBOOK_URL' AutoVisible=1' AutoSize=1' Cursor='HAND' Enabled='1' ColorX='864' ColorY='511' Width='65' FontName='#DEFAULT_UI_FONT' FontSize='12' HoriAlignment='1' VertAlignment=1 Text=' f ' Tooltip='facebook' />
+				<Layout Align='Right' CmdID='CMD_VOD_TWITTER_URL' AutoVisible=1' Width='5' />
+				<Label Align='Right' CmdID='CMD_VOD_TWITTER_URL' AutoVisible=1' AutoSize=1' Cursor='HAND' Enabled='1' ColorX='864' ColorY='511' Width='50' FontName='#DEFAULT_UI_FONT' FontSize='12' HoriAlignment='1' VertAlignment=1 Text=' t ' Tooltip='twitter' />
+				<Layout Align='Right' Width='5' />
+				
+				<Label Align='Client' CmdID='CMD_WEB_VOD_CONTENT_MESSAGE' ColorX='864' AutoVisible=1' ColorY='511' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='#DEFAULT_UI_FONT' FontSize='12' HoriAlignment='0' VertAlignment='1' />
+			</Static>

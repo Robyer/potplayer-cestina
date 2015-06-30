@@ -1,0 +1,11 @@
+		#if<CodePage==949>
+			<Logo IdleFileName="Logo.swf" LoadingFileName="Loading.swf" FlashBackColor='0x212228' />
+		#else
+			<Logo IdleFileName="LogoEng.swf" LoadingFileName="LoadingEng.swf" FlashBackColor='0x212228' />
+		#endif
+		
+		<CastMessage FrameX='444' FrameY='376' FrameW='176' FrameH='35' QuestionX='620' QuestionY='199' QuestionW='3' QuestionH='13' TextColorX='864' TextColorY='159' QuestionTextColorX='864' QuestionTextColorY='174' />
+		<CustomPopupMenuDef FrameX='689' FrameY='307' FrameW='56' FrameH='24' SelTextColorX='864' SelTextColorY='99' TextColorX='864' TextColorY='84' SelColorX='770' SelColorY='312'
+			DimTextColorX='724' DimTextColorY='99' LineColorX='770' LineColorY='327' CheckX='644' CheckY='313' CheckW='13' CheckH='13' RadioX='667' RadioY='313' RadioW='12' RadioH='12' ScrollbarIndex='1' />
+		<CustomPopupMenuAlt FrameX='689' FrameY='341' FrameW='56' FrameH='24' SelTextColorX='864' SelTextColorY='327' TextColorX='864' TextColorY='312' SelColorX='864' SelColorY='342'
+			DimTextColorX='724' DimTextColorY='99' LineColorX='864' LineColorY='357' CheckX='644' CheckY='347' CheckW='13' CheckH='13' RadioX='667' RadioY='347' RadioW='12' RadioH='12' ScrollbarIndex='1' />

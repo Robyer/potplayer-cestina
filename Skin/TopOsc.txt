@@ -1,0 +1,20 @@
+﻿			<Static Align='Top' State='' LeftMargin='20' RightMargin='20' ImageLeft='5' ImageTop='494' ImageWidth='400' ImageHeight='19' Height='19' AltImageLeft='435' AltImageTop='494' IsTitleBar='1' >
+				#include<TopCommon.txt>
+
+				#if<CodePage==949,936,950>
+					<Button Tooltip='$CMD_POPUP_WINDOW_CAST' CmdID='CMD_POPUP_WINDOW' Left='-150' Top='1' Width='32' Height='15' ImageLeft='0' ImageTop='9' PopupTag='10000' />
+				#else
+					<Button Tooltip='$CMD_POPUP_WINDOW_CAST' CmdID='CMD_POPUP_WINDOW' Left='-154' Top='1' Width='36' Height='15' ImageLeft='0' ImageTop='32' PopupTag='10000' />
+				#endif
+
+				<Image CmdID='CMD_CHAT_WINDOW_ON' Left='-113' Top='3' Width='2' Height='10' ImageLeft='149' ImageTop='26' ImageWidth='2' ImageHeight='10' LeftMargin='0' RightMargin='0' TopMargin='0' BottomMargin='0' />
+				<Image CmdID='CMD_CHAT_WINDOW_OFF' Left='-113' Top='3' Width='2' Height='10' ImageLeft='149' ImageTop='26' ImageWidth='2' ImageHeight='10' LeftMargin='0' RightMargin='0' TopMargin='0' BottomMargin='0' />
+
+				<Slider CmdID='CMD_TRANS_MAIN' Left='-105' Top='4' Width='35' Height='7' ImageWidth='35' ImageHeight='7' ThumbWidth='12' ThumbHeight='7' ImageLeft='170' ImageTop='28' BackImageLeft='170' BackImageTop='28' ThumbImageLeft='214' ThumbImageTop='28' LeftMargin='6' RightMargin='6' />
+
+				<Button Tooltip='$CMD_MIN_WINDOW' CmdID='CMD_MIN_WINDOW' Left='-69' Top='0' Width='17' Height='16' ImageLeft='271' ImageTop='23' />	
+				<Button Tooltip='$CMD_MAX_WINDOW' CmdID='CMD_MAX_WINDOW' Left='-53' Top='0' Width='17' Height='16' ImageLeft='344' ImageTop='23' />
+				<Button Tooltip='$CMD_RESTORE_WINDOW' CmdID='CMD_RESTORE_WINDOW' Left='-53' Top='0' Width='17' Height='16' ImageLeft='344' ImageTop='4' />
+				<Button Tooltip='$CMD_FULL_WINDOW' CmdID='CMD_FULL_WINDOW' Left='-37' Top='0' Width='17' Height='16' ImageLeft='417' ImageTop='23' />	
+				<Button Tooltip='$ID_APP_EXIT' CmdID='ID_APP_EXIT' Left='-20' Top='0' Width='17' Height='16' ImageLeft='491' ImageTop='23' />
+			</Static>
