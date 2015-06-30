@@ -22,8 +22,8 @@
 				<Button Tooltip='$CMD_MEDIA_PLAY' CmdID='CMD_MEDIA_PLAY' Left='6' Top='4' Width='13' Height='14' ImageLeft='0' ImageTop='1091' />
 				<Button Tooltip='$CMD_MEDIA_PAUSE' CmdID='CMD_MEDIA_PAUSE' Left='6' Top='4' Width='14' Height='14' ImageLeft='264' ImageTop='1091' />
 				<Button Tooltip='$CMD_MEDIA_CLOSE' CmdID='CMD_MEDIA_CLOSE' Left='24' Top='4' Width='12' Height='14' ImageLeft='56' ImageTop='1091' />
-				<Button Tooltip='$ID_PLAYBACK_5SEC_BACK_PREV' CmdID='ID_PLAYBACK_5SEC_BACK' AltCmdID='ID_PROCESS_PREV' Left='41' Top='4' Width='12' Height='14' ImageLeft='108' ImageTop='1091' />
-				<Button Tooltip='$ID_PLAYBACK_5SEC_FORW_NEXT' CmdID='ID_PLAYBACK_5SEC_FORW' AltCmdID='ID_PROCESS_NEXT' Left='58' Top='4' Width='12' Height='14' ImageLeft='160' ImageTop='1091' />
+				<Button Tooltip='$ID_PLAYBACK_5SEC_BACK_PREV' CmdID='ID_PROCESS_PREV' AltCmdID='ID_PLAYBACK_5SEC_BACK' Left='41' Top='4' Width='12' Height='14' ImageLeft='108' ImageTop='1091' />
+				<Button Tooltip='$ID_PLAYBACK_5SEC_FORW_NEXT' CmdID='ID_PROCESS_NEXT' AltCmdID='ID_PLAYBACK_5SEC_FORW' Left='58' Top='4' Width='12' Height='14' ImageLeft='160' ImageTop='1091' />
 				<Button Tooltip='$ID_OPEN_FILE' CmdID='ID_OPEN_FILE' Left='75' Top='4' Width='12' Height='14' ImageLeft='212' ImageTop='1091' />
 
 				<Slider VisParentMinWidth='270' CmdID='CMD_TIMEBAR_CTRL' Left='95' Top='3' Width='-135' Height='15' ImageWidth='102' ImageHeight='15' ThumbWidth='16' ThumbHeight='15' 
