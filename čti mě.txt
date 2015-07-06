@@ -1,6 +1,6 @@
-PotPlayer CZ v2.3
+PotPlayer CZ v2.4
 -----------------
-Tato èeština je urèená pro verzi PotPlayer 1.6.49952.
+Tato èeština je urèená pro verzi PotPlayer 1.6.54871.
 
 Èeština bude fungovat i pro lehce odlišné verze programu, ale je možné, že z dùvodu interních zmìn v nové verzi programu budou nìkteré položky (napø. v nabídkách) špatnì pojmenovány (budou oznaèovat jinou funkci).
 
@@ -10,9 +10,9 @@ Instalace èeštiny
 -----------------
 1) Najdìte složku, kde máte nainstalovaný PotPlayer (ve výchozím nastavení v "C:\Program Files\Daum\PotPlayer")
 2) Soubor "Czech.ini" vložte (nebo zkopírujte) do složky "Language" a pøípadnì pøepište existující (starší) soubor
-3) Soubor "Czech.dsf" vložte (nebo zkopírujte) do složky "Skins" a pøepište existující soubor
+3) Soubor "Czech.dsf" vložte (nebo zkopírujte) do složky "Skins" a pøípadnì pøepište existující (starší) soubor
 4) Spuste PotPlayer
-5) Kliknìte pravým tlaèítkem myši do okna PotPlayeru a zvolte "Config/Lang/Other -> Language -> Èeština - Czech.ini"
+5) Kliknìte pravým tlaèítkem myši do okna PotPlayeru a zvolte "Misc -> Language -> Èeština - Czech.ini"
 	(Alternativnì mùžete stisknout klávesovou zkratku Shift+L a rovnou zvolit "Èeština - Czech.ini")
 6) Kliknìte pravým tlaèítkem myši do okna PotPlayeru a zvolte "Vzhled -> Èeský vzhled - Czech.dsf" a ve stejné nabídce zvolte také "Vzhled -> Logo (pøi zastaveném pøehrávání) -> [Výchozí logo vzhledu]"
 7) Nyní byste mìli mít PotPlayer v èeštinì
@@ -28,6 +28,11 @@ Více informací: http://www.robyer.cz/cestiny/pot-player
 
 Historie verzí
 --------------
+v2.4 - 10.7.2015
+- aktualizace na verzi 1.6.54871
+- pøeložen nový výchozí vzhled
+- rùzné menší opravy a zmìny
+
 v2.3 - 10.11.2014
 - aktualizace na verzi 1.6.49952
 - rùzné menší opravy a zmìny

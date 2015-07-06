@@ -5,7 +5,14 @@ Font - písmo
 Internal - vestavìný
 Seek - pøesun
 Prioritize - preferovat
-
+Parse - parsovat
+Pane/Panes - pole?
+Renderer - renderer?
+Symbol Rate - modulaèní rychlost
+Switch - pøepnout/pøepnutí
+Keep - ponechat
+On top - navrchu
+Prompt - nabídnout?
 
 TODO:
 =====
