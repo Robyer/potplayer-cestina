@@ -4,7 +4,7 @@
 
 	#include<Common.txt>
 
-	<MainSkinAreaOscFrame Image='Main.png' AlphaMode='1' WidthLimit='260' HeightLimit='0' UseWindowFrame='0'>
+	<MainSkinAreaOscFrame Image='Main.png' AlphaMode='1' WidthLimit='313' HeightLimit='0' UseWindowFrame='0'>
 		#include<Logo.txt>
 		<Control>
 			<Static Align='Top' State='' LeftMargin='20' RightMargin='20' ImageLeft='253' ImageTop='915' ImageWidth='398' ImageHeight='5' Height='5' UsingRgn='1' />
@@ -24,7 +24,8 @@
 
 		</Control>
 	</MainSkinAreaOscInside>
-	<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='390' HeightLimit='0' UseWindowFrame='0' >
+	
+		<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='390' HeightLimit='0' UseWindowFrame='0' #if<PlayerType==1> ForceMinHeight='1' #endif >		
 		#include<Logo.txt>
 		<Control>
 			<Static Align='Top' State='' LeftMargin='20' RightMargin='20' ImageLeft='253' ImageTop='915' ImageWidth='398' ImageHeight='24' Height='24' UsingRgn='1' IsTitleBar='1' >
@@ -45,7 +46,9 @@
 			</Static>
 			
 			#include<BottomLeft.txt>
-			#include<Right.txt #IMAGE_HEIGHT=377>
+			#if<PlayerType!=1>
+				#include<Right.txt #IMAGE_HEIGHT=377>
+			#endif
 			#include<TopCast.txt>
 			#include<BottomVideo.txt>
 			#include<BottomAudio.txt>

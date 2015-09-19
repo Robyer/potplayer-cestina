@@ -7,9 +7,9 @@
 	<StringTable Name='$PLAYLIST_DEL' String='{$CP949=삭제$}{$CP0=DEL$}{$CP936=删除$}{$CP950=刪除$}' />
 	<StringTable Name='$PLAYLIST_ADD' String='{$CP949=추가$}{$CP0=ADD$}{$CP936=添加$}{$CP950=新增$}' />
 	
-	<StringTable Name='$CHAT_INOUT_MESSAGE' String='{$CP949=출입표시$}{$CP0=In/Out message$}{$CP936=消息显示$}{$CP950=訊息顯示$}' />
+	<StringTable Name='$CHAT_ONLY_VIEW_MESSAGE' String='{$CP949=채팅만 보기$}{$CP0=View message only$}' />
 	<StringTable Name='$CHAT_ALRAM' String='{$CP949=채팅알람$}{$CP0=Chat alram$}{$CP936=聊天提醒$}{$CP950=聊天提醒$}' />
-	<StringTable Name='$CHAT_WHISPER' String='{$CP949=귀속말 허용$}{$CP0=Allow whisper$}{$CP936=开启私信$}{$CP950=開啟私訊$}' />
+	<StringTable Name='$CHAT_WHISPER' String='{$CP949=귓속말 허용$}{$CP0=Allow whisper$}{$CP936=开启私信$}{$CP950=開啟私訊$}' />
 	<StringTable Name='$CHAT_SAVE' String='{$CP949=대화저장$}{$CP0=Save$}{$CP936=保存会话$}{$CP950=儲存會話$}' />
 	<StringTable Name='$CHAT_DELETE' String='{$CP949=대화삭제$}{$CP0=Delete$}{$CP936=删除会话$}{$CP950=刪除會話$}' />
 	
@@ -100,7 +100,7 @@
 	<StringTable Name='$PLAYLIST_DEL' String='Smazat' />
 	<StringTable Name='$PLAYLIST_ADD' String='Přidat' />
 	
-	<StringTable Name='$CHAT_INOUT_MESSAGE' String='Příchozí/odchozí zpráva' />
+	<StringTable Name='$CHAT_ONLY_VIEW_MESSAGE' String='Zobrazit pouze zprávu' />
 	<StringTable Name='$CHAT_ALRAM' String='Povolit chat' />
 	<StringTable Name='$CHAT_WHISPER' String='Povolit šeptání' />
 	<StringTable Name='$CHAT_SAVE' String='Uložit' />
@@ -195,16 +195,16 @@
 	<StringTable Name='$CMD_LOAD_SKIN_XML_DEF' String='Tryb domyślny' />
 	<StringTable Name='$CMD_LOAD_SKIN_XML_MIN' String='Tryb "Mini"' />
 	<StringTable Name='$ID_APP_EXIT' String='Wyjdź' />
-	<StringTable Name='$CMD_ATTACH_WINDOW_OPEN' String='Otwórz czat/Listę nadawców/Listę odtwarzania' />
-	<StringTable Name='$CMD_ATTACH_WINDOW_CLOSE' String='Zamknij czat/Listę nadawców/Listę odtwarzania' />	
-	<StringTable Name='$CMD_DETACH_CAST' String='Odłącz listę stacji nadawczych' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_OPEN' String='Otwórz czat/Listę programów/Listę odtwarzania' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_CLOSE' String='Zamknij czat/Listę programów/Listę odtwarzania' />	
+	<StringTable Name='$CMD_DETACH_CAST' String='Odłącz listę programów' />
 	<StringTable Name='$CMD_DETACH_CHAT' String='Odłącz okno czatu' />
 	<StringTable Name='$CMD_DETACH_PLAYLIST' String='Odłącz listę odtwarzania' />
 	<StringTable Name='$CMD_MAIN_MENU' String='Pokaż menu główne' />
-	<StringTable Name='$CMD_POPUP_WINDOW_CAST' String='Pokaż/Ukryj narzędzia stacji nadawczych' />
-	<StringTable Name='$CMD_BROADCAST_MENU' String='Menu stacji nadawczych' />
+	<StringTable Name='$CMD_POPUP_WINDOW_CAST' String='Pokaż/Ukryj broadcast' />
+	<StringTable Name='$CMD_BROADCAST_MENU' String='Menu broadcast' />
 	<StringTable Name='$CMD_VIEWER_NUM_MESSAGE' String='Widzowie' />
-	<StringTable Name='$CMD_GOOD_NUM_MESSAGE' String='Rekomendowany' />
+	<StringTable Name='$CMD_GOOD_NUM_MESSAGE' String='Zalecany' />
 	<StringTable Name='$CMD_BAD_NUM_MESSAGE' String='Zły' />
 	<StringTable Name='$ID_PLAYLIST_WINDOW' String='Pokaż/Ukryj Listę odtwarzania' />
 	<StringTable Name='$ID_CONTROL_BOX_WINDOW' String='Pokaż/Ukryj Panel sterowania' />
@@ -213,8 +213,8 @@
 	<StringTable Name='$ID_PLAY_REPEAT_STOP_SET' String='Ustaw punkt końcowy zakresu odtwarzania' />
 	<StringTable Name='$ID_PLAYBACK_REPEAT' String='Powtarzanie odtwarzania' />
 	<StringTable Name='$ID_PLAYBACK_SHUFFLE' String='Odtwarzanie w kolejności losowej' />
-	<StringTable Name='$ID_BROADCAST_TOOL_WINDOW' String='Wł./Wył. narzędzia stacji nadawczych' />
-	<StringTable Name='$ID_BROADCAST_LIST_WINDOW' String='Wł./Wył. listę stacji' />
+	<StringTable Name='$ID_BROADCAST_TOOL_WINDOW' String='Wł./Wył. broadcast' />
+	<StringTable Name='$ID_BROADCAST_LIST_WINDOW' String='Wł./Wył. listę programów' />
 	<StringTable Name='$ID_CHAT_WINDOW' String='Wł./Wył. okno czatu' />
 	<StringTable Name='$CMD_MIN_WINDOW' String='Minimalizuj' />
 	<StringTable Name='$CMD_MAX_WINDOW' String='Maksymalizuj' />
@@ -257,19 +257,19 @@
 	<StringTable Name='$PLAYLIST_DEL' String='Usuń' />
 	<StringTable Name='$PLAYLIST_ADD' String='Dodaj' />
 	
-	<StringTable Name='$CHAT_INOUT_MESSAGE' String='In/Out message' />
+	<StringTable Name='$CHAT_ONLY_VIEW_MESSAGE' String='Pokaż tylko wiadomość' />
 	<StringTable Name='$CHAT_ALRAM' String='Alarm czatu' />
-	<StringTable Name='$CHAT_WHISPER' String='Allow whisper' />
+	<StringTable Name='$CHAT_WHISPER' String='Prywatne' />
 	<StringTable Name='$CHAT_SAVE' String='Zapisz' />
 	<StringTable Name='$CHAT_DELETE' String='Usuń' />
 	
 	<StringTable Name='$SCREEN_CAP1_TITLE' String='Kamera 1' />
 	<StringTable Name='$SCREEN_CAP2_TITLE' String='Kamera 2' /> 
 	
-	<StringTable Name='$CAST_TOOL_DEVICE' String='Cast Device' />
-	<StringTable Name='$CAST_TOOL_INFO' String='Cast Info' />
-	<StringTable Name='$CAST_TOOL_EFFECT' String='Cast Effect' />
-	<StringTable Name='$CAST_TOOL_SAVE' String='Cast Save' />
+	<StringTable Name='$CAST_TOOL_DEVICE' String='Urządzenie' />
+	<StringTable Name='$CAST_TOOL_INFO' String='Info' />
+	<StringTable Name='$CAST_TOOL_EFFECT' String='Efekty' />
+	<StringTable Name='$CAST_TOOL_SAVE' String='Zapis' />
 	
 	<StringTable Name='$CAST_NUM_TOTAL' String='Ogółem' />
 	
@@ -404,6 +404,93 @@
 	<StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='Maximizar/restaurar el tamaño' />
 	<StringTable Name='$CMD_CAPTURE_FULLSCREEN' String='Captura de pantalla completa' />
 	<StringTable Name='$CMD_CAPTURE_NORMALSCREEN' String='Captura en tamaño predeterminado' />
+#elif<LocaleName==RUSSIAN>
+	<StringTable Name='$CMD_MEDIA_PLAY' String='Воспроизвести' />
+	<StringTable Name='$CMD_MEDIA_PAUSE' String='Пауза' />
+	<StringTable Name='$CMD_MEDIA_CLOSE' String='Закрыть' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_BACK_PREV' String='Л: Перейти назад | П: Воспроизвести предыдущий' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_FORW_NEXT' String='Л: Перейти вперед | П: Воспроизвести следующий'/>
+	<StringTable Name='$ID_PLAYBACK_5SEC_BACK' String='Перейти назад' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_FORW' String='Перейти вперед' />	
+	<StringTable Name='$ID_OPEN_FILE' String='Открыть файл' />
+	<StringTable Name='$ID_AUDIO_MUTE' String='Звук Вкл/Выкл' />
+	<StringTable Name='$CMD_LOAD_SKIN_XML_DEF' String='Обычный режим' />
+	<StringTable Name='$CMD_LOAD_SKIN_XML_MIN' String='Компактный режим' />
+	<StringTable Name='$ID_APP_EXIT' String='Выход' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_OPEN' String='Открыть чат / список трансляций / Плей-лист' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_CLOSE' String='Закрыть чат / список трансляций / Плей-лист' />	
+	<StringTable Name='$CMD_DETACH_CAST' String='Открепить список трансляций' />
+	<StringTable Name='$CMD_DETACH_CHAT' String='Открепить чат' />
+	<StringTable Name='$CMD_DETACH_PLAYLIST' String='Открепить Плей-лист' />
+	<StringTable Name='$CMD_MAIN_MENU' String='Показать главное меню' />
+	<StringTable Name='$CMD_POPUP_WINDOW_CAST' String='Показать/скрыть окно трансляций' />
+	<StringTable Name='$CMD_BROADCAST_MENU' String='Меню трансляций' />
+	<StringTable Name='$CMD_VIEWER_NUM_MESSAGE' String='Зрители' />
+	<StringTable Name='$CMD_GOOD_NUM_MESSAGE' String='Нравится' />
+	<StringTable Name='$CMD_BAD_NUM_MESSAGE' String='Не нравится' />
+	<StringTable Name='$ID_PLAYLIST_WINDOW' String='Показать/скрыть Плей-лист' />
+	<StringTable Name='$ID_CONTROL_BOX_WINDOW' String='Показать/скрыть Панель управления' />
+	<StringTable Name='$ID_PLAY_REPEAT_START_SET' String='Отметить начало диапазона воспроизведения' />
+	<StringTable Name='$ID_PLAY_REPEAT_RESET' String='Сбросить диапазон воспроизведения' />
+	<StringTable Name='$ID_PLAY_REPEAT_STOP_SET' String='Отметить конец диапазона воспроизведения' />
+	<StringTable Name='$ID_PLAYBACK_REPEAT' String='Повтор воспроизведения' />
+	<StringTable Name='$ID_PLAYBACK_SHUFFLE' String='Воспроизведение в случайном порядке' />
+	<StringTable Name='$ID_BROADCAST_TOOL_WINDOW' String='Показать/скрыть окно трансляции' />
+	<StringTable Name='$ID_BROADCAST_LIST_WINDOW' String='Показать/скрыть список трансляций' />
+	<StringTable Name='$ID_CHAT_WINDOW' String='Показать / скрыть разговор' />
+	<StringTable Name='$CMD_MIN_WINDOW' String='Свернуть' />
+	<StringTable Name='$CMD_MAX_WINDOW' String='Развернуть' />
+	<StringTable Name='$CMD_RESTORE_WINDOW' String='Восстановить' />
+	<StringTable Name='$CMD_FULL_WINDOW' String='На весь экран' />
+	<StringTable Name='$ID_WDM_CH_SEL_MENU' String='Управление каналами' />
+	<StringTable Name='$ID_WDM_FORCE_PREV_CH' String='Л: Предыдущий канал | П: Предыдущий канал (принудительно)' />
+	<StringTable Name='$ID_WDM_FORCE_NEXT_CH' String='Л: Следующий канал | П: Следующий канал (принудительно)' />	
+	<StringTable Name='$CMD_CLOSE_WINDOW' String='Закрыть' />
+	<StringTable Name='$CMD_ATTACH_MAIN' String='Присоединить к главному окну' />
+	<StringTable Name='$CMD_CHAT_FONT_SELECT' String='Сменить шрифт' />
+	<StringTable Name='$CMD_CHAT_EMOTICON' String='Выбор смайликов' />
+	<StringTable Name='$CMD_CHAT_MANAGE_USER' String='Управление пользователями чата' />
+	<StringTable Name='$CMD_CHAT_ASSIGN_NOTIFY' String='Назначить уведомления' />
+	<StringTable Name='$CMD_CHAT_DELETE_NOTIFY' String='Удалить уведомления' />
+	<StringTable Name='$CMD_PLAYLIST_TOP' String='Переместить наверх' />
+	<StringTable Name='$CMD_PLAYLIST_UP' String='Переместить выше' />
+	<StringTable Name='$CMD_PLAYLIST_DOWN' String='Переместить ниже' />
+	<StringTable Name='$CMD_PLAYLIST_BOTTOM' String='Переместить вниз' />
+	<StringTable Name='$CMD_CAPTURE1ST_SELECT' String='Выбрать первую камеру' />
+	<StringTable Name='$CMD_CAPTURE2ND_SELECT' String='Выбрать другую камеру' />
+	<StringTable Name='$CMD_CAPTURE1ST_SHOW' String='Показать первую камеру' />
+	<StringTable Name='$CMD_CAPTURE2ND_SHOW' String='Показать другую камеру' />
+	<StringTable Name='$CMD_CAPTURE1ST_HIDE' String='Скрыть первую камеру' />
+	<StringTable Name='$CMD_CAPTURE2ND_HIDE' String='Скрыть другую камеру' />
+	<StringTable Name='$CMD_CAPTURE2ND_PRIMARY' String='Сделать первую камеру основной' />
+	<StringTable Name='$CMD_CAPTURE1ST_PRIMARY' String='Сделать другую камеру основной' />
+	<StringTable Name='$CMD_CAPTURE_PIP_SETTING' String='Параметры PIP (Картинка в картинке)' />
+	<StringTable Name='$CMD_CAPTURE_FINDWND' String='Найти окно для захвата' />
+	<StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='Оптимизировать / восстановить размер' />
+	<StringTable Name='$CMD_CAPTURE_FULLSCREEN' String='Захватить весь экран' />
+	<StringTable Name='$CMD_CAPTURE_NORMALSCREEN' String='Захватить типовой размер' />
+
+	<StringTable Name='$MAIN_TAB_PROGRAM' String='Программа' />
+	<StringTable Name='$MAIN_TAB_CHAT' String='Чат' />
+	<StringTable Name='$MAIN_TAB_PLAYLIST' String='Плей-лист' />
+	<StringTable Name='$MAIN_POPUP_CAST' String='Кастинг' />
+	<StringTable Name='$PLAYLIST_TITLE' String='Плей-лист' />
+	<StringTable Name='$PLAYLIST_DEL' String='Удалить' />
+	<StringTable Name='$PLAYLIST_ADD' String='Добавить' />
+	<StringTable Name='$CHAT_ONLY_VIEW_MESSAGE' String='Показать только сообщение' />
+	<StringTable Name='$CHAT_ALRAM' String='Тревога чата' />
+	<StringTable Name='$CHAT_WHISPER' String='Личка' />
+	<StringTable Name='$CHAT_SAVE' String='Сохранить' />
+	<StringTable Name='$CHAT_DELETE' String='Удалить' />
+	<StringTable Name='$SCREEN_CAP1_TITLE' String='Камера 1' />
+	<StringTable Name='$SCREEN_CAP2_TITLE' String='Камера 2' /> 
+	<StringTable Name='$CAST_TOOL_DEVICE' String='Устройство' />
+	<StringTable Name='$CAST_TOOL_INFO' String='Информация' />
+	<StringTable Name='$CAST_TOOL_EFFECT' String='Эффекты' />
+	<StringTable Name='$CAST_TOOL_SAVE' String='Сохранить' />
+	<StringTable Name='$CAST_NUM_TOTAL' String='Всего' />
+	<StringTable Name='$ID_BROADCAST_BLACK_LIST_MAG' String='Управление бан-листом чата' />
+
 #elif<LocaleName==UKRAINIAN>
 	<StringTable Name='$CMD_MEDIA_PLAY' String='Відтворити'/>
 	<StringTable Name='$CMD_MEDIA_PAUSE' String='Призупинити'/>
@@ -599,6 +686,71 @@
 	<StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='Boyutu iyileştir/Önceki boyuta geri dön' />
 	<StringTable Name='$CMD_CAPTURE_FULLSCREEN' String='Tam ekran boyutunda yakala' />
 	<StringTable Name='$CMD_CAPTURE_NORMALSCREEN' String='Varsayılan boyutta yakala' />
+#elif<LocaleName==ITALIAN>
+	<StringTable Name='$CMD_MEDIA_PLAY' String='Riproduci' />
+	<StringTable Name='$CMD_MEDIA_PAUSE' String='Pausa' />
+	<StringTable Name='$CMD_MEDIA_CLOSE' String='Stop' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_BACK_PREV' String='Sx: Indietro, Dx: Riproduci file precedente' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_FORW_NEXT' String='Sx: Riproduci file successivo, Dx: Avanti'/>
+	<StringTable Name='$ID_PLAYBACK_5SEC_BACK' String='Indietro' />
+	<StringTable Name='$ID_PLAYBACK_5SEC_FORW' String='Avanti' />
+	<StringTable Name='$ID_OPEN_FILE' String='Apri...' />
+	<StringTable Name='$ID_AUDIO_MUTE' String='Attiva/Disattiva audio' />
+	<StringTable Name='$CMD_LOAD_SKIN_XML_DEF' String='Modalità predefinita' />
+	<StringTable Name='$CMD_LOAD_SKIN_XML_MIN' String='Modalità mini' />
+	<StringTable Name='$ID_APP_EXIT' String='Esci' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_OPEN' String='Apri chatroom/Elenco trasmissioni/Playlist' />
+	<StringTable Name='$CMD_ATTACH_WINDOW_CLOSE' String='Chiudi chatroom/Elenco trasmissioni/Playlist' />
+	<StringTable Name='$CMD_DETACH_CAST' String='Sgancia elenco trasmissioni' />
+	<StringTable Name='$CMD_DETACH_CHAT' String='Sgancia chat' />
+	<StringTable Name='$CMD_DETACH_PLAYLIST' String='Sgancia playlist' />
+	<StringTable Name='$CMD_MAIN_MENU' String='Sgancia menu principale' />
+	<StringTable Name='$CMD_POPUP_WINDOW_CAST' String='Mostra menu principale' />
+	<StringTable Name='$CMD_BROADCAST_MENU' String='Menu trasmissione' />
+	<StringTable Name='$CMD_VIEWER_NUM_MESSAGE' String='Visualizzatori' />
+	<StringTable Name='$CMD_GOOD_NUM_MESSAGE' String='Raccomanda' />
+	<StringTable Name='$CMD_BAD_NUM_MESSAGE' String='Bad' />
+	<StringTable Name='$ID_PLAYLIST_WINDOW' String='Mostra/Nascondi playlist' />
+	<StringTable Name='$ID_CONTROL_BOX_WINDOW' String='Mostra/Nascondi pannello di controllo' />
+	<StringTable Name='$ID_PLAY_REPEAT_START_SET' String='Imposta punti di riproduzione iniziale' />
+	<StringTable Name='$ID_PLAY_REPEAT_RESET' String='Reimposta intervallo di riproduzione' />
+	<StringTable Name='$ID_PLAY_REPEAT_STOP_SET' String='Imposta punti di riproduzione finale' />
+	<StringTable Name='$ID_PLAYBACK_REPEAT' String='Ripeti riproduzione' />
+	<StringTable Name='$ID_PLAYBACK_SHUFFLE' String='Riproduzione casuale' />
+	<StringTable Name='$ID_BROADCAST_TOOL_WINDOW' String='Strumento trasmissione on/off' />
+	<StringTable Name='$ID_BROADCAST_LIST_WINDOW' String='Mostra/Nascondi elenco trasmissioni' />
+	<StringTable Name='$ID_CHAT_WINDOW' String='Mostra/Nascondi finestra chat' />
+	<StringTable Name='$CMD_MIN_WINDOW' String='Riduci a icona' />
+	<StringTable Name='$CMD_MAX_WINDOW' String='Ingrandisci' />
+	<StringTable Name='$CMD_RESTORE_WINDOW' String='Ripristina' />
+	<StringTable Name='$CMD_FULL_WINDOW' String='Pieno schermo' />
+	<StringTable Name='$ID_WDM_CH_SEL_MENU' String='Gestisci canali' />
+	<StringTable Name='$ID_WDM_FORCE_PREV_CH' String='Sx: Canale precedente, Dx: Canale precedente (forzato)' />
+	<StringTable Name='$ID_WDM_FORCE_NEXT_CH' String='Sx: Canale successivo, Dx: Canale successivo (forzato)' />
+	<StringTable Name='$CMD_CLOSE_WINDOW' String='Chiudi' />
+	<StringTable Name='$CMD_ATTACH_MAIN' String='Aggancia a finestra principale' />
+	<StringTable Name='$CMD_CHAT_FONT_SELECT' String='Cambia font' />
+	<StringTable Name='$CMD_CHAT_EMOTICON' String='Seleziona emoticon' />
+	<StringTable Name='$CMD_CHAT_MANAGE_USER' String='Gestisci utenti chat' />
+	<StringTable Name='$CMD_CHAT_ASSIGN_NOTIFY' String='Assegna notifica' />
+	<StringTable Name='$CMD_CHAT_DELETE_NOTIFY' String='Elimina notifica' />
+	<StringTable Name='$CMD_PLAYLIST_TOP' String='Sposta all'inizio' />
+	<StringTable Name='$CMD_PLAYLIST_UP' String='Sposta su' />
+	<StringTable Name='$CMD_PLAYLIST_DOWN' String='Sposta giù' />
+	<StringTable Name='$CMD_PLAYLIST_BOTTOM' String='Sposta alla fine' />
+	<StringTable Name='$CMD_CAPTURE1ST_SELECT' String='Seleziona prima stanza' />
+	<StringTable Name='$CMD_CAPTURE2ND_SELECT' String='Seleziona seconda stanza' />
+	<StringTable Name='$CMD_CAPTURE1ST_SHOW' String='Mostra prima stanza' />
+	<StringTable Name='$CMD_CAPTURE2ND_SHOW' String='Mostra seconda stanza' />
+	<StringTable Name='$CMD_CAPTURE1ST_HIDE' String='Nascondi prima stanza' />
+	<StringTable Name='$CMD_CAPTURE2ND_HIDE' String='Nascondi seconda stanza' />
+	<StringTable Name='$CMD_CAPTURE2ND_PRIMARY' String='Rendi primaria prima stanza' />
+	<StringTable Name='$CMD_CAPTURE1ST_PRIMARY' String='Rendi primaria seconda stanza' />
+	<StringTable Name='$CMD_CAPTURE_PIP_SETTING' String='PIP (Picture in Picture(' />
+	<StringTable Name='$CMD_CAPTURE_FINDWND' String='Trova finestra da catturare' />
+	<StringTable Name='$CMD_CAPTURE_OPTIMIZE_SIZE' String='Ottimizza dimensioni/Ripristina dimensioni' />
+	<StringTable Name='$CMD_CAPTURE_FULLSCREEN' String='Cattura in dimensioni pieno schermo' />
+	<StringTable Name='$CMD_CAPTURE_NORMALSCREEN' String='Cattura in dimensioni predefinite' />
 #else
 	<StringTable Name='$CMD_MEDIA_PLAY' String='{$CP949=재생$}{$CP936=播放$}{$CP950=播放$}{$CP0=Play$}' />
 	<StringTable Name='$CMD_MEDIA_PAUSE' String='{$CP949=일시 정지$}{$CP936=暂停$}{$CP950=暫停$}{$CP0=Pause$}' />

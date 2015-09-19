@@ -5,7 +5,7 @@
 				<Image CmdID='CMD_FILE_TYPE_MESSAGE' AutoVisible='1' Align='Left' Width='2' ImageLeft='149' ImageTop='26' ImageWidth='2' ImageHeight='10' Alignment='5' />
 				<Layout Align='Left' CmdID='CMD_CAST_ADULT' AutoVisible='1' Width='5' />
 				<Image Align='Left' CmdID='CMD_CAST_ADULT' AutoVisible='1' Width='13' ImageLeft='628' ImageTop='199' ImageWidth='13' ImageHeight='13' Alignment='5' />
-				<Layout Align='Left' CmdID='CMD_CAST_TURF' AutoVisible='1' Width='5' />
-				<Image Align='Left' CmdID='CMD_CAST_TURF' AutoVisible='1' Width='24' ImageLeft='646' ImageTop='198' ImageWidth='24' ImageHeight='14' Alignment='5' />
+				<Layout Align='Left' CmdID='CMD_CAST_TOUGH' AutoVisible='1' Width='5' />
+				<Image Align='Left' CmdID='CMD_CAST_TOUGH' AutoVisible='1' Width='24' ImageLeft='646' ImageTop='198' ImageWidth='24' ImageHeight='14' Alignment='5' />
 				<Layout Align='Left' Width='5' />
 				<Label Align='Left' CmdID='CMD_TITLE_MESSAGE' ColorX='864' ColorY='494' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' Width='-160' FontName='#DEFAULT_UI_FONT' FontSize='11' VertAlignment='1' />

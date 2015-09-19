@@ -4,7 +4,7 @@
 
 	#include<Common.txt>
 
-	<MainSkinAreaOscFrame Image='Main.png' AlphaMode='1' WidthLimit='260' HeightLimit='0' UseWindowFrame='0'>
+	<MainSkinAreaOscFrame Image='Main.png' AlphaMode='1' WidthLimit='313' HeightLimit='0' UseWindowFrame='0'>
 		#include<Logo.txt>
 		<Control>
 			<Static Align='Top' State='' LeftMargin='20' RightMargin='20' ImageLeft='0' ImageTop='489' ImageWidth='410' ImageHeight='5' Height='5' AltImageLeft='430' AltImageTop='489' UsingRgn='1' />
@@ -21,7 +21,7 @@
 			#include<Popup.txt #TOP=18>
 		</Control>
 	</MainSkinAreaOscInside>
-	<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='260' HeightLimit='0' UseWindowFrame='0'>
+	<MainSkinArea Image='Main.png' AlphaMode='1' WidthLimit='313' HeightLimit='0' UseWindowFrame='0'>
 		#include<Logo.txt>
 		<Control>
 			#include<Top.txt>

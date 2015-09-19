@@ -1,6 +1,6 @@
 ﻿			<Static Align='Top' State='CMD_VIEWER_MODE CMD_BROADCAST_MODE' LeftMargin='10' RightMargin='10' TopMargin='0' BottomMargin='0' ImageLeft='5' ImageTop='513' ImageWidth='400' ImageHeight='42' Left='0' Top='0' Width='0' Height='42'>		
 				
-				<Static Align='Right' State='CMD_VIEWER_MODE' UsingAlpha='1' Width='275' >			
+				<Static Align='Right' State='CMD_VIEWER_MODE' UsingAlpha='1' Width='277' >			
 					<Layout Align='Right' Width='4' />
 					<Button Align='Right' CmdID='CMD_POPUP_WINDOW' Width='32' ImageLeft='345' ImageTop='159' ImageWidth='32' ImageHeight='25' PopupTag='30000' PopupPos='30000' PopupAlign='3' PopupMarginX='-64' PopupMarginY='-5' />	
 					<Layout Align='Right' Width='4' />

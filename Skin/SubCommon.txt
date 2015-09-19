@@ -139,9 +139,9 @@
 			
 				<Static Contain='CMD_POPUP_WINDOW' LeftMargin='0' RightMargin='0' ImageLeft='683' ImageTop='504' ImageWidth='136' ImageHeight='106' Left='60' Top='62' Width='136' Height='106' PopupTag='50000' >
 
-					<Image CmdID='CMD_CHAT_INOUT_STATE_ON' IgnorePopupClose='1' Enabled='1' Left='10' Top='9' Width='13' Height='13' ImageLeft='831' ImageTop='504' ImageWidth='13' ImageHeight='13' />
-					<Image CmdID='CMD_CHAT_INOUT_STATE_OFF' IgnorePopupClose='1' Enabled='1' Left='10' Top='9' Width='13' Height='13' ImageLeft='845' ImageTop='504' ImageWidth='13' ImageHeight='13' />
-					<Label CmdID='CMD_CHAT_INOUT_STATE' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='27' Top='9' Width='100' Height='19' Text='$CHAT_INOUT_MESSAGE' ColorX='836' ColorY='479' OverColorX='836' OverColorY='285' PushColorX='836' PushColorY='285' />
+					<Image CmdID='CMD_CHAT_INOUT_STATE_OFF' IgnorePopupClose='1' Enabled='1' Left='10' Top='9' Width='13' Height='13' ImageLeft='831' ImageTop='504' ImageWidth='13' ImageHeight='13' />
+					<Image CmdID='CMD_CHAT_INOUT_STATE_ON' IgnorePopupClose='1' Enabled='1' Left='10' Top='9' Width='13' Height='13' ImageLeft='845' ImageTop='504' ImageWidth='13' ImageHeight='13' />
+					<Label CmdID='CMD_CHAT_INOUT_STATE' IgnorePopupClose='1' Enabled='1' FontName='#DEFAULT_UI_FONT' FontSize='11' Left='27' Top='9' Width='100' Height='19' Text='$CHAT_ONLY_VIEW_MESSAGE' ColorX='836' ColorY='479' OverColorX='836' OverColorY='285' PushColorX='836' PushColorY='285' />
 					
 					<Image CmdID='CMD_CHAT_ALRAM_ON' IgnorePopupClose='1' Enabled='1' Left='10' Top='30' Width='13' Height='13' ImageLeft='831' ImageTop='504' ImageWidth='13' ImageHeight='13' />
 					<Image CmdID='CMD_CHAT_ALRAM_OFF' IgnorePopupClose='1' Enabled='1' Left='10' Top='30' Width='13' Height='13' ImageLeft='845' ImageTop='504' ImageWidth='13' ImageHeight='13' />
@@ -198,7 +198,7 @@
 							<Button CmdID='CMD_CLIENT_CHAT_MODE' Left='3' Top='2' Width='44' Height='22' ImageLeft='0' ImageTop='235' />
 							<Button CmdID='CMD_SERVER_CHAT_MODE' Left='46' Top='2' Width='44' Height='22' ImageLeft='180' ImageTop='235' />
 						</Static>
-						<StaticTemp Align='Left' UsingAlpha='1' Width='73' >
+						<Static Align='Left' State='CMD_BROADCAST_MODE' UsingAlpha='1' Width='73' >
 							<Image Left='3' Top='1' Width='56' Height='22' ImageLeft='417' ImageTop='235' ImageWidth='56' ImageHeight='22' />
 							<Label CmdID='CMD_CHAT_ROOM_NAME' Enabled='1' ColorX='836' ColorY='270' OverColorX='836' OverColorY='240' PushColorX='836' PushColorY='285' Left='8' Top='2' Width='38' Height='21' FontName='#DEFAULT_UI_FONT' FontSize='11' FontBold='1' VertAlignment='1' 
 								PopupPos='CMD_CHAT_ROOM_NAME' PopupAlign='1' PopupMarginX='-5' PopupMarginY='-1' PopupMarginW='18' />
@@ -206,11 +206,16 @@
 							<Image CmdID='CMD_POPUP_MENU_OFF' PopupTag='CMD_CHAT_ROOM_NAME' Left='46' Top='10' Width='7' Height='4' ImageLeft='519' ImageTop='235' ImageWidth='7' ImageHeight='4' />
 							<Image CmdID='CMD_CHAT_ROOM_NAME' Enabled='1' Left='46' Top='10' Width='7' Height='4' />
 							<Image CmdID='CMD_CHAT_ROOM_NEW' Left='62' Top='7' Width='9' Height='9' ImageLeft='483' ImageTop='235' ImageWidth='9' ImageHeight='9' />
-						</StaticTemp>
+						</Static>
 
-						<Layout Contain='CMD_CHAT_SEARCH_USER' Left='-137' Top='6' Width='64' Height='14' />
-						<Button Tooltip='$CMD_CHAT_MANAGE_USER' CmdID='CMD_CHAT_MANAGE_USER' Left='-72' Top='2' Width='34' Height='22' ImageLeft='473' ImageTop='283' />						
-						<Button Tooltip='$ID_BROADCAST_BLACK_LIST_MAG' CmdID='ID_BROADCAST_BLACK_LIST_MAG' Left='-35' Top='2' Width='33' Height='22' ImageLeft='473' ImageTop='316' />						
+						<Layout Align='Right' Width='2' />
+						<Button Tooltip='$ID_BROADCAST_BLACK_LIST_MAG' CmdID='ID_BROADCAST_BLACK_LIST_MAG' Align='Right' Width='33' ImageLeft='473' ImageTop='316' ImageHeight='22' />
+						<Button Tooltip='$CMD_CHAT_MANAGE_USER' CmdID='CMD_CHAT_MANAGE_USER' Align='Right' Width='34' ImageLeft='473' ImageTop='283' ImageHeight='22' />					
+						<Layout Align='Right' Width='2' />
+						<Image Align='Right' Width='66' ImageLeft='344' ImageTop='474' ImageWidth='66' ImageHeight='22' Alignment='5' >
+							<Layout Contain='CMD_CHAT_SEARCH_USER' Height='22' LeftOffset='3' TopOffset='4' WidthOffset='-6' HeightOffset='-9' />							
+						</Image>				
+						
 					</Static>
 
 					<Static Align='Right' State='' Width='90' >
@@ -280,7 +285,7 @@
 	<BroadcastToolSkinArea Image='BRTool.png' AlphaMode='1' Width='321' Height='556' UseWindowFrame='0' >
 		<Control>
 			<Static Align='Top' State='' LeftMargin='100' RightMargin='20' TopMargin='0' BottomMargin='0' ImageLeft='0' ImageTop='933' ImageWidth='322' ImageHeight='24' Height='24' AltImageLeft='342' AltImageTop='933' UsingRgn='1' >
-				<ButtonTemp CmdID='CMD_BROADCAST_GUIDE' Left='48' Top='4' Width='54' Height='16' ImageLeft='0' ImageTop='52' />
+				<Button CmdID='CMD_BROADCAST_GUIDE' Left='48' Top='4' Width='54' Height='16' ImageLeft='0' ImageTop='52' />
 				<Button Tooltip='$CMD_CLOSE_WINDOW' CmdID='ID_BROADCAST_TOOL_WINDOW' Left='-21' Top='4' Width='17' Height='16' ImageLeft='102' ImageTop='16' />
 				<Slider CmdID='CMD_TRANS_BT' Left='-58' Top='9' Width='34' Height='7' ImageWidth='35' ImageHeight='7' ThumbWidth='12' ThumbHeight='7' ImageLeft='0' ImageTop='21' BackImageLeft='0' BackImageTop='21' ThumbImageLeft='44' ThumbImageTop='21' LeftMargin='6' RightMargin='6' />
 			</Static>
@@ -358,7 +363,7 @@
 	</BroadcastToolSkinArea>	
 
 	<PlaylistSkinArea Image='PlayList.png' AlphaMode='1' WidthLimit='220' HeightLimit='150'
-	  SelBkgndColorX='518' SelBkgndColorY='13' FrameColorX='518' FrameColorY='13'
+	  SelBkgndColorX='504' SelBkgndColorY='31' FrameColorX='504' FrameColorY='31'
 	  BkgndColor1X='518' BkgndColor1Y='48' BkgndColor2X='518' BkgndColor2Y='48'
 	  CurTextColorX='518' CurTextColorY='81' SelTextColorX='518' SelTextColorY='64' TextColorX='518' TextColorY='98' PlayedTextColorX='518' PlayedTextColorY='114'
 	  LineColorX='518' LineColorY='48'
@@ -391,6 +396,7 @@
 					<Button Tooltip='$CMD_PLAYLIST_UP' CmdID='CMD_PLAYLIST_UP' Align='Left' Width='22' ImageLeft='261' ImageTop='66' ImageWidth='19' ImageHeight='18' HoriAlignment='1' VertAlignment='1' />
 					<Button Tooltip='$CMD_PLAYLIST_DOWN' CmdID='CMD_PLAYLIST_DOWN' Align='Left' Width='22' ImageLeft='261' ImageTop='84' ImageWidth='19' ImageHeight='18' HoriAlignment='1' VertAlignment='1' />
 					<Button Tooltip='$CMD_PLAYLIST_BOTTOM' CmdID='CMD_PLAYLIST_BOTTOM' Align='Left' Width='22' ImageLeft='261' ImageTop='102' ImageWidth='19' ImageHeight='18' HoriAlignment='1' VertAlignment='1' />
+					<Layout Align='Left' Width='2' />
 
 					<Label CmdID='CMD_PLAYLIST_TOTAL_TIME_MESSAGE' Align='Right' AutoVisible=1' Enabled='1' Width='50' ColorX='518' ColorY='98' FontName='#DEFAULT_UI_FONT' FontSize='11' HoriAlignment='1' VertAlignment='1' />
 					<Layout Align='Right' Width='3' />
@@ -401,7 +407,11 @@
 					<Button CmdID='CMD_PLAYLIST_ADD' Align='Right' Width='47' ImageLeft='0' ImageTop='53' ImageWidth='47' ImageHeight='20' HoriAlignment='1' VertAlignment='1'>
 						<Label FontName='#DEFAULT_UI_FONT' FontSize='11' Text='$PLAYLIST_ADD' HoriAlignment='1' VertAlignment='1' ColorX='518' ColorY='164' OverColorX='518' OverColorY='198' PushColorX='518' PushColorY='180' OffsetTop='1' />
 					</Button>
-					<Layout Contain='CMD_PLAY_LIST_SEARCH' Align='Client' Left='80' Width='-5' TopOffset='3' HeightOffset='-3' />
+					<Layout Align='Right' Width='4' />
+
+					<Image Align='Client' ImageLeft='0' ImageTop='53' ImageWidth='47' ImageHeight='20' LeftMargin='1' TopMargin='1' RightMargin='1' BottomMargin='1' OffsetTop='4' OffsetHeight='-8'  >
+						<Layout Contain='CMD_PLAY_LIST_SEARCH' Align='Client' LeftOffset='3' TopOffset='1' WidthOffset='-6' HeightOffset='-2' />
+					</Image>
 					
 				</Static>
 				<Static Align='Client' Contain='CMD_PLAY_LIST_ALBUM_TAB' />
@@ -488,6 +498,7 @@
 				LeftSkinMargin='5' TopSkinMargin='24' RightSkinMargin='5' BottomSkinMargin='5' 
 				FontName='#DEFAULT_UI_FONT' FontSize='9' FontPosLeft='10' FontPosTop='10000' FontColorLeft='322' FontColorTop='966' FontColorAltLeft='322' FontColorAltTop='983' />
 			<CloseBtn Left='219' Top='16' Width='17' Height='16' PosX='-20' PosY='4' />
+			<SetupBtn Left='294' Top='14' Width='19' Height='18' PosX='-42' PosY='3' />
 			<LoginTitle Left='0' Top='639' Width='28' Height='13' />
 			<LoginFindIDBtn Left='257' Top='790' Width='65' Height='18' />
 			<LoginFindPWBtn Left='257' Top='770' Width='76' Height='18' />

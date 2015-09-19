@@ -6,7 +6,7 @@
 					<Label CmdID='CMD_CURRENTTIME_MIN_MESSAGE' ColorX='694' ColorY='1051' Left='15' Top='16' Width='200' Height='34' FontBold='1' FontName='Arial' FontSize='33' />
 					<Label CmdID='CMD_TOTALTIME_MIN_MESSAGE' ColorX='694' ColorY='1067' Left='39' Top='52' Width='60' Height='15' FontBold='1' FontName='Arial' FontSize='15' />
 
-					<Label CmdID='CMD_CAPTION_WITH_MESSAGE' ColorX='694' ColorY='1018' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' Left='135' Top='22' Width='150' Height='14' FontBold='1' FontName='#DEFAULT_UI_FONT' FontSize='12' />
+					<Label CmdID='CMD_CAPTION_WITH_MESSAGE' ColorX='694' ColorY='1018' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' Left='135' Top='22' Width='150' Height='16' FontBold='1' FontName='#DEFAULT_UI_FONT' FontSize='12' />
 
 					<Label CmdID='CMD_AUDIO_CODEC_TYPE_MESSAGE' ColorX='694' ColorY='1067' Left='135' Top='45' Width='31' Height='11' FontName='Tahoma' FontSize='9' HoriAlignment='2' VertAlignment='1' />
 					<Image Left='170' Top='47' Width='3' Height='10' ImageLeft='545' ImageTop='199' ImageWidth='3' ImageHeight='10' />

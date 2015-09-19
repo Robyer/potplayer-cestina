@@ -1,6 +1,6 @@
 ﻿			<Static Align='Bottom' State='' Height='48' >
 			
-				<Static Align='Right' State='CMD_INTERNAL_STATUS' InternalCmd='ID_BROADCAST_LIST_WINDOW' Width='56' >
+				<Static Align='Right' State='CMD_INTERNAL_STATUS' InternalCmd='CMD_ATTACH_WINDOW_OPEN' Width='56' >
 				
 					#if<CodePage==949>
 						<Button Tooltip='$CMD_ATTACH_WINDOW_OPEN' CmdID='CMD_ATTACH_WINDOW_OPEN' Left='0' Top='0' Width='58' Height='48' ImageLeft='804' ImageTop='424' />
