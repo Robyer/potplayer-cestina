@@ -1,21 +1,22 @@
 PotPlayer CZ v2.4
 -----------------
-Tato èeština je urèená pro verzi PotPlayer 1.6.54871.
+Tato ï¿½eï¿½tina je urï¿½enï¿½ pro verzi PotPlayer 1.6.54871.
 
-Èeština bude fungovat i pro lehce odlišné verze programu, ale je možné, že z dùvodu interních zmìn v nové verzi programu budou nìkteré položky (napø. v nabídkách) špatnì pojmenovány (budou oznaèovat jinou funkci).
+ï¿½eï¿½tina bude fungovat i pro lehce odliï¿½nï¿½ verze programu, ale je moï¿½nï¿½, ï¿½e z dï¿½vodu internï¿½ch zmï¿½n v novï¿½ verzi programu budou nï¿½kterï¿½ poloï¿½ky (napï¿½. v nabï¿½dkï¿½ch) ï¿½patnï¿½ pojmenovï¿½ny (budou oznaï¿½ovat jinou funkci).
 
-Autor pøekladu se zøíká veškeré odpovìdnosti za použití tohoto (neoficiálního) pøekladu. Èeštinu používáte na vlastní riziko.
+Autor pï¿½ekladu se zï¿½ï¿½kï¿½ veï¿½kerï¿½ odpovï¿½dnosti za pouï¿½itï¿½ tohoto (neoficiï¿½lnï¿½ho) pï¿½ekladu. ï¿½eï¿½tinu pouï¿½ï¿½vï¿½te na vlastnï¿½ riziko.
 
-Instalace èeštiny
+Instalace ï¿½eï¿½tiny
 -----------------
-1) Najdìte složku, kde máte nainstalovaný PotPlayer (ve výchozím nastavení v "C:\Program Files\Daum\PotPlayer")
-2) Soubor "Czech.ini" vložte (nebo zkopírujte) do složky "Language" a pøípadnì pøepište existující (starší) soubor
-3) Soubor "Czech.dsf" vložte (nebo zkopírujte) do složky "Skins" a pøípadnì pøepište existující (starší) soubor
-4) Spuste PotPlayer
-5) Kliknìte pravým tlaèítkem myši do okna PotPlayeru a zvolte "Misc -> Language -> Èeština - Czech.ini"
-	(Alternativnì mùžete stisknout klávesovou zkratku Shift+L a rovnou zvolit "Èeština - Czech.ini")
-6) Kliknìte pravým tlaèítkem myši do okna PotPlayeru a zvolte "Vzhled -> Èeský vzhled - Czech.dsf" a ve stejné nabídce zvolte také "Vzhled -> Logo (pøi zastaveném pøehrávání) -> [Výchozí logo vzhledu]"
-7) Nyní byste mìli mít PotPlayer v èeštinì
+1) Najdï¿½te sloï¿½ku, kde mï¿½te nainstalovanï¿½ PotPlayer (ve vï¿½chozï¿½m nastavenï¿½ v "C:\Program Files\Daum\PotPlayer")
+2) Soubor "Czech.ini" vloï¿½te (nebo zkopï¿½rujte) do sloï¿½ky "Language" a pï¿½ï¿½padnï¿½ pï¿½epiï¿½te existujï¿½cï¿½ soubor
+3) Soubory "Czech.dsf" a "Czech_old.dsf" vloï¿½te (nebo zkopï¿½rujte) do sloï¿½ky "Skins" a pï¿½ï¿½padnï¿½ pï¿½epiï¿½te existujï¿½cï¿½ soubory
+4) Spusï¿½te PotPlayer
+5) Kliknï¿½te pravï¿½m tlaï¿½ï¿½tkem myï¿½i do okna PotPlayeru a zvolte "Misc -> Language -> ï¿½eï¿½tina - Czech.ini"
+	(Alternativnï¿½ mï¿½ï¿½ete stisknout klï¿½vesovou zkratku Shift+L a rovnou zvolit "ï¿½eï¿½tina - Czech.ini")
+6) Kliknï¿½te pravï¿½m tlaï¿½ï¿½tkem myï¿½i do okna PotPlayeru a zvolte "Vzhled -> Vï¿½chozï¿½ vzhled (ï¿½esky) - Czech.dsf" a ve stejnï¿½ nabï¿½dce zvolte takï¿½ "Vzhled -> Logo (pï¿½i zastavenï¿½m pï¿½ehrï¿½vï¿½nï¿½) -> [Vï¿½chozï¿½ logo vzhledu]"
+	(Alternativnï¿½ mï¿½ï¿½ete pouï¿½ï¿½t i starou variantu vzhledu volbou "Vzhled -> Pï¿½vodnï¿½ vzhled (ï¿½esky) - Czech_old.dsf")
+7) Nynï¿½ byste mï¿½li mï¿½t PotPlayer v ï¿½eï¿½tinï¿½
 
 Kontakt
 -------
@@ -24,62 +25,62 @@ E-mail: robyer@seznam.cz
 ICQ: 372317536
 Jabber: robyer@jabbim.cz
 
-Více informací: http://www.robyer.cz/cestiny/pot-player
+Vï¿½ce informacï¿½: http://www.robyer.cz/cestiny/pot-player
 
-Historie verzí
+Historie verzï¿½
 --------------
-v2.4 - 10.7.2015
+v2.4 - 19.9.2015
 - aktualizace na verzi 1.6.54871
-- pøeložen nový výchozí vzhled
-- rùzné menší opravy a zmìny
+- pï¿½eloï¿½en novï¿½ vï¿½chozï¿½ vzhled (s ï¿½eï¿½tinou distribuovï¿½ny oba - jak novï¿½, tak i pï¿½vodnï¿½ vzhled)
+- rï¿½znï¿½ menï¿½ï¿½ opravy a zmï¿½ny
 
 v2.3 - 10.11.2014
 - aktualizace na verzi 1.6.49952
-- rùzné menší opravy a zmìny
+- rï¿½znï¿½ menï¿½ï¿½ opravy a zmï¿½ny
 
 v2.2 - 19.7.2014
 - aktualizace na verzi 1.6.48576
-- rùzné opravy a zmìny
+- rï¿½znï¿½ opravy a zmï¿½ny
 
 v2.1 - 12.6.2014
 - aktualizace na verzi 1.6.47995
-- rùzné opravy a zmìny
+- rï¿½znï¿½ opravy a zmï¿½ny
 
 v2.0 - 21.5.2014
 - aktualizace na verzi 1.6.47450
-- kompletnì pøepracován formát èeštiny do oficiálního øešení jazykových balíèkù (soubory *.ini ve složce Language)
-- doplnìno, opraveno, sjednoceno a pøeformulováno mnoho rùzných øetìzcù
+- kompletnï¿½ pï¿½epracovï¿½n formï¿½t ï¿½eï¿½tiny do oficiï¿½lnï¿½ho ï¿½eï¿½enï¿½ jazykovï¿½ch balï¿½ï¿½kï¿½ (soubory *.ini ve sloï¿½ce Language)
+- doplnï¿½no, opraveno, sjednoceno a pï¿½eformulovï¿½no mnoho rï¿½znï¿½ch ï¿½etï¿½zcï¿½
 
 v1.6 - 19.1.2014
 - aktualizace na verzi 1.5.44465
-- pøeformulování a sjednocení nìkterých slovních spojení
-- rùzné opravy a zmìny
+- pï¿½eformulovï¿½nï¿½ a sjednocenï¿½ nï¿½kterï¿½ch slovnï¿½ch spojenï¿½
+- rï¿½znï¿½ opravy a zmï¿½ny
 
 v1.5.1 - 14.10.2013
-- doplnìní zapomenuté volby v nastavení a drobné opravy
+- doplnï¿½nï¿½ zapomenutï¿½ volby v nastavenï¿½ a drobnï¿½ opravy
 
 v1.5 - 29.6.2013
 - aktualizace na verzi 1.5.38562
-- vylepšení a doplnìní nìkterých èástí pøekladu
-- oprava hromady pøeklepù, nejednoznaèností
+- vylepï¿½enï¿½ a doplnï¿½nï¿½ nï¿½kterï¿½ch ï¿½ï¿½stï¿½ pï¿½ekladu
+- oprava hromady pï¿½eklepï¿½, nejednoznaï¿½nostï¿½
 
 v1.4 - 19.6.2013
 - aktualizace na verzi 1.5.37776
-- drobné zmìny a opravy
+- drobnï¿½ zmï¿½ny a opravy
 
 v1.3 - 18.2.2013
 - aktualizace na verzi 1.5.35491
 
 v1.2 - 18.1.2013
 - aktualizace na verzi 1.5.35238
-- drobné zmìny
+- drobnï¿½ zmï¿½ny
 
 v1.1 - 16.12.2012
 - aktualizace na verzi 1.5.34665
-- opravy nìkolika pøeklepù a nevhodných øetìzcù
+- opravy nï¿½kolika pï¿½eklepï¿½ a nevhodnï¿½ch ï¿½etï¿½zcï¿½
 
 v1.0 beta - 4.9.2012
-- první veøejná verze èeštiny na verzi 1.5.34023, bez korekcí
+- prvnï¿½ veï¿½ejnï¿½ verze ï¿½eï¿½tiny na verzi 1.5.34023, bez korekcï¿½
 
 ---
 Robyer
