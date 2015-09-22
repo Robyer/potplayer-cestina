@@ -1,0 +1,8 @@
+﻿Volba češtiny v programu
+--------------------------
+1) Spusťte PotPlayer (např. automaticky v dalším kroku)
+2) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Misc -> Language -> Čeština - Czech.ini"
+	(Alternativně můžete stisknout klávesovou zkratku Shift+L a rovnou zvolit "Čeština - Czech.ini")
+3) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Vzhled -> Výchozí vzhled (česky) - Czech.dsf" a ve stejné nabídce zvolte také "Vzhled -> Logo (při zastaveném přehrávání) -> [Výchozí logo vzhledu]"
+	(Alternativně můžete použít i starou variantu vzhledu volbou "Vzhled -> Původní vzhled (česky) - Czech_old.dsf")
+4) Nyní byste měli mít PotPlayer v češtině

@@ -17,6 +17,7 @@ ArchitecturesInstallIn64BitMode=x64 ia64
 AppPublisher=Robert Pösel (Robyer)
 AppPublisherURL=http://www.robyer.cz/cestiny/pot-player
 InfoBeforeFile=èti mì.txt
+InfoAfterFile=nastavení.txt
 
 [Languages]
 Name: "czech"; MessagesFile: "compiler:Languages\Czech.isl"

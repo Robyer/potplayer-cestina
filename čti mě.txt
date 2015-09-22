@@ -8,15 +8,21 @@ Autor překladu se zříká veškeré odpovědnosti za použití tohoto (neofici
 
 Instalace češtiny
 -----------------
+Pokud si stáhnete instalátor, jednoduše jej spusťte a řiďte se pokyny průvodce.
+
+V případě ruční instalace stažením ZIP archivu je proces komplikovanější:
 1) Najděte složku, kde máte nainstalovaný PotPlayer (ve výchozím nastavení v "C:\Program Files\Daum\PotPlayer")
 2) Soubor "Czech.ini" vložte (nebo zkopírujte) do složky "Language" a případně přepište existující soubor
 3) Soubory "Czech.dsf" a "Czech_old.dsf" vložte (nebo zkopírujte) do složky "Skins" a případně přepište existující soubory
-4) Spusťte PotPlayer
-5) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Misc -> Language -> Čeština - Czech.ini"
+
+Volba češtiny v programu
+--------------------------
+1) Spusťte PotPlayer
+2) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Misc -> Language -> Čeština - Czech.ini"
 	(Alternativně můžete stisknout klávesovou zkratku Shift+L a rovnou zvolit "Čeština - Czech.ini")
-6) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Vzhled -> Výchozí vzhled (česky) - Czech.dsf" a ve stejné nabídce zvolte také "Vzhled -> Logo (při zastaveném přehrávání) -> [Výchozí logo vzhledu]"
+3) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Vzhled -> Výchozí vzhled (česky) - Czech.dsf" a ve stejné nabídce zvolte také "Vzhled -> Logo (při zastaveném přehrávání) -> [Výchozí logo vzhledu]"
 	(Alternativně můžete použít i starou variantu vzhledu volbou "Vzhled -> Původní vzhled (česky) - Czech_old.dsf")
-7) Nyní byste měli mít PotPlayer v češtině
+4) Nyní byste měli mít PotPlayer v češtině
 
 Kontakt
 -------
