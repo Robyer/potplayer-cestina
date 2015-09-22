@@ -1,22 +1,22 @@
-PotPlayer CZ v2.4
+﻿PotPlayer CZ v2.4
 -----------------
-Tato �e�tina je ur�en� pro verzi PotPlayer 1.6.54871.
+Tato čeština je určená pro verzi PotPlayer 1.6.54871.
 
-�e�tina bude fungovat i pro lehce odli�n� verze programu, ale je mo�n�, �e z d�vodu intern�ch zm�n v nov� verzi programu budou n�kter� polo�ky (nap�. v nab�dk�ch) �patn� pojmenov�ny (budou ozna�ovat jinou funkci).
+Čeština bude fungovat i pro lehce odlišné verze programu, ale je možné, že z důvodu interních změn v nové verzi programu budou některé položky (např. v nabídkách) špatně pojmenovány (budou označovat jinou funkci).
 
-Autor p�ekladu se z��k� ve�ker� odpov�dnosti za pou�it� tohoto (neofici�ln�ho) p�ekladu. �e�tinu pou��v�te na vlastn� riziko.
+Autor překladu se zříká veškeré odpovědnosti za použití tohoto (neoficiálního) překladu. Češtinu používáte na vlastní riziko.
 
-Instalace �e�tiny
+Instalace češtiny
 -----------------
-1) Najd�te slo�ku, kde m�te nainstalovan� PotPlayer (ve v�choz�m nastaven� v "C:\Program Files\Daum\PotPlayer")
-2) Soubor "Czech.ini" vlo�te (nebo zkop�rujte) do slo�ky "Language" a p��padn� p�epi�te existuj�c� soubor
-3) Soubory "Czech.dsf" a "Czech_old.dsf" vlo�te (nebo zkop�rujte) do slo�ky "Skins" a p��padn� p�epi�te existuj�c� soubory
-4) Spus�te PotPlayer
-5) Klikn�te prav�m tla��tkem my�i do okna PotPlayeru a zvolte "Misc -> Language -> �e�tina - Czech.ini"
-	(Alternativn� m��ete stisknout kl�vesovou zkratku Shift+L a rovnou zvolit "�e�tina - Czech.ini")
-6) Klikn�te prav�m tla��tkem my�i do okna PotPlayeru a zvolte "Vzhled -> V�choz� vzhled (�esky) - Czech.dsf" a ve stejn� nab�dce zvolte tak� "Vzhled -> Logo (p�i zastaven�m p�ehr�v�n�) -> [V�choz� logo vzhledu]"
-	(Alternativn� m��ete pou��t i starou variantu vzhledu volbou "Vzhled -> P�vodn� vzhled (�esky) - Czech_old.dsf")
-7) Nyn� byste m�li m�t PotPlayer v �e�tin�
+1) Najděte složku, kde máte nainstalovaný PotPlayer (ve výchozím nastavení v "C:\Program Files\Daum\PotPlayer")
+2) Soubor "Czech.ini" vložte (nebo zkopírujte) do složky "Language" a případně přepište existující soubor
+3) Soubory "Czech.dsf" a "Czech_old.dsf" vložte (nebo zkopírujte) do složky "Skins" a případně přepište existující soubory
+4) Spusťte PotPlayer
+5) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Misc -> Language -> Čeština - Czech.ini"
+	(Alternativně můžete stisknout klávesovou zkratku Shift+L a rovnou zvolit "Čeština - Czech.ini")
+6) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Vzhled -> Výchozí vzhled (česky) - Czech.dsf" a ve stejné nabídce zvolte také "Vzhled -> Logo (při zastaveném přehrávání) -> [Výchozí logo vzhledu]"
+	(Alternativně můžete použít i starou variantu vzhledu volbou "Vzhled -> Původní vzhled (česky) - Czech_old.dsf")
+7) Nyní byste měli mít PotPlayer v češtině
 
 Kontakt
 -------
@@ -25,62 +25,62 @@ E-mail: robyer@seznam.cz
 ICQ: 372317536
 Jabber: robyer@jabbim.cz
 
-V�ce informac�: http://www.robyer.cz/cestiny/pot-player
+Více informací: http://www.robyer.cz/cestiny/pot-player
 
-Historie verz�
+Historie verzí
 --------------
 v2.4 - 19.9.2015
 - aktualizace na verzi 1.6.54871
-- p�elo�en nov� v�choz� vzhled (s �e�tinou distribuov�ny oba - jak nov�, tak i p�vodn� vzhled)
-- r�zn� men�� opravy a zm�ny
+- přeložen nový výchozí vzhled (s češtinou distribuovány oba - jak nový, tak i původní vzhled)
+- různé menší opravy a změny
 
 v2.3 - 10.11.2014
 - aktualizace na verzi 1.6.49952
-- r�zn� men�� opravy a zm�ny
+- různé menší opravy a změny
 
 v2.2 - 19.7.2014
 - aktualizace na verzi 1.6.48576
-- r�zn� opravy a zm�ny
+- různé opravy a změny
 
 v2.1 - 12.6.2014
 - aktualizace na verzi 1.6.47995
-- r�zn� opravy a zm�ny
+- různé opravy a změny
 
 v2.0 - 21.5.2014
 - aktualizace na verzi 1.6.47450
-- kompletn� p�epracov�n form�t �e�tiny do ofici�ln�ho �e�en� jazykov�ch bal��k� (soubory *.ini ve slo�ce Language)
-- dopln�no, opraveno, sjednoceno a p�eformulov�no mnoho r�zn�ch �et�zc�
+- kompletně přepracován formát češtiny do oficiálního řešení jazykových balíčků (soubory *.ini ve složce Language)
+- doplněno, opraveno, sjednoceno a přeformulováno mnoho různých řetězců
 
 v1.6 - 19.1.2014
 - aktualizace na verzi 1.5.44465
-- p�eformulov�n� a sjednocen� n�kter�ch slovn�ch spojen�
-- r�zn� opravy a zm�ny
+- přeformulování a sjednocení některých slovních spojení
+- různé opravy a změny
 
 v1.5.1 - 14.10.2013
-- dopln�n� zapomenut� volby v nastaven� a drobn� opravy
+- doplnění zapomenuté volby v nastavení a drobné opravy
 
 v1.5 - 29.6.2013
 - aktualizace na verzi 1.5.38562
-- vylep�en� a dopln�n� n�kter�ch ��st� p�ekladu
-- oprava hromady p�eklep�, nejednozna�nost�
+- vylepšení a doplnění některých částí překladu
+- oprava hromady překlepů, nejednoznačností
 
 v1.4 - 19.6.2013
 - aktualizace na verzi 1.5.37776
-- drobn� zm�ny a opravy
+- drobné změny a opravy
 
 v1.3 - 18.2.2013
 - aktualizace na verzi 1.5.35491
 
 v1.2 - 18.1.2013
 - aktualizace na verzi 1.5.35238
-- drobn� zm�ny
+- drobné změny
 
 v1.1 - 16.12.2012
 - aktualizace na verzi 1.5.34665
-- opravy n�kolika p�eklep� a nevhodn�ch �et�zc�
+- opravy několika překlepů a nevhodných řetězců
 
 v1.0 beta - 4.9.2012
-- prvn� ve�ejn� verze �e�tiny na verzi 1.5.34023, bez korekc�
+- první veřejná verze češtiny na verzi 1.5.34023, bez korekcí
 
 ---
 Robyer
