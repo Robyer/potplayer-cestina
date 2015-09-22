@@ -1,6 +1,6 @@
-﻿PotPlayer CZ v2.4
+﻿PotPlayer CZ v2.5
 -----------------
-Tato čeština je určená pro verzi PotPlayer 1.6.54871.
+Tato čeština je určená pro verzi PotPlayer 1.6.56209.
 
 Čeština bude fungovat i pro lehce odlišné verze programu, ale je možné, že z důvodu interních změn v nové verzi programu budou některé položky (např. v nabídkách) špatně pojmenovány (budou označovat jinou funkci).
 
@@ -21,6 +21,7 @@ Instalace češtiny
 Kontakt
 -------
 Web: http://www.robyer.cz
+Facebook: http://www.facebook.com/RobyerPage
 E-mail: robyer@seznam.cz
 ICQ: 372317536
 Jabber: robyer@jabbim.cz
@@ -29,6 +30,9 @@ Více informací: http://www.robyer.cz/cestiny/pot-player
 
 Historie verzí
 --------------
+v2.5 - 22.9.2015
+- aktualizace na verzi 1.6.56209
+
 v2.4 - 19.9.2015
 - aktualizace na verzi 1.6.54871
 - přeložen nový výchozí vzhled (s češtinou distribuovány oba - jak nový, tak i původní vzhled)
