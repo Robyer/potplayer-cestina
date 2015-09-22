@@ -32,6 +32,7 @@ Historie verzí
 --------------
 v2.5 - 22.9.2015
 - aktualizace na verzi 1.6.56209
+- vytvořen instalátor pro jednoduchou a rychlou instalaci (díky Matasx)
 
 v2.4 - 19.9.2015
 - aktualizace na verzi 1.6.54871
