@@ -1,0 +1,94 @@
+# PotPlayer - Čeština v2.5 (Robyer)
+
+Tato čeština je určená pro verzi PotPlayer **1.6.56209**.
+
+Čeština bude fungovat i pro lehce odlišné verze programu, ale je možné, že z důvodu interních změn v nové verzi programu budou některé položky (např. v nabídkách) špatně pojmenovány (budou označovat jinou funkci).
+
+Autor překladu se zříká veškeré odpovědnosti za použití tohoto (neoficiálního) překladu. Češtinu používáte na vlastní riziko.
+
+Instalace češtiny
+-----------------
+Pokud si stáhnete instalátor, jednoduše jej spusťte a řiďte se pokyny průvodce.
+
+V případě ruční instalace stažením ZIP archivu je proces komplikovanější:
+1) Najděte složku, kde máte nainstalovaný PotPlayer (ve výchozím nastavení v "C:\Program Files\Daum\PotPlayer")
+2) Soubor "Czech.ini" vložte (nebo zkopírujte) do složky "Language" a případně přepište existující soubor
+3) Soubory "Czech.dsf" a "Czech_old.dsf" vložte (nebo zkopírujte) do složky "Skins" a případně přepište existující soubory
+
+Volba češtiny v programu
+--------------------------
+1) Spusťte PotPlayer
+2) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Misc -> Language -> Čeština - Czech.ini"
+	(Alternativně můžete stisknout klávesovou zkratku Shift+L a rovnou zvolit "Čeština - Czech.ini")
+3) Klikněte pravým tlačítkem myši do okna PotPlayeru a zvolte "Vzhled -> Výchozí vzhled (česky) - Czech.dsf" a ve stejné nabídce zvolte také "Vzhled -> Logo (při zastaveném přehrávání) -> [Výchozí logo vzhledu]"
+	(Alternativně můžete použít i starou variantu vzhledu volbou "Vzhled -> Původní vzhled (česky) - Czech_old.dsf")
+4) Nyní byste měli mít PotPlayer v češtině
+
+Kontakt
+-------
+* Web: http://www.robyer.cz
+* Facebook: http://www.facebook.com/RobyerPage
+* E-mail: robyer@seznam.cz
+* ICQ: 372317536
+* Jabber: robyer@jabbim.cz
+
+Více informací: http://www.robyer.cz/cestiny/pot-player
+
+Historie verzí
+--------------
+v2.5 - 22.9.2015
+- aktualizace na verzi 1.6.56209
+- vytvořen instalátor pro jednoduchou a rychlou instalaci (díky Matasx)
+
+v2.4 - 19.9.2015
+- aktualizace na verzi 1.6.54871
+- přeložen nový výchozí vzhled (s češtinou distribuovány oba - jak nový, tak i původní vzhled)
+- různé menší opravy a změny
+
+v2.3 - 10.11.2014
+- aktualizace na verzi 1.6.49952
+- různé menší opravy a změny
+
+v2.2 - 19.7.2014
+- aktualizace na verzi 1.6.48576
+- různé opravy a změny
+
+v2.1 - 12.6.2014
+- aktualizace na verzi 1.6.47995
+- různé opravy a změny
+
+v2.0 - 21.5.2014
+- aktualizace na verzi 1.6.47450
+- kompletně přepracován formát češtiny do oficiálního řešení jazykových balíčků (soubory *.ini ve složce Language)
+- doplněno, opraveno, sjednoceno a přeformulováno mnoho různých řetězců
+
+v1.6 - 19.1.2014
+- aktualizace na verzi 1.5.44465
+- přeformulování a sjednocení některých slovních spojení
+- různé opravy a změny
+
+v1.5.1 - 14.10.2013
+- doplnění zapomenuté volby v nastavení a drobné opravy
+
+v1.5 - 29.6.2013
+- aktualizace na verzi 1.5.38562
+- vylepšení a doplnění některých částí překladu
+- oprava hromady překlepů, nejednoznačností
+
+v1.4 - 19.6.2013
+- aktualizace na verzi 1.5.37776
+- drobné změny a opravy
+
+v1.3 - 18.2.2013
+- aktualizace na verzi 1.5.35491
+
+v1.2 - 18.1.2013
+- aktualizace na verzi 1.5.35238
+- drobné změny
+
+v1.1 - 16.12.2012
+- aktualizace na verzi 1.5.34665
+- opravy několika překlepů a nevhodných řetězců
+
+v1.0 beta - 4.9.2012
+- první veřejná verze češtiny na verzi 1.5.34023, bez korekcí
